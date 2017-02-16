@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-<title>2. Execution plans, Lazy Evaluation, and caching slides</title>
+<title>1. Spark Basics slides</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -11841,7 +11841,78 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Execution-Plans-and-the-effect-of-Caching">Execution Plans and the effect of Caching<a class="anchor-link" href="#Execution-Plans-and-the-effect-of-Caching">&#182;</a></h1>
+<h1 id="Spark-Basics-1">Spark Basics 1<a class="anchor-link" href="#Spark-Basics-1">&#182;</a></h1><p>This notebook inroduces two fundamental objects in Spark:</p>
+<ul>
+<li><p>The Spark Context</p>
+</li>
+<li><p>The Resilient Distributed DataSet or RDD</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Spark-Context">Spark Context<a class="anchor-link" href="#Spark-Context">&#182;</a></h3><ul>
+<li>Spark is complex distributed doftware. </li>
+<li>The python interface to spark is called <strong>pyspark</strong></li>
+<li><strong>SparkContext</strong> is a python class, defined as part of <strong>pyspark</strong> which manages the communication between the user's program and spark.</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We start by creating a <strong>SparkContext</strong> object named <strong>sc</strong>. In this case we create a spark context that uses 3 <em>executors</em></p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">from</span> <span class="nn">pyspark</span> <span class="kn">import</span> <span class="n">SparkContext</span>
+<span class="n">sc</span> <span class="o">=</span> <span class="n">SparkContext</span><span class="p">(</span><span class="n">master</span><span class="o">=</span><span class="s2">&quot;local[3]&quot;</span><span class="p">)</span>
+<span class="n">sc</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[1]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;pyspark.context.SparkContext at 0x105f73c90&gt;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3>RDDs</h3><p>RDD (or Resilient Distributed DataSet) is the main novel data structure in Spark. You can think of it as a list whose elements are stored on several computers.</p><p><img alt="" src="Figures/SparkContextAndRDD.jpg" style="height:324px; width:900px" /></p>
 </div>
 </div>
 </div></section></section><section><section>
@@ -11850,153 +11921,56 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Lazy-Evaluation">Lazy Evaluation<a class="anchor-link" href="#Lazy-Evaluation">&#182;</a></h3><ul>
-<li>we want to calculate the sum of he squares : $\sum_{i=1}^n x_i^2 $</li>
+<h4 id="Parallelize">Parallelize<a class="anchor-link" href="#Parallelize">&#182;</a></h4><ul>
+<li>Simplest way to create an RDD.</li>
+<li>The method <code>A=sc.parallelize(L)</code>, creates an RDD named <code>A</code> from list <code>L</code>.</li>
+<li><code>A</code> is an RDD of type <code>ParallelCollectionRDD</code>.</li>
 </ul>
-<p>The standard (or <strong>busy</strong>) way to do this is</p>
-<ol>
-<li>Calculate the square of each element.</li>
-<li>Sum the squares.</li>
-</ol>
-<p>This requires storing all intermediate results.</p>
 
 </div>
 </div>
 </div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>An alternative is <strong>lazy</strong> evaluation:</p>
-<ul>
-<li><strong>postpone</strong> computing the square until result is needed.</li>
-<li>No need to store intermediate results.</li>
-<li>Scan through the data once, rather than twice.</li>
-</ul>
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">A</span><span class="o">=</span><span class="n">sc</span><span class="o">.</span><span class="n">parallelize</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>
+<span class="n">A</span>
+</pre></div>
 
 </div>
 </div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[3]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>ParallelCollectionRDD[0] at parallelize at PythonRDD.scala:423</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img alt="" src="Figures/LazyEvaluation/Slide1.jpg" style="height:324px; width:900px" /></p>
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><img alt="" src="Figures/LazyEvaluation/Slide2.jpg" style="height:324px; width:900px" /></p>
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><img alt="" src="Figures/LazyEvaluation/Slide3.jpg" style="height:324px; width:900px" /></p>
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><img alt="" src="Figures/LazyEvaluation/Slide4.jpg" style="height:324px; width:900px" /></p>
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><img alt="" src="Figures/LazyEvaluation/Slide5.jpg" style="height:324px; width:900px" /></p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Create-a-largish-RDD">Create a largish RDD<a class="anchor-link" href="#Create-a-largish-RDD">&#182;</a></h4><p>We create an RDD with one million elements so that the effect of lazy evaluation and caching is significant.</p>
-
-</div>
-</div>
-</div><div class="fragment">
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="o">%%</span><span class="k">time</span>
-RDD=sc.parallelize(range(1000000))
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>CPU times: user 66.8 ms, sys: 41.9 ms, total: 109 ms
-Wall time: 123 ms
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">RDD</span><span class="o">.</span><span class="n">toDebugString</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">Out[21]:</div>
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&#39;(3) ParallelCollectionRDD[10] at parallelize at PythonRDD.scala:423 []&#39;</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div></div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Define-a-computation">Define a computation<a class="anchor-link" href="#Define-a-computation">&#182;</a></h4><p>The role of the function <code>taketime</code> is to consume CPU cycles.</p>
+<h4 id="Collect">Collect<a class="anchor-link" href="#Collect">&#182;</a></h4><ul>
+<li>RDD content is distributed among all executors.</li>
+<li><code>collect()</code> is the inverse of `parallelize()'</li>
+<li>collects the elements of the RDD</li>
+<li>Returns a list</li>
+</ul>
 
 </div>
 </div>
@@ -12006,24 +11980,9 @@ Wall time: 123 ms
 <div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">from</span> <span class="nn">math</span> <span class="kn">import</span> <span class="n">cos</span>
-<span class="k">def</span> <span class="nf">taketime</span><span class="p">(</span><span class="n">i</span><span class="p">):</span>
-    <span class="p">[</span><span class="n">cos</span><span class="p">(</span><span class="n">j</span><span class="p">)</span> <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
-    <span class="k">return</span> <span class="n">cos</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div></div><div class="fragment">
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="o">%%</span><span class="k">time</span>
-taketime(5)
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">L</span><span class="o">=</span><span class="n">A</span><span class="o">.</span><span class="n">collect</span><span class="p">()</span>
+<span class="k">print</span> <span class="nb">type</span><span class="p">(</span><span class="n">L</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">L</span>
 </pre></div>
 
 </div>
@@ -12036,17 +11995,53 @@ taketime(5)
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>CPU times: user 11 µs, sys: 3 µs, total: 14 µs
-Wall time: 17.2 µs
+<pre>&lt;type &#39;list&#39;&gt;
+[0, 1, 2]
 </pre>
 </div>
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[7]:</div>
+</div>
+</div>
+
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Map">Map<a class="anchor-link" href="#Map">&#182;</a></h3><ul>
+<li>applies a given operation to each element of an RDD</li>
+<li>parameter is the function defining the operation.</li>
+<li>returns a new RDD.</li>
+<li>Operation performed in parallel on all executors.</li>
+<li>Each executor operates on the data <strong>local</strong> to it.</li>
+</ul>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">A</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">*</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">collect</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[5]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0.2836621854632263</pre>
+<pre>[0, 1, 4]</pre>
 </div>
 
 </div>
@@ -12060,208 +12055,14 @@ Wall time: 17.2 µs
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Cascading-operations">Cascading operations<a class="anchor-link" href="#Cascading-operations">&#182;</a></h3><p>In the next cell we define the <code>map</code> operation.</p>
-<ul>
-<li>Note that this cell takes very little time.</li>
-<li>Because lazy evaluation delays actual computation until needed.</li>
+<h3 id="Reduce">Reduce<a class="anchor-link" href="#Reduce">&#182;</a></h3><ul>
+<li>Takes RDD as input, returns a single value.</li>
+<li><strong>Reduce operator</strong> takes <strong>two</strong> elements as input returns <strong>one</strong> as output.</li>
+<li>Repeatedly applies a <strong>reduce operator</strong></li>
+<li>Each executor reduces the data local to it.</li>
+<li>The results from all executors are combined.</li>
 </ul>
 
-</div>
-</div>
-</div><div class="fragment">
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="o">%%</span><span class="k">time</span>
-Interm=RDD.map(lambda x: taketime(x))
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>CPU times: user 23 µs, sys: 1 µs, total: 24 µs
-Wall time: 27.9 µs
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Execution-plan">Execution plan<a class="anchor-link" href="#Execution-plan">&#182;</a></h3><p>The reason that the previous cell took less than 50 micro-seconds (Wall Time) is that no computation was done. The cell defined the 'map' action, but did not execute it yet.</p>
-<p><strong>Lazy Execution</strong> refers to this type of behaviour. The system delays actual computation until the latest possible moment. Instead of computing the content of the RDD, it adds the RDD to the <strong>execution plan</strong>.</p>
-<p>Using Lazy evaluation of a plan has two main advantages relative to immediate execution of each step:</p>
-<ol>
-<li>A single pass over the data, rather than multiple passes.</li>
-<li>Smaller memory footprint becase no intermediate results are saved.</li>
-</ol>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Execution-Plans">Execution Plans<a class="anchor-link" href="#Execution-Plans">&#182;</a></h3><p>At this point the variable <code>Interm</code> does not point to an actual data structure. Instead, it points to an execution plan expressed as a <strong>dependence graph</strong>. The dependence graph defines the dependence of the RDD on each other.</p>
-
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The dependence graph associated with an RDD can be printed out using the method <code>toDebugString()</code>.
-The first line corresponds to <code>Interm</code> and the second line corresponds to <code>RDD</code> which is the input to interm</p>
-
-<pre><code>(2) PythonRDD[8] at RDD at PythonRDD.scala:43 []
- |  ParallelCollectionRDD[4] at parallelize at PythonRDD.scala:423 []</code></pre>
-
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="k">print</span> <span class="n">Interm</span><span class="o">.</span><span class="n">toDebugString</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>(3) PythonRDD[16] at RDD at PythonRDD.scala:43 []
- |  ParallelCollectionRDD[10] at parallelize at PythonRDD.scala:423 []
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><img alt="" src="Figures/ExecutionPlan/Slide1.jpg" style="height:506px; width:900px" /></p>
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Actual-execution">Actual execution<a class="anchor-link" href="#Actual-execution">&#182;</a></h3><p>The <code>reduce</code> command needs to output an actual output, <strong>spark</strong> therefor has to actually execute the <code>map</code> and the <code>reduce</code>. Some real computation needs to be done, which takes about 1.78 seconds (Wall time).</p>
-
-</div>
-</div>
-</div><div class="fragment">
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="o">%%</span><span class="k">time</span>
-print &#39;out=&#39;,Interm.reduce(lambda x,y:x+y)
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>out= -0.288705467968
-CPU times: user 4.76 ms, sys: 2.63 ms, total: 7.39 ms
-Wall time: 131 ms
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Executing-a-different-calculation-based-on-the-same-plan.">Executing a different calculation based on the same plan.<a class="anchor-link" href="#Executing-a-different-calculation-based-on-the-same-plan.">&#182;</a></h3><p>The plan defined by <code>Interm</code> can be executed many times. Below we give an example.</p>
-<p><strong>Note:</strong> the run-time is similar to that of the previous command because the intermediate results that are due to <code>Interm</code> have not been saved in memory.</p>
-
-</div>
-</div>
-</div><div class="fragment">
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="o">%%</span><span class="k">time</span>
-print &#39;out=&#39;,Interm2.filter(lambda x:x&gt;0).count()
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>out= 1000000
-CPU times: user 7.59 ms, sys: 2.7 ms, total: 10.3 ms
-Wall time: 1.57 s
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><img alt="" src="Figures/ExecutionPlan/Slide2.jpg" style="height:506px; width:900px" /></p>
 </div>
 </div>
 </div></section></section><section><section>
@@ -12270,20 +12071,17 @@ Wall time: 1.57 s
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Caching-intermediate-results">Caching intermediate results<a class="anchor-link" href="#Caching-intermediate-results">&#182;</a></h3><p>The computation above is wasteful because each time we recompute the <code>map</code> operation.</p>
-<p>We sometimes want to keep the intermediate results in memory so that we can reuse them without recalculating them. This will reduce the running time, at the cost of requiring more memory.</p>
-<p>The method <code>cache()</code> indicates that the RDD generates in this plan should be stored in memory. Note that this is still only a <em>plan</em>. The actual calculation will be done only when the final result is seeked.</p>
+<p>The simplest example of a 2-to-1 operation is the sum:</p>
 
 </div>
 </div>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="o">%%</span><span class="k">time</span>
-Interm=RDD.map(lambda x: taketime(x)).cache()
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">A</span><span class="o">.</span><span class="n">reduce</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">:</span> <span class="n">x</span><span class="o">+</span><span class="n">y</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12294,12 +12092,13 @@ Interm=RDD.map(lambda x: taketime(x)).cache()
 <div class="output">
 
 
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>CPU times: user 3.17 ms, sys: 1.16 ms, total: 4.32 ms
-Wall time: 6.57 ms
-</pre>
+<div class="output_area"><div class="prompt output_prompt">Out[8]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>3</pre>
 </div>
+
 </div>
 
 </div>
@@ -12311,7 +12110,53 @@ Wall time: 6.57 ms
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img alt="" src="Figures/ExecutionPlan/Slide3.jpg" style="height:506px; width:900px" /></p>
+<p>Here is an example of a reduce operation that finds the shortest string in an RDD of strings.</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">words</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;this&#39;</span><span class="p">,</span><span class="s1">&#39;is&#39;</span><span class="p">,</span><span class="s1">&#39;the&#39;</span><span class="p">,</span><span class="s1">&#39;best&#39;</span><span class="p">,</span><span class="s1">&#39;mac&#39;</span><span class="p">,</span><span class="s1">&#39;ever&#39;</span><span class="p">]</span>
+<span class="n">wordRDD</span><span class="o">=</span><span class="n">sc</span><span class="o">.</span><span class="n">parallelize</span><span class="p">(</span><span class="n">words</span><span class="p">)</span>
+<span class="n">wordRDD</span><span class="o">.</span><span class="n">reduce</span><span class="p">(</span><span class="k">lambda</span> <span class="n">w</span><span class="p">,</span><span class="n">v</span><span class="p">:</span> <span class="n">w</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">w</span><span class="p">)</span><span class="o">&lt;</span><span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="k">else</span> <span class="n">v</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[9]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;is&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Using-regular-functions-instead-of-lambda-functions">Using regular functions instead of lambda functions<a class="anchor-link" href="#Using-regular-functions-instead-of-lambda-functions">&#182;</a></h3><ul>
+<li>lambda function are short and sweet.</li>
+<li>but sometimes it's hard to use just one line.</li>
+<li>We can use full-fledged functions instead.</li>
+</ul>
+
 </div>
 </div>
 </div></section><section>
@@ -12320,18 +12165,32 @@ Wall time: 6.57 ms
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Creating-the-cache">Creating the cache<a class="anchor-link" href="#Creating-the-cache">&#182;</a></h3><p>The following command executes the first map-reduce command <strong>and</strong> caches the result of the <code>map</code> command in memory.</p>
+<p>suppose we want to find the</p>
+<ul>
+<li>last word in a lexicographical order </li>
+<li>among </li>
+<li>the longest words in the list.</li>
+</ul>
+<p>We could achieve that as follows</p>
 
 </div>
 </div>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="o">%%</span><span class="k">time</span>
-print &#39;out=&#39;,Interm.reduce(lambda x,y:x+y)
+<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">largerThan</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">):</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">&gt;</span><span class="nb">len</span><span class="p">(</span><span class="n">y</span><span class="p">):</span> <span class="k">return</span> <span class="n">x</span>
+    <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">y</span><span class="p">)</span><span class="o">&gt;</span><span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">):</span> <span class="k">return</span> <span class="n">y</span>
+    <span class="k">else</span><span class="p">:</span>  <span class="c1">#lengths are equal, compare lexicographically</span>
+        <span class="k">if</span> <span class="n">x</span><span class="o">&gt;</span><span class="n">y</span><span class="p">:</span> 
+            <span class="k">return</span> <span class="n">x</span>
+        <span class="k">else</span><span class="p">:</span> 
+            <span class="k">return</span> <span class="n">y</span>
+        
+<span class="n">wordRDD</span><span class="o">.</span><span class="n">reduce</span><span class="p">(</span><span class="n">largerThan</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12342,36 +12201,62 @@ print &#39;out=&#39;,Interm.reduce(lambda x,y:x+y)
 <div class="output">
 
 
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>out= -0.288705467968
-CPU times: user 9.23 ms, sys: 4.12 ms, total: 13.4 ms
-Wall time: 1.48 s
-</pre>
+<div class="output_area"><div class="prompt output_prompt">Out[10]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;this&#39;</pre>
 </div>
+
 </div>
 
 </div>
 </div>
 
-</div></div></section><section>
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Using-the-cache">Using the cache<a class="anchor-link" href="#Using-the-cache">&#182;</a></h3><p>This time <code>Interm</code> is cached. Therefor the second use of <code>Interm</code> is much faster than when we did not use <code>cache</code>: 0.25 second instead of 1.9 second. (your milage may vary depending on the computer you are running this on).</p>
+<h3>Reduce operations <strong>must not depend on the order</strong></h3><ul>
+    <li>Order of operands should not matter</li>
+    <li>Order of application of reduce operator should not matter</li>
+</ul><p>Multiplication and summation are good:</p><h1>&nbsp; &nbsp; &nbsp; &nbsp; 1 + 3 + 5 + 2 &nbsp; &nbsp; &nbsp;5 + 3 + 1 + 2 &nbsp;</h1>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Division and subtraction are bad:</p><h1>&nbsp; &nbsp; &nbsp; &nbsp; 1 - 3 - 5 - 2 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1 - 3 - 5 - 2 &nbsp;</h1>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Here is a example<br>
+Which of these the following orders was executed?</p>
+<ul>
+<li>$$((1-3)-5)-2$$ or</li>
+<li>$$(1-3)-(5-2)$$</li>
+</ul>
 
 </div>
 </div>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="o">%%</span><span class="k">time</span>
-print &#39;out=&#39;,Interm.filter(lambda x:x&gt;0).count()
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">B</span><span class="o">=</span><span class="n">sc</span><span class="o">.</span><span class="n">parallelize</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">2</span><span class="p">])</span>
+<span class="n">B</span><span class="o">.</span><span class="n">reduce</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">:</span> <span class="n">x</span><span class="o">-</span><span class="n">y</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12382,13 +12267,13 @@ print &#39;out=&#39;,Interm.filter(lambda x:x&gt;0).count()
 <div class="output">
 
 
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>out= 500000
-CPU times: user 5.58 ms, sys: 2.33 ms, total: 7.91 ms
-Wall time: 147 ms
-</pre>
+<div class="output_area"><div class="prompt output_prompt">Out[11]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>-5</pre>
 </div>
+
 </div>
 
 </div>

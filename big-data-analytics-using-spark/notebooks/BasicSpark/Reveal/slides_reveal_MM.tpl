@@ -220,11 +220,11 @@ require(
             },
             // Optional libraries used to extend on reveal.js
             dependencies: [
-                { src: "reveal.js/plugin/chalkboard/chalkboard.js" },
-                { src: "reveal.js/plugin/print-pdf/print-pdf.js" },
-                { src: "reveal.js/lib/js/classList.js",
+                // { src: "reveal.js/plugin/chalkboard/chalkboard.js" },
+                { src: "{{resources.reveal.url_prefix}}/js/reveal.js/plugin/print-pdf/print-pdf.js" },
+                { src: "{{resources.reveal.url_prefix}}/js/reveal.js/lib/js/classList.js",
                   condition: function() { return !document.body.classList; } },
-                { src: "reveal.js/plugin/notes/notes.js",
+                { src: "{{resources.reveal.url_prefix}}/js/reveal.js/plugin/notes/notes.js",
                   async: true,
                   condition: function() { return !!document.body.classList; } }
             ]
