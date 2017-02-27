@@ -10,5 +10,7 @@
 
 ## Convert Ipython notebooks to Slides and then pdf:
  run `Reveal/Slides2PDF.py [NOTEBOOK_FILE_NAME]` 
+
  This will open two tabs in your web browser: one is the slides, the other is the converted pdf. Just print the page with the 'save as pdf' option.
+
  example output: `notebooks/BasicSpark/1. Spark Basics.pdf`
