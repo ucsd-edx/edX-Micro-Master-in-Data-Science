@@ -1,0 +1,3 @@
+[submodule "big-data-analytics-using-spark/Reveal/reveal.js"]
+	path = big-data-analytics-using-spark/Reveal/reveal.js
+	url = https://github.com/hakimel/reveal.js.git
