@@ -1,0 +1,127 @@
+pid,lg,part 1 (out of 40),part 2 (out of 80),remark,homework,jobid,list,kmeans,grade
+A09229555,29.0,20,50,"Linear Regression incorrect answers: part 1: 3, 5, 6,part 2: 5, 6, 7, 8, Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6955,cleared,100,79.0
+A09807450,27.0,25,40,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 3, 5, 6, 7, 8 Breakup: 27.0 (Linear Regression) + 50(Kmeans)",4,6608,cleared,100,77.0
+A09920117,25.0,25,35,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 3, 4, 5, 6, 7 8, Breakup: 25.0 (Linear Regression) + 50(Kmeans)",4,6586,cleared,100,75.0
+A10052401,27.0,25,40,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 4, 5, 6, 7  Breakup: 27.0 (Linear Regression) + 50(Kmeans)",4,6729,cleared,100,77.0
+A10288913,29.0,25,45,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7 8,  Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,7103,cleared,100,79.0
+A10688717,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 5, part 2: 3, 5, 6, 8,  Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,6499,cleared,100,81.0
+A10726357,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 4,part 2: 5, 6, 7, 8, Breakup: 31.0 (Linear Regression) + 35(Kmeans)",4,7106,cleared,70,66.0
+A53043486,42.0,30,70,Linear Regression incorrect answers: part 1: 6part 2: 7 Breakup: 42.0 (Linear Regression) + 50(Kmeans),4,6566,cleared,100,92.0
+A53044451,29.0,20,50,"Linear Regression incorrect answers: part 1: 3, 6part 2: 5, 6, 7 Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,7119,cleared,0,79
+A53048537,33.0,30,50,"Linear Regression incorrect answers: part 1: 3, part 2: 5, 6, 7 Breakup: 33.0 (Linear Regression) + 50(Kmeans)",4,6995,cleared,100,83.0
+A53053719,29.0,25,45,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 3, 7 Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6841,cleared,100,79.0
+A53068123,21.0,25,25,"Linear Regression incorrect answers: part 1: 3, 6part 2: 5, 6, 2, 3, 4, 7, 8 9,  Breakup: 21.0 (Linear Regression) + 50(Kmeans)",4,7034,cleared,100,71.0
+A53071065,25.0,30,30,"Linear Regression incorrect answers: part 1: 3, part 2: 2, 3, 5, 6, 8  Breakup: 25.0 (Linear Regression) + 50(Kmeans)",4,6786,cleared,100,75.0
+A53078835,27.0,25,40,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7 8 Breakup: 27.0 (Linear Regression) + 50(Kmeans)",4,6830,cleared,100,77.0
+A53081142,25.0,25,35,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 3, 4 7 Breakup: 30.0 (Linear Regression) + 50(Kmeans)",4,6633,cleared,100,80.0
+A53087000,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7  Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,6922,cleared,100,81.0
+A53087777,38.0,20,70,"Linear Regression incorrect answers: part 1: 3, 6part 2: 8 Breakup: 38.0 (Linear Regression) + 50(Kmeans)",4,6764,cleared,100,88.0
+A53087859,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7 Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,7105,cleared,100,81.0
+A53088113,35.0,25,60,"Linear Regression incorrect answers: part 1: 3, 4,part 2: 5, 6,  Breakup: 35.0 (Linear Regression) + 50(Kmeans)",4,7000,cleared,100,85.0
+A53088789,0.0,0,0,Linear Regression incorrect answers: part 1: didn't answerpart 2: didn't answer Breakup: 34 (Linear Regression) + 50(Kmeans),4,7090,cleared,100,84.0
+A53089251,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 8 Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,6727,cleared,100,81.0
+A53089609,29.0,30,40,"Linear Regression incorrect answers: part 1: 3, part 2: 5, 6, 7 8 Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6660,cleared,100,79.0
+A53089795,23.0,15,40,"Linear Regression incorrect answers: part 1: 3, 5 6,part 2: 5, 6, 7 8 Breakup: 23.0 (Linear Regression) + 50(Kmeans)",4,7116,cleared,100,73.0
+A53090004,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 4,part 2: 5, 6, 7 Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,7022,cleared,100,81.0
+A53090014,33.0,30,50,"Linear Regression incorrect answers: part 1: 3, part 2: 5, 6, 7  Breakup: 33.0 (Linear Regression) + 50(Kmeans)",4,7017,cleared,100,83.0
+A53090311,27.0,30,35,"Linear Regression incorrect answers: part 1: 3, part 2: 5, 6, 3 4, 7  Breakup: 27.0 (Linear Regression) + 50(Kmeans)",4,7086,cleared,100,77.0
+A53090624,23.0,15,40,"Linear Regression incorrect answers: part 1: 3, 4, 5part 2: 5, 6, 7 8  Breakup: 23.0 (Linear Regression) + 50(Kmeans)",4,6928,cleared,100,73.0
+A53090833,31.0,20,55,"Linear Regression incorrect answers: part 1: 3, 6 part 2: 5, 6, 8, Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,6734,cleared,100,81.0
+A53091034,25.0,20,40,"Linear Regression incorrect answers: part 1: 3, 5, 6,part 2: 5, 6, 7 8 Breakup: 25.0 (Linear Regression) + 50(Kmeans)",4,6545,cleared,100,75.0
+A53091187,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7  Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,7068,cleared,100,81.0
+A53091316,33.0,30,50,"Linear Regression incorrect answers: part 1: 3, part 2: 5, 6, 8 Breakup: 33.0 (Linear Regression) + 50(Kmeans)",4,6465,cleared,100,83.0
+A53091543,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7 Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,6994,cleared,100,81.0
+A53091621,29.0,20,50,"Linear Regression incorrect answers: part 1: 3, 5, 6,part 2: 5, 6, 8 Breakup: 36.0 (Linear Regression) + 50(Kmeans)",4,6635,cleared,100,86.0
+A53091625,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 8 Breakup: 38.0 (Linear Regression) + 50(Kmeans)",4,6595,cleared,100,88.0
+A53092101,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7  Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,6655,cleared,100,81.0
+A53092295,25.0,20,40,"Linear Regression incorrect answers: part 1: 3, 6part 2: 5, 6, 7 8 Breakup: 25.0 (Linear Regression) + 50(Kmeans)",4,6510,cleared,100,75.0
+A53092651,29.0,20,50,"Linear Regression incorrect answers: part 1: 3, 6part 2: 5, 6, 7  Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6947,cleared,100,79.0
+A53092720,27.0,25,40,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7 8 Breakup: 27.0 (Linear Regression) + 50(Kmeans)",4,6831,cleared,100,77.0
+A53092819,23.0,25,30,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 5 7 8 Breakup: 23.0 (Linear Regression) + 50(Kmeans)",4,6749,cleared,100,73.0
+A53093242,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7 Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,6953,cleared,100,81.0
+A53093387,25.0,20,40,"Linear Regression incorrect answers: part 1: 3, 6part 2: 5, 6, 7 8 Breakup: 25.0 (Linear Regression) + 50(Kmeans)",4,6813,cleared,100,75.0
+A53093655,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7 Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,6502,cleared,100,81.0
+A53093706,29.0,20,50,"Linear Regression incorrect answers: part 1: 3, 6part 2: 5, 6, 7 Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6417,cleared,100,79.0
+A53093725,33.0,20,60,"Linear Regression incorrect answers: part 1: 3, 6part 2: 5, 6,  Breakup: 33.0 (Linear Regression) + 50(Kmeans)",4,6574,cleared,100,83.0
+A53094332,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7 Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,6782,cleared,100,81.0
+A53094656,27.0,25,40,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 3, 5, 6, 7  Breakup: 27.0 (Linear Regression) + 50(Kmeans)",4,6735,cleared,100,77.0
+A53095241,27.0,25,40,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7 8 Breakup: 27.0 (Linear Regression) + 50(Kmeans)",4,7043,cleared,100,77.0
+A53095324,27.0,25,40,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 3 8 Breakup: 27.0 (Linear Regression) + 50(Kmeans)",4,6862,cleared,100,77.0
+A53095373,33.0,20,60,"Linear Regression incorrect answers: part 1: 3, 6part 2: 5, 6,  Breakup: 33.0 (Linear Regression) + 50(Kmeans)",4,6985,cleared,100,83.0
+A53095668,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7  Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,6950,cleared,100,81.0
+A53095669,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7 Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,6965,cleared,100,81.0
+A53095928,25.0,20,40,"Linear Regression incorrect answers: part 1: 3, 6part 2: 5, 6, 7 8  Breakup: 25.0 (Linear Regression) + 50(Kmeans)",4,7018,cleared,100,75.0
+A53096102,27.0,25,40,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 4 8 Breakup: 27.0 (Linear Regression) + 50(Kmeans)",4,6684,cleared,100,77.0
+A53096254,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7  Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,7115,cleared,100,81.0
+A53096298,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6, part 2: 5, 6, 8 Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,6691,cleared,100,81.0
+A53096365,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7  Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,6737,cleared,100,81.0
+A53096479,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7  Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,7111,cleared,100,81.0
+A53096505,33.0,30,50,"Linear Regression incorrect answers: part 1: 3, part 2: 8 Breakup: 42.0 (Linear Regression) + 50(Kmeans)",4,7071,cleared,100,92.0
+A53096555,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7  Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,6983,cleared,100,81.0
+A53097095,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7  Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,6446,cleared,100,81.0
+A53097552,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7 Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,7114,cleared,100,81.0
+A53097553,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7 Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,6415,cleared,100,81.0
+A53097569,31.0,25,50,"Linear Regression incorrect answers: part 1: 3, 6,part 2: 5, 6, 7 Breakup: 31.0 (Linear Regression) + 50(Kmeans)",4,6935,cleared,100,81.0
+A53097652,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,7075,cleared,100,79.0
+A53097687,25.0,30,30,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [2, 5, 6, 7, 8]. Breakup: 25.0 (Linear Regression) + 50(Kmeans)",4,6988,cleared,0,75
+A53097966,21.0,30,20,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [2, 3, 5, 6, 7, 8]. Breakup: 21.0 (Linear Regression) + 50(Kmeans)",4,7055,cleared,100,71.0
+A53098336,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,7049,cleared,100,79.0
+A53099070,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6931,cleared,100,79.0
+A53099113,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6968,cleared,100,79.0
+A53099348,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6747,cleared,100,79.0
+A53099540,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6556,cleared,100,79.0
+A53099577,25.0,20,40,"Linear Regression incorrect answers: Part 1 - [3, 5]. Part 2 - [5, 6, 7, 8]. Breakup: 25.0 (Linear Regression) + 50(Kmeans)",4,7050,cleared,100,75.0
+A53099589,38.0,30,60,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6]. Breakup: 38.0 (Linear Regression) + 50(Kmeans)",4,6395,cleared,100,88.0
+A53099813,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,7066,cleared,100,79.0
+A53100056,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6938,cleared,100,79.0
+A53100198,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6535,cleared,100,79.0
+A53100200,25.0,30,30,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8, 9]. Breakup: 25.0 (Linear Regression) + 50(Kmeans)",4,6909,cleared,100,75.0
+A53100317,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6750,cleared,100,79.0
+A53100492,33.0,30,50,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 8]. Breakup: 33.0 (Linear Regression) + 50(Kmeans)",4,6804,cleared,100,83.0
+A53100579,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6814,cleared,100,79.0
+A53100674,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [3, 5, 6, 7]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6982,cleared,100,79.0
+A53101200,25.0,20,40,"Linear Regression incorrect answers: Part 1 - [3, 5]. Part 2 - [5, 6, 7, 8]. Breakup: 25.0 (Linear Regression) + 50(Kmeans)",4,6558,cleared,100,75.0
+A53101232,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,7081,cleared,100,79.0
+A53101273,25.0,20,40,"Linear Regression incorrect answers: Part 1 - [3, 6]. Part 2 - [5, 6, 7, 8]. Breakup: 25.0 (Linear Regression) + 50(Kmeans)",4,6992,cleared,100,75.0
+A53101352,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,7118,cleared,100,79.0
+A53101356,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,7113,cleared,100,79.0
+A53101820,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6974,cleared,100,79.0
+A53101879,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6632,cleared,100,79.0
+A53102223,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6997,cleared,100,79.0
+A53102323,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,7085,cleared,100,79.0
+A53102444,25.0,30,30,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8, 9]. Breakup: 25.0 (Linear Regression) + 50(Kmeans)",4,6833,cleared,100,75.0
+A53102471,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6077,cleared,100,79.0
+A53102476,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6914,cleared,100,79.0
+A53102484,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,7092,cleared,100,79.0
+A53102497,38.0,30,60,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6]. Breakup: 38.0 (Linear Regression) + 50(Kmeans)",4,6641,cleared,100,88.0
+A53102693,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6890,cleared,100,79.0
+A53102766,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 0(Kmeans)",4,6440,cleared,0,29.0
+A53102894,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,7074,cleared,100,79.0
+A53102992,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6859,cleared,100,79.0
+A53103006,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6919,cleared,100,79.0
+A53103070,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,7083,cleared,100,79.0
+A53103247,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [3, 5, 6, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6501,cleared,100,79.0
+A53103630,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,7014,cleared,100,79.0
+A53103979,33.0,30,50,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 8]. Breakup: 33.0 (Linear Regression) + 50(Kmeans)",4,6275,cleared,100,83.0
+A53104006,38.0,30,60,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6]. Breakup: 38.0 (Linear Regression) + 50(Kmeans)",4,6427,cleared,100,88.0
+A53104152,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,7023,cleared,100,79.0
+A53104315,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6998,cleared,100,79.0
+A53104332,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,7056,cleared,100,79.0
+A53104364,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6942,cleared,100,79.0
+A53104557,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,7039,cleared,100,79.0
+A53104614,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 0(Kmeans)",4,7073,cleared,0,29.0
+A53104678,33.0,30,50,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 8]. Breakup: 33.0 (Linear Regression) + 50(Kmeans)",4,6675,cleared,100,83.0
+A53104872,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,7005,cleared,100,79.0
+A53104909,33.0,30,50,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 8]. Breakup: 33.0 (Linear Regression) + 50(Kmeans)",4,6656,cleared,100,83.0
+A53104951,33.0,30,50,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 8]. Breakup: 33.0 (Linear Regression) + 50(Kmeans)",4,6420,cleared,100,83.0
+A53105054,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6978,cleared,100,79.0
+A53105080,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,7031,cleared,100,79.0
+A53105202,12.0,30,0,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [2, 3, 4, 5, 6, 7, 8, 9]. Breakup: 12.0 (Linear Regression) + 0(Kmeans)",4,6913,cleared,0,12.0
+A53105538,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6809,cleared,100,79.0
+A53105684,29.0,30,40,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6, 7, 8]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6920,cleared,100,79.0
+A53106567,38.0,30,60,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6]. Breakup: 38.0 (Linear Regression) + 50(Kmeans)",4,6318,cleared,100,88.0
+A53107397,38.0,30,60,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [5, 6]. Breakup: 38.0 (Linear Regression) + 50(Kmeans)",4,6692,cleared,100,88.0
+A97010449,29.0,20,50,"Linear Regression incorrect answers: Part 1 - [3, 6]. Part 2 - [5, 6, 7]. Breakup: 29.0 (Linear Regression) + 50(Kmeans)",4,6680,cleared,100,79.0
+A98008464,25.0,30,30,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [4, 5, 6, 7, 8]. Breakup: 25.0 (Linear Regression) + 50(Kmeans)",4,6069,cleared,100,75.0
+U06990406,25.0,30,30,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [3, 4, 5, 6, 8]. Breakup: 25.0 (Linear Regression) + 50(Kmeans)",4,6485,waitlist,100,75.0
+A53097969,25.0,30,30,"Linear Regression incorrect answers: Part 1 - [3]. Part 2 - [3, 4, 5, 6, 8]. Breakup: 25.0 (Linear Regression) + 50(Kmeans)",4,6748,cleared,100,75.0

@@ -1,0 +1,169 @@
+jobid,pid,grade,remark,Extra credits comment,homework
+,A53097687,100,,,3
+,A53097966,100,,,3
+,A53097969,100,,,3
+,A53098336,100,,,3
+,A53099070,100,,,3
+,A53099113,100,,,3
+,A53099348,100,"Instructor Feedback:
+This notebook does not contain enough text to give the explanation, describe the figures, and explain how the figures support the explanation.
+No Extra Points",good,3
+,A53099540,100,,,3
+,A53099577,100,,little-analysis,3
+,A53099589,100,Extra credits comment: Just stating the Prof's hypothesis is not enough. Some exploratory data analysis is required to support your answer.,just-guess,3
+,A53099813,100,,,3
+,A53100056,120,"It would have been nice if you wrote your explanation in markdown cells instead of as comments in code cells. The explanation you give for the end of the month dips is good, and you wrote some relevant code to identify these stations. However, you did not show that, after removing the identified stations, the phenomenon is removed.
+Extra credit: 20 points.",good,3
+,A53100198,100,,,3
+,A53100200,100,,,3
+,A53100317,100,,little-analysis,3
+,A53100492,102,"Instructor Feedback for extra credit:
+Explanation is not sufficient. More analysis required.",long-but-not-convincing,3
+,A53100579,100,,,3
+,A53100674,100,,,3
+,A53101200,98,"First 2 graphs don't match exactly. Instructor's feedback for extra credit:
+You provide some additional graphs but it is not clear what these tell us. You are not providing an explanation and giving evidence that this explanation is correct.
+No Extra Credit",good,3
+,A53101232,100,,,3
+,A53101273,100,"Instructor's feedback:
+You provide some reasonable explanations:
+location at a special place where workers are lazy or do no want to go to work at the end of the month.
+Years when the american economy is not well.
+However, your analysis is unrelated to these explanations. One thing you could have done regarding explanation one was to find out whether a few stations are responsible for the pattern or whether it is distributed throughout the stations. You could also see if the behaviour is the same for different ranges of years.
+No extra credit points.",good,3
+,A53101352,105,Extra credits comment:Good attempt. Some exploratory data analysis is required to support your answer.,long-but-not-convincing,3
+,A53101356,105,,little-analysis,3
+,A53101820,100,,,3
+,A53101879,100,,,3
+,A53102223,100,,just-guess,3
+,A53102323,100,"Instructor Feedback:
+This notebook does not contain enough text to give the explanation, describe the figures, and explain how the figures support the explanation.
+No Extra Points",long-but-not-convincing,3
+,A53102444,100,,,3
+,A53102471,100,,,3
+,A53102476,100,,,3
+,A53102484,100,,,3
+,A53102497,100,,little-analysis,3
+,A53102693,100,"Instructor Feedback for extra credit:
+Explanation is not sufficient. More analysis required.",long-but-not-convincing,3
+,A53102766,150,"Instructor's Feedback (for both notebooks):
+Very nice work!
+You have dug deep into the data, made observations, and supported them with the figures.
+To get the notebook to be of higher quality, think of how to organize the markdown cells, the code cells, and the figures. It is usually better to organize the notebook logically: Question, Answer, Support for answer, follow-up questions, rather than chronologically: I did this, then I did that ...
+Extra Credit Points: 50",good,3
+,A53102894,100,,,3
+,A53102992,100,,just-guess,3
+,A53103006,105,Extra credits comment:Good attempt. Some exploratory data analysis is required to support your answer.,long-but-not-convincing,3
+,A53103070,100,,little-analysis,3
+,A53103247,100,,,3
+,A53103630,100,,little-analysis,3
+,A53103799,100,,just-guess,3
+,A53103979,100,,,3
+,A53104006,100,,just-guess,3
+,A53104152,100,,just-guess,3
+,A53104315,100,,just-guess,3
+,A53104332,100,,just-guess,3
+,A53104364,102,"Instructor Feedback for extra credit:
+Explanation is not sufficient. More analysis required.",long-but-not-convincing,3
+,A53104557,100,,little-analysis,3
+,A53104614,100,,,3
+,A53104678,95,Reconstruction graphs are not correct,,3
+,A53104872,100,,little-analysis,3
+,A53104909,100,,,3
+,A53104951,100,,,3
+,A53105054,100,,,3
+,A53105080,100,,,3
+,A53105202,100,,,3
+,A53105538,100,,,3
+,A53105684,100,,little-analysis,3
+,A53106567,100,"Instructor Feedback for extra credit:
+Explanation is not sufficient. More analysis required.",long-but-not-convincing,3
+,A53107397,100,,little-analysis,3
+,A97010449,100,,,3
+,A98008464,100,,,3
+,U06990406,100,,,3
+,A09229555,100,,,3
+,A09807450,100,,,3
+,A09920117,95,the 'variance' set in part 1 is wrong ,,3
+,A10052401,100,,,3
+,A10288913,100,,,3
+,A10688717,100,,,3
+,A10726357,100,,,3
+,A53043486,100,,,3
+,A53044451,100,,,3
+,A53048537,100,,,3
+,A53053719,100,,,3
+,A53068123,100,,,3
+,A53071065,100,,,3
+,A53078835,100,,,3
+,A53081142,100,,,3
+,A53087000,100,,,3
+,A53087777,95,histagram in part 1 is wrong.,,3
+,A53087859,100,,,3
+,A53088113,100,,,3
+,A53088789,100,,,3
+,A53089251,100,,,3
+,A53089609,95,histagram in part 1 is wrong.,,3
+,A53089795,100,,,3
+,A53089999,92,4 graphs in part 2 are not exactly correct (small errors),,3
+,A53090004,95,histagram in part 1 is wrong.,,3
+,A53090014,100,,,3
+,A53090311,100,,,3
+,A53090624,100,,,3
+,A53091034,100,,,3
+,A53091187,100,,,3
+,A53091316,100,,,3
+,A53091543,100,"Extra credit:
+The explanations are not supported by the analysis / figures.
+[It is not a good idea to write conclusions as comments in a code cell. It makes them harder to understand. Comments inside code cells should be used only to explain the code. Not the statistical analysis.]
+No extra credit points.",,3
+,A53091621,100,,,3
+,A53091625,100,,,3
+,A53092101,100,,,3
+,A53092295,100,,,3
+,A53092651,100,,,3
+,A53092720,95,histagram in part 1 is wrong.,,3
+,A53092819,100,,,3
+,A53093242,100,,,3
+,A53093387,100,,,3
+,A53093655,100,"Instructor comments to Extra Credit part:
+You provided no explanations, but rather jumped directly to solutions. Obviously, removing stations with missing entries will solve the problem, but it might also introduce bias. By characterizing the problem more accurately, you can reduce this bias.
+No extra points.",,3
+,A53093706,100,,,3
+,A53093725,100,,,3
+,A53094332,105,"Instructor feedback to extra credit part:
+The problem might be the poor english. But part of writing an explanation is checking it with other students to make sure that the explanation is clear and can be understood.
+A method is described to remove the count dips over the end of the month. I guess that the graph titled ""TMAX Sample Stations Counts"" should be better than than the one titled ""TMAX All Station Counts"", but I don't see a significant improvement.
+5 Extra credit points.",,3
+,A53094656,100,,,3
+,A53095241,100,,,3
+,A53095324,60,all graphs in part 2 are wrong,,3
+,A53095373,100,,,3
+,A53095668,100,,,3
+,A53095669,100,,,3
+,A53095928,80,last 4 graphs are missing,,3
+,A53096102,100,,,3
+,A53096254,100,,,3
+,A53096298,120,"Instructor Feedback to extra credit part:
+Nice analysis and a nice attempt at fixing the problem. You Hypothesize that a small number of stations are involved, but you did not confirm that directly (by removing such stations) or try to see what is common to these stations.
+Extra Credit points: 20",,3
+,A53096365,100,,,3
+,A53096479,100,,,3
+,A53096505,100,,,3
+,A53096555,100,,,3
+,A53097095,95,"second graph of part 2 is wrong.
+
+Instructor Feedback to extra credit
+The explanation given in the first bullet is not supported by evidence. The method for removing the effect is very crude - your are removing any station-year that does not have a full set of measurements. Nothing related to end-of-month specifically. and removes 56% of the data.
+It is not clear to me what the figures below are meant to represent or explain.
+No extra credit points.",,3
+,A53097552,100,"Instructor Feedback to extra credits part:
+It seems you are not very comfortable with the notebook format. In particular, with writing markdown cells with explanations in english. The code is here in service of the explanation, not the other way around.
+Having explanations as comments in the code and printing out large tables does not help.
+No Extra Credit",,3
+,A53097553,100,,,3
+,A53097569,150,"Instructors Comments on Extra Credits
+This notebook is outstanding!
+The analysis is thoughful, the evidence is convincing, and the work is detailed.
+The layout could be improved to structure the notebook better and to cl",,3
+,A53097652,100,,,3

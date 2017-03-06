@@ -1,0 +1,212 @@
+pid,name,email,q1,q2,q3,mr1,mr2,mr3,sum
+A53088113,Qian Wang,qiw087@eng.ucsd.edu,True,True,True,True,True,True,6
+A53103799,Zhenjie Lin,zhl057@ucsd.edu,True,True,True,True,True,True,6
+A53093387,Weiqi Zhang,wez122@eng.ucsd.edu,True,True,True,True,True,True,6
+A53102992,Sonali Bhadra,sbhadra@ucsd.edu,True,True,True,True,True,True,6
+A09229555,Diego Marez,dmarez@ucsd.edu,True,True,True,True,True,True,6
+A53104529,Jing Wang,jiw370@eng.ucsd.edu,True,True,True,True,True,True,6
+A53097989,Mengzhi Li,mel012@ucsd.edu,True,True,True,True,True,True,6
+A53105684,Siddhartha Agarwal,siagarwa@eng.ucsd.edu,True,True,True,True,True,True,6
+A53099577,Nivedita Prasad,n1prasad@eng.ucsd.edu,True,True,True,True,True,True,6
+A53101273,Yue Gao,yug095@eng.ucsd.edu,True,True,True,True,True,True,6
+A10052401,Frankie Lu,frlu@eng.ucsd.edu,True,True,True,True,True,True,6
+A09807450,Ninad Deepak Kulkarni,nkulkarn@ucsd.edu,True,True,True,True,True,True,6
+A53104332,Prakhar,prs025@eng.ucsd.edu,True,True,True,True,True,True,6
+A53091621,Kaiwen Sun,kas003@ucsd.edu,True,True,True,True,True,True,6
+a53100674,Nima Mousavi,nimousav@ucsd.edu,True,True,True,True,True,True,6
+A53099589,Xinyi Wang,xinyi@ucsd.edu,True,True,True,True,True,True,6
+A53087000,Shrestha Malik,shm039@eng.ucsd.edu,True,True,True,True,True,True,6
+A53080548,Aleksey Sokolov,sokolov@ucsd.edu,True,True,True,True,True,True,6
+A53104152,Nishant Agarwal,niagarwa@eng.ucsd.edu,True,True,True,True,True,True,6
+A53097966,adit bhardwaj,adbhardw@eng.ucsd.edu,True,True,True,True,True,True,6
+A53099348,Xiyun Liu,xil429@ucsd.edu,True,True,True,True,True,True,6
+A53048537,Vineet Rao Katta,vkatta@eng.ucsd.edu,True,True,True,True,True,True,6
+A53096505,Chenhui Xie,chx036@ucsd.edu,True,True,True,True,True,True,6
+a53105538,YU Gu,yug097@ucsd.edu,True,True,True,True,True,True,6
+A53068123,Akshay Rangesh,arangesh@ucsd.edu,True,True,True,True,True,True,6
+A53104951,Kaiyi Zhang,kaz041@ucsd.edu,True,True,True,True,True,True,6
+A53106567,Junlong Hou,juh097@ucsd.edu,True,True,True,True,True,True,6
+A98008464,Chengtao Ji,c2ji@ucsd.edu,True,True,True,True,True,True,6
+A53102693,Atchuta Venkata Vijay Chintalapudi,achintal@eng.ucsd.edu,True,True,True,True,True,True,6
+A53101352,Sidharth Kodaikkal Vijayan,skodaikk@eng.ucsd.edu,True,True,True,True,True,True,6
+A53078835,Chenwei Cai,cwcai@ucsd.edu,True,True,True,True,True,True,6
+A53046117,Yue Xu,yux033@ucsd.edu,True,True,True,True,True,True,6
+A53100317,Xinyue Li,xil431@ucsd.edu,True,True,True,True,True,True,6
+A53097095,Junbo Ke,juke@ucsd.edu,True,True,True,True,True,True,6
+A53104006,Danyang Zhang,daz040@eng.ucsd.edu,True,True,True,True,True,True,6
+A53102323,Nikhil Srivastava,nisrivas@ucsd.edu,True,True,True,True,True,True,6
+A53043486,Shouvik Ganguly,shgangul@eng.ucsd.edu,True,True,True,True,True,True,6
+A53081611,Chen Lai,chl588@ucsd.edu,True,True,True,True,True,True,6
+A53058727,Nina Pikula,NPikula@ucsd.edu,True,True,True,True,True,True,6
+A53092720,Anand Desai,ajd007@cs.ucsd.edu,True,True,True,True,True,True,6
+A53090004,Priyanka Dighe,pdighe@ucsd.edu,True,True,True,True,True,True,6
+A53089999,Ning Lin,nil016@eng.ucsd.edu,True,True,True,True,True,True,6
+A53094656,Yuhui Zhang,yuz483@eng.ucsd.edu,True,True,True,True,True,True,6
+A53100056,Rakshit Wadhwa,rawadhwa@ucsd.edu,True,True,True,True,True,True,6
+A53088789,Shanmathi Rajesh,shrajesh@eng.ucsd.edu,True,True,True,True,True,True,6
+A53097521,Yufei Zhao,yuz478@eng.ucsd.edu,True,True,True,True,True,True,6
+A53100379,Pushen Wang,puw001@eng.ucsd.edu,True,True,True,True,True,True,6
+A53104872,Chaitanya Baratam,cbaratam@eng.ucsd.edu,True,True,True,True,True,True,6
+A53099070,Archana Radhakrishna,arradhak@ucsd.edu,True,True,True,True,True,True,6
+A53091543,Vrinda Gupta,vrg001@eng.ucsd.edu,True,True,True,True,True,True,6
+A53099973,Aravind Kumar Kumar,akumark@eng.ucsd.edu,True,True,True,True,True,True,6
+A53097687,Abhishek Majumdar,abmajumd@eng.ucsd.edu,True,True,True,True,True,True,6
+A53100761,SRIRAM MANOHAR,srmanoha@eng.ucsd.edu,True,True,True,True,True,True,6
+A53096254,Joe Manley Gnanasekaran,jgnanase@ucsd.edu,True,True,True,True,True,True,6
+A53101356,Srinivas Avireddy,saviredd@eng.ucsd.edu,True,True,True,True,True,True,6
+A53102894,Zhengren Pan,zhp007@eng.ucsd.edu,True,True,True,True,True,True,6
+A53092651,Rudra Pratap Singh,rps001@eng.ucsd.edu,True,True,True,True,True,True,6
+A53102471,Yingzhi Wu,yiw376@eng.ucsd.edu,True,True,True,True,True,True,6
+A53092819,Zhenchao Gan,zhgan@eng.ucsd.edu,True,True,True,True,True,True,6
+A53090014,Vikas Sakaray,vsakaray@eng.ucsd.edu,True,True,True,True,True,True,6
+A53105202,Joshua Neighbor,jwneighb@eng.ucsd.edu,True,True,True,True,True,True,6
+A53097652,Manghat Nitish Menon,mnmenon@eng.ucsd.edu,True,True,True,True,True,True,6
+A53104614,Saurabh Bipin Chandra,sbipinch@eng.ucsd.edu,True,True,True,True,True,True,6
+A53092295,Jongha Ryu,jor050@eng.ucsd.edu,True,True,True,True,True,True,6
+A53096479,Shreyas Pathre Balakrishna,spathreb@ucsd.edu,True,True,True,True,True,True,6
+A53095669,Abhijit Tripathy,atripath@eng.ucsd.edu,True,True,True,True,True,True,6
+A53095668,ABHINAV GARG,abgarg@ucsd.edu,True,True,True,True,True,True,6
+A53103630,SAMPATH VELAGA,svelaga@eng.ucsd.edu,True,True,True,True,True,True,6
+A53102476,Sahil Govel,sgovel@eng.ucsd.edu,True,True,True,True,True,True,6
+A53096555,Rishikesh Sanjay Ghewari,rghewari@ucsd.edu,True,True,True,True,True,True,6
+A53095928,Venkatesh Elango,velango@ucsd.edu,True,True,True,True,True,True,6
+A53102945,Sourabh Vora,sovora@eng.ucsd.edu,True,True,True,True,True,True,6
+A53097623,Shashank Uppoor,suppoor@eng.ucsd.edu,True,True,True,True,True,True,6
+A53090624,Yue Wang,yuw383@ucsd.edu,True,True,True,True,True,True,6
+A53087859,Phani Teja Marupaka,pmarupak@ucsd.edu,True,True,True,True,True,True,6
+A53097552,Ankit Singh,ans049@ucsd.edu,True,True,True,True,True,True,6
+A53102223,Vikas Lokesh,vlokesh@eng.ucsd.edu,True,True,True,True,True,True,6
+A53081199,Di Huang,dih024@eng.ucsd.edu,True,True,True,True,True,True,6
+A53102398,Zhongze Hu,zhh073@eng.ucsd.edu,True,True,True,True,True,True,6
+A53093242,Rakesh Ganapathi Karanth,rkaranth@eng.ucsd.edu,True,True,True,True,True,True,6
+A53099113,Bharath Ranganatha Mankalale,bmankala@eng.ucsd.edu,True,True,True,True,True,True,6
+A53095391,Amit Borase,aborase@eng.ucsd.edu,True,True,True,True,True,True,6
+A09920117,Behnam Hedayatnia,bhedayat@ucsd.edu,True,True,True,True,True,True,6
+A53104557,Anmol Aggarwal,ana030@eng.ucsd.edu,True,True,True,True,True,True,6
+A53100579,Mingyang Wang,miw092@eng.ucsd.edu,True,True,True,True,True,True,6
+A53105054,Sanmitra Ijeri,sijeri@eng.ucsd.edu,True,True,True,True,True,True,6
+A53053719,Chelin Huang,chh163@eng.ucsd.edu,True,True,True,True,True,True,6
+A10288913,Eric Bureaud,ebureaud@ucsd.edu,True,True,True,True,True,True,6
+A53091070,Saurabh Gupta,sag043@eng.ucsd.edu,True,True,True,True,True,True,6
+A53107397,Lu Yu,luy018@ucsd.edu,True,True,True,True,True,True,6
+A53103979,Ziyan Zhu,ziz183@ucsd.edu,True,True,True,True,True,True,6
+A53100198,Weichen Liu,wel174@ucsd.edu,True,True,True,True,True,True,6
+A53093725,Puneeth BommiReddy,pbommire@eng.ucsd.edu,True,True,True,True,True,True,6
+A53091034,Naiwen Chang,nachang@eng.ucsd.edu,True,True,True,True,True,True,6
+A10688717,Jesse Qin,jeqin@eng.ucsd.edu,True,True,True,True,True,True,6
+A09974692,Victor Alor,valor@ucsd.edu,True,True,True,True,True,True,6
+A96501030,Po-Han Chiang,pochiang@ucsd.deu,True,True,True,True,True,True,6
+U06990406,Benjamin Weggersen,ax003948@acsmail.ucsd.edu,True,True,True,True,True,True,6
+A53095373,Mitesh Gadgil,mgadgil@ucsd.edu,True,True,True,True,True,True,6
+A53087777,Shiunn An Lu,shl423@eng.ucsd.edu,True,True,True,True,True,True,6
+A53093655,Siwen Yan,siy043@eng.ucsd.edu,True,True,True,True,True,True,6
+A53081674,Han-Tai Hsu,hah030@eng.ucsd.edu,True,True,True,True,True,True,6
+A53103247,Minxuan Zhou,miz087@eng.ucsd.edu,True,True,True,True,True,True,6
+A53071065,Zhi Cui,z9cui@eng.ucsd.edu,True,True,True,True,True,True,6
+A53090833,Xu Hu,xhuaoe@gmail.com,True,True,True,True,True,True,6
+A53089251,Ding Wang,diw005@eng.ucsd.edu,True,True,True,True,True,True,6
+A53094332,Yunhan Wang,yuw380@ucsd.edu,True,True,True,True,True,True,6
+A53089609,Shengnan Ji,shj047@eng.ucsd.edu,True,True,True,True,True,True,6
+A10726357,Zeyun Lu,zelu@ucsd.edu,True,True,True,True,True,True,6
+A53099540,Siyuan Liu,sil148@eng.ucsd.edu,True,True,True,True,True,True,6
+A53098432,Madhur Kapoor,makapoor@ucsd.edu,True,True,True,True,True,True,6
+A53105080,Jigar Surana,jsurana@ucsd.edu,True,True,True,True,True,True,6
+A53095241,Piyush Anil Nahar,pnahar@ucsd.edu,True,True,True,True,True,True,6
+A53090311,Venkata Satya Sri Harsha Aduri,vaduri@eng.ucsd.edu,True,True,True,True,True,True,6
+A53101232,Ajeet Kumar,ajk054@ucsd.edu,True,True,True,True,True,True,6
+A53081142,Yaping Sun,yas051@ucsd.edu,True,True,True,True,True,True,6
+A53093706,Qingyu Zhou,qyzhou@ucsd.edu,True,True,True,True,True,True,6
+A53099813,Anshuka Rangi,arangi@eng.ucsd.edu,True,True,True,True,True,True,6
+A53097553,Zhe Wang,zhw176@ucsd.edu,True,True,True,True,True,True,6
+A53098001,Yuanchao Zhu,yuz063@eng.ucsd.edu,True,True,True,True,True,True,6
+A53092101,Yu Shen,yus067@ucsd.edu,True,True,True,True,True,True,6
+A53101879,Shivani Agrawal,sha014@eng.ucsd.edu,True,True,True,True,True,True,6
+A53097569,Apurva Pathak,appathak@eng.ucsd.edu,True,True,True,True,True,True,6
+A53104364,Kshitiz Gupta,ksg005@ucsd.edu,True,True,True,True,True,True,6
+A53091316,Mubin Wang,muw012@ucsd.edu,True,True,True,True,True,True,6
+A53103006,Varun Garg,vgarg@eng.ucsd.edu,True,True,True,True,True,True,6
+A53104315,Dharmil Satishbhai Chandarana,dharmil@ucsd.edu,True,True,True,True,True,True,6
+A53095314,YIMING ZHENG,yiz476@eng.ucsd.edu,True,True,True,True,True,True,6
+A53100492,Yiwen Shi,yis018@ucsd.edu,True,True,True,True,True,True,6
+A53098336,Jigarkumar,jpp006@eng.ucsd.edu,True,True,True,True,True,True,6
+A97010449,Lingyi Kong,l1kong@ucsd.edu,True,True,True,True,True,True,6
+A53104678,Kishan Kumar Sachdeva,ksachdev@ucsd.edu,True,True,True,True,True,True,6
+A53096298,Juan Sidrach de Cardona Mora,jsidrach@ucsd.edu,True,True,True,True,True,True,6
+A53096365,Qiming Zhang,qiz123@eng.ucsd.edu,True,True,True,True,True,True,6
+A53091187,Yi Luo,yil485@ucsd.edu,True,True,True,True,True,True,6
+A53103070,Apoorve Dave,a1dave@eng.ucsd.edu,True,True,True,True,True,True,6
+A53096102,Zhongrong Jian,zhjian@ucsd.edu,True,True,True,True,True,True,6
+A53102766,Jayant Malani,jmalani@eng.ucsd.edu,True,True,True,True,True,True,6
+A98043244,Eduardo Ramirez,eduardo@ucsd.edu,True,True,True,True,True,False,5
+A53087417,Swetha Krishnakumar,swk032@eng.ucsd.edu,True,True,True,True,False,True,5
+A53044451,Zihan Xu,zix009@ucsd.edu,True,True,False,True,True,True,5
+A53099416,Vamsi Krishna Cheekatimalla,vcheekat@ucsd.edu,True,True,True,True,True,False,5
+A53089745,Ramkishore Swaminathan,rswamina@eng.ucsd.edu,True,True,True,True,False,True,5
+A53091905,Yuning Hui,y3hui@eng.ucsd.edu,True,True,False,True,True,True,5
+A10730856,Daniel Riley,dgriley@ucsd.edu,True,True,False,True,True,True,5
+A53102444,Jie Fu,jif052@eng.ucsd.edu,True,True,True,True,True,False,5
+A53074437,Yuan Li,yul394@eng.ucsd.edu,True,True,False,True,True,True,5
+A53092653,Runze Xu,rux012@eng.ucsd.edu,True,True,False,True,True,True,5
+A95116817,Daniel Wen,dhwen@eng.ucsd.edu,True,False,True,True,True,True,5
+A53089795,Zhimin Zhou,zhz249@eng.ucsd.edu,True,True,False,True,True,True,5
+A53104909,Xiaojian Jin,xij049@ucsd.edu,True,True,True,True,False,True,5
+A97079187,Zixin Xu,zix001@ucsd.edu,True,True,False,True,True,True,5
+A53091625,Feichao,feqian@ucsd.edu,True,True,True,True,True,False,5
+A53092331,Sneha Priya Bhattaram,spbhatta@eng.ucsd.edu,True,True,True,True,True,False,5
+A53104499,Suganth Krishna Suresh,sksuresh@eng.ucsd.edu,True,True,False,True,True,True,5
+A53103154,Yilin Zhai,yizhai@ucsd.edu,True,True,False,True,True,True,5
+A03200213,Ruby Pai,rjpai@eng.ucsd.edu,False,True,True,True,True,True,5
+A53097118,Pulak Sarangi,psarangi@eng.ucsd.edu,True,True,False,True,True,True,5
+A53092425,Aditya Suresh kumar,asureshk@ucsd.edu,True,True,True,True,False,True,5
+A09810559,Omar Shanta,oshanta@eng.ucsd.edu,True,False,True,True,True,True,5
+A53064429,Juliana Curtis,jccurtis@ucsd.edu,True,True,False,True,True,True,5
+A09972087,Erik Zhang,e5zhang@eng.ucsd.edu,True,False,True,True,True,True,5
+A53029582,Brian Tsay,brtsay@ucsd.edu,True,True,False,True,True,True,5
+A11758271,Tianjia Feng,tfeng@ucsd.edu,True,True,False,True,True,True,5
+A53099844,Saurabh Kulkarni,s3kulkar@eng.ucsd.edu,True,True,True,True,True,False,5
+A53102484,Moojin Chae,mochae@ucsd.edu,True,True,True,True,False,True,5
+A53095324,Shen Ting Ang,s3ang@eng.ucsd.edu,True,False,True,True,True,True,5
+A53096099,Ajay Mohan,ajmohan@ucsd.edu,True,True,False,True,True,True,5
+A53097969,Songyang Li,sol070@eng.ucsd.edu,True,True,True,True,True,False,5
+A53102497,Yili Ding,yid061@ucsd.edu,False,True,True,True,True,True,5
+A53100200,Yicong Jia,yij071@eng.ucsd.edu,True,False,True,True,True,True,5
+A53097346,Yihong Zhang,yiz474@eng.ucsd.edu,True,True,False,True,True,True,5
+A53099643,Xiaojing Xu,xix068@ucsd.edu,False,True,True,True,True,True,5
+A53096229,Zheng Wei,zhw035@ucsd.edu,True,True,False,True,True,True,5
+A53079916,Pengbo Li,pel034@ucsd.edu,True,True,True,True,False,True,5
+A53103415,Jingwen Xie,jix111@ucsd.edu,True,True,True,True,True,False,5
+A53105937,Jialong Li,jil653@eng.ucsd.edu,False,True,True,True,True,True,5
+A53101200,Kai Zhou,kaz040@eng.ucsd.edu,True,True,False,True,True,True,5
+A53098349,Tanvi Nabar,tgnabar@ucsd.edu,True,True,True,True,False,True,5
+A53101820,Ramesh Maddula,rkmaddul@eng.ucsd.edu,True,True,False,True,True,True,5
+A53089892,Mruganka Kashyap,mrkashya@eng.ucsd.edu,True,True,False,True,True,True,5
+A53096457,Matthew Elliott,m3elliot@eng.ucsd.edu,True,False,True,True,True,True,5
+A98021229,Jihang Lu,jil190@eng.ucsd.edu,False,True,True,True,True,True,5
+A53104857,Caroline Kim,chk101@eng.ucsd.edu,True,True,False,True,True,True,5
+A53088382,Jinyang Yuan,jiy244@ucsd.edu,True,True,False,True,True,True,5
+A53106153,Xinrui Li,xil430@ucsd.edu,True,True,True,False,False,True,4
+A09260518,Justin Tee,jutee@ucsd.edu,False,True,False,True,True,True,4
+A53020603,Timothy Lew,tflew@ucsd.edu,True,False,False,True,True,True,4
+A53086891,Yunsheng Li,yul554@ucsd.edu,True,True,False,True,True,False,4
+A53090836,Shalini Kedlaya,skedlaya@ucsd.edu,True,False,True,True,False,True,4
+A53096750,Anshul Jain,anj026@eng.ucsd.edu,True,True,False,True,True,False,4
+A53104691,Adithya Seshasayee,aseshasa@eng.ucsd.edu,True,True,False,True,True,False,4
+A10029832,Seam Lee,yhl014@ucsd.edu,False,True,True,True,False,True,4
+A53082522,Nasha Zhai,nzhai@ucsd.edu,True,True,True,True,False,False,4
+A53092538,Lenord Melvix Joseph Stephen Max,lmelvix@ucsd.edu,True,True,True,True,False,False,4
+A53083212,Kuangyi Yang,kuy006@ucsd.edu,True,True,True,True,False,False,4
+A53070599,Linjie Li,lil121@ucsd.edu,True,True,False,True,False,True,4
+A53066657,Man Song,mas065@ucsd.edu,True,False,True,True,False,True,4
+A53094262,Dawei Wang,daw068@ucsd.edu,False,True,False,True,False,True,3
+a53051532,Jingwen Liang,jil343@ucsd.edu,False,True,False,True,False,True,3
+A53012089,Jad Kanbar,jkanbar@ucsd.edu,True,True,True,False,False,False,3
+A53101876,Xiaoying Gao,xig060@eng.ucsd.edu,True,True,False,True,False,False,3
+A53092095,William Greenwald,billgreenwald@ucsd.edu,True,False,False,True,True,False,3
+53104691,Adithya Seshasayee,aseshasa@eng.ucsd.edu,True,True,False,True,False,False,3
+A53063718,Yuchun Li,yul352@eng.ucsd.edu,True,True,True,False,False,False,3
+A53096478,Andrew Leverentz,aleveren@eng.ucsd.edu,True,False,True,True,False,False,3
+a53107397,Lu Yu,luy018@ucsd.edu,True,True,True,False,False,False,3
+a70001688,Sabyasachi Nayak,sabyasachi.nayak8@gmail.com,True,False,False,True,False,False,2
+A11069530,wenjia ouyang,weouyang@eng.ucsd.edu,False,False,True,True,False,False,2
+A53070548,Larry Muhlstein,lmuhlstein@ucsd.edu,False,False,False,True,True,False,2
+A53104231,Linqi Guo,lig010@eng.ucsd.edu,True,False,False,False,False,True,2

@@ -1,0 +1,131 @@
+grade,jobid,remarks,pid,homework
+98,5173,didn't print the number of distinct users.,A53102476,2
+100,3927,.,A53104006,2
+55,4188,cannot finish in 2x of the time limit; relative popularity is all wrong.,A53100492,2
+95,4036,cannot finish in 2x of the time limit.,A53102484,2
+100,4479,.,A53097569,2
+60,5102,relative popularity is all wrong.,A53081611,2
+100,4572,.,A53087859,2
+100,4229,.,A53104152,2
+100,4787,.,A53092720,2
+100,4909,.,A53097553,2
+100,4704,.,A53097552,2
+0,5270,not completed,A53105202,2
+100,4701,.,A53100200,2
+98,4383,should encode text to utf8 before tokenizing (off by 2%).,A53093725,2
+98,4675,filter condition should be >= 100 not > 100.,A53100674,2
+100,4304,.,A53104364,2
+100,5279,.,A53090311,2
+100,3792,.,A53092101,2
+100,4984,.,A53105538,2
+100,3804,.,A53102471,2
+100,4988,.,A53093387,2
+100,4885,.,A53091621,2
+98,3800,filter condition should be >= 100 not > 100.,A53099589,2
+100,4031,.,A53091625,2
+100,4564,.,A53087000,2
+100,4039,.,A53094656,2
+100,5309,.,A53102323,2
+95,5262,cannot process 80GB data in 30 minutes.,A53104557,2
+100,4873,.,A53104678,2
+75,4528,cannot process 80GB data in 30 minutes; cannot finish in 2x of the time limit.,A53091034,2
+95,3247,cannot finish in 2x of the time limit.,A53092295,2
+100,4102,.,A53106567,2
+100,3848,.,A53090004,2
+91,4655,cannot finish in 2x of the time limit; line 1 mismatch and the filter condition is wrong (should be >= 100).,A53053719,2
+100,4045,.,A53101200,2
+95,5319,cannot finish in 2x of the time limit.,A53104614,2
+75,3477,cannot process 80GB data in 30 minutes; cannot finish in 2x of the time limit.,A53081142,2
+73,5090,cannot process 80GB data in 30 minutes; cannot finish in 2x of the time limit; should use token's alphabetical order to break tie in sorting.,A09920117,2
+100,4809,.,A53102693,2
+100,5259,.,A53078835,2
+100,5315,.,A53104315,2
+100,4967,.,A10052401,2
+100,4499,.,A53094332,2
+80,3665,cannot process 80GB data in 30 minutes.,A53071065,2
+93,5000,cannot finish in 2x of the time limit; should use token's alphabetical order to break tie in sorting.,U06990406,2
+100,5005,.,A53096365,2
+100,5009,.,A53101879,2
+100,4195,.,A09229555,2
+100,5325,.,A53095668,2
+95,5322,cannot finish in 2x of the time limit.,A53088789,2
+80,4759,cannot process 80GB data in 30 minutes.,A53091187,2
+93,5089,cannot finish in 2x of the time limit; filter condition should be >= 100 not > 100.,A09807450,2
+100,4815,.,A53096298,2
+100,4814,.,A53099813,2
+95,5245,cannot finish in 2x of the time limit.,A53101352,2
+98,5080,filter condition should be >= 100 not > 100.,A53044451,2
+98,4755,should use token's alphabetical order to break tie in sorting.,A53091543,2
+100,4957,.,A53090833,2
+100,4080,.,A53093242,2
+100,4269,.,A53100579,2
+100,4184,.,A53089999,2
+100,5330,.,A53101232,2
+80,4436,cannot process 80GB data in 30 minutes.,A53096505,2
+100,5334,.,A53095241,2
+100,4708,.,A53101356,2
+98,5132,should use token's alphabetical order to break tie in sorting.,A53099070,2
+100,4064,.,A53099348,2
+100,4534,.,A53103070,2
+98,3367,should encode text to utf8 before tokenizing (off by 2%).,A53068123,2
+98,4530,forgot to print total number of tokens.,A53097652,2
+100,3897,.,A53090624,2
+100,5027,.,A53099540,2
+100,4775,.,A53102766,2
+100,4771,.,A53104332,2
+100,4448,.,A53097969,2
+98,5104,should use token's alphabetical order to break tie in sorting.,A10288913,2
+100,5105,.,A53096254,2
+100,3885,.,A53100317,2
+100,4684,.,A53092651,2
+95,5186,cannot finish in 2x of the time limit.,A53098336,2
+100,4680,.,A53103630,2
+100,4747,.,A53097687,2
+100,4077,.,A53102223,2
+100,5348,.,A53103006,2
+100,3440,.,A53103979,2
+100,3964,.,A53096102,2
+98,2357,should encode text to utf8 before tokenizing (off by 2%).,A53100056,2
+100,4365,.,A53089609,2
+100,5246,.,A53104909,2
+100,4085,.,A53099113,2
+100,4248,.,A53102992,2
+100,4249,.,A53103247,2
+100,5296,.,A53089795,2
+100,5294,.,A53102497,2
+100,3865,.,A53097095,2
+100,4290,.,A53100198,2
+100,4452,.,A97010449,2
+100,5055,.,A53043486,2
+100,4397,.,A53089251,2
+80,3731,cannot process 80GB data in 30 minutes.,A98008464,2
+100,4695,.,A53102894,2
+95,4162,cannot finish in 2x of the time limit.,A53093706,2
+100,4925,.,A53105080,2
+70,4997,cannot process 80GB data in 30 minutes; cannot finish in 4x of the time limit.,A53046117,2
+100,4699,.,A10688717,2
+100,4003,.,A53088113,2
+100,4597,.,A53103799,2
+75,4594,cannot process 80GB data in 30 minutes; cannot finish in 2x of the time limit.,A53096479,2
+100,4844,.,A53093655,2
+100,5288,.,A53101820,2
+95,5163,cannot finish in 2x of the time limit.,A53105054,2
+100,5166,.,A53104951,2
+70,5200,cannot process 80GB data in 30 minutes; cannot finish in 2x of the time limit; should not merge all tweets for tokenizing.,A53095324,2
+100,4663,.,A53105684,2
+98,4795,filter condition should be >= 100 not > 100.,A53095928,2
+100,5045,.,A53048537,2
+100,4887,.,A53104872,2
+100,4790,.,A53099577,2
+68,4791,cannot process 80GB data in 30 minutes; cannot finish in 4x of the time limit; filter condition should be >= 100 not > 100.,A53102444,2
+100,4399,.,A53097966,2
+100,3780,.,A53091316,2
+100,4011,.,A53090014,2
+100,4017,.,A53087777,2
+100,4911,.,A53095669,2
+98,4808,should encode text to utf8 before tokenizing (off by 2%).,A53096555,2
+100,4995,.,A53107397,2
+100,3988,.,A53092819,2
+100,4858,.,A10726357,2
+98,4855,should use token's alphabetical order to break tie in sorting.,A53095373,2
+95,4851,should not merge all tweets for tokenizing.,A53101273,2

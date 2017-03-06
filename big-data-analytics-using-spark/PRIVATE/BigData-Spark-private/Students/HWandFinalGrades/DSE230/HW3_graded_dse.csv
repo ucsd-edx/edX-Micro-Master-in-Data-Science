@@ -1,0 +1,25 @@
+jobid,pid,homework,grade,remarks
+,A02866348,3,100,correct;
+,A04540481,3,100,correct;
+,A08350601,3,88,histogram not restricted; only axis bounded but values not removed; reconstruction error calculated incorrectly; 
+,A08653595,3,80,plots for TAVG and TRANGE instead of what asked; 
+,A09134209,3,100,correct; 
+,A09146619,3,100,correct;
+,A09771598,3,95,used scalar std instead of vector sqrt(var) for mean+-std plot; 
+,A53072604,3,95,histogram restricted between low1000 and high1000 instead of low100 and high100; 
+,A53087566,3,95,variance plot doesn't begin from 0; 
+,A53106952,3,95,used scalar std instead of vector sqrt(var) for mean+-std plot;
+,A53108479,3,100,correct;
+,A53110637,3,95,variance plot doesn't begin from 0; 
+,A53110849,3,95,histogram restricted between low1000 and high1000 instead of low100 and high100; 
+,A53111004,3,95,histogram restricted between low1000 and high1000 instead of low100 and high100; 
+,A53111141,3,95,used scalar std instead of vector sqrt(var) for mean+-std plot; 
+,A53111216,3,100,correct;
+,A53111231,3,100,correct;
+,A53111354,3,100,correct; 
+,A53111588,3,105,correct;
+,A53111789,3,100,correct;
+,A53111951,3,95,variance plot doesn't begin from 0; 
+,A53112142,3,90,variance plot doesn't begin from 0; used scalar std instead of vector sqrt(var) for mean+-std plot; 
+,A53112354,3,95,variance plot doesn't begin from 0; 
+,A53112379,3,110,correct;

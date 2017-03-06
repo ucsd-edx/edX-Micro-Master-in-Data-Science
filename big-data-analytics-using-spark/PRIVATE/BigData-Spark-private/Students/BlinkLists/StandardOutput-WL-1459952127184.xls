@@ -1,0 +1,58 @@
+Sect ID	Course	Title	SecCode	Instructor
+867447	CSE255	Data Mining & Analytics	A00	Freund, Yoav
+
+Sec id	PID	Student	College	Major	Level	Date	Time	Email
+867447	A53097346	Zhang, Yihong	GR	EC90	MA	02/22/2016	00:01:00	yiz474@ucsd.edu
+867447	A53078965	Fan, Chao	GR	MA75	MA	02/22/2016	07:00:00	chf004@ucsd.edu
+867447	A53097969	Li, Songyang	GR	EC79	MA	02/22/2016	07:01:00	sol070@ucsd.edu
+867447	A53089795	Zhou, Zhimin	GR	CS75	MA	02/22/2016	07:01:00	zhz249@ucsd.edu
+867447	A53099416	Cheekatimalla, Vamsi Krishna	GR	CS75	MA	02/22/2016	07:12:00	vcheekat@ucsd.edu
+867447	A53096282	Khurana, Prateek	GR	CS75	MA	02/22/2016	08:55:00	pkhurana@ucsd.edu
+867447	A53091625	Qian, Feichao	GR	CS75	MA	02/22/2016	09:02:00	feqian@ucsd.edu
+867447	A99424000	Wei, Dawen	GR	CU75	MA	02/22/2016	09:02:00	d1wei@ucsd.edu
+867447	A53089745	Swaminathan, Ramkishore	GR	CS75	MA	02/22/2016	09:08:00	rswamina@ucsd.edu
+867447	A53104499	Suresh, Suganth Krishna	GR	CS75	MA	02/22/2016	09:24:00	sksuresh@ucsd.edu
+867447	A53092425	Suresh Kumar, Aditya	GR	CS75	MA	02/22/2016	09:29:00	asureshk@ucsd.edu
+867447	A53102444	Fu, Jie	GR	EC81	MA	02/22/2016	09:44:00	jif052@ucsd.edu
+867447	A53102484	Chae, Moojin	GR	CS76	MA	02/22/2016	09:45:00	mochae@ucsd.edu
+867447	A53101820	Maddula, Ramesh Krishna	GR	CS75	MA	02/22/2016	10:02:00	rkmaddul@ucsd.edu
+867447	A53096938	Wang, Xiangyu	GR	EC79	MA	02/22/2016	10:05:00	xiw112@ucsd.edu
+867447	A53097908	Fan, Xiaoxiao	GR	EC79	MA	02/22/2016	10:14:00	xif035@ucsd.edu
+867447	A53065443	Siddiqui, Owais Abdul Wahid	GR	CS75	MA	02/22/2016	10:29:00	o1siddiq@ucsd.edu
+867447	A53097039	Arora, Himanshu	GR	CS75	MA	02/22/2016	10:35:00	hiarora@ucsd.edu
+867447	A53103415	Xie, Jingwen	GR	EC90	MA	02/22/2016	10:42:00	jix111@ucsd.edu
+867447	A53103069	Verma, Rishabh Singh	GR	CS75	MA	02/22/2016	10:45:00	rsverma@ucsd.edu
+867447	A53094878	Khatter, Sumedha	GR	CS75	MA	02/22/2016	11:11:00	skhatter@ucsd.edu
+867447	A53104909	Jin, Xiaojian	GR	CU75	MA	02/22/2016	13:04:00	xij049@ucsd.edu
+867447	A53087417	Krishnakumar, Swetha	GR	CS75	MA	02/22/2016	16:05:00	swk032@ucsd.edu
+867447	A53099844	Kulkarni, Saurabh	GR	EC80	MA	02/22/2016	16:08:00	s3kulkar@ucsd.edu
+867447	A53086891	Li, Yunsheng	GR	EC77	MA	02/22/2016	19:15:00	yul554@ucsd.edu
+867447	A53015379	Das, Shaunak	GR	MA76	D2	02/22/2016	22:05:00	shdas@ucsd.edu
+867447	A53105202	Neighbor, Joshua William	GR	MC81	MA	02/23/2016	10:21:00	jwneighb@ucsd.edu
+867447	A53095324	Ang, Shen Ting	GR	CS75	MA	02/23/2016	12:12:00	s3ang@ucsd.edu
+867447	A53101200	Zhou, Kai	GR	CS75	MA	02/23/2016	13:13:00	kaz040@ucsd.edu
+867447	A53100200	Jia, Yicong	GR	CS75	MA	02/23/2016	14:06:00	yij071@ucsd.edu
+867447	A53102497	Ding, Yili	GR	CS75	MA	02/23/2016	17:32:00	yid061@ucsd.edu
+867447	A53093525	Khosroshahi, Aida	GR	EC80	MA	02/24/2016	16:31:00	aikhosro@ucsd.edu
+867447	A53070548	Muhlstein, Larry	GR	CG75	D1	02/24/2016	21:18:00	lmuhlste@ucsd.edu
+867447	A53100379	Wang, Pushen	GR	CS75	MA	02/24/2016	22:57:00	puw001@ucsd.edu
+867447	A53051532	Liang, Jingwen	GR	MA76	D2	02/25/2016	00:01:00	jil343@ucsd.edu
+867447	A53103154	Zhai, Yilin	GR	CU75	MA	02/25/2016	11:41:00	yizhai@ucsd.edu
+867447	A97079187	Xu, Zixin	GR	EC80	MA	03/04/2016	16:13:00	zix001@ucsd.edu
+867447	A12505277	Hussain, Nida Z	GR	CS75	MA	03/07/2016	14:17:00	nzhussai@ucsd.edu
+867447	A53096750	Jain, Anshul	GR	EC77	MA	03/07/2016	17:55:00	anj026@ucsd.edu
+867447	A53077610	Liao, Weitang	GR	CS75	MA	03/08/2016	10:14:00	wel144@ucsd.edu
+867447	A53053359	Preskitt, Brian Patrick	GR	MA80	D1	03/11/2016	14:57:00	bpreskit@ucsd.edu
+867447	A53020603	Lew, Timothy Franklin	GR	PC76	D1	03/14/2016	14:26:00	tflew@ucsd.edu
+867447	A53097010	Unnikrishnan, Sreejith	GR	CS75	MA	03/14/2016	23:25:00	srunnikr@ucsd.edu
+867447	A09593727	Kim, Dong Woo	GR	EC80	MA	03/16/2016	22:58:00	dok040@ucsd.edu
+867447	A53105683	Ozturk, Kivilcim	GR	BF76	D1	03/17/2016	11:24:00	kozturk@ucsd.edu
+867447	A53058727	Pikula, Nina	GR	MA76	D1	03/17/2016	23:19:00	npikula@ucsd.edu
+867447	A09942532	Mendonca, Kenneth Viann	GR	EC79	MA	03/25/2016	13:44:00	kmendonc@ucsd.edu
+867447	A53044451	Xu, Zihan	GR	NA75	D1	03/31/2016	15:57:00	zix009@ucsd.edu
+867447	A53099602	Zhuge, Junxia	GR	CS75	MA	04/01/2016	15:59:00	juzhuge@ucsd.edu
+867447	A53103612	Shi, Sichao	GR	CS75	MA	04/01/2016	19:36:00	sis031@ucsd.edu
+867447	A53056604	Li, Hanbo	GR	MA76	D2	04/02/2016	22:08:00	hal123@ucsd.edu
+867447	A53079916	Li, Pengbo	GR	MA77	MA	04/04/2016	21:15:00	pel034@ucsd.edu
+867447	A53103920	Zhang, Ke	GR	CS75	MA	04/05/2016	08:07:00	kez052@ucsd.edu
+867447	A53100579	Wang, Mingyang	GR	CS75	MA	04/05/2016	10:25:00	miw092@ucsd.edu

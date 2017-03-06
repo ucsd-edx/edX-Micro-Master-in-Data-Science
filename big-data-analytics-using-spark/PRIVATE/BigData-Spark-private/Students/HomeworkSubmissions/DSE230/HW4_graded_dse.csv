@@ -1,0 +1,25 @@
+jobid,pid,homework,grade,remarks
+,A02866348,4,68,"coeffs explained wrong, not printed best centers"
+,A04540481,4,94,"relations 7,8 wrong"
+,A08350601,4,76,"coeffs 3,4,5 wrong, relations 5,6,7,8 wrong"
+,A08653595,4,88,"coeffs 3,4 wrong, relations 5,6 wrong"
+,A09134209,4,0,not submitted
+,A09146619,4,88,"coeff 3 wrong, relation 5,6,7 wrong"
+,A09771598,4,97,relation 7 wrong
+,A53072604,4,82,"coeff 3 wrong, relation 3,4,5,6 unclear, relation 7 wrong "
+,A53087566,4,100,correct
+,A53106952,4,97,relation 8 wrong
+,A53108479,4,97,relation 8 wrong
+,A53110637,4,94,"relation 7,8 wrong"
+,A53110849,4,76,"coeff 2,4 wrong, relation 3,4,5,6,7,8 wrong "
+,A53111004,4,91,"coeff 3 wrong, relation 5,6 wrong"
+,A53111141,4,70,"coeff desc missing, relation 3,4,5,6 wrong"
+,A53111216,4,91,"coeff 3 wrong, relation 5,6 wrong"
+,A53111231,4,82,"coeff desc missing, relation 7,8 wrong"
+,A53111354,4,85,"coeff 3 wrong, 3 relations 3,5,6,8 wrong"
+,A53111588,4,97,relation 8 wrong
+,A53111789,4,0,not submitted
+,A53111951,4,83,"coeff 3 wrong, 3 relations missing, didnt submit .py file, manually changed notebook to py file"
+,A53112142,4,82,"coeff 3,5 wrong, relations 2,6,7,8 wrong"
+,A53112354,4,80,"coeff 3 wrong, relations 5,6,7,8 wrong, didn't print the best centers"
+,A53112379,4,82,"coeff 3 wrong, relations 2,5,6,7,8 wrong"

@@ -1,0 +1,10 @@
+flask
+flask-login
+flask-sqlalchemy
+flask-wtf
+flask-mail
+sqlalchemy-migrate
+tornado
+gunicorn
+requests
+pytz
