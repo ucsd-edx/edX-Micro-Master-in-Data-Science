@@ -1,8 +1,7 @@
 # Big Data Analytics Using Spark
 
 ## Installing:
- 1. cd Reveal
- 2. `source setup.sh`
+ 1. `source setup.sh` (This can be run from anywhere)
 
 ## Convert Ipython notebooks to Slides using Reveal:
  `toSlides notebook.ipynb`
@@ -12,6 +11,4 @@
 ## Convert Ipython notebooks to Slides and then pdf:
  `Slides2PDF notebook.ipynb`
 
-  This does the same job as toSlides, and in addition, it opens another page where the slides are concatenated as a single page, which you can print and save as pdf.
-
- example output: `notebooks/BasicSpark/1. Spark Basics.pdf`
+  This convert the notebook to a Reveal slides file and then convert it to a PDF file. Both of the outputs have the same name as the original notebook, but with different extensions. (.slides.html and .pdf)
