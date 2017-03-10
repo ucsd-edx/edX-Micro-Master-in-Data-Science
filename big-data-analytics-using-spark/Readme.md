@@ -6,5 +6,5 @@
 
 ## Some resources for pyspark
 
- * [A spark Dataframe Cheat-sheet](https://gist.github.com/evenv/b4d5f3054d7260e6c3d3)
+ * [A spark Dataframe Cheat-sheet](https://gist.github.com/evenv/b4d5f3054d7260e6c3d3) <script src="https://gist.github.com/evenv/b4d5f3054d7260e6c3d3.js"></script>
  
