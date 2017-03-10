@@ -7,7 +7,7 @@ class recon_plot:
     """A class for creating an interactive demonstration of approximating 
     a function with an orthonormal set of function"""
     def __init__(self,x,f,mean,v):
-        """ initialize the Widget
+        """ Initialize the widget
 
         :param x: defines the x locations
         :param f: the function to be approximated
@@ -27,6 +27,13 @@ class recon_plot:
         return None
         
     def get_widgets(self):
+        """return the slider widget that are to be used
+
+        :returns: widget_list: the list of widgets in order
+                  widget_dict: a dictionary of the widget to be used in `interact
+
+        :todo: make the sliders smaller: http://ipywidgets.readthedocs.io/en/latest/examples/Widget%20Styling.html
+        """
         coeff=self.C
         widge_dict={}
         widge_list=[]
@@ -46,6 +53,11 @@ class recon_plot:
         return self.C
     
     def plot_combination(self,**coeff):
+        """the plotting function that is called by `interactive`
+           generates the plot according the the parameters set by the sliders
+
+        :returns: None
+        """
         self.A=self.mean
         self.fig=plt.figure(figsize=(8,6))
         self.ax=self.fig.add_axes([0,0,1,1])
