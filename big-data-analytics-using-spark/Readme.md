@@ -10,3 +10,9 @@
  * The new abstractions in Spark2.0 are dataframes and sparksession: [introduction](http://spark.apache.org/docs/latest/sql-programming-guide.html#datasets-and-dataframes)  
  Supposedly, RDD's are demoted to "low level API"
  * [Dataframes API](http://spark.apache.org/docs/latest/api/python/pyspark.sql.html?highlight=dataframe#pyspark.sql.DataFrame)
+ 
+ ## AWS CLI (Command line interface)
+ * On mac, the best way to install is with `brew`
+ * Reference: http://docs.aws.amazon.com/cli/latest/reference/index.html#cli-aws
+ * Specific for S3: http://docs.aws.amazon.com/cli/latest/reference/s3/
+ 
