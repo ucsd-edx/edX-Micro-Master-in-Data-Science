@@ -12,7 +12,7 @@
  * [Dataframes API](http://spark.apache.org/docs/latest/api/python/pyspark.sql.html?highlight=dataframe#pyspark.sql.DataFrame)
  
  ## AWS CLI (Command line interface)
- * On mac, the best way to install is with `brew`
+ * On mac, the best way to install is with `brew install awscli`
  * Reference: http://docs.aws.amazon.com/cli/latest/reference/index.html#cli-aws
  * Specific for S3: http://docs.aws.amazon.com/cli/latest/reference/s3/
  
