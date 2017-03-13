@@ -1,6 +1,28 @@
 
+import pickle
 
 
+
+    
+def GenPickle(func_teacher, inputs, filename, ex ):
+    try:
+        f = open(filename,'r')
+        toPickle = pickle.load(f)
+        f.close()
+    except:
+        toPickle = {}
+    
+    exData = []
+    for input in inputs:
+        exData.append([ func_teacher(input).collect()  , 
+                      type(func_teacher(input)) ]) 
+    toPickle[ex] = exData
+    
+    f = open(filename,'w')
+    pickle.dump(toPickle,f)
+    f.close()
+
+    
 
 def very_close(A,B,tol=0.000001):
     ''' Check that the two firs parameters are lists of equal length 
@@ -13,11 +35,6 @@ def very_close(A,B,tol=0.000001):
             return False
     return True 
 #very_close_lists(mapcos(sc.parallelize(range(3))),[1.0, 0.5403, -0.4161])
-
-
-
-
-
 
 
 
