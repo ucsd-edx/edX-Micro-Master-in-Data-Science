@@ -1,10 +1,6 @@
-
 import pickle
 
-
-
-    
-def GenPickle(func_teacher, inputs, filename, ex ):
+def GenPickle(func_teacher, inputs, filename, ex, isRDD=True ):
     try:
         f = open(filename,'r')
         toPickle = pickle.load(f)
@@ -14,15 +10,18 @@ def GenPickle(func_teacher, inputs, filename, ex ):
     
     exData = []
     for input in inputs:
-        exData.append([ func_teacher(input).collect()  , 
-                      type(func_teacher(input)) ]) 
+        tmpAns = func_teacher(input)
+        if isRDD:
+            exData.append([ tmpAns.collect()  , 
+                      type(tmpAns) ]) 
+        else:
+            exData.append([ tmpAns, 
+                      type(tmpAns) ]) 
     toPickle[ex] = exData
     
     f = open(filename,'w')
     pickle.dump(toPickle,f)
     f.close()
-
-    
 
 def very_close(A,B,tol=0.000001):
     ''' Check that the two firs parameters are lists of equal length 
@@ -36,8 +35,24 @@ def very_close(A,B,tol=0.000001):
     return True 
 #very_close_lists(mapcos(sc.parallelize(range(3))),[1.0, 0.5403, -0.4161])
 
-
-
+def TestNumber(data, func_student, corAns, corType):
+    studentAns = func_student(data)
+    
+    print "Input: " + str( data.collect() )
+    print "Correct Output: " + str(corAns)
+    
+    try: assert( type(studentAns) == corType )
+    except AssertionError as e:
+        print "\nError: Incorrect return type. The return type of your function should be: " + corType
+        return False
+    
+    try: assert( very_close([studentAns],[corAns]) )
+    except AssertionError as e:
+        print "\nError: Function returned incorrect output"
+        print "Your Output: ", studentAns
+        return False
+    print "Great Job!"
+    return False
 
 def TestRDD( data, func_student, corAns, corType, isNum=True ):
     initDebugStr = data.toDebugString()
@@ -69,13 +84,3 @@ def TestRDD( data, func_student, corAns, corType, isNum=True ):
     
     print "Great Job!"
     return True
-
-
-
-
-
-
-
-
-
-
