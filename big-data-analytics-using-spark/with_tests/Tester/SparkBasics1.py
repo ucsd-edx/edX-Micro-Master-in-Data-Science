@@ -65,18 +65,25 @@ def exercise4(pickleFile, func_student, sc):
         print ""
 
 
-def exercise5(pickleFile, func_student, sc):
+        
+        
+        
+
+def exercise5(pickleFile, func, sc):  
     f = open( pickleFile )
     data = pickle.load(f)
     f.close()
+        
+    inputs = [ sc.parallelize([[15,20],[21,14],[18,4,20]]),
+               sc.parallelize([[3,4,5,-3,19],[19.1],[7,-11]]),
+               sc.parallelize([[-3.2,-3.233,-3.9],[-4],[-3,-5]]) ]
     
-    inputs = [ sc.parallelize(["Spring quarter", "Learning spark basics", "Big data analytics with Spark"]),
-               sc.parallelize(["Do not go gentle", "into that good night", "old age should burn and rave"]),
-               sc.parallelize(["do","I dare disturb","the universe","there will be time there will be","time"]) ]
-
+    def func5(A):
+        return A.reduce(func)
     for input,case in zip( inputs, data['ex5'] ):
-        TestList( data=input, func_student=func_student, corAns=case[0], corType=case[1], isNum=False )
+        TestList( data=input, func_student=func5, corAns=case[0], corType=case[1], isNum=True  ) 
         print ""
+
 
         
         

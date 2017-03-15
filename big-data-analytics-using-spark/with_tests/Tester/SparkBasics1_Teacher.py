@@ -43,28 +43,37 @@ def exercise3(testPath, func, sc):
         
         
 ###   Exercise 4   ###
-def mapwords2(mapwords):
+def reducewords(mapwords):
     return mapwords.reduce(lambda x,y: x+" "+y)
 def exercise4(testPath, func, sc): 
     inputs = [ sc.parallelize(["ah", "ah ah ah", "ha ai ifo aoisdmf"]),
               sc.parallelize(["asdio", "i", "asdfasd","aasdf"]),
               sc.parallelize(["do asdnj aksdo adsof aos asod oasdf  mkmasdkf maso asdf okm"]) ]
     for input in inputs:
-        TestList( data=input, func_student=func, corAns=mapwords2(mapwords(input)), 
-                   corType=type(mapwords2(mapwords(input))), isNum=False )
+        TestList( data=input, func_student=func, corAns=reducewords(input), 
+                   corType=type(reducewords(input)), isNum=False )
         print ""
 
 
 
 ###   Exercise 5   ###
-def getMax2(A): 
-    return A.reduce(lambda x,y: [max(x+y)])
 def exercise5(testPath, func, sc):  
-    inputs = [ sc.parallelize([[3,4],[2,1],[7,9,9.01]]),
-               sc.parallelize([[3,4,4,3,2,4,6,-44,.005],[20],[0,-5]]),
-               sc.parallelize([[-3.2,-3.233,-3.1,-3.9],[-4],[-2,-5]]) ]
+    inputs = [ sc.parallelize([[3,4],[2,1],[7,9]]),
+               sc.parallelize([[-222],[-10,-33],[0,-5]]),
+               sc.parallelize([[3.2,3.3,3.1,3.9],[-3.95],[3.4,3.7]]) ]
+    
+    def maxFunc(x,y):
+        return [max(x+y)]
+    def func_teacher(A):
+        return A.reduce(lambda x,y: [max(x+y)])
+    def func_student(A):
+        return A.reduce(func)
+    
     for input in inputs:
-        TestList( data=input, func_student=func, corAns=getMax2(input), corType=type(getMax2(input)), isNum=False ) 
+        corAns  = func_teacher(input)
+        corType = type(func_teacher(input))
+        
+        TestList( data=input, func_student=func_student, corAns=corAns, corType=corType, isNum=True ) 
         print ""
 
 
