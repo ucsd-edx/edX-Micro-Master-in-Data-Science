@@ -1,2 +1,0 @@
-/data/tweets
-/data/election272
