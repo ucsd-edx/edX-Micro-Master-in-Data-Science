@@ -1,46 +1,36 @@
 import numpy as np
 from YearPlotter import YearPlotter
+from Eigen_decomp import Eigen_decomp
 import matplotlib.pyplot as plt
 from ipywidgets import interact, interactive, fixed, interact_manual
 import ipywidgets as widgets
 
+def compute_var(vector):
+    v=np.array(np.nan_to_num(vector),dtype=np.float64)
+    return np.dot(v,v)
+ 
 class recon_plot:
     """A class for creating an interactive demonstration of approximating 
     a function with an orthonormal set of function"""
-    def __init__(self,x,f,mean,v,year_axis=False,labels=None):
-        """ Initialize the widget
-
-        :param x: defines the x locations
-        :param f: the function to be approximated
-        :param mean: The initial approximation (the mean)
-        :param v: a list of numpy.arrays that are the eigenvectors
+    def __init__(self,eigen_decomp,year_axis=False):
+        """ 
+        Initialize the plot widget
+        :param: eigen_decomp: An Eigen_Decomp object
         :param: year_axis: set to true if X axis should correspond to the months of the year.
-        :returns: None
+
         """
-        error_header='recon_plot error:\n'
-        err=error_header
-        # Todo: test parameters for type and orthonormality.
-        #if type(v) != list:
-        #    err+='recon_plot: type of parameter v is'+)
-        self.v=v
-        self.x=x
-        self.mean=mean
-        self.U=np.vstack(v)
-        self.f=f
-        self.startup_flag=True
-        self.C=np.dot(self.U,np.nan_to_num(f)-mean)
-        #print 'nan=',sum(isnan(f))
-        self.n,self.m=np.shape(self.U)
-        self.coeff={'c'+str(i):self.C[i] for i in range(len(self.C))} 
-        #print self.coeff
-            
+        self.eigen_decomp=eigen_decomp
+        #self.C=eigen_decomp.C
+        #self.coeff=eigen_decomp.coeff
+        #self.mean=eigen_decomp.mean
+        
         self.year_axis=year_axis
         self.yearPlotter=None
         if year_axis:
             self.yearPlotter=YearPlotter()
-        self.plot_combination(**self.coeff)
+        self.plot_combination(**self.eigen_decomp.coeff)
         return None
-        
+
     def get_widgets(self):
         """return the slider widget that are to be used
 
@@ -49,10 +39,10 @@ class recon_plot:
 
         :todo: make the sliders smaller: http://ipywidgets.readthedocs.io/en/latest/examples/Widget%20Styling.html
         """
-        coeff=self.C
+        coeff=self.eigen_decomp.C
         widge_dict={}
         widge_list=[]
-        for i in range(self.n):
+        for i in range(self.eigen_decomp.n):
             if coeff[i]>0:
                 r=[0,coeff[i]*2]
             else:
@@ -64,14 +54,11 @@ class recon_plot:
 
         return widge_list,widge_dict
 
-    def get_C(self):
-        return self.C
-    
     def plot(self,y,label=''):
         if self.year_axis:
             self.yearPlotter.plot(y,self.fig,self.ax,label=label)
         else:
-            self.ax.plot(self.x,y,label=label);
+            self.ax.plot(self.eigen_decomp.x,y,label=label);
 
     def plot_combination(self,**coeff):
         """the plotting function that is called by `interactive`
@@ -79,19 +66,17 @@ class recon_plot:
 
         :returns: None
         """
-        if self.startup_flag:
-            self.startup_flag=False
-            
-        self.A=self.mean
+        
+        A=self.eigen_decomp.mean
         self.fig=plt.figure(figsize=(8,6))
         self.ax=self.fig.add_axes([0,0,1,1])
-        self.plot(self.A,label='mean')
+        self.plot(A,label='mean')
 
-        for i in range(self.n):
-            g=self.v[i]*coeff['c'+str(i)]
-            self.A=self.A+g
-            self.plot(self.A,label='c'+str(i))
-        self.plot(self.f,label='target')
+        for i in range(self.eigen_decomp.n):
+            g=self.eigen_decomp.v[i]*coeff['c'+str(i)]
+            A=A+g
+            self.plot(A,label='c'+str(i))
+        self.plot(self.eigen_decomp.f,label='target')
         self.ax.grid(figure=self.fig)        
         self.ax.legend()
         return None

@@ -8,10 +8,17 @@ class YearPlotter:
         self.monthsFmt = DateFormatter("%b")
         self.months = MonthLocator(range(1, 13), bymonthday=1, interval=1)
 
-    def plot(self,T,fig,ax,label='',title=None):
-        if shape(T)[0] != 365:
+    def plot(self,T,fig,ax,label='',labels=None,title=None):
+        shp=shape(T)
+        if shp[0] != 365:
             raise ValueError("First dimension of T should be 365. Shape(T)="+str(shape(T)))
-        ax.plot(self.dates,T,label=label);
+        if len(shp)==1:
+            ax.plot(self.dates,T,label=label);
+        else:
+            if labels is None:
+                labels=[str(i) for i in range(shp[1])]
+            for i in range(shp[1]):
+                ax.plot(self.dates,T[:,i],label=labels[i])
         ax.xaxis.set_major_locator(self.months)
         ax.xaxis.set_major_formatter(self.monthsFmt)
         if not title is None:
@@ -19,4 +26,5 @@ class YearPlotter:
         # rotate and align the tick labels so they look better
         fig.autofmt_xdate()
         ax.grid()
+        ax.legend()
         
