@@ -6,10 +6,12 @@
 
 ## Some resources for pyspark
 
+ * [Mastering Apache Spark](https://jaceklaskowski.gitbooks.io/mastering-apache-spark/) by Jacek Laskowski
  * [A spark Dataframe Cheat-sheet](https://gist.github.com/evenv/b4d5f3054d7260e6c3d3)
  * The new abstractions in Spark2.0 are dataframes and sparksession: [introduction](http://spark.apache.org/docs/latest/sql-programming-guide.html#datasets-and-dataframes)  
  Supposedly, RDD's are demoted to "low level API"
  * [Dataframes API](http://spark.apache.org/docs/latest/api/python/pyspark.sql.html?highlight=dataframe#pyspark.sql.DataFrame)
+
  
  ## AWS CLI (Command line interface)
  * On mac, the best way to install is with `brew install awscli`
