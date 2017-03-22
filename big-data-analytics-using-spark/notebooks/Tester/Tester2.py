@@ -84,18 +84,17 @@ def TestRDDStr2(data, func_student, corAns, corType):
 
 def TestRDDStr(data, func_student, corAns, corType,twoInputs=False):
     TestRDD( data, func_student, corAns, corType, isNum=False)
-
-def TestRDD( data, func_student, corAns, corType, isNum=True,twoInputs=False ):
+    
+def TestRDDK(data, func_student, corAns, corType,takeK):
+    TestRDD( data, func_student, corAns, corType, isNum=False, takeK=takeK)
+    
+def TestRDD( data, func_student, corAns, corType, isNum=True,twoInputs=False, takeK=0):
     if twoInputs:
         initDebugStr = data[0].toDebugString()
         studentRDD = func_student(data[0], data[1])
-        print "Input: " + str( data[0].collect() )
-        print "Input: " + str( data[1].collect() )
     else:
         initDebugStr = data.toDebugString()
         studentRDD = func_student(data)
-        print "Input: " + str( data.collect() )
-    
     
     print "Correct Output: " + str(corAns)
     
@@ -107,17 +106,24 @@ def TestRDD( data, func_student, corAns, corType, isNum=True,twoInputs=False ):
     newDebugStr  = studentRDD.toDebugString()
     initDebugStr = ' '.join(initDebugStr.split(' ')[1:])
 
-    try: assert( initDebugStr in newDebugStr )
+    try: assert( initDebugStr.replace(' ','') in newDebugStr.replace(' ','') )
     except AssertionError as e:
         print "\nError: Did you use only Spark commands? Original RDD is not found in execution path."
         return False
 
     try:
-        if isNum:  assert( very_close(studentRDD.collect(),corAns))
-        else:      assert(studentRDD.collect() == corAns)
+        if takeK == 0:
+            if isNum:  assert( very_close(studentRDD.collect(),corAns))
+            else:      assert(studentRDD.collect() == corAns)
+        else:
+            if isNum:  assert( very_close(studentRDD.take(takeK),corAns))
+            else:      assert(studentRDD.take(takeK) == corAns)
     except AssertionError as e:
         print "\nError: Function returned incorrect output"
-        print "Your Output: ",studentRDD.collect()
+        if takeK == 0:
+            print "Your Output: ",studentRDD.collect()
+        else:
+            print "Your Output: ",studentRDD.take(takeK)
         return False
     
     print "Great Job!"
