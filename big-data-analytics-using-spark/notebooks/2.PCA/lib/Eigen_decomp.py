@@ -44,11 +44,13 @@ class Eigen_decomp:
         for i in range(self.n):
             g=self.v[i]*self.coeff['c'+str(i)]
             residual=residual-g
-            residual_var[i+1]=np.dot(residual,residual)
+            residual_var[i+1]=compute_var(residual)
         percent_explained=np.zeros(self.n+1)
         percent_explained[0]=total_variance-residual_var[0]  # percent explained by mean
         for i in range(self.n):
             percent_explained[i+1]=residual_var[i]-residual_var[i+1]
         return (('total_var',total_variance),
                 ('residual var after mean, eig1,eig2,...',residual_var/total_variance),
-                ('reduction in var for mean,eig1,eig2,...',percent_explained/total_variance))
+                ('reduction in var for mean,eig1,eig2,...',percent_explained/total_variance),
+                ('eigen-vector coefficients',self.C)
+        )

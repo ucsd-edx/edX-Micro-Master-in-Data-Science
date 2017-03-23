@@ -5,14 +5,10 @@ import matplotlib.pyplot as plt
 from ipywidgets import interact, interactive, fixed, interact_manual
 import ipywidgets as widgets
 
-def compute_var(vector):
-    v=np.array(np.nan_to_num(vector),dtype=np.float64)
-    return np.dot(v,v)
- 
 class recon_plot:
     """A class for creating an interactive demonstration of approximating 
     a function with an orthonormal set of function"""
-    def __init__(self,eigen_decomp,year_axis=False):
+    def __init__(self,eigen_decomp,year_axis=False,fig=None,ax=None,interactive=True,Title=None):
         """ 
         Initialize the plot widget
         :param: eigen_decomp: An Eigen_Decomp object
@@ -20,9 +16,10 @@ class recon_plot:
 
         """
         self.eigen_decomp=eigen_decomp
-        #self.C=eigen_decomp.C
-        #self.coeff=eigen_decomp.coeff
-        #self.mean=eigen_decomp.mean
+        self.interactive=interactive
+        self.fig=fig
+        self.ax=ax
+        self.Title=Title
         
         self.year_axis=year_axis
         self.yearPlotter=None
@@ -67,9 +64,11 @@ class recon_plot:
         :returns: None
         """
         
+        if self.interactive or self.fig is None:
+            self.fig=plt.figure(figsize=(8,6))
+            self.ax=self.fig.add_axes([0,0,1,1])
+
         A=self.eigen_decomp.mean
-        self.fig=plt.figure(figsize=(8,6))
-        self.ax=self.fig.add_axes([0,0,1,1])
         self.plot(A,label='mean')
 
         for i in range(self.eigen_decomp.n):
@@ -79,5 +78,6 @@ class recon_plot:
         self.plot(self.eigen_decomp.f,label='target')
         self.ax.grid(figure=self.fig)        
         self.ax.legend()
+        self.ax.set_title(self.Title)
         return None
     
