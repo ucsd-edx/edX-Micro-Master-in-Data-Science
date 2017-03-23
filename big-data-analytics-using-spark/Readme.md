@@ -4,6 +4,19 @@
 * To install Spark on your computer, for the directions here: https://mas-dse.github.io/DSE230/installation/
 * To set up Reveal, do `source Reveal/setup.sh`
 
+## Directory structure
+
+For each of the 5 parts (spark basics, PCA, ...)
+* Root: contains the output-cleared master notebooks (MASTER_...)
+   * lib: contains python code for performing complex things.
+   * SLides: the html files and the pdf/png files generated for the class. Also PPT files.
+   * public: this subdirectory is released to the public github available to the students.
+     Contains the redacted notebooks. 
+      * lib: contains libraries and redacted libraries.
+      * tests: includes .py and pickle files for the tests
+   * grader: Contains the full tests for the grader
+             contains just python files.
+
 ## Some resources for pyspark
 
  * [Mastering Apache Spark](https://jaceklaskowski.gitbooks.io/mastering-apache-spark/) by Jacek Laskowski
