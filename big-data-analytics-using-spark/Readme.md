@@ -1,6 +1,7 @@
 ## Installation directions for course staff.
 
 * To install jupyter on your computer, follow the directions here: https://mas-dse.github.io/startup/
+  * To pip install a bunch of nbextensions, together with a configurator for those extensions, check out: https://github.com/ipython-contrib/jupyter_contrib_nbextensions
 * To install Spark on your computer, for the directions here: https://mas-dse.github.io/DSE230/installation/
 * To set up Reveal, do `source Reveal/setup.sh`
 
