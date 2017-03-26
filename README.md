@@ -20,3 +20,4 @@ run `git clone --recursive https://github.com/ucsd-edx/edX-Micro-Master-in-Data-
   * To pip install a bunch of nbextensions, together with a configurator for those extensions, check out: https://github.com/ipython-contrib/jupyter_contrib_nbextensions
 * To install Spark on your computer, for the directions here: https://mas-dse.github.io/DSE230/installation/
 ## nbgrader
+Matt and Shweta add description here.
