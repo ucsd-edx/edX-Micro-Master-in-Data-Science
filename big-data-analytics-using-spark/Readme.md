@@ -19,6 +19,7 @@ For each of the 5 parts (spark basics, PCA, ...)
 
 ## Some resources for pyspark
 
+ * [An up-to-date documentation of the spark API](http://takwatanabe.me/pyspark/generated/pyspark.html)
  * [Mastering Apache Spark](https://jaceklaskowski.gitbooks.io/mastering-apache-spark/) by Jacek Laskowski
  * [A spark Dataframe Cheat-sheet](https://gist.github.com/evenv/b4d5f3054d7260e6c3d3)
  * The new abstractions in Spark2.0 are dataframes and sparksession: [introduction](http://spark.apache.org/docs/latest/sql-programming-guide.html#datasets-and-dataframes)  
