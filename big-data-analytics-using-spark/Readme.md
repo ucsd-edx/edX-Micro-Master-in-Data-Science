@@ -1,6 +1,7 @@
 ## Installation directions for course staff.
 
 * To install jupyter on your computer, follow the directions here: https://mas-dse.github.io/startup/
+  * To pip install a bunch of nbextensions, together with a configurator for those extensions, check out: https://github.com/ipython-contrib/jupyter_contrib_nbextensions
 * To install Spark on your computer, for the directions here: https://mas-dse.github.io/DSE230/installation/
 * To set up Reveal, do `source Reveal/setup.sh`
 
@@ -19,6 +20,7 @@ For each of the 5 parts (spark basics, PCA, ...)
 
 ## Some resources for pyspark
 
+ * [An up-to-date documentation of the spark API](http://takwatanabe.me/pyspark/generated/pyspark.html)
  * [Mastering Apache Spark](https://jaceklaskowski.gitbooks.io/mastering-apache-spark/) by Jacek Laskowski
  * [A spark Dataframe Cheat-sheet](https://gist.github.com/evenv/b4d5f3054d7260e6c3d3)
  * The new abstractions in Spark2.0 are dataframes and sparksession: [introduction](http://spark.apache.org/docs/latest/sql-programming-guide.html#datasets-and-dataframes)  
