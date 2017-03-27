@@ -8,11 +8,15 @@ import ipywidgets as widgets
 class recon_plot:
     """A class for creating an interactive demonstration of approximating 
     a function with an orthonormal set of function"""
-    def __init__(self,eigen_decomp,year_axis=False,fig=None,ax=None,interactive=True,Title=None):
+    def __init__(self,eigen_decomp,year_axis=False,fig=None,ax=None,interactive=False,Title=None):
         """ 
-        Initialize the plot widget
-        :param: eigen_decomp: An Eigen_Decomp object
-        :param: year_axis: set to true if X axis should correspond to the months of the year.
+
+        :param eigen_decomp: An Eigen_decomp object that encapsulate the numerical calculations for the decomposition.
+        :param year_axis: If True: assumes vectors of length 365 and plots month names on X axis
+        :param fig: The fig environment for plotting
+        :param ax: The axis environment for plotting (used for generating multi-plots)
+        :param interactive: Set to True if you want to use the plot in an interactive reconstruction Widget.
+        :param Title: A string to be used as the title of this plot.
 
         """
         self.eigen_decomp=eigen_decomp
@@ -58,10 +62,13 @@ class recon_plot:
             self.ax.plot(self.eigen_decomp.x,y,label=label);
 
     def plot_combination(self,**coeff):
-        """the plotting function that is called by `interactive`
-           generates the plot according the the parameters set by the sliders
+        """
+        the plotting function that performs the actual rendering. It is called either directly (non-interactive) or by 
+        `interactive` when used in a widget.
 
+        :coeff: a dictionary that contains the name and value of each coefficient
         :returns: None
+
         """
         
         if self.interactive or self.fig is None:
@@ -74,7 +81,7 @@ class recon_plot:
         for i in range(self.eigen_decomp.n):
             g=self.eigen_decomp.v[i]*coeff['c'+str(i)]
             A=A+g
-            self.plot(A,label='c'+str(i))
+            self.plot(A,label='cumul '+str(i))
         self.plot(self.eigen_decomp.f,label='target')
         self.ax.grid(figure=self.fig)        
         self.ax.legend()

@@ -6,7 +6,7 @@ class YearPlotter:
         start=365*1+1
         self.dates=[date.fromordinal(i) for i in range(start,start+365)]
         self.monthsFmt = DateFormatter("%b")
-        self.months = MonthLocator(range(1, 13), bymonthday=1, interval=1)
+        self.months = MonthLocator(range(1, 13), bymonthday=1, interval=3)
         #self.i=0
 
     def plot(self,T,fig,ax,label='',labels=None,title=None):
