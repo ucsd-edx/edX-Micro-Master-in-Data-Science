@@ -9,11 +9,11 @@ def tee(line):
 def create_file(n,m,filename='DataBlock'):
     """Create a scratch file of a given size
 
-    :param n: 
-    :param m: 
-    :param filename: 
-    :returns: 
-    :rtype: 
+    :param n: size of block
+    :param m: number of blocks
+    :param filename: desired filename
+    :returns: time to allocate block of size n, time to write a file of size m*n
+    :rtype: tuple
 
     """
     t1=time.time()

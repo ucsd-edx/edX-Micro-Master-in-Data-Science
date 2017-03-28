@@ -3,14 +3,17 @@ from numpy.random import rand
 import time
 
 def measureRandomAccess(size,filename='',k=100000):
-    """ Measure the distribution of random accesses in computer memory.
-    size=size of memory block.
-    filename= a file that is used as an external buffer. If filename=='' then everything is done in memory.
-    k = number of times that the experiment is repeated.
-    output:
-    mean = the mean of T
-    std = the std of T
-    T = a list the contains the times of all k experiments
+    """Measure the distribution of random accesses in computer memory.
+
+    :param size: size of memory block.
+    :param filename: a file that is used as an external buffer. If filename=='' then everything is done in memory.
+    :param k: number of times that the experiment is repeated.
+    :returns: (mean,std,T):
+              mean = the mean of T
+              std = the std of T
+              T = a list the contains the times of all k experiments
+    :rtype: tuple
+
     """
     # Prepare buffer.
     if filename == '':
