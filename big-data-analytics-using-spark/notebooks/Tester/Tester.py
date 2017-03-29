@@ -1,6 +1,6 @@
 import pickle
 
-def GenPickle(func_teacher, inputs, filename, ex, isRDD=True ):
+def GenPickle(sc, func_teacher, inputs, filename, ex, isRDD=True,twoInputs=False ):
     try:
         f = open(filename,'r')
         toPickle = pickle.load(f)
@@ -10,14 +10,18 @@ def GenPickle(func_teacher, inputs, filename, ex, isRDD=True ):
     
     exData = []
     for input in inputs:
-        tmpAns = func_teacher(input)
+        if twoInputs:
+            tmpAns = func_teacher(sc.parallelize(input[0]),sc.parallelize(input[1]))
+        else:
+            i = sc.parallelize(input)
+            tmpAns = func_teacher(i)
         if isRDD:
             exData.append([ tmpAns.collect()  , 
                       type(tmpAns) ]) 
         else:
             exData.append([ tmpAns, 
                       type(tmpAns) ]) 
-    toPickle[ex] = exData
+    toPickle[ex] = {'inputs': inputs, 'outputs':exData}
     
     f = open(filename,'w')
     pickle.dump(toPickle,f)
@@ -34,14 +38,6 @@ def very_close(A,B,tol=0.000001):
         if abs(a-b)>tol:
             return False
     return True 
-
-
-
-
-
-
-
-
 
 def TestList(data, func_student, corAns, corType, isNum=True):
     studentAns = func_student(data)
@@ -64,8 +60,6 @@ def TestList(data, func_student, corAns, corType, isNum=True):
     print "Great Job!"
     return False
 
-
-
 def TestNumber(data, func_student, corAns, corType):
     studentAns = func_student(data)
     
@@ -85,13 +79,23 @@ def TestNumber(data, func_student, corAns, corType):
     print "Great Job!"
     return False
 
+def TestRDDStr2(data, func_student, corAns, corType):
+    TestRDD( data, func_student, corAns, corType, isNum=False,twoInputs=True)
 
-
-def TestRDD( data, func_student, corAns, corType, isNum=True ):
-    initDebugStr = data.toDebugString()
-    studentRDD = func_student(data)
+def TestRDDStr(data, func_student, corAns, corType,twoInputs=False):
+    TestRDD( data, func_student, corAns, corType, isNum=False)
     
-    print "Input: " + str( data.collect() )
+def TestRDDK(data, func_student, corAns, corType,takeK):
+    TestRDD( data, func_student, corAns, corType, isNum=False, takeK=takeK)
+    
+def TestRDD( data, func_student, corAns, corType, isNum=True,twoInputs=False, takeK=0):
+    if twoInputs:
+        initDebugStr = data[0].toDebugString()
+        studentRDD = func_student(data[0], data[1])
+    else:
+        initDebugStr = data.toDebugString()
+        studentRDD = func_student(data)
+    
     print "Correct Output: " + str(corAns)
     
     try: assert( type(studentRDD) == corType )
@@ -102,18 +106,43 @@ def TestRDD( data, func_student, corAns, corType, isNum=True ):
     newDebugStr  = studentRDD.toDebugString()
     initDebugStr = ' '.join(initDebugStr.split(' ')[1:])
 
-    try: assert( initDebugStr in newDebugStr )
+    try: assert( initDebugStr.replace(' ','') in newDebugStr.replace(' ','') )
     except AssertionError as e:
         print "\nError: Did you use only Spark commands? Original RDD is not found in execution path."
         return False
 
     try:
-        if isNum:  assert( very_close(studentRDD.collect(),corAns))
-        else:      assert(studentRDD.collect() == corAns)
+        if takeK == 0:
+            if isNum:  assert( very_close(studentRDD.collect(),corAns))
+            else:      assert(studentRDD.collect() == corAns)
+        else:
+            if isNum:  assert( very_close(studentRDD.take(takeK),corAns))
+            else:      assert(studentRDD.take(takeK) == corAns)
     except AssertionError as e:
         print "\nError: Function returned incorrect output"
-        print "Your Output: ",studentRDD.collect()
+        if takeK == 0:
+            print "Your Output: ",studentRDD.collect()
+        else:
+            print "Your Output: ",studentRDD.take(takeK)
         return False
     
     print "Great Job!"
     return True
+
+def RddReduce(func):
+    return lambda RDD: RDD.reduce(func)
+
+def getPickledData(pickleFileName):
+    f = open( pickleFileName )
+    data = pickle.load(f)
+    f.close()
+    return data
+
+def checkExercise(inputs, outputs, func_student, TestFunction, exerciseNumber, sc, twoInputs=False):
+    for input,case in zip( inputs, outputs ):
+        if twoInputs:
+            input = [sc.parallelize(input[0]), sc.parallelize(input[1])]
+        else:
+            input = sc.parallelize(input)
+        TestFunction( data=input, func_student=func_student, corAns=case[0], corType=case[1]  )
+        print 
