@@ -14,7 +14,7 @@ For each of the 5 parts (spark basics, PCA, ...)
 * Subdirectories:
    * lib: contains python code for performing complex things.
    * Lib_redacted: contains redacted code that the students are asked to complete.
-   * SLides: the html files and the pdf/png files generated for the class.
+   * slides: the html files and the pdf/png files generated for the class.
    * tests: includes .py and pickle files for the tests that are part of the HW.
    * grader: Contains the full tests for the grader
              contains just python files.
