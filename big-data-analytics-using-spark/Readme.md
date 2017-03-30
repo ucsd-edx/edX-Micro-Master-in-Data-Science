@@ -9,8 +9,8 @@
 
 For each of the 5 parts (spark basics, PCA, ...)
 * Root: Contains all of the .ipynb files. There are two flavors for each notebook:
-   1. **<name>_MASTER.ipynb** contains the output-cleared master notebooks that contain the solutions to the excercises. 
-   2. **<name>.ipynb** redacted notebooks fully executed and with all outputs (other than excercises) for the students.
+   1. **name_MASTER.ipynb** contains the output-cleared master notebooks that contain the solutions to the excercises. 
+   2. **name.ipynb** redacted notebooks fully executed and with all outputs (other than excercises) for the students.
 * Subdirectories:
    * lib: contains python code for performing complex things.
    * Lib_redacted: contains redacted code that the students are asked to complete.
