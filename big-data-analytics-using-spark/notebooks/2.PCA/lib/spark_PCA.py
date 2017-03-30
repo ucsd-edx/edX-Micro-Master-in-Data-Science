@@ -18,7 +18,7 @@ def sumWithNan(M1,M2):
 def computeCov(RDDin):
     """computeCov recieves as input an RDD of np arrays, all of the same length, 
     and computes the covariance matrix for that set of vectors"""
-    RDD=RDDin.map(lambda v:np.insert(v,0,1)) # insert a 1 at the beginning of each vector so that the same 
+    RDD=RDDin.map(lambda v:np.array(np.insert(v,0,1),dtype=np.float64)) # insert a 1 at the beginning of each vector so that the same 
                                            #calculation also yields the mean vector
     OuterRDD=RDD.map(outerProduct)   # separating the map and the reduce does not matter because of Spark uses lazy execution.
     (S,N)=OuterRDD.reduce(sumWithNan)

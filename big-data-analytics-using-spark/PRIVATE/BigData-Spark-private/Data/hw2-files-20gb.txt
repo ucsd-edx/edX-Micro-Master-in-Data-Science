@@ -1,5 +1,0 @@
-/data/election272
-/data/election273
-/data/election274
-/data/election275
-/data/election276
