@@ -20,4 +20,3 @@ def binary_search(array, target):
         elif target < val:
             upper = x
     return lower
-binary_search([0,0,0,1,1,1],1)
