@@ -1,5 +1,6 @@
 import pickle
 
+#      ***   WE MUST CHANGE VERY_CLOSE FUNCTION   ***
 def GenPickle(sc, func_teacher, inputs, filename, ex, isRDD=True,twoInputs=False ):
     try:
         f = open(filename,'r')
@@ -138,12 +139,6 @@ def getPickledData(pickleFileName):
     f.close()
     return data
 
-def checkExerciseFromPickle(pickleFile, func_student, TestFunction, exerciseNumber, sc, twoInputs=False):
-    data = getPickledData(pickleFile)
-    inputs = data[exerciseNumber]['inputs']
-    outputs = data[exerciseNumber]['outputs']
-    checkExercise(inputs, outputs, func_student, TestFunction, exerciseNumber, sc,twoInputs=twoInputs)
-
 def checkExercise(inputs, outputs, func_student, TestFunction, exerciseNumber, sc, twoInputs=False):
     for input,case in zip( inputs, outputs ):
         if twoInputs:
@@ -152,3 +147,27 @@ def checkExercise(inputs, outputs, func_student, TestFunction, exerciseNumber, s
             input = sc.parallelize(input)
         TestFunction( data=input, func_student=func_student, corAns=case[0], corType=case[1]  )
         print 
+
+def checkExerciseFromPickle(pickleFile, func_student, TestFunction, exerciseNumber, sc, twoInputs=False):
+    data = getPickledData(pickleFile)
+    inputs = data[exerciseNumber]['inputs']
+    outputs = data[exerciseNumber]['outputs']
+    checkExercise(inputs, outputs, func_student, TestFunction, exerciseNumber, sc,twoInputs=twoInputs)
+    
+        
+def checkExerciseCorrectAns(inputs, func_teacher, func_student, TestFunction, exerciseNumber, sc,
+                            twoInputs=False,isRDD=True):
+    outputs = []
+    for input in inputs:
+        if twoInputs:
+            tmpAns = func_teacher(sc.parallelize(input[0]), sc.parallelize(input[1]))
+        else:
+            tmpAns = func_teacher(sc.parallelize(input))
+        if isRDD:
+            ty = type(tmpAns)
+            tmpAns = tmpAns.collect()
+            outputs.append([tmpAns,ty])
+        else:
+            outputs.append([tmpAns, type(tmpAns)])
+    checkExercise(inputs, outputs, func_student, TestFunction, exerciseNumber, sc,twoInputs=twoInputs)
+    

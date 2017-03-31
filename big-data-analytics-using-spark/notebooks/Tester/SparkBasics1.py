@@ -1,42 +1,18 @@
 
 import pickle
 
-from Tester import TestRDD, TestNumber, TestList
+from Tester import *
 
 
-
-def exercise1(pickleFile, func_student, sc):
-    f = open( pickleFile )
-    data = pickle.load(f)
-    f.close()
-    
-    inputs= [ sc.parallelize(range(3)),
-              sc.parallelize(range(4,12)), 
-              sc.parallelize(range(-4,0))   ]
-    
-    for input,case in zip( inputs, data['ex1'] ):
-        TestRDD( data=input, func_student=func_student, corAns=case[0], corType=case[1]  )
-        print ""
-
-        
-
-def exercise2(pickleFile, func_student, sc):
-    f = open( pickleFile )
-    data = pickle.load(f)
-    f.close()
-    
-    inputs = [ sc.parallelize(["Spring quarter", "Learning spark basics", "Big data analytics with Spark"]),
-               sc.parallelize(["Do not go gentle", "into that good night", "old age should burn and rave"]),
-               sc.parallelize(["do","I dare disturb","the universe","there will be time there will be","time"]) ]
-    
-    for input,case in zip( inputs, data['ex2'] ):
-        TestRDD( data=input, func_student=func_student, corAns=case[0], corType=case[1], isNum=False  )
-        print ""
+def exercise1_1(pickleFile, func_student, sc):
+    checkExerciseFromPickle(pickleFile, func_student,TestRDD,'ex1_1',sc)
+def exercise1_2(pickleFile, func_student, sc):
+    checkExerciseFromPickle(pickleFile, func_student,TestRDDStr,'ex1_2',sc)
 
     
     
     
-def exercise3(pickleFile, func_student, sc):
+def exercise1_3(pickleFile, func_student, sc):
     f = open( pickleFile )
     data = pickle.load(f)
     f.close()

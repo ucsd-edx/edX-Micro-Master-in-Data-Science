@@ -8,13 +8,14 @@
 ## Directory structure
 
 For each of the 5 parts (spark basics, PCA, ...)
-* Root: contains the output-cleared master notebooks (MASTER_...)
+* Root: Contains all of the .ipynb files. There are two flavors for each notebook:
+   1. **name_MASTER.ipynb** contains the output-cleared master notebooks that contain the solutions to the excercises. 
+   2. **name.ipynb** redacted notebooks fully executed and with all outputs (other than excercises) for the students.
+* Subdirectories:
    * lib: contains python code for performing complex things.
-   * SLides: the html files and the pdf/png files generated for the class. Also PPT files.
-   * public: this subdirectory is released to the public github available to the students.
-     Contains the redacted notebooks. 
-      * lib: contains libraries and redacted libraries.
-      * tests: includes .py and pickle files for the tests
+   * Lib_redacted: contains redacted code that the students are asked to complete.
+   * slides: the html files and the pdf/png files generated for the class.
+   * tests: includes .py and pickle files for the tests that are part of the HW.
    * grader: Contains the full tests for the grader
              contains just python files.
 

@@ -1,33 +1,34 @@
 import numpy as np
 
-from Tester import TestRDD, TestNumber, TestList
+from Tester import *
+
 
 
 ###   Exercise 1   ###
-def mapcos(A):
+def func_ex1_1(A):
     return A.map(np.cos)
-def exercise1(testPath, func, sc):    
-    RDDs=[ sc.parallelize([np.pi,0,100000,np.pi*10,np.log(44),-49.4902]), 
-           sc.parallelize(range(39,45)) ]
-    
-    for input in RDDs:
-        TestRDD( data=input, func_student=func, corAns=mapcos(input).collect(), corType=type(mapcos(input))  )
-        print ""
-
+def exercise1_1(pickleFile, func_student, sc):    
+    inputs= [ [np.pi,0,100000,np.pi*10,np.log(44),-49.4902],  range(39,45) ]
+    checkExerciseCorrectAns(inputs, func_ex1_1, func_student, TestRDD, 'ex1_1', sc)    
+def gen_exercise1_1(pickleFile, sc):
+    inputs= [range(3), range(4,12), range(-4,0) ]
+    GenPickle(sc, func_ex1_1, inputs, pickleFile, "ex1_1" )
     
     
 ###   Exercise 2   ###
-def mapwords(stringRDD):
+def func_ex1_2(stringRDD):
     return stringRDD.map(lambda x: x.split() )
-def exercise2(testPath, func, sc):    
-    inputs = [ sc.parallelize(["ah", "ah ah ah", "ha ai ifo aoisdmf"]),
-               sc.parallelize(["asdio", "i", "asdfasd","aasdf"]),
-               sc.parallelize(["do asdnj aksdo adsof aos asod oasdf  mkmasdkf maso asdf okm"]) ]
-    for input in inputs:
-        TestRDD( data=input, func_student=func, corAns=mapwords(input).collect(), corType=type(mapwords(input)), isNum=False )
-        print ""
+def exercise1_2(testPath, func_student, sc):    
+    inputs = [ ["ah", "ah ah ah", "ha ai ifo aoisdmf"],
+               ["asdio", "i", "asdfasd","aasdf"],
+               ["do asdnj aksdo adsof aos asod oasdf  mkmasdkf maso asdf okm"] ]
+    checkExerciseCorrectAns(inputs, func_ex1_2, func_student, TestRDDStr, 'ex1_2', sc)
+def gen_exercise1_2(pickleFile, sc):
+    inputs = [ ["Spring quarter", "Learning spark basics", "Big data analytics with Spark"],
+               ["Do not go gentle", "into that good night", "old age should burn and rave"],
+               ["do","I dare disturb","the universe","there will be time there will be","time"] ]
+    GenPickle(sc, func_ex1_2, inputs, pickleFile, "ex1_2" )
 
-        
         
 ###   Exercise 3   ###
 def getMax(C):
@@ -40,7 +41,6 @@ def exercise3(testPath, func, sc):
         TestNumber( data=input, func_student=func, corAns=getMax(input), corType=type(getMax(input)) )
         print ""
 
-        
         
 ###   Exercise 4   ###
 def reducewords(mapwords):

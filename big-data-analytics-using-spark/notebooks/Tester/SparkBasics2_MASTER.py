@@ -1,22 +1,6 @@
 import numpy as np
 from Tester import *
 
-def checkExerciseCorrectAns(inputs, func_teacher, func_student, TestFunction, exerciseNumber, sc,
-                            twoInputs=False,isRDD=True):
-    outputs = []
-    for input in inputs:
-        if twoInputs:
-            tmpAns = func_teacher(sc.parallelize(input[0]), sc.parallelize(input[1]))
-        else:
-            tmpAns = func_teacher(sc.parallelize(input))
-        if isRDD:
-            ty = type(tmpAns)
-            tmpAns = tmpAns.collect()
-            outputs.append([tmpAns,ty])
-        else:
-            outputs.append([tmpAns, type(tmpAns)])
-    checkExercise(inputs, outputs, func_student, TestFunction, exerciseNumber, sc,twoInputs=twoInputs)
-    
 def func_ex3_1(A):
     return A.map(max).reduce(lambda x,y:x+y)
 

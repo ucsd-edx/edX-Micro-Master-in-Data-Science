@@ -2,7 +2,6 @@ import pickle
 
 from Tester import *
 
-    
 def exercise3_1(pickleFile, func_student, sc):
     checkExerciseFromPickle(pickleFile, func_student,TestNumber,'ex3_1',sc)
 def exercise3_2(pickleFile, func_student, sc):
