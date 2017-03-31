@@ -1,12 +1,7 @@
 import pickle
 
-from Tester2 import *
+from Tester import *
 
-def checkExerciseFromPickle(pickleFile, func_student, TestFunction, exerciseNumber, sc, twoInputs=False):
-    data = getPickledData(pickleFile)
-    inputs = data[exerciseNumber]['inputs']
-    outputs = data[exerciseNumber]['outputs']
-    checkExercise(inputs, outputs, func_student, TestFunction, exerciseNumber, sc,twoInputs=twoInputs)
     
 def exercise3_1(pickleFile, func_student, sc):
     checkExerciseFromPickle(pickleFile, func_student,TestNumber,'ex3_1',sc)

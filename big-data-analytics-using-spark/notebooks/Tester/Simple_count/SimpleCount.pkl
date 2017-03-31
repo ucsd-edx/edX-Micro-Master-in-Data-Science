@@ -1,0 +1,681 @@
+(dp0
+S'ex0_4'
+p1
+(dp2
+S'inputs'
+p3
+(lp4
+(lp5
+(lp6
+S'coordinating conjunctions are useful for connecting sentences  but compound sentences often are overused '
+p7
+aS'while     coordinating conjunctions can indicate some type of relationship between the two independent clauses in the sentence  they sometimes do not indicate much of a relationship'
+p8
+aaI5
+aI2
+aasS'outputs'
+p9
+(lp10
+(lp11
+(lp12
+(S'coordinating conjunctions'
+p13
+I2
+tp14
+a(S'are useful'
+p15
+I1
+tp16
+a(S'between the'
+p17
+I1
+tp18
+a(S'but compound'
+p19
+I1
+tp20
+a(S'can indicate'
+p21
+I1
+tp22
+aac__builtin__
+list
+p23
+aassS'ex0_1'
+p24
+(dp25
+S'inputs'
+p26
+(lp27
+(lp28
+(lp29
+S'coordinating conjunctions are useful for connecting sentences  but compound sentences often are overused '
+p30
+aS'while     coordinating conjunctions can indicate some type of relationship between the two independent clauses in the sentence  they sometimes do not indicate much of a relationship'
+p31
+aaI2
+aasS'outputs'
+p32
+(lp33
+(lp34
+(lp35
+(lp36
+S'coordinating'
+p37
+aS'conjunctions'
+p38
+aa(lp39
+g38
+aS'are'
+p40
+aa(lp41
+g40
+aS'useful'
+p42
+aa(lp43
+g42
+aS'for'
+p44
+aa(lp45
+g44
+aS'connecting'
+p46
+aa(lp47
+g46
+aS'sentences'
+p48
+aa(lp49
+g48
+aS'but'
+p50
+aa(lp51
+g50
+aS'compound'
+p52
+aa(lp53
+g52
+aS'sentences'
+p54
+aa(lp55
+g54
+aS'often'
+p56
+aa(lp57
+g56
+aS'are'
+p58
+aa(lp59
+S'while'
+p60
+aS'coordinating'
+p61
+aa(lp62
+g61
+aS'conjunctions'
+p63
+aa(lp64
+g63
+aS'can'
+p65
+aa(lp66
+g65
+aS'indicate'
+p67
+aa(lp68
+g67
+aS'some'
+p69
+aa(lp70
+g69
+aS'type'
+p71
+aa(lp72
+g71
+aS'of'
+p73
+aa(lp74
+g73
+aS'relationship'
+p75
+aa(lp76
+g75
+aS'between'
+p77
+aa(lp78
+g77
+aS'the'
+p79
+aa(lp80
+g79
+aS'two'
+p81
+aa(lp82
+g81
+aS'independent'
+p83
+aa(lp84
+g83
+aS'clauses'
+p85
+aa(lp86
+g85
+aS'in'
+p87
+aa(lp88
+g87
+aS'the'
+p89
+aa(lp90
+g89
+aS'sentence'
+p91
+aa(lp92
+g91
+aS'they'
+p93
+aa(lp94
+g93
+aS'sometimes'
+p95
+aa(lp96
+g95
+aS'do'
+p97
+aa(lp98
+g97
+aS'not'
+p99
+aa(lp100
+g99
+aS'indicate'
+p101
+aa(lp102
+g101
+aS'much'
+p103
+aa(lp104
+g103
+aS'of'
+p105
+aa(lp106
+g105
+aS'a'
+p107
+aaag23
+aassS'ex0_3'
+p108
+(dp109
+S'inputs'
+p110
+(lp111
+(dp112
+S'sometimes do'
+p113
+I1
+sS'do not'
+p114
+I1
+sS'two independent'
+p115
+I1
+sS'conjunctions are'
+p116
+I1
+sS'useful for'
+p117
+I1
+sS'but compound'
+p118
+I1
+sS'connecting sentences'
+p119
+I1
+sS'indicate some'
+p120
+I1
+sS'compound sentences'
+p121
+I1
+sS'between the'
+p122
+I1
+sS'coordinating conjunctions'
+p123
+I2
+sS'clauses in'
+p124
+I1
+sS'are useful'
+p125
+I1
+sS'independent clauses'
+p126
+I1
+sS'not indicate'
+p127
+I1
+sS'the sentence'
+p128
+I1
+sS'often are'
+p129
+I1
+sS'much of'
+p130
+I1
+sS'relationship between'
+p131
+I1
+sS'type of'
+p132
+I1
+sS'conjunctions can'
+p133
+I1
+sS'of a'
+p134
+I1
+sS'some type'
+p135
+I1
+sS'sentences but'
+p136
+I1
+sS'indicate much'
+p137
+I1
+sS'in the'
+p138
+I1
+sS'sentence they'
+p139
+I1
+sS'while coordinating'
+p140
+I1
+sS'can indicate'
+p141
+I1
+sS'the two'
+p142
+I1
+sS'of relationship'
+p143
+I1
+sS'they sometimes'
+p144
+I1
+sS'for connecting'
+p145
+I1
+sS'sentences often'
+p146
+I1
+sasS'outputs'
+p147
+(lp148
+(lp149
+(lp150
+(g123
+I2
+tp151
+a(g125
+I1
+tp152
+a(g122
+I1
+tp153
+a(g118
+I1
+tp154
+a(g141
+I1
+tp155
+a(g124
+I1
+tp156
+a(g121
+I1
+tp157
+a(g116
+I1
+tp158
+a(g133
+I1
+tp159
+a(g119
+I1
+tp160
+a(g114
+I1
+tp161
+a(g145
+I1
+tp162
+a(g138
+I1
+tp163
+a(g126
+I1
+tp164
+a(g137
+I1
+tp165
+a(g120
+I1
+tp166
+a(g130
+I1
+tp167
+a(g127
+I1
+tp168
+a(g134
+I1
+tp169
+a(g143
+I1
+tp170
+a(g129
+I1
+tp171
+a(g131
+I1
+tp172
+a(g139
+I1
+tp173
+a(g136
+I1
+tp174
+a(g146
+I1
+tp175
+a(g135
+I1
+tp176
+a(g113
+I1
+tp177
+a(g128
+I1
+tp178
+a(g142
+I1
+tp179
+a(g144
+I1
+tp180
+a(g115
+I1
+tp181
+a(g132
+I1
+tp182
+a(g117
+I1
+tp183
+a(g140
+I1
+tp184
+aag23
+aassS'ex0_2'
+p185
+(dp186
+S'inputs'
+p187
+(lp188
+(lp189
+(lp190
+S'coordinating'
+p191
+aS'conjunctions'
+p192
+aa(lp193
+g192
+aS'are'
+p194
+aa(lp195
+g194
+aS'useful'
+p196
+aa(lp197
+g196
+aS'for'
+p198
+aa(lp199
+g198
+aS'connecting'
+p200
+aa(lp201
+g200
+aS'sentences'
+p202
+aa(lp203
+g202
+aS'but'
+p204
+aa(lp205
+g204
+aS'compound'
+p206
+aa(lp207
+g206
+aS'sentences'
+p208
+aa(lp209
+g208
+aS'often'
+p210
+aa(lp211
+g210
+aS'are'
+p212
+aa(lp213
+S'while'
+p214
+aS'coordinating'
+p215
+aa(lp216
+g215
+aS'conjunctions'
+p217
+aa(lp218
+g217
+aS'can'
+p219
+aa(lp220
+g219
+aS'indicate'
+p221
+aa(lp222
+g221
+aS'some'
+p223
+aa(lp224
+g223
+aS'type'
+p225
+aa(lp226
+g225
+aS'of'
+p227
+aa(lp228
+g227
+aS'relationship'
+p229
+aa(lp230
+g229
+aS'between'
+p231
+aa(lp232
+g231
+aS'the'
+p233
+aa(lp234
+g233
+aS'two'
+p235
+aa(lp236
+g235
+aS'independent'
+p237
+aa(lp238
+g237
+aS'clauses'
+p239
+aa(lp240
+g239
+aS'in'
+p241
+aa(lp242
+g241
+aS'the'
+p243
+aa(lp244
+g243
+aS'sentence'
+p245
+aa(lp246
+g245
+aS'they'
+p247
+aa(lp248
+g247
+aS'sometimes'
+p249
+aa(lp250
+g249
+aS'do'
+p251
+aa(lp252
+g251
+aS'not'
+p253
+aa(lp254
+g253
+aS'indicate'
+p255
+aa(lp256
+g255
+aS'much'
+p257
+aa(lp258
+g257
+aS'of'
+p259
+aa(lp260
+g259
+aS'a'
+p261
+aaasS'outputs'
+p262
+(lp263
+(lp264
+(dp265
+S'sometimes do'
+p266
+I1
+sS'do not'
+p267
+I1
+sS'two independent'
+p268
+I1
+sS'conjunctions are'
+p269
+I1
+sS'but compound'
+p270
+I1
+sS'connecting sentences'
+p271
+I1
+sS'in the'
+p272
+I1
+sS'compound sentences'
+p273
+I1
+sS'between the'
+p274
+I1
+sS'coordinating conjunctions'
+p275
+I2
+sS'much of'
+p276
+I1
+sS'clauses in'
+p277
+I1
+sS'are useful'
+p278
+I1
+sS'independent clauses'
+p279
+I1
+sS'not indicate'
+p280
+I1
+sS'the sentence'
+p281
+I1
+sS'often are'
+p282
+I1
+sS'useful for'
+p283
+I1
+sS'relationship between'
+p284
+I1
+sS'type of'
+p285
+I1
+sS'conjunctions can'
+p286
+I1
+sS'of a'
+p287
+I1
+sS'some type'
+p288
+I1
+sS'sentences but'
+p289
+I1
+sS'indicate much'
+p290
+I1
+sS'indicate some'
+p291
+I1
+sS'they sometimes'
+p292
+I1
+sS'while coordinating'
+p293
+I1
+sS'can indicate'
+p294
+I1
+sS'the two'
+p295
+I1
+sS'of relationship'
+p296
+I1
+sS'sentence they'
+p297
+I1
+sS'for connecting'
+p298
+I1
+sS'sentences often'
+p299
+I1
+sac__builtin__
+dict
+p300
+aass.

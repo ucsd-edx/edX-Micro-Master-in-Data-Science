@@ -1,5 +1,5 @@
 import numpy as np
-from Tester2 import *
+from Tester import *
 
 def checkExerciseCorrectAns(inputs, func_teacher, func_student, TestFunction, exerciseNumber, sc,
                             twoInputs=False,isRDD=True):
