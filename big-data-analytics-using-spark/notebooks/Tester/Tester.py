@@ -145,7 +145,8 @@ def checkExercise(inputs, outputs, func_student, TestFunction, exerciseNumber, s
             input = [sc.parallelize(input[0]), sc.parallelize(input[1])]
         else:
             input = sc.parallelize(input)
-        TestFunction( data=input, func_student=func_student, corAns=case[0], corType=case[1]  )
+        noError= TestFunction( data=input, func_student=func_student, corAns=case[0], corType=case[1]  )
+        if noError == False: raise AssertionError('Your Answer is Incorrect') 
         print 
 
 def checkExerciseFromPickle(pickleFile, func_student, TestFunction, exerciseNumber, sc, twoInputs=False):
