@@ -61,15 +61,18 @@ def TestList(data, func_student, corAns, corType, isNum=True):
     print "Great Job!"
     return False
 
+def TestListStr(data, func_student, corAns, corType):
+    TestList(data, func_student, corAns, corType, isNum=False)
+
+
 def TestNumber(data, func_student, corAns, corType):
     studentAns = func_student(data)
-    
     print "Input: " + str( data.collect() )
     print "Correct Output: " + str(corAns)
     
     try: assert( type(studentAns) == corType )
     except AssertionError as e:
-        print "\nError: Incorrect return type. The return type of your function should be: " + str(corType)
+        print "\nError: Incorrect return type. The return type of your function should be: "+str(corType)
         return False
     
     try: assert( very_close([studentAns],[corAns]) )
@@ -78,7 +81,7 @@ def TestNumber(data, func_student, corAns, corType):
         print "Your Output: ", studentAns
         return False
     print "Great Job!"
-    return False
+    return True
 
 def TestRDDStr2(data, func_student, corAns, corType):
     TestRDD( data, func_student, corAns, corType, isNum=False,twoInputs=True)

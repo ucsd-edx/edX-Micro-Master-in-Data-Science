@@ -8,43 +8,15 @@ def exercise1_1(pickleFile, func_student, sc):
     checkExerciseFromPickle(pickleFile, func_student,TestRDD,'ex1_1',sc)
 def exercise1_2(pickleFile, func_student, sc):
     checkExerciseFromPickle(pickleFile, func_student,TestRDDStr,'ex1_2',sc)
-
-    
-    
-    
 def exercise1_3(pickleFile, func_student, sc):
-    f = open( pickleFile )
-    data = pickle.load(f)
-    f.close()
-    
-    inputs = [ sc.parallelize([0,4,2,3,1]),
-               sc.parallelize([-3.2,-3.233,-3.1,-3.9]),
-               sc.parallelize([2,2,2,2,2,2]) ]
-
-    for input,case in zip( inputs, data['ex3'] ):
-        TestNumber( data=input, func_student=func_student, corAns=case[0], corType=case[1] )
-        print ""
+    checkExerciseFromPickle(pickleFile, func_student,TestNumber,'ex1_3',sc)
+def exercise1_4(pickleFile, func_student, sc):
+    checkExerciseFromPickle(pickleFile, func_student,TestListStr,'ex1_4',sc)
+def exercise1_5(pickleFile, func_student, sc):  
+    checkExerciseFromPickle(pickleFile, lambda x: x.reduce(func_student),TestList,'ex1_5',sc)
 
 
-        
-def exercise4(pickleFile, func_student, sc):
-    f = open( pickleFile )
-    data = pickle.load(f)
-    f.close()
-    
-    inputs = [ sc.parallelize(["Spring quarter", "Learning spark basics", "Big data analytics with Spark"]),
-               sc.parallelize(["Do not go gentle", "into that good night", "old age should burn and rave"]),
-               sc.parallelize(["do","I dare disturb","the universe","there will be time there will be","time"]) ]
-
-    for input,case in zip( inputs, data['ex4'] ):
-        TestList( data=input, func_student=func_student, corAns=case[0], corType=case[1], isNum=False )
-        print ""
-
-
-        
-        
-        
-
+'''
 def exercise5(pickleFile, func, sc):  
     f = open( pickleFile )
     data = pickle.load(f)
@@ -59,7 +31,7 @@ def exercise5(pickleFile, func, sc):
     for input,case in zip( inputs, data['ex5'] ):
         TestList( data=input, func_student=func5, corAns=case[0], corType=case[1], isNum=True  ) 
         print ""
-
+'''
 
         
         
