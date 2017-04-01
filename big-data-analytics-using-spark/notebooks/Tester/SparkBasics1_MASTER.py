@@ -58,8 +58,8 @@ def exercise1_4(testPath, func_student, sc):
 def func_ex1_5(x,y):
         return [max(x+y)]
 def gen_exercise1_5(pickleFile, sc):
-    #def func_ex1_5(x,y):
-    #    return [max(x+y)]
+    def func_ex1_5(x,y):
+        return [max(x+y)]
     inputs = [ [[15,20],[21,14],[18,4,20]],
                [[3,4,5,-3,19],[19.1],[7,-11]],
                [[-3.2,-3.233,-3.9],[-4],[-3,-5]]  ]
@@ -69,7 +69,7 @@ def exercise1_5(testPath, func_student, sc):
         return [max(x+y)]
     inputs = [ [[3,4],[2,1],[7,9]], [[-222],[-10,-33],[0,-5]], [[3.2,3.3,3.1,3.9],[-3.95],[3.4,3.7]]  ]
     checkExerciseCorrectAns(inputs,
-                            lambda x: x.reduce(func_ex1_5), lambda x: x.reduce(func_student),
+                            lambda x: x.reduce(func_ex1_5), lambda y: y.reduce(func_student),
                             TestList, 'ex1_5', sc, isRDD=False)
         
 #TestList( data=input, func_student=func_student, corAns=corAns, corType=corType, isNum=True ) 

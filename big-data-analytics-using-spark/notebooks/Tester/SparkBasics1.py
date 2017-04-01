@@ -12,11 +12,8 @@ def exercise1_3(pickleFile, func_student, sc):
     checkExerciseFromPickle(pickleFile, func_student,TestNumber,'ex1_3',sc)
 def exercise1_4(pickleFile, func_student, sc):
     checkExerciseFromPickle(pickleFile, func_student,TestListStr,'ex1_4',sc)
-def exercise1_5(pickleFile, func_student, sc):  
-    checkExerciseFromPickle(pickleFile, lambda x: x.reduce(func_student),TestList,'ex1_5',sc)
-
-
-'''
+#def exercise1_5(pickleFile, func_student, sc):  
+#    checkExerciseFromPickle(pickleFile, lambda x: x.reduce(func_student),TestList,'ex1_5',sc)
 def exercise5(pickleFile, func, sc):  
     f = open( pickleFile )
     data = pickle.load(f)
@@ -31,7 +28,7 @@ def exercise5(pickleFile, func, sc):
     for input,case in zip( inputs, data['ex5'] ):
         TestList( data=input, func_student=func5, corAns=case[0], corType=case[1], isNum=True  ) 
         print ""
-'''
+
 
         
         
