@@ -30,8 +30,8 @@ def func_ex0_1(text, k):
     result=[]
     for sentence in text:
         word_list = sentence.split()
-        for i in xrange(len(word_list)-k):
-            result.append(word_list[i:i+k])
+        for i in xrange(len(word_list)-k+1):
+            result.append(' '.join(word_list[i:i+k]))
     return result
 
 def exercise0_1(pickleFile, func_student):
@@ -50,7 +50,7 @@ def gen_exercise0_1(pickleFile):
 def func_ex0_2(kmers):
     result= dict()
     for kmer in kmers:
-        kmer_string = " ".join(kmer)
+        kmer_string = kmer
         if kmer_string not in result:
             result[kmer_string] = 0
         result[kmer_string] += 1
