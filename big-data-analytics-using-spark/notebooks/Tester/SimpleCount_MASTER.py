@@ -8,7 +8,6 @@ def checkExerciseCorrectAns(inputs, func_teacher, func_student, TestFunction, ex
     outputs = []
     for input in inputs:
         if multiInputs == True:
-            print len(input)
             tmpAns = eval(function_string(input, "func_teacher"))
         else:
             tmpAns = func_teacher(input)
@@ -37,7 +36,8 @@ def func_ex0_1(text, k):
 def exercise0_1(pickleFile, func_student):
     input_file = '../../Data/Moby-Dick.txt'
     f = open(input_file, "r")
-    text = preprocess( f.readlines() )
+    text = preprocess( f.readlines()[:10000] )
+    f.close()
     inputs = [ [text,3] ]
     checkExerciseCorrectAns(inputs, func_ex0_1, func_student, TestList, 'ex0_1', multiInputs=True)
     
@@ -59,7 +59,8 @@ def func_ex0_2(kmers):
 def exercise0_2(pickleFile, func_student):
     input_file = '../../Data/Moby-Dick.txt'
     f = open(input_file, "r")
-    text = preprocess(f.readlines())
+    text = preprocess(f.readlines()[:10000])
+    f.close()
     kmers = func_ex0_1(text, 3)
     inputs = [kmers]
     checkExerciseCorrectAns(inputs, func_ex0_2, func_student, TestList, 'ex0_2')
@@ -76,7 +77,8 @@ def func_ex0_3(count_kmers):
 def exercise0_3(pickleFile, func_student):
     input_file = '../../Data/Moby-Dick.txt'
     f = open(input_file, "r")
-    text = preprocess(f.readlines())
+    text = preprocess(f.readlines()[:10000])
+    f.close()
     kmers = func_ex0_1(text, 3)
     count_kmers = func_ex0_2(kmers)
     inputs = [count_kmers]
@@ -98,7 +100,8 @@ def func_ex0_4(text, n, k):
 def exercise0_4(pickleFile, func_student):
     input_file = '../../Data/Moby-Dick.txt'
     f = open(input_file, "r")
-    text = preprocess(f.readlines())
+    text = preprocess(f.readlines()[:10000])
+    f.close()
     inputs = [[text, 5, 3]]
     checkExerciseCorrectAns(inputs, func_ex0_4, func_student, TestList, 'ex0_4', multiInputs=True)
     
