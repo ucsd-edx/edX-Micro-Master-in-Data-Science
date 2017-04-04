@@ -1,0 +1,141 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 
+a=random.randrange(3,5,1)
+
+solution1 = '7**{}'.format(a)
+if a == 3:
+	solution2 = '7*6*5'
+	solution3 = '7*7'
+	solution4 = '7*7'
+	solution5 = '7*2*7'
+
+if a == 4:
+	solution2 = '7*6*5*4'
+	solution3 = '7*7*7'
+	solution4 = '7*7*7'
+	solution5 = '7*2*7*7'
+
+if a == 5:
+	solution2 = '7*6*5*4*3'
+	solution3 = '7*7*7*7'
+	solution4 = '7*7*7*7'
+	solution5 = '7*2*7*7*7'
+
+solutions=[solution1, solution2, solution3, solution4, solution5]
+
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+    </script>
+
+    <script type="text/javascript">
+      //fill in number of hint
+        var hint_number = 2;
+
+      //fill in hint input box id
+        var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
+                "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
+      //fill in problem input box id
+        var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
+               "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
+               
+      //fill in hint text id. Need to match the hint_text_id from above
+        var hintTextIds = ["cse103fall2016week1problem1part1",
+                  "cse103fall2016week1problem1part2"];
+    </script>
+
+
+
+<p>If $a-letter words are formed using the letters A, B, C, D, E, F, G, how many such words are possible for each of the following conditions:</p>
+<p>a. No condition is imposed.
+Your answer is :</p>
+
+
+    <customresponse cfn="check" expect="\[$solution1\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>b. No letter can be repeated in a word.
+Your answer is :</p>
+
+
+    <customresponse cfn="check" expect="\[$solution2\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>c. Each word must begin with the letter A and letters can be repeated.
+Your answer is :</p>
+
+
+    <customresponse cfn="check" expect="\[$solution3\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>d. The letter C must be at the end and letters can be repeated.
+Your answer is :</p>
+
+
+    <customresponse cfn="check" expect="\[$solution4\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>e. The second letter must be a vowel and letters can be repeated.
+Your answer is :</p>
+
+
+    <customresponse cfn="check" expect="\[$solution5\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+    
+
+    
+
+    <script type="loncapa/python">
+from hint import evaluate
+from hint.get_hint import get_hint
+
+# grader of the problem
+def check(expect, ans):
+  return evaluate.evaluate(expect, ans)
+
+# hint function
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid])
+  i = int(aid[-3])-2
+
+  if ans == "":
+    return
+  key = new_cmap.keys()[0]
+  if new_cmap[key]['correctness'] == "correct":
+    return
+
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
+  new_cmap.set_hint_and_mode(aid,hint,'always')
+    </script>
+
+        
+    <script type="text/javascript" src="/static/js/adaptive_hint.js"></script>
+    <script type="text/javascript">                             
+      for (var i=0; i != hint_number; i++) {
+        hide_hint(i);
+      }
+      show_hint(hint_number);
+    </script>
+
+  </text>
+</problem>

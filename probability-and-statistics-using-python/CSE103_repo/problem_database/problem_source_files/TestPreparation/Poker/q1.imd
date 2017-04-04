@@ -1,0 +1,46 @@
+```python
+showPartialCorrectAnswers = 1
+
+nCards=random.randrange(4,9,1);
+b=random.randrange(2,nCards-1,1);
+
+solution1 = "C(52,{0})".format(nCards)
+solution2 = "C(12,{0})".format(b) 
+solution3 = "C(40,{0} - {1})".format(nCards,b)
+solution4 = "C(12,{0}) * C(40,{1} - {0})".format(b,nCards) 
+solution5 = "C(12,{0})*C(40,{1}-{0})/C(52,{1})".format(b,nCards)
+
+solutions = [solution1,solution2,solution3,solution4,solution5]
+```
+
+## Probability of face cards ##
+
+A poker hand consisting of \$nCards cards is dealt from a standard deck of 52 cards.
+Find the probability that the hand contains exactly \$b face cards (Jack, Queen or King).
+
+First, we know the number of all possible hands of \$nCards cards is 
+
+[_]
+
+Then, we calculate the number of hands that have exactly \$b face cards.
+
+    The total number of face cards is 12 (Jack, Queen or King of all four suites). To choose \$b from them we have 
+
+    [_]
+
+    possibilities.
+
+    The other \$nCards-\$b cards in the hand can be any of the non-face cards. There are a total of 52 - 12 = 40 non-face cards. To choose \$nCards-\$b form them, there are 
+
+    [_]
+
+    possibilities.
+
+    Thus we can compute the number of hands that have exactly \$b face cards, which is 
+
+    [_]
+
+
+Finally we can calculate the probability of such hands, by calculating the ratio of the number of such hands to the number of all hands. This is 
+
+[_]

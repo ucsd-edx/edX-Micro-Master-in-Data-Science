@@ -1,0 +1,69 @@
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "MathObjects.pl",
+  "PGcourse.pl",
+);
+
+TEXT(beginproblem);
+$showPartialCorrectAnswers = 1;
+$n = random(50,100);
+$k = random(20,30);
+
+Context("Numeric");
+######################################################################
+
+BEGIN_PGML
+
+# Useful Facts 
+
+[`\sum_{i=1}^{\infty}{\frac{1}{i}} = \infty`]
+
+Use the following approximations:
+
+[`\sum_{i=1}^{\infty}{\frac{1}{i^2}} \approx 1.645`]
+
+[`\sum_{i=1}^{\infty}{\frac{1}{i^3}} \approx 1.202`]
+
+[`\sum_{i=1}^{\infty}{\frac{1}{i^4}} \approx 1.082`]
+
+In WebWork, you can use inf in an answer box to denote infinity.
+And use -1 to denote undefined.
+
+---
+# Properties of Random Variable X 
+
+Let X be a random variable over the integers [`\mathbb{Z} = \{...-2,-1,0,1,2,...\}`].  
+
+Let [`P(X=0)=0`] and for [`i \neq 0`] let [`P(X=i) = \frac{1}{Z_{\alpha}|i|^\alpha}`] where [`Z_{\alpha} = \sum_{i=-\infty}^{\infty}{1/|i|^{\alpha}} `].  Note that [`Z_{\alpha}`] needs to be finite for this distribution to be well defined.
+
+Notice, by having [`Z_{\alpha}`] in the denominator, we can ensure that [`P(X=i)`] is a probability distribution.  This is since [`\sum_{i=-\infty}^{\infty}{P(X=i)} = \frac{\sum_{i=-\infty}^{\infty}{1/|i|^{\alpha}}}{\sum_{i=-\infty}^{\infty}{1/|i|^{\alpha}}} = 1`]
+
+For [`\alpha=2`]:
+* What is [`E[X]`]?  [__________]{-1}
+* What is [`var[X]`]?  [__________]{inf}
+* What is [`std[X]`]?  [__________]{inf}
+
+For [`\alpha=3`]:
+* What is [`E[X]`]?  [__________]{0}
+* What is [`var[X]`]?  [__________]{inf}
+* What is [`std[X]`]?  [__________]{inf}
+
+For [`\alpha=4`]:
+* What is [`E[X]`]?  [__________]{0}
+* What is [`var[X]`]?  [__________]{1.645/1.082}
+* What is [`std[X]`]?  [__________]{sqrt(1.645/1.082)}
+
+Hint: To compute both the expected value and variances above, split the infinite
+summation [`\sum_{i=-\infty}^{\infty}{...}`] into three parts: 
+* [`\sum_{i=-\infty}^{-1}{...}`]
+* [`P(X=0)=0`]
+* [`\sum_{i=1}^{\infty}{...}`]
+---
+
+
+END_PGML
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.

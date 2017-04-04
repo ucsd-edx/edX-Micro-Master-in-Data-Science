@@ -1,0 +1,105 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+
+# random variables (no need to import random library)
+
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
+solution1 = "3"
+solution2 = "1-3/C(52-7,2)"
+solution3 = "(1-3/C(52-7,2))*(1-3/C(52-9,2))"
+
+
+# Group all solutions into a list
+solutions = [solution1, solution2, solution3]
+
+
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+    </script>
+
+    <script type="text/javascript">
+      //fill in number of hint
+        var hint_number = 2;
+
+      //fill in hint input box id
+        var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
+                "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
+      //fill in problem input box id
+        var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
+               "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
+               
+      //fill in hint text id. Need to match the hint_text_id from above
+        var hintTextIds = ["cse103fall2016week1problem1part1",
+                  "cse103fall2016week1problem1part2"];
+    </script>
+
+
+
+<p>Like the previous question, suppose you have been dealt "4\(\heartsuit\), 5\(\heartsuit\)".</p><ol><li><p>Suppose you have one opponent. What is the conditional probability that you will win, given these two cards in hand, and that the board is "3\(\diamondsuit\), 4\(\diamondsuit\), 4\(\clubsuit\), 4\(\spadesuit\), 5\(\diamondsuit\)"?</p><ul><li>With this board, we have four of a kind. The only way the opponent will beat it is with a straight flush. How many possible two cards does the opponent have that can make a straight flush, regardless of order.?</li></ul>
+
+    <customresponse cfn="check" expect="\[$solution1\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<ul><li>The conditional probability that you will win is</li></ul>
+
+    <customresponse cfn="check" expect="\[$solution2\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+</li><li><p>What if you have two opponents? What is the conditional probability that you will win?</p><ul><li>The conditional probability that you will win is</li></ul>
+
+    <customresponse cfn="check" expect="\[$solution3\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+</li></ol>
+    
+    
+
+    
+
+    <script type="loncapa/python">
+from hint import evaluate
+from hint.get_hint import get_hint
+
+# grader of the problem
+def check(expect, ans):
+  return evaluate.evaluate(expect, ans)
+
+# hint function
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid])
+  i = int(aid[-3])-2
+
+  if ans == "":
+    return
+  key = new_cmap.keys()[0]
+  if new_cmap[key]['correctness'] == "correct":
+    return
+
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
+  new_cmap.set_hint_and_mode(aid,hint,'always')
+    </script>
+
+        
+    <script type="text/javascript" src="/static/js/adaptive_hint.js"></script>
+    <script type="text/javascript">                             
+      for (var i=0; i != hint_number; i++) {
+        hide_hint(i);
+      }
+      show_hint(hint_number);
+    </script>
+
+  </text>
+</problem>

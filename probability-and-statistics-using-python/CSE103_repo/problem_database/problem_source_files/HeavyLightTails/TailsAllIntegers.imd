@@ -1,0 +1,57 @@
+### Light and Heavy tails over positive and negative integers
+
+The Random Variable $X$ has a point mass distribution over the integers. In each of the following 
+parts you are given an expression that defines the probability of each integer. The normalizing factor $z$ is 
+a number that ensures that the probability of the whole space is one. 
+Recall that 
+
+* when summing over the positive integers $\sum_{i =1}^{\infty} \frac{1}{i^\alpha}$ is infinite if $0<\alpha \leq 1$ and is finite for $\alpha>1$.
+* When summing over all integers (other than zero) $ \sum_{i \neq 0} \frac{1}{i^\alpha}$ the sum is **undefined** if $0<\alpha \leq 1$ and is finite for $\alpha>1$.
+
+For each expression, check the true 
+statements. (if the distribution is note well defined, then the expected value and the variance are also undefined.
+
+
+$$ P(X=i) = \begin{cases} \text{if $i \neq 0$} & 1/(z |i|^4) \\\\
+                          \text{if $i = 0$} & 0 \end{cases} $$
+
+[x] This is a well defined distribution.  
+[x] The expected value of the distribution is finite.  
+[ ] The expected value of the distribution is infinite.  
+[ ] The expected value of the distribution is undefined.  
+[x] The variance of the distribution is finite.  
+[ ] The variance of the distribution is infinite.     
+[ ] The variance of the distribution is undefined.  
+
+$$ P(X=i) = \begin{cases} \text{if $i \neq 0$} & 1/(z |i|^3) \\\\
+                          \text{if $i = 0$} & 0 \end{cases} $$
+
+[x] This is a well defined distribution.  
+[x] The expected value of the distribution is finite.  
+[ ] The expected value of the distribution is infinite.  
+[ ] The expected value of the distribution is undefined.  
+[ ] The variance of the distribution is finite.  
+[x] The variance of the distribution is infinite.   
+[ ] The variance of the distribution is undefined.  
+
+$$ P(X=i) = \begin{cases} \text{if $i \neq 0$} & 1/(z |i|^2) \\\\
+                          \text{if $i = 0$} & 0 \end{cases} $$
+
+[x] This is a well defined distribution.  
+[ ] The expected value of the distribution is finite.  
+[ ] The expected value of the distribution is infinite.  
+[x] The expected value of the distribution is undefined.  
+[ ] The variance of the distribution is finite.  
+[ ] The variance of the distribution is infinite.   
+[x] The variance of the distribution is undefined.   
+
+$$ P(X=i) = \begin{cases} \text{if $i \neq 0$} & 1/(z |i|) \\\\
+                          \text{if $i = 0$} & 0 \end{cases} $$
+
+[ ] This is a well defined distribution.  
+[ ] The expected value of the distribution is finite.  
+[ ] The expected value of the distribution is infinite.  
+[x] The expected value of the distribution is undefined.  
+[ ] The variance of the distribution is finite.  
+[ ] The variance of the distribution is infinite.   
+[x] The variance of the distribution is undefined.   

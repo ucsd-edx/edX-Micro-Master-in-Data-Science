@@ -1,0 +1,119 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+
+# random variables (no need to import random library)
+n = random.randrange(0,8,1)
+
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
+problem = [["mixture_cdf_0.png","1.0", "0.7", "1.0", "3.5", "0.3"]]
+problem += [["mixture_cdf_2.png","0.5", "0.4", "2.0", "3.5", "0.6"]]
+problem += [["mixture_cdf_6.png","1.0", "0.55", "-0.5", "2.5", "0.45"]]
+problem += [["mixture_cdf_8.png","1.5", "0.3", "4.0", "4.5", "0.7"]]
+problem += [["mixture_cdf_9.png","1.5", "0.6", "-2.5", "4.5", "0.4"]]
+problem += [["mixture_cdf_16.png","0.5", "0.65", "-1.5", "4.5", "0.35"]]
+problem += [["mixture_cdf_18.png","1.5", "0.55", "-4.5", "-2.0", "0.45"]]
+problem += [["mixture_cdf_19.png","0.5", "0.6", "1.5", "3.5", "0.4"]]
+img_file, lam, solution1, solution2, solution3, solution4 = problem[n]
+
+# Group all solutions into a list
+solutions = [solution1, solution2, solution3, solution4]
+
+
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+    </script>
+
+    <script type="text/javascript">
+      //fill in number of hint
+        var hint_number = 2;
+
+      //fill in hint input box id
+        var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
+                "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
+      //fill in problem input box id
+        var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
+               "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
+               
+      //fill in hint text id. Need to match the hint_text_id from above
+        var hintTextIds = ["cse103fall2016week1problem1part1",
+                  "cse103fall2016week1problem1part2"];
+    </script>
+
+
+
+<ul><li>Below is the CDF of a mixture distribution with <em>two</em> components.</li></ul><p>One of the components is an exponential distribution; the other is a uniform distribution.</p><p>All parameters of component distributions are small multiples of 0.5.</p><p>\(\lambda\) of exponential components take on value 0.5, 1 or 1.5.</p><p>Component weights take on multiples of 0.05 and they need to sum to one.</p><p><img src="/static/$img_file"/></p><p>Identify the component distributions:</p><ul><li>The exponential component has \(\lambda\) of $lam. Its component weight is?</li></ul>
+
+    <customresponse cfn="check" expect="\[$solution1\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<ul><li>Uniform component on the interval (a,b).</li></ul><p>a =</p>
+
+    <customresponse cfn="check" expect="\[$solution2\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>b =</p>
+
+    <customresponse cfn="check" expect="\[$solution3\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>Its component weight is</p>
+
+    <customresponse cfn="check" expect="\[$solution4\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+
+    
+    
+
+    
+
+    <script type="loncapa/python">
+from hint import evaluate
+from hint.get_hint import get_hint
+
+# grader of the problem
+def check(expect, ans):
+  return evaluate.evaluate(expect, ans)
+
+# hint function
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid])
+  i = int(aid[-3])-2
+
+  if ans == "":
+    return
+  key = new_cmap.keys()[0]
+  if new_cmap[key]['correctness'] == "correct":
+    return
+
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
+  new_cmap.set_hint_and_mode(aid,hint,'always')
+    </script>
+
+        
+    <script type="text/javascript" src="/static/js/adaptive_hint.js"></script>
+    <script type="text/javascript">                             
+      for (var i=0; i != hint_number; i++) {
+        hide_hint(i);
+      }
+      show_hint(hint_number);
+    </script>
+
+  </text>
+</problem>

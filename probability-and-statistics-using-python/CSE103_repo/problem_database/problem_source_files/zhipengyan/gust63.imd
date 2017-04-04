@@ -1,0 +1,25 @@
+```python
+option1 = ('yes', 'no', 'can\'t tell')
+solution1 = "no"
+option2 = ('yes', 'no', 'can\'t tell')
+solution2 = "yes"
+option3 = ('yes', 'no', 'can\'t tell')
+solution3 = "yes"
+solutions=[solution1, solution2, solution3]
+
+```
+
+
+In this problem, we consider a *paired t-test* (defined in 8.6.2 in "Notes on hypothesis testing and central limit theorem" on moodle). The setting is that two normal random variables $X$ and $Y$ are sampled. We pair each of the samples from the first variable with each of the samples from the second variable, and we check the "null hypothesis" that the two elements in each pair have the same mean, i.e. $\mu_X = \mu_Y$, against the alternative hypothesis that $\mu_X \neq \mu_Y$. Now create a new random variable $D$ by taking the difference between the two elements in each pair. The "null hypothesis" can therefore be defined as $\mu_D = 0$, and the alternative hypothesis $\mu_D \neq 0$. Note that if the two variables are normally distributed, their difference is also normally distributed, so $D$ is a Normal variable. We then calculate the confidence interval for the mean of $D$ .
+
+1.  Suppose that for a given data set of $D$, a 95% confidence interval is calculated to be (-3.45,1.78).  If you were to perform a hypothesis test at the 5% significance level to test the null hypothesis, would you reject it?  Answer "yes", "no", or "can't tell".
+
+[_choice]
+
+2.  Suppose that for a given data set of $D$, a 99% confidence interval is calculated to be (-10.77,-2.35).  If you were to perform a hypothesis test at the 1% significance level to test the null hypothesis, would you reject it?  Answer "yes", "no", or "can't tell".
+
+[_choice]
+
+3.  Suppose that for a given data set of $D$, a 97% confidence interval is calculated to be (25.6,41.1).  If you were to perform a hypothesis test at the 3% significance level to test the null hypothesis, would you reject it?  Answer "yes", "no", or "can't tell".
+
+[_choice]

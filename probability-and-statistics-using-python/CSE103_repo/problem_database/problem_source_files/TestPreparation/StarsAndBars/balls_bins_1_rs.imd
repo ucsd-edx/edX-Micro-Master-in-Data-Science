@@ -1,0 +1,40 @@
+```python
+
+k = random.randrange(12,16,1)
+
+r = random.randrange(1,2,1)
+a = random.randrange(1,2,1)
+select = random.randrange(8,15,1)
+
+solution1 = "C({0} + 3,3)".format(k)
+solution2 = "C({0} + 2,2)".format(k)
+solution3 = "C({0} - 1 + 2,2)".format(k)
+solution4 = "C({0} - 2 + 2,2)".format(k)
+solution5 = "C({0} - 2 + 2,2) + C({0} - 1 + 2,2) + C({0} + 2,2)".format(k)
+
+solutions = [solution1, solution2, solution3, solution4, solution5]
+
+```
+#### Distributing Sweets ####
+
+We are trying to distribute \$k sweets to 4 children: James, Apple, Sally, and Mary.
+
+How many ways are there to distribute the sweets? 
+
+[_]
+
+How many ways are there to distribute the sweets so that James gets no candy? 
+
+[_]
+
+How many ways are there to distribute the sweets so that James gets exactly 1 candy? 
+
+[_]
+
+How many ways are there to distribute the sweets so that James gets exactly 2 candies? 
+
+[_]
+
+How many ways are there to distribute the sweets so that James gets at most 2 candies?
+
+[_]

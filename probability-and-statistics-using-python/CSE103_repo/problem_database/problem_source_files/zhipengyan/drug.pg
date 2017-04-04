@@ -1,0 +1,21 @@
+DOCUMENT();
+
+loadMacros(
+    "PGstandard.pl",
+    "PGML.pl",
+    "MathObjects.pl",
+    "PGcourse.pl",
+);
+
+TEXT(beginproblem);
+$showPartialCorrectAnswers=1;
+
+BEGIN_PGML
+
+Suppose we are testing 20 drugs and use a significance value of 0.01 in each test. 
+Suppose at least one out of the 20 tests rejects the null hypothesis. What is the upper bound for the probability that declaring the corresponding drug useful is a type I error (i.e. reject null hypothesis when one should not)? Notice that the tests may be dependent. [_________]{0.2}
+
+END_PGML
+
+
+ENDDOCUMENT();

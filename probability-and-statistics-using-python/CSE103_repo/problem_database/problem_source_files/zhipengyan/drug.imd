@@ -1,0 +1,10 @@
+```python
+solution1 = "0.2"
+sulotions = [solution1]
+
+```
+
+Suppose we are testing 20 drugs and use a significance value of 0.01 in each test. 
+Suppose at least one out of the 20 tests rejects the null hypothesis. What is the upper bound for the probability that declaring the corresponding drug useful is a type I error (i.e. reject null hypothesis when one should not)? Notice that the tests may be dependent.
+
+[_]

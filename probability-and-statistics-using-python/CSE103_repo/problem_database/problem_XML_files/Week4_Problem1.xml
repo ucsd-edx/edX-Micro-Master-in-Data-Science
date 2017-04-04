@@ -1,0 +1,107 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+
+# random variables (no need to import random library)
+pa = random.randrange(1,6,1)/10.
+pb = random.randrange(1,6,1)/10.
+is_indep=(random.random()>0.5)*1
+
+if is_indep == 1:
+	paub=pa+pb-pa*pb
+else:
+	paub=pa+pb-pa*pb*2
+
+solution1="{0} + {1} - ({2})".format(pa,pb,paub)
+solution2="({0})/{1}".format(solution1,pb)
+solution3= str(is_indep)
+solutions = [solution1,solution2,solution3]
+
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+    </script>
+
+    <script type="text/javascript">
+      //fill in number of hint
+        var hint_number = 2;
+
+      //fill in hint input box id
+        var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
+                "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
+      //fill in problem input box id
+        var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
+               "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
+               
+      //fill in hint text id. Need to match the hint_text_id from above
+        var hintTextIds = ["cse103fall2016week1problem1part1",
+                  "cse103fall2016week1problem1part2"];
+    </script>
+
+
+
+<h2>Independence</h2><p>Two events are called <em>independent</em> if the outcome of one (that is, whether or not it occurs) does not affect the probability that the other will occur. For instance, suppose you flip two fair coins. The outcome of either coin does not influence the other; therefore the two outcomes are independent.</p><p>Formally, we say events \(A\) and \(B\)  (defined on somesample space \(\Omega\)   are independent if \( P(A \cap B)\ =P(A) P(B).\)</p><p>Consider the following Venn Diagram describing two events:</p><p>{ image(src="/static/Venn2.jpg" style="width:300px;height:200px;") }</p><p>Suppose you know that \(P(A)=$pa\), \(P(B)=$pb\) and \(P(A\cup B)=$paub\),</p><p>What is \( P(A\cap B)\)?</p>
+
+    <customresponse cfn="check" expect="\[$solution1\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>What is \(P(A | B)\)?</p>
+
+    <customresponse cfn="check" expect="\[$solution2\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>are \(A\) and \(B\) independent? (enter 1 for yes, 0 for no)</p>
+
+    <customresponse cfn="check" expect="\[$solution3\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+
+    
+    
+
+    
+
+    <script type="loncapa/python">
+from hint import evaluate
+from hint.get_hint import get_hint
+
+# grader of the problem
+def check(expect, ans):
+  return evaluate.evaluate(expect, ans)
+
+# hint function
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid])
+  i = int(aid[-3])-2
+
+  if ans == "":
+    return
+  key = new_cmap.keys()[0]
+  if new_cmap[key]['correctness'] == "correct":
+    return
+
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
+  new_cmap.set_hint_and_mode(aid,hint,'always')
+    </script>
+
+        
+    <script type="text/javascript" src="/static/js/adaptive_hint.js"></script>
+    <script type="text/javascript">                             
+      for (var i=0; i != hint_number; i++) {
+        hide_hint(i);
+      }
+      show_hint(hint_number);
+    </script>
+
+  </text>
+</problem>

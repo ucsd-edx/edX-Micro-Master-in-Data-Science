@@ -1,0 +1,53 @@
+```python
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 
+a=random.randrange(3,5,1)
+
+solution1 = '7**{}'.format(a)
+if a == 3:
+	solution2 = '7*6*5'
+	solution3 = '7*7'
+	solution4 = '7*7'
+	solution5 = '7*2*7'
+
+if a == 4:
+	solution2 = '7*6*5*4'
+	solution3 = '7*7*7'
+	solution4 = '7*7*7'
+	solution5 = '7*2*7*7'
+
+if a == 5:
+	solution2 = '7*6*5*4*3'
+	solution3 = '7*7*7*7'
+	solution4 = '7*7*7*7'
+	solution5 = '7*2*7*7*7'
+
+solutions=[solution1, solution2, solution3, solution4, solution5]
+```
+
+If \$a-letter words are formed using the letters A, B, C, D, E, F, G, how many such words are possible for each of the following conditions:  
+
+a. No condition is imposed.  
+Your answer is :
+
+[_]
+
+b. No letter can be repeated in a word.  
+Your answer is :
+
+[_]
+
+c. Each word must begin with the letter A and letters can be repeated.  
+Your answer is :
+
+[_]
+  
+d. The letter C must be at the end and letters can be repeated.  
+Your answer is :
+
+[_]
+  
+e. The second letter must be a vowel and letters can be repeated.
+Your answer is :
+
+[_]

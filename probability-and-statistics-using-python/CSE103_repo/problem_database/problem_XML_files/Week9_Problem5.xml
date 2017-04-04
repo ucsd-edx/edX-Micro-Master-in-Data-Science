@@ -1,0 +1,162 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+# random variables (no need to import random library)
+
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
+solution1 = "65"
+solution2 = "65*(0.500*(((30.0/65.0)-0.500)/0.500)^2+0.250*(((20.0/65.0)-0.250)/0.250)^2+0.250*(((15.0/65.0)-0.250)/0.250)^2)"
+solution3 = "65*((1/3)*(((30.0/65.0)-(1/3))/(1/3))^2+(1/3)*(((20.0/65.0)-(1/3))/(1/3))^2+(1/3)*(((15.0/65.0)-(1/3))/(1/3))^2)"
+
+# Group all solutions into a list
+solutions = [solution1, solution2, solution3]
+
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+    </script>
+
+    <script type="text/javascript">
+      //fill in number of hint
+        var hint_number = 2;
+
+      //fill in hint input box id
+        var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
+                "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
+      //fill in problem input box id
+        var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
+               "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
+               
+      //fill in hint text id. Need to match the hint_text_id from above
+        var hintTextIds = ["cse103fall2016week1problem1part1",
+                  "cse103fall2016week1problem1part2"];
+    </script>
+
+
+
+<h2>\(\chi^2\) test I</h2>
+<p>Suppose there are 3 species of fish in the world, we are interested
+in two fish populations: fish of the pacific ocean and fish of the atlantic ocean.
+Each one of these populations is characterized by a distribution over the species of fish:
+The pacific distribution is uniform over the 3  species:
+\(P_p=(1/3,1/3,1/3)\) while in the Atlantic population the first species is twice more common than the other two: \(P_a=(1/2,1/4,1/4)\)</p>
+<p>Suppose we are given a  batch of 65 fish whose source is unknown.
+The number of fish of each species is \(30,20,15\).</p>
+<p>We would like to know whether the the batch of fish is from the Atlantic or the pacific (or neither)</p>
+<p>One way of formalizing this problem is to consider two alternative hypotheses:</p>
+<ul>
+<li>\(H_A\) = the batch is from the Atlantic ocean. More technically, the batch was sampled from the distribution \(P_a\)</li>
+<li>\(H_P\) = the batch is from the pacific ocean. More technically, the batch was sampled from the distribution \(P_b\).</li>
+</ul>
+<p>The test that we will use is the <a href="https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test">\(\chi^2\) test</a>.</p>
+<p>The formula of the \(\chi^2\)-statistic is</p>
+<p>\[\chi^2 =  N \sum_{i=1}^n p_i \left(\frac{O_i/N - p_i}{p_i}\right)^2\]</p>
+<p>Where:
+<em> \(n\) is the number of species (3 in our case).
+</em> \(p_i\) is the probability of the \(i\)th species according to the Null distribution.
+<em> \(O_i\) is the number of observations of species \(i\)
+</em> \(N\) is the total number of observation. \(N=\sum_{i=1}^n O_i\).</p>
+<p>*What is \(N\) in our case?</p>
+
+
+    <customresponse cfn="check" expect="\[$solution1\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>Write expressions for the \(\chi^2\) <strong>statistic</strong> for the two null Hypotheses:</p>
+<ul>
+<li>For hypothesis HA ( batch is from Atlantic ocean), \(\chi^2=\)</li>
+</ul>
+
+
+    <customresponse cfn="check" expect="\[$solution2\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<ul>
+<li>For hypothesis HP ( batch is from pacific ocean), \(\chi^2=\)</li>
+</ul>
+
+
+    <customresponse cfn="check" expect="\[$solution3\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>Computing the \(p\)-values associated with the two statistics above we find that:</p>
+<ul>
+<li>The \(p\)-value associated with rejecting the HA hypothesis is 0.5616</li>
+<li>The \(p\)-value associated with rejecting the HP hypothesis is  0.0677</li>
+</ul>
+<p>Which hypothesis can we reject if we set our confidence level to be \(\alpha=10\%\) ?</p>
+<ul>
+<li>We can reject the hypothesis that the batch is from the Pacific ocean</li>
+</ul>
+
+
+    <choiceresponse>
+      <checkboxgroup>
+<choice correct="true">Yes</choice>
+<choice correct="false">No</choice>
+      </checkboxgroup>
+    </choiceresponse>
+
+
+<ul>
+<li>We can reject the hypothesis that the batch is from the Atlantic ocean</li>
+</ul>
+
+
+    <choiceresponse>
+      <checkboxgroup>
+<choice correct="false">Yes</choice>
+<choice correct="true">No</choice>
+      </checkboxgroup>
+    </choiceresponse>
+
+
+    
+
+    
+
+    <script type="loncapa/python">
+from hint import evaluate
+from hint.get_hint import get_hint
+
+# grader of the problem
+def check(expect, ans):
+  return evaluate.evaluate(expect, ans)
+
+# hint function
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid])
+  i = int(aid[-3])-2
+
+  if ans == "":
+    return
+  key = new_cmap.keys()[0]
+  if new_cmap[key]['correctness'] == "correct":
+    return
+
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
+  new_cmap.set_hint_and_mode(aid,hint,'always')
+    </script>
+
+        
+    <script type="text/javascript" src="/static/js/adaptive_hint.js"></script>
+    <script type="text/javascript">                             
+      for (var i=0; i != hint_number; i++) {
+        hide_hint(i);
+      }
+      show_hint(hint_number);
+    </script>
+
+  </text>
+</problem>

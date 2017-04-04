@@ -1,0 +1,145 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+    </script>
+
+    <script type="text/javascript">
+      //fill in number of hint
+        var hint_number = 2;
+
+      //fill in hint input box id
+        var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
+                "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
+      //fill in problem input box id
+        var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
+               "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
+               
+      //fill in hint text id. Need to match the hint_text_id from above
+        var hintTextIds = ["cse103fall2016week1problem1part1",
+                  "cse103fall2016week1problem1part2"];
+    </script>
+
+
+
+<h3>Light and Heavy tails over positive and negative integers</h3>
+<p>The Random Variable \(X\) has a point mass distribution over the integers. In each of the following
+parts you are given an expression that defines the probability of each integer. The normalizing factor \(z\) is
+a number that ensures that the probability of the whole space is one.
+Recall that</p>
+<ul>
+<li>when summing over the positive integers \(\sum_{i =1}^{\infty} \frac{1}{i^\alpha}\) is infinite if \(0&lt;\alpha \leq 1\) and is finite for \(\alpha&gt;1\).</li>
+<li>When summing over all integers (other than zero) \( \sum_{i \neq 0} \frac{1}{i^\alpha}\) the sum is <strong>undefined</strong> if \(0&lt;\alpha \leq 1\) and is finite for \(\alpha&gt;1\).</li>
+</ul>
+<p>For each expression, check the true
+statements. (if the distribution is note well defined, then the expected value and the variance are also undefined.</p>
+<p>\[ P(X=i) = \begin{cases} \text{if \(i \neq 0\)} &amp; 1/(z |i|^4) \\
+\text{if \(i = 0\)} &amp; 0 \end{cases} \]</p>
+
+
+    <choiceresponse>
+      <checkboxgroup>
+<choice correct="true">This is a well defined distribution.</choice>
+<choice correct="true">The expected value of the distribution is finite.</choice>
+<choice correct="false">The expected value of the distribution is infinite.</choice>
+<choice correct="false">The expected value of the distribution is undefined.</choice>
+<choice correct="true">The variance of the distribution is finite.</choice>
+<choice correct="false">The variance of the distribution is infinite.</choice>
+<choice correct="false">The variance of the distribution is undefined.</choice>
+      </checkboxgroup>
+    </choiceresponse>
+
+
+<p>\[ P(X=i) = \begin{cases} \text{if \(i \neq 0\)} &amp; 1/(z |i|^3) \\
+\text{if \(i = 0\)} &amp; 0 \end{cases} \]</p>
+
+
+    <choiceresponse>
+      <checkboxgroup>
+<choice correct="true">This is a well defined distribution.</choice>
+<choice correct="true">The expected value of the distribution is finite.</choice>
+<choice correct="false">The expected value of the distribution is infinite.</choice>
+<choice correct="false">The expected value of the distribution is undefined.</choice>
+<choice correct="false">The variance of the distribution is finite.</choice>
+<choice correct="true">The variance of the distribution is infinite.</choice>
+<choice correct="false">The variance of the distribution is undefined.</choice>
+      </checkboxgroup>
+    </choiceresponse>
+
+
+<p>\[ P(X=i) = \begin{cases} \text{if \(i \neq 0\)} &amp; 1/(z |i|^2) \\
+\text{if \(i = 0\)} &amp; 0 \end{cases} \]</p>
+
+
+    <choiceresponse>
+      <checkboxgroup>
+<choice correct="true">This is a well defined distribution.</choice>
+<choice correct="false">The expected value of the distribution is finite.</choice>
+<choice correct="false">The expected value of the distribution is infinite.</choice>
+<choice correct="true">The expected value of the distribution is undefined.</choice>
+<choice correct="false">The variance of the distribution is finite.</choice>
+<choice correct="false">The variance of the distribution is infinite.</choice>
+<choice correct="true">The variance of the distribution is undefined.</choice>
+      </checkboxgroup>
+    </choiceresponse>
+
+
+<p>\[ P(X=i) = \begin{cases} \text{if \(i \neq 0\)} &amp; 1/(z |i|) \\
+\text{if \(i = 0\)} &amp; 0 \end{cases} \]</p>
+
+
+    <choiceresponse>
+      <checkboxgroup>
+<choice correct="false">This is a well defined distribution.</choice>
+<choice correct="false">The expected value of the distribution is finite.</choice>
+<choice correct="false">The expected value of the distribution is infinite.</choice>
+<choice correct="true">The expected value of the distribution is undefined.</choice>
+<choice correct="false">The variance of the distribution is finite.</choice>
+<choice correct="false">The variance of the distribution is infinite.</choice>
+<choice correct="true">The variance of the distribution is undefined.</choice>
+      </checkboxgroup>
+    </choiceresponse>
+
+
+    
+
+    
+
+    <script type="loncapa/python">
+from hint import evaluate
+from hint.get_hint import get_hint
+
+# grader of the problem
+def check(expect, ans):
+  return evaluate.evaluate(expect, ans)
+
+# hint function
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid])
+  i = int(aid[-3])-2
+
+  if ans == "":
+    return
+  key = new_cmap.keys()[0]
+  if new_cmap[key]['correctness'] == "correct":
+    return
+
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
+  new_cmap.set_hint_and_mode(aid,hint,'always')
+    </script>
+
+        
+    <script type="text/javascript" src="/static/js/adaptive_hint.js"></script>
+    <script type="text/javascript">                             
+      for (var i=0; i != hint_number; i++) {
+        hide_hint(i);
+      }
+      show_hint(hint_number);
+    </script>
+
+  </text>
+</problem>

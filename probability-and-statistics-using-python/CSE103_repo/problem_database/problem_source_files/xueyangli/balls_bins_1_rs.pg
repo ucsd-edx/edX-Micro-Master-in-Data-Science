@@ -1,0 +1,48 @@
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "MathObjects.pl",
+  "PGcourse.pl",
+  "contextIntegerFunctions.pl"
+);
+
+
+TEXT(beginproblem);
+
+$k = random(12,16,1);
+
+$r = random(1,2,1);
+$a = random(1,2,1);
+$select = random(8,15,1);
+
+$a1 = Compute("C($k+3,3)");
+$a2 = Compute("C($k+2,2)");
+$a3 = Compute("C($k-1+2,2)");
+$a4 = Compute("C($k-2+2,2)");
+
+
+
+BEGIN_PGML
+
+#### Distributing Sweets ####
+
+We are trying to distribute [$k] sweets to 4 children: James, Apple, Sally, and Mary.
+
+o How many ways are there to distribute the sweets? [___________]{$a1}
+
+o How many ways are there to distribute the sweets so that James gets no candy? [___________]{$a2}
+
+o How many ways are there to distribute the sweets so that James gets exactly 1 candy? [___________]{$a3}
+
+o How many ways are there to distribute the sweets so that James gets exactly 2 candies? [___________]{$a4}
+
+o How many ways are there to distribute the sweets so that James gets at most 2 candies?[_________________________________]{$a4+$a3+$a2}
+
+
+END_PGML
+
+######################################################################
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.

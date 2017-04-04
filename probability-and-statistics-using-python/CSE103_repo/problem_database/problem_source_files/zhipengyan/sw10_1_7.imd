@@ -1,0 +1,12 @@
+```python
+from math import factorial
+a=random.randrange(4,8,1);
+solution1 = '{}!'.format(a)
+
+solutions = [solution1]
+```
+
+How many different ways can a race with \$a runners be completed? (Assume there is no tie.)  
+Your answer is :
+
+[_]

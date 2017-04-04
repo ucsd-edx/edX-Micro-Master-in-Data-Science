@@ -1,0 +1,97 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+
+#cannot check answer
+mean = 24
+sd = random.randrange(30, 50, 1)/10
+k = random.randrange(2,3,1)
+record = 44
+a = k * sd
+b1 = mean - a
+b2 = mean + a
+
+solution1 = "(1-(1/{0}^2))*100".format(k) #{Compute("(1-(1/$k^2))*100")} %.
+solution2 = "0.5*1/(({0}-{1})/{2})^2".format(record, mean, sd)#{Compute("0.5*1/(($record-$mean)/$sd)^2")}
+
+solutions = [solution1, solution2]
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+    </script>
+
+    <script type="text/javascript">
+      //fill in number of hint
+        var hint_number = 2;
+
+      //fill in hint input box id
+        var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
+                "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
+      //fill in problem input box id
+        var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
+               "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
+               
+      //fill in hint text id. Need to match the hint_text_id from above
+        var hintTextIds = ["cse103fall2016week1problem1part1",
+                  "cse103fall2016week1problem1part2"];
+    </script>
+
+
+
+<h3>Chebyshev's Inequality</h3><p>We will use Chebyshev's inequality in this problem. The Chebyshev's theorem is stated as below:</p><p>Let X be a random variable with finite expected value \(\mu\) and finite non-zero variance \(\rho^2\). Then for any real number \(k &gt; 0\), \(\Pr(|X-\mu|\geq k\sigma) \leq \frac{1}{k^2}\), which is the same as \(\mathbb{P}(|X-\mathbb{E}(X)| \geq a) \leq \frac{\textrm{Var}(X)}{a^2}\) for any \(a&gt;0\).</p><hr /><p>Suppose the mean noon-time temperature for September days in San Diego is \($mean^{\circ}\) and the standard deviation is $sd. (Temperature in this problem is measured in degrees celsius)</p><p>(1) Using Chebyshev's theorem, what is the <em>minimal</em> probability(<strong>in percents</strong>) that the noon-time temperature of a September day is between \($b1^{\circ}\) and \($b2^{\circ}\)?</p>
+
+    <customresponse cfn="check" expect="\[$solution1\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>(2) On September 26, 1963, the all-time record of noon-time temperature in San Diego of \(44^{\circ}\) was hit. Assume the temperature distribution is symmetric around the mean, what is the Chebyshev bound for the probability of breaking (or tieing) this record?</p>
+
+    <customresponse cfn="check" expect="\[$solution2\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+
+    
+    
+
+    
+
+    <script type="loncapa/python">
+from hint import evaluate
+from hint.get_hint import get_hint
+
+# grader of the problem
+def check(expect, ans):
+  return evaluate.evaluate(expect, ans)
+
+# hint function
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid])
+  i = int(aid[-3])-2
+
+  if ans == "":
+    return
+  key = new_cmap.keys()[0]
+  if new_cmap[key]['correctness'] == "correct":
+    return
+
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
+  new_cmap.set_hint_and_mode(aid,hint,'always')
+    </script>
+
+        
+    <script type="text/javascript" src="/static/js/adaptive_hint.js"></script>
+    <script type="text/javascript">                             
+      for (var i=0; i != hint_number; i++) {
+        hide_hint(i);
+      }
+      show_hint(hint_number);
+    </script>
+
+  </text>
+</problem>

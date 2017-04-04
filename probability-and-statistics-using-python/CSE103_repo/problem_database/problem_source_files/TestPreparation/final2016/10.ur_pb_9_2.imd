@@ -1,0 +1,38 @@
+```python
+#import random
+m = random.randrange(11,40,1)/10.0
+a = random.randrange(1,7,1)
+
+t1 = random.randrange(10,20,1)
+t2 = random.randrange(t1+1,30,1)
+print t1,t2
+
+exp_cdf="1-exp(-{0}*{1})"
+
+solution1 = "{0}^{{{1}}}/{1}!/e^{{{0}}}".format(m,a)
+solution2 = "0"
+solution3 = exp_cdf.format(m,t2)+"-"+exp_cdf.format(m,t1)
+solutions = [solution1,solution2,solution3]
+solutions
+```
+
+### Poisson process  
+(10 points)
+
+A professor schedules office hours for his students. He finds that the arrivals of the 
+students follow a poisson process with an average rate of $\gamma =$ \$m
+
+What is the probability that the number of students that arrive during a particular
+hour is \$a?
+
+[_]
+
+What is the probability that the time between consecutive arrivals is 
+exactly \t1 minutes?
+
+[_]
+
+What is the probability that the time between consecutive student arrivals 
+is between \t1 and \t2 ?
+
+[_]

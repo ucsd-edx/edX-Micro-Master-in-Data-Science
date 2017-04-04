@@ -1,0 +1,87 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+
+solution1 = "3*1+4*3+2"
+solution2 = "3^2*2+4^2*2"
+solutions = [solution1, solution2]
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+    </script>
+
+    <script type="text/javascript">
+      //fill in number of hint
+        var hint_number = 2;
+
+      //fill in hint input box id
+        var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
+                "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
+      //fill in problem input box id
+        var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
+               "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
+               
+      //fill in hint text id. Need to match the hint_text_id from above
+        var hintTextIds = ["cse103fall2016week1problem1part1",
+                  "cse103fall2016week1problem1part2"];
+    </script>
+
+
+
+<h2>Another property of the variance</h2><p>Here's a cartoon picture of a well-behaved distribution with mean \(\mu\) andstandard deviation \(\sigma\) (that is, \(\mu = \mathbb{E}(X)\) and \(\sigma^2 = \mbox{var}(X)\)).</p><p><img src='/static/MeanStdFigure_pptx.jpg' width="80%" height="80%"/></p><p>The standard deviation quantifies the <em>spread</em> of the distribution whereas the mean specifies its <em>location</em>. If you increase all values of \(X\) by 10, then the distribution will shift to the right and the mean will increase by 10. But the spread of the distribution -- and thus the standard deviation -- will remain unchanged.</p><p>On the other hand, if you double all values of \(X\), then its distribution becomes twice as wide, and thus its standard deviation \(\sigma\) is doubled. Which means that its variance, which is the square of the standard deviation, gets multiplied by 4.</p><p>In summary, for any constants \(a,b\), the relation between updated variance and old variance is:</p><p>\[ \mbox{var}(aX+b) = a^2 \mbox{var}(X) \]</p><p>In contrast, the updated mean will be: </p><p>\[ \mathbb{E}(aX + b) = a \mathbb{E}(X) + b \].</p><h2>Linearity of variance</h2><p>If \(X\) and \(Y\) are independent random variables, then \(\mbox{var}(X+Y) = \mbox{var}(X) + \mbox{var}(Y)\). More generally, if \(X_1, \ldots, X_n\) are independent, then</p><p>\[ \mbox{var}(X_1 + \cdots + X_n) = \mbox{var}(X_1) + \cdots + \mbox{var}(X_n)\]</p><p>In contrast, linearity of expectation \(\mathbb{E}(X+Y) = \mathbb{E}(X) + \mathbb{E}(Y)\) holds even if the random variables are <em>not</em> independent.</p><p>Suppose \(X\) and \(Y\) are independent random variables. \(X\) has mean of 1 and variance of 2, \(Y\) has mean of 3 and variance of 2, then for the r.v. \(Z = 3X+4Y+2\), the mean is</p>
+
+    <customresponse cfn="check" expect="\[$solution1\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>and the variance is</p>
+
+    <customresponse cfn="check" expect="\[$solution2\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+
+    
+    
+
+    
+
+    <script type="loncapa/python">
+from hint import evaluate
+from hint.get_hint import get_hint
+
+# grader of the problem
+def check(expect, ans):
+  return evaluate.evaluate(expect, ans)
+
+# hint function
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid])
+  i = int(aid[-3])-2
+
+  if ans == "":
+    return
+  key = new_cmap.keys()[0]
+  if new_cmap[key]['correctness'] == "correct":
+    return
+
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
+  new_cmap.set_hint_and_mode(aid,hint,'always')
+    </script>
+
+        
+    <script type="text/javascript" src="/static/js/adaptive_hint.js"></script>
+    <script type="text/javascript">                             
+      for (var i=0; i != hint_number; i++) {
+        hide_hint(i);
+      }
+      show_hint(hint_number);
+    </script>
+
+  </text>
+</problem>

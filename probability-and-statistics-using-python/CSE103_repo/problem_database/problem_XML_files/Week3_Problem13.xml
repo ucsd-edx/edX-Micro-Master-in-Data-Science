@@ -1,0 +1,128 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+
+ns = random.randrange(4,6,1)
+nr = random.randrange(10,16,1)
+n = ns*nr
+
+solution1 = "C({0},2)".format(nr)
+solution2 = "{0}-2".format(nr)
+solution3 = "C({0},2)^2".format(ns)
+solution4 = "{0}".format(ns)
+solution5 = "C({1},2)*({1}-2)*(C({0},2)^2)*{0}".format(ns,nr)
+solution6 = "C({1},2)*({1}-2)*(C({0},2)^2)*{1}/C({2},5)".format(ns,nr,n)
+
+solutions = [solution1,solution2,solution3,solution4,solution5,solution6]  
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+    </script>
+
+    <script type="text/javascript">
+      //fill in number of hint
+        var hint_number = 2;
+
+      //fill in hint input box id
+        var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
+                "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
+      //fill in problem input box id
+        var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
+               "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
+               
+      //fill in hint text id. Need to match the hint_text_id from above
+        var hintTextIds = ["cse103fall2016week1problem1part1",
+                  "cse103fall2016week1problem1part2"];
+    </script>
+
+
+
+<h3>Two Pairs</h3><p><em>Remember, the deck you are using has $ns suits and $nr ranks.</em></p><ul><li>The number of possibilities for the ranks of the two pairs is </li></ul>
+
+    <customresponse cfn="check" expect="\[$solution1\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<ul><li>The number of possibilities for the rank of the single is </li></ul>
+
+    <customresponse cfn="check" expect="\[$solution2\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<ul><li>The number of possibilities for the suits of the two pairs is </li></ul>
+
+    <customresponse cfn="check" expect="\[$solution3\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<ul><li>The number of possibilities for the suit of the single is </li></ul>
+
+    <customresponse cfn="check" expect="\[$solution4\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<ul><li>Thus the number of hands with exactly two pairs is </li></ul>
+
+    <customresponse cfn="check" expect="\[$solution5\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<ul><li>The ratio of this number to the number of all hands </li></ul>
+
+    <customresponse cfn="check" expect="\[$solution6\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+
+    
+    
+
+    
+
+    <script type="loncapa/python">
+from hint import evaluate
+from hint.get_hint import get_hint
+
+# grader of the problem
+def check(expect, ans):
+  return evaluate.evaluate(expect, ans)
+
+# hint function
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid])
+  i = int(aid[-3])-2
+
+  if ans == "":
+    return
+  key = new_cmap.keys()[0]
+  if new_cmap[key]['correctness'] == "correct":
+    return
+
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
+  new_cmap.set_hint_and_mode(aid,hint,'always')
+    </script>
+
+        
+    <script type="text/javascript" src="/static/js/adaptive_hint.js"></script>
+    <script type="text/javascript">                             
+      for (var i=0; i != hint_number; i++) {
+        hide_hint(i);
+      }
+      show_hint(hint_number);
+    </script>
+
+  </text>
+</problem>

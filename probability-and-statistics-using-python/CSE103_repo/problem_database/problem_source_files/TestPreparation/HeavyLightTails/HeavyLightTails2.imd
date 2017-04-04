@@ -1,0 +1,132 @@
+```python
+showPartialCorrectAnswers = 1
+n = random.randrange(50,100)
+k = random.randrange(20,30)
+
+option1 = ('-1','0','infinity')
+option2 = ('-1','0','infinity')
+option3 = ('-1','0','infinity')
+option4 = ('-1','0','infinity')
+option5 = ('-1','0','infinity')
+option6 = ('-1','0','infinity')
+option7 = ('-1','0','infinity')
+
+solution1 = "-1"
+solution2 = "infinity"
+solution3 = "infinity"
+solution4 = "0"
+solution5 = "infinity"
+solution6 = "infinity"
+solution7 = "0"
+solution8 = "1.645/1.082"
+solution9 = "sqrt(1.645/1.082)"
+solution10 = "0" 
+solution11 = "{0}*1.645/1.082".format(n)
+solution12 = "sqrt({0}*1.645/1.082)".format(n) 
+solution13 = "{0}*1.645/1.082/{1}^2".format(n,k)
+
+solutions = [solution1,solution2,solution3,solution4,solution5,solution6,solution7,solution8,solution9,solution10,solution11,solution12,solution13]
+```
+# Useful Facts 
+
+$$\sum_{i=1}^{\infty}{\frac{1}{i}} = \infty$$
+
+Use the following approximations:
+
+$$\sum_{i=1}^{\infty}{\frac{1}{i^2}} \approx 1.645$$
+
+$$\sum_{i=1}^{\infty}{\frac{1}{i^3}} \approx 1.202$$
+
+$$\sum_{i=1}^{\infty}{\frac{1}{i^4}} \approx 1.082$$
+
+In WebWork, you can use inf in an answer box to denote infinity.
+And use -1 to denote undefined.
+
+
+# Properties of Random Variable X 
+
+Let X be a random variable over the integers $\mathbb{Z} = \{...-2,-1,0,1,2,...\}$.  
+
+Let $P(X=0)=0$ and for $i \neq 0$ let $P(X=i) = \frac{1}{Z_{\alpha}|i|^\alpha}$ where $Z_{\alpha} = \sum_{i=-\infty}^{\infty}{1/|i|^{\alpha}} $.  Note that $Z_{\alpha}$ needs to be finite for this distribution to be well defined.
+
+Notice, by having $Z_{\alpha}$ in the denominator, we can ensure that $P(X=i)$ is a probability distribution.  This is since $\sum_{i=-\infty}^{\infty}{P(X=i)} = \frac{\sum_{i=-\infty}^{\infty}{1/|i|^{\alpha}}}{\sum_{i=-\infty}^{\infty}{1/|i|^{\alpha}}} = 1$
+
+For $\alpha=2$:
+
+What is $E[X]$?  
+
+[_choice]
+
+What is $var[X]$?  
+
+[_choice]
+
+What is $std[X]$?  
+
+[_choice]
+
+For $\alpha=3$:
+
+What is $E[X]$?  
+
+[_choice]
+
+What is $var[X]$?  
+
+[_choice]
+
+What is $std[X]$?  
+
+[_choice]
+
+For $\alpha=4$:
+
+What is $E[X]$?  
+
+[_choice]
+
+What is $var[X]$?  
+
+[_]
+
+What is $std[X]$?  
+
+[_]
+
+Hint: To compute both the expected value and variances above, split the infinite
+summation $\sum_{i=-\infty}^{\infty}{...}$ into three parts: 
+
+$$\sum_{i=-\infty}^{-1}{...}$$
+
+$$P(X=0)=0$$
+
+$$\sum_{i=1}^{\infty}{...}$$
+
+# Sums of iid samples from X
+
+For this part, let $X$ be defined as above for $\alpha=4$.  
+
+Define the random variable $Y_{\$n} = \sum_{i=1}^{\$n}{X_i}$, $X_i$ independent identically distributed according to $X$.
+
+Using linearity of expectation, what is $E[Y_{\$n}]$?  
+
+[_]
+
+Using the fact that the $X_i$ random variables are independent and identically
+distributed, what is $var[Y_{\$n}]$?  
+
+[_]
+
+What about the the standard deviation $std[Y_{\$n}]$?  
+
+[_]
+
+Using Chebyshev's inequality, what is a bound on the $P(|Y_{\$n}| > \$k)$?  
+
+[_]
+
+RECALL:
+
+Chebyshev's inequality states:
+
+Let X be a random variable with finite expected value $\mu$ and finite non-zero variance $\sigma^2$. Then for any real number $\$k > 0$, $\Pr(|X-\mu|\geq k\sigma) \leq \frac{1}{k^2}$, which is the same as $\mathbb{P}(|X-\mathbb{E}(X)| \geq a) \leq \frac{\textrm{Var}(X)}{a^2}$ for any a>0.

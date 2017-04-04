@@ -1,0 +1,60 @@
+## DESCRIPTION
+## Discrete mathematics, counting
+## ENDDESCRIPTION
+
+## KEYWORDS('combinatorics', 'counting', 'permutation')
+## Tagged by jjh2b, 08/24/06
+
+## DBsubject('Discrete Mathematics')
+## DBchapter('Combinatorics')
+## DBsection('Counting')
+## Date('')
+## Author('')
+## Institution('ASU')
+## TitleText1('Discrete Mathematics')
+## EditionText1('4')
+## AuthorText1('Rosen')
+## Section1('4.1')
+## Problem1('')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl",
+"PGML.pl"
+);
+
+TEXT(beginproblem());
+
+
+$length = random(5,9,1);
+$ans = 2**$length;
+$ans2 = 2**($length+1) - 1;
+
+BEGIN_PGML
+A bit is a 0 or a 1.  A bit string of length [$length]
+is a sequence of [$length] digits, all of which are either 0 and 1.
+
+(a) How many bit strings of length [$length] are there?
+
+[____]{$ans}
+END_PGML
+
+BEGIN_PGML
+(b) How many bit strings of length [$length] or less are there? 
+
+(Count the empty string of length zero also.) 
+
+[______]{$ans2}
+END_PGML
+
+$n2 = random(3,6,1);
+$ans3 = 26**$n2 - 25**$n2;
+
+
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.;

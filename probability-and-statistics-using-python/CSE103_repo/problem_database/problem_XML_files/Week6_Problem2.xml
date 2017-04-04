@@ -1,0 +1,232 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+
+#C11 = 1/16;
+#C12 = 2/16;
+#C13 = 1/16;
+#C21 = 2/16;
+#C22 = 4/16;
+#C23 = 2/16;
+#C31 = 1/16;
+#C32 = 2/16;
+#C33 = 1/16;
+
+#X1 = C11 + C21 + C31;
+#X2 = C12 + C22 + C32;
+#X3 = C13 + C23 + C33;
+
+#Y1 = C11 + C12 + C13;
+#Y2 = C21 + C22 + C23;
+#Y3 = C31 + C32 + C33;
+
+#E_X = 1*X1 + 2*X2 + 3*X3;
+#E_Y = 1*Y1 + 2*Y2 + 3*Y3;
+#E_XY = 1*C11 + 2*C12 + 3*C13 + 2*C21 + 4*C22 + 6*C23 + 3*C31 + 6*C32 + 9*C33;
+#COV_XY  = E_XY - E_X *E_Y;
+#E_X2 = 1*X1 + 4*X2 + 9*X3;
+#E_Y2 = 1*X1 + 4*X2 + 9*X3;
+#STD_X = math.sqrt(E_X2 - E_X**2);
+#STD_Y = math.sqrt(E_Y2 - E_Y**2);
+
+solution1 = "1/16 + 2/16 + 1/16"
+solution2 = "2/16 + 4/16 + 2/16"
+solution3 = "1/16 + 2/16 + 1/16"
+solution4 = "1/16 + 2/16 + 1/16"
+solution5 = "2/16 + 4/16 + 2/16"
+solution6 = "1/16 + 2/16 + 1/16"
+solution7 = "1"
+solution8 = "1"
+solution9 = "1*(1+ 2 + 1)/16+2*(2 + 4 + 2)/16+3*(1 + 2 + 1)/16"#{"$E_X"}
+solution10 = "1*(1 + 2 + 1)/16+2*(2 + 4 + 2)/16+3*(1 + 2 + 1)/16"#{"$E_Y"}
+solution11 = "{0} + {1}".format(solution9, solution10)#{"$E_X + $E_Y"}
+solution12 = "(1*1 + 2*2 + 3*1 + 2*2 + 4*4 + 6*2 + 3*1 + 6*2 + 9*1)/16"#{"$E_XY"}
+solution13 = "1*1/16 + 2*2/16 + 3*1/16 + 2*2/16 + 4*4/16 + 6*2/16 + 3*1/16 + 6*2/16 + 9*1/16 - (1 * (1/16 + 2/16 + 1/16) + 2 * (2/16 + 4/16 + 2/16) + 3 * (1/16 + 2/16 + 1/16)) * (1 * (1/16 + 2/16 + 1/16) + 2 * (2/16 + 4/16 + 2/16) + 3 * (1/16 + 2/16 + 1/16))"#{"$COV_XY"}
+solution14 = "({0})/(sqrt(1 * (1/16 + 2/16 + 1/16) + 4 * (2/16 + 4/16 + 2/16) + 9 * (1/16 + 2/16 + 1/16) - (1 * (1/16 + 2/16 + 1/16) + 2 * (2/16 + 4/16 + 2/16) + 3 * (1/16 + 2/16 + 1/16))^2) * sqrt(1 * (1/16 + 2/16 + 1/16) + 4 * (2/16 + 4/16 + 2/16) + 9 * (1/16 + 2/16 + 1/16) - (1 * (1/16 + 2/16 + 1/16) + 2 * (2/16 + 4/16 + 2/16) + 3 * (1/16 + 2/16 + 1/16))^2))".format(solution13)#{"($COV_XY)/(($STD_X)*($STD_Y))"}
+solution15 = "0"#{"0"}
+
+solutions = [solution1, solution2, solution3, solution4, solution5, solution6, solution7, solution8, solution9, solution10, solution11, solution12, solution13, solution14, solution15]
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+    </script>
+
+    <script type="text/javascript">
+      //fill in number of hint
+        var hint_number = 2;
+
+      //fill in hint input box id
+        var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
+                "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
+      //fill in problem input box id
+        var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
+               "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
+               
+      //fill in hint text id. Need to match the hint_text_id from above
+        var hintTextIds = ["cse103fall2016week1problem1part1",
+                  "cse103fall2016week1problem1part2"];
+    </script>
+
+
+
+<p>The following formula are useful for this assignment:</p><ul><li><p>Covariance \(COV(X,Y) = E[XY]-E[X]E[Y]\)</p></li><li><p>Correlation coefficient \(r(X,Y) = \frac{COV(X,Y)}{\sqrt{VAR[X]}\sqrt{VAR[Y]}}\)</p></li></ul><table><tr>   <th></th>   <th>X=1</th>   <th>X=2</th>   <th>X=3</th> </tr> <tr>   <td>Y=1</td>   <td>1/16</td>   <td>2/16</td>   <td>1/16</td> </tr> <tr>    <td>Y=2</td>    <td>2/16</td>    <td>4/16</td>    <td>2/16</td> </tr> <tr>    <td>Y=3</td>    <td>1/16</td>    <td>2/16</td>    <td>1/16</td> </tr></table><p>(1) The marginal distribution of \(X\) is</p><p>\(P(X=1)=\)</p>
+
+    <customresponse cfn="check" expect="\[$solution1\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>\(P(X=2)=\)</p>
+
+    <customresponse cfn="check" expect="\[$solution2\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>\(P(X=3)=\)</p>
+
+    <customresponse cfn="check" expect="\[$solution3\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>(2) The marginal distribution of \(Y\) is</p><p>\(P(Y=1)=\)</p>
+
+    <customresponse cfn="check" expect="\[$solution4\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>\(P(Y=2)=\)</p>
+
+    <customresponse cfn="check" expect="\[$solution5\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>\(P(Y=3)=\)</p>
+
+    <customresponse cfn="check" expect="\[$solution6\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>(3) Are \(X\) and \(Y\) independent? (1=independent, 0=dependent)</p>
+
+    <customresponse cfn="check" expect="\[$solution7\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>(4) Are \(X\)  and \(X\)  identically distributed? (0=no, 1=yes)</p>
+
+    <customresponse cfn="check" expect="\[$solution8\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>(5) \(E(X) =\)</p>
+
+    <customresponse cfn="check" expect="\[$solution9\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>(6) \(E(Y) =\)</p>
+
+    <customresponse cfn="check" expect="\[$solution10\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>(7) \(E(X+Y) =\)</p>
+
+    <customresponse cfn="check" expect="\[$solution11\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>(8) \(E(XY) = \)</p>
+
+    <customresponse cfn="check" expect="\[$solution12\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>(9) \(Cov(X,Y) =\)</p>
+
+    <customresponse cfn="check" expect="\[$solution13\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>(10) The correlation coefficient between \(X\) and \(Y\) is</p>
+
+    <customresponse cfn="check" expect="\[$solution14\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>(11) Are \(X\) and \(Y\) correlated (1=Correlated, 0=uncorrelated, -1=anticorrelated)</p>
+
+    <customresponse cfn="check" expect="\[$solution15\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+
+    
+    
+
+    
+
+    <script type="loncapa/python">
+from hint import evaluate
+from hint.get_hint import get_hint
+
+# grader of the problem
+def check(expect, ans):
+  return evaluate.evaluate(expect, ans)
+
+# hint function
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid])
+  i = int(aid[-3])-2
+
+  if ans == "":
+    return
+  key = new_cmap.keys()[0]
+  if new_cmap[key]['correctness'] == "correct":
+    return
+
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
+  new_cmap.set_hint_and_mode(aid,hint,'always')
+    </script>
+
+        
+    <script type="text/javascript" src="/static/js/adaptive_hint.js"></script>
+    <script type="text/javascript">                             
+      for (var i=0; i != hint_number; i++) {
+        hide_hint(i);
+      }
+      show_hint(hint_number);
+    </script>
+
+  </text>
+</problem>

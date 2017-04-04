@@ -1,0 +1,131 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+showPartialCorrectAnswers = 1
+
+solution1 = "C(5,2)"
+solution2 = "2*6"
+solution3 = "3*2"
+solution4 = "3"
+solution5 = "(C(5,2)+2*6+3*2+3)/C(52-5,2)"
+
+solutions = [solution1,solution2,solution3,solution4,solution5]
+
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+    </script>
+
+    <script type="text/javascript">
+      //fill in number of hint
+        var hint_number = 2;
+
+      //fill in hint input box id
+        var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
+                "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
+      //fill in problem input box id
+        var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
+               "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
+               
+      //fill in hint text id. Need to match the hint_text_id from above
+        var hintTextIds = ["cse103fall2016week1problem1part1",
+                  "cse103fall2016week1problem1part2"];
+    </script>
+
+
+
+<p>Like the previous question, suppose you have been dealt "4\(\heartsuit\), 5\(\heartsuit\)".</p>
+<p>What is the conditional probability that you will get a hand at least as high as a full house, given that you have been dealt these two cards, and that the flop is "3\(\heartsuit\), 4\(\spadesuit\), K\(\diamondsuit\)"?<em> Note that ranks that are higher than full house are four-of-a-kind, straight flush and royal flush.
+</em> To make a full house or four of a kind, need to get two cards out of the remaining cards whose ranks are 4 or 5.
+The number of such card pairs, ignoring order, is</p>
+
+
+    <customresponse cfn="check" expect="\[$solution1\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<ul>
+<li>We can also get a 4 and either 3 or K to make a full house. The number of such card pairs, ignoring order, is</li>
+</ul>
+
+
+    <customresponse cfn="check" expect="\[$solution2\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<ul>
+<li>A third possibility is to draw two K's or two 3's. The number of such card pairs, ignoring order,  is</li>
+</ul>
+
+
+    <customresponse cfn="check" expect="\[$solution3\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<ul>
+<li>The final possibility is a straight flush. The number of such card pairs, ignoring order, is</li>
+</ul>
+
+
+    <customresponse cfn="check" expect="\[$solution4\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<ul>
+<li>The conditional probability is</li>
+</ul>
+
+
+    <customresponse cfn="check" expect="\[$solution5\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+    
+
+    
+
+    <script type="loncapa/python">
+from hint import evaluate
+from hint.get_hint import get_hint
+
+# grader of the problem
+def check(expect, ans):
+  return evaluate.evaluate(expect, ans)
+
+# hint function
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid])
+  i = int(aid[-3])-2
+
+  if ans == "":
+    return
+  key = new_cmap.keys()[0]
+  if new_cmap[key]['correctness'] == "correct":
+    return
+
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
+  new_cmap.set_hint_and_mode(aid,hint,'always')
+    </script>
+
+        
+    <script type="text/javascript" src="/static/js/adaptive_hint.js"></script>
+    <script type="text/javascript">                             
+      for (var i=0; i != hint_number; i++) {
+        hide_hint(i);
+      }
+      show_hint(hint_number);
+    </script>
+
+  </text>
+</problem>

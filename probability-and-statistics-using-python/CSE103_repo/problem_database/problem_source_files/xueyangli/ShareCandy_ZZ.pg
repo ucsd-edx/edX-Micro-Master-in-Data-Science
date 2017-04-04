@@ -1,0 +1,53 @@
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "MathObjects.pl",
+  "PGcourse.pl",
+  "contextIntegerFunctions.pl",
+"PGauxiliaryFunctions.pl",
+);
+
+TEXT(beginproblem());
+
+{
+$k = random(8,15,1);
+$r = random(8,15,1);
+    redo if ($k==$r);
+}
+$t1 = Compute("C($k+3,3)");
+$r1 = Compute("C($r+3,3)");
+$a1 = Compute("$t1*$r1");
+$t2 = Compute("C($k,3)");
+$r2 = Compute("C($r,3)");
+$a2 = Compute("$t2*$r2");
+
+BEGIN_PGML
+
+#### Candice shares Candy with her Little Brothers ####
+
+After a (not very successful) trick or treating round, Candice has [$k] Tootsie rolls and [$r] Twizzlers in her pillow case. Her mother asks her to share the loot with her three younger brothers. (She can choose to keep some or none for herself, and can choose to give some or none to any of her brothers.)
+
+o How many different ways can she do this? 
+
+First of all, let's find out how many ways can she share Tootsie rolls with her three brothers? [_________]{$t1}
+
+Then, let's find out how many ways can she share her Twizzlers? [_________]{$r1}
+
+Now, based on the previous two solutions, how many different ways can she share the loot with her brothers? [_________]{$a1}
+
+---
+
+o How many different ways can she do this after her mother warns her to give at least one of each type of candies to each of her brothers? 
+
+Again, how many ways can she share Tootsie rolls when she has to give at least one Tootsie roll to each of her brothers? [_________]{$t2}
+
+How many ways can she share her Twizzlers when she has to give at least one Twizzler to each of her brothers? [_________]{$r2}
+
+Now, based on the previous two solutions, how many different ways can she share the loot with her brothers after her mother warns her? [_________]{$a2}
+END_PGML
+
+######################################################################
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.

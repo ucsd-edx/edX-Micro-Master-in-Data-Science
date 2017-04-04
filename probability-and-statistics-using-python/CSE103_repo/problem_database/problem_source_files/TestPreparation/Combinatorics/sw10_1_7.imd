@@ -1,0 +1,13 @@
+```python
+from math import factorial
+a=random.randrange(4,8,1);
+solution1 = '{}!'.format(a)
+
+solutions = [solution1]
+```
+### Combinatorics: order of completing a race
+Consider the order in which \$a runners complete a race, i.e. 1st place, 2nd place, 3rd place etc.
+
+What is the number of possible orders?
+
+[_]

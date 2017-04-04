@@ -1,0 +1,69 @@
+##DESCRIPTION
+##  Uniform Distribution
+##ENDDESCRIPTION
+
+##KEYWORDS('Uniform Distribution')
+
+## DBsubject('Combinatorics')
+## DBchapter('')
+## DBsection('')
+## Date('9/28/2012')
+## Author('Matthew Elkherj')
+## Institution('University of California San Diego')
+## TitleText('hi')
+## TitleText1('hi')
+## EditionText1('2012')
+## AuthorText1('hi')
+## Section1('hi')
+## Problem1('hi')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "MathObjects.pl",
+  "parserRadioButtons.pl",
+  "compoundProblem.pl",
+  "Parser.pl",
+  "PGunion.pl",
+  "PGcourse.pl",
+  "PGchoicemacros.pl",
+);
+
+TEXT(beginproblem());
+BEGIN_PROBLEM();
+
+##############################################
+
+$isProfessor = ($studentLogin eq 'yoav.freund' || $studentLogin eq 'professor');
+Context("Interval");
+$showPartialCorrectAnswers = 1; # show student the correct part of their answer.
+
+$OutcomeInterval=Interval("[1,7]");
+$Outcomes=Set("{1,2,3,4,5,6,7}");
+$PrimeEvent=Set("{2,3,5,7}");
+
+BEGIN_PGML
+
+### Title ###
+
+## Uniform Distribution and Prime Numbers ##
+We want to calculate the probability a uniformly randomly chosen integer from the set of integers [`\{1,...7\}`] is prime.  
+
+o What is a natural outcome space [`\Omega`]?  [_________]{$Outcomes}
+o What is the event [`E`] we are interested in?  Recall that an event is a set.  [_________]{$PrimeEvent}
+o What is [`|\Omega|`], the size of the outcome space?  [________]{7}
+o What is [`|E|`], the size of the event space?  [________]{4}
+o What is the probability a uniformly randomly chosen integer from the set [`\{1,2,...7\}`] is prime?  [________]{4/7}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+The event [`E`] is the set of integers in the outcome set [`\Omega = \{1,2,...7\}`] that are prime, ie [`\{2,3,5,7\}`].  Since we assumed a uniform distribution on the outcome space, the probability an element of the outcome set is in the event set is [`|E|/|\Omega|`].  
+END_PGML_SOLUTION
+##############################################
+
+END_PROBLEM();
+ENDDOCUMENT();        # This should be the last executable line in the problem.

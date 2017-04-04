@@ -1,0 +1,33 @@
+```python
+option1 = ('yes', 'no', 'can\'t tell')
+solution1 = "no"
+option2 = ('yes', 'no', 'can\'t tell')
+solution2 = "yes"
+option3 = ('yes', 'no', 'can\'t tell')
+solution3 = "can't tell"
+solutions=[solution1, solution2, solution3]
+
+```
+### Hypothesis testing and confidence intervals
+(5 points)
+
+We are given a sample $D$ drawn from a normal distribution ${\cal N}(\mu,\sigma)$. We know that the distribution is normal, but we don't know what is the value of the standard deviation $\sigma$ or the mean $\mu$
+
+We consider the relationship between two statistical calculations:
+* **Statistical test:** The Null hypothesis is that the mean $\mu$ is zero. The alternative hypothesis is that it is that $\mu \neq 0$. The test takes $D$ and a significance level parameter $\alpha>0$ as input and output "reject" or "fail". The requirement is that if the null hypothesis is correct, the probability of rejection is at most $\alpha$.
+
+* **Estimation:** An estimator takes as input the sample $D$ and a confidence level $\beta$ outputs an interval $(a,b)$ (Note that $a$ and $b$ are random variables). The requirement is that the the the probability that $a < \mu < b$ is at least $\beta$. In other words, the probability of a sample $D$ such that $\mu \leq a$ or $b \leq \mu$ is at most $1-\beta$.
+
+Answer the following questions.
+
+(1)  Suppose that for a given data set of $D$, a 95% confidence interval is calculated to be (-3.45,1.78).  If you were to perform a hypothesis test at the 5% significance level to test the null hypothesis, would you reject it?  Answer "yes", "no", or "can't tell".
+
+[_choice]
+
+(2)  Suppose that for a given data set of $D$, a 99% confidence interval is calculated to be (-10.77,-2.35).  If you were to perform a hypothesis test at the 3% significance level to test the null hypothesis, would you reject it?  Answer "yes", "no", or "can't tell".
+
+[_choice]
+
+(3)  Suppose that for a given data set of $D$, a 97% confidence interval is calculated to be (25.6,41.1).  If you were to perform a hypothesis test at the 1% significance level to test the null hypothesis, would you reject it?  Answer "yes", "no", or "can't tell".
+
+[_choice]

@@ -1,0 +1,87 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+    </script>
+
+    <script type="text/javascript">
+      //fill in number of hint
+        var hint_number = 2;
+
+      //fill in hint input box id
+        var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
+                "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
+      //fill in problem input box id
+        var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
+               "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
+               
+      //fill in hint text id. Need to match the hint_text_id from above
+        var hintTextIds = ["cse103fall2016week1problem1part1",
+                  "cse103fall2016week1problem1part2"];
+    </script>
+
+
+
+<h2>\(\chi^2\) test II</h2>
+<p>Suppose that we are counting the number of cars passing a point on the highway during is hour of the day for a year.</p>
+<p>We have a hypothsis that the distribution of cars during weekend days is significantly different from the distribution of cars during the working days. How do we test this hypothesis?</p>
+<p>We can use the <a href="https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test">\(\chi^2\) test</a> tests whether two samples are drawn from the same distribution, or from different distributions. The <strong>null</strong> hypothesis is that the two samples are drawn from the same distribution, and the <strong>alternative</strong> is that they are drawn from different distributions.</p>
+<p>To compute the \(\chi^2\)-statistic we need to know the <strong>number of degrees of freedom</strong> of the distribution. As there are \(24\) hours in the day, there are \(24\) probabilities to consider. However, as the probabilities sum to 1, there are only \(23\) degrees of freedom.</p>
+<p>The value of the \(\chi^2\)-statistic is non-negative. It is zero if the two samples have the same empirical distribution, and increases the more the distributions differ.</p>
+<p>Select all of the statements that are correct:</p>
+
+
+    <choiceresponse>
+      <checkboxgroup>
+<choice correct="false">A small value of the \(\chi^2\) statistic justifies <strong>rejecting</strong> the Null Hypothesis</choice>
+<choice correct="false">A small value of the \(\chi^2\) statistic justifies <strong>accepting</strong> the Alternative Hypothesis</choice>
+<choice correct="true">A large value of the \(\chi^2\) statistic justifies <strong>rejecting</strong> the Null Hypothesis</choice>
+<choice correct="true">A large value of the \(\chi^2\) statistic justifies <strong>accepting</strong> the alternative Hypothesis</choice>
+<choice correct="false">It is possible to reject both the Null and the alternative hypothesis.</choice>
+<choice correct="true">It is possible not to reject either the Null nor the alternative hypothesis.</choice>
+      </checkboxgroup>
+    </choiceresponse>
+
+
+    
+
+    
+
+    <script type="loncapa/python">
+from hint import evaluate
+from hint.get_hint import get_hint
+
+# grader of the problem
+def check(expect, ans):
+  return evaluate.evaluate(expect, ans)
+
+# hint function
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid])
+  i = int(aid[-3])-2
+
+  if ans == "":
+    return
+  key = new_cmap.keys()[0]
+  if new_cmap[key]['correctness'] == "correct":
+    return
+
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
+  new_cmap.set_hint_and_mode(aid,hint,'always')
+    </script>
+
+        
+    <script type="text/javascript" src="/static/js/adaptive_hint.js"></script>
+    <script type="text/javascript">                             
+      for (var i=0; i != hint_number; i++) {
+        hide_hint(i);
+      }
+      show_hint(hint_number);
+    </script>
+
+  </text>
+</problem>

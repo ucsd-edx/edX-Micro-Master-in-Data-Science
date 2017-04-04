@@ -1,0 +1,161 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+
+
+# P/100 is the probability of the partition of P according to the events
+# A/A^C, B/B^C and C/C^C
+P=[]
+
+for i in range(2):
+	P.append([])
+	for j in range(2):
+	   P[i].append([])
+	   for k in range(2):
+	      P[i][j].append(random.randrange(1,3,1)/20.)
+
+pairs=[(0,0),(0,1),(1,0),(1,1)]
+def rnd(x):
+    return round(x*100.)/100.
+
+pa=rnd(sum([P[1][i][j] for i,j in pairs]))
+pb=rnd(sum([P[i][1][j] for i,j in pairs]))
+pc=rnd(sum([P[i][j][1] for i,j in pairs]))
+paib=rnd(sum(P[1][1][i] for i in range(2)))
+paic=rnd(sum(P[1][i][1] for i in range(2)))
+pbic=rnd(sum(P[i][1][1] for i in range(2)))
+pabc=rnd(sum([sum([sum(L) for L in M]) for M in P]))
+
+paub=pa+pb-paib
+pauc=pa+pc-paic
+pbuc=pb+pc-paic
+
+solution1 = "{0}+{1}-{2}".format(pa,pb,paub)
+solution2 = "{0}+{1}-{2}".format(pb,pc,pbuc)
+solution3 = "{0}+{1}-{2}".format(pa,pc,pauc)
+solution4 = "({0})/{1}".format(solution1,pb)
+solution5 = "({0})/{1}".format(solution1,pa)
+solution6 ="{0}+({4})+({5})+({6})-({1}+{2}+{3})".format(pabc,pa,pb,pc,solution1,solution2,solution3)
+solution7 ="({0})/({1})".format(solution6,solution2)
+
+solutions = [solution1, solution2, solution3, solution4, solution5, solution6, solution7]
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+    </script>
+
+    <script type="text/javascript">
+      //fill in number of hint
+        var hint_number = 2;
+
+      //fill in hint input box id
+        var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
+                "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
+      //fill in problem input box id
+        var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
+               "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
+               
+      //fill in hint text id. Need to match the hint_text_id from above
+        var hintTextIds = ["cse103fall2016week1problem1part1",
+                  "cse103fall2016week1problem1part2"];
+    </script>
+
+
+
+<h2>Conditional Probability</h2><p>Consider the following Venn diagram, describing three events labeled A,B and C.</p><p><img src="/static/Venn3.jpg" style="width:300px;height:300px;"/></p><p>You are given the following information:\[ P(A) = $pa \]\[ P(B) = $pb \]\[ P(C) = $pc \]\[ P(A \cup B) = $paub \]\[ P(A \cup C) = $pauc \]\[ P(C \cup B) = $pbuc \]\[ P(A \cup B \cup C) = $pabc \]</p><p>Compute the following quantities. Hint: write expressions involving the numbers above, rather than calculating the numerical result.</p><p>\[ P(A \cap B) = \]</p>
+
+    <customresponse cfn="check" expect="\[$solution1\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>\[ P(B \cap C) = \]</p>
+
+    <customresponse cfn="check" expect="\[$solution2\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>\[ P(A \cap C) = \]</p>
+
+    <customresponse cfn="check" expect="\[$solution3\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>\[ P(A | B) = \]</p>
+
+    <customresponse cfn="check" expect="\[$solution4\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>\[ P(B|A) = \]</p>
+
+    <customresponse cfn="check" expect="\[$solution5\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>\[ P(A \cap B \cap C) = \]</p><p>Hint: Google the "inclusion exclusion principle for three sets"</p>
+
+    <customresponse cfn="check" expect="\[$solution6\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>\[ P(A | B \cap C) = \]</p>
+
+    <customresponse cfn="check" expect="\[$solution7\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+
+    
+    
+
+    
+
+    <script type="loncapa/python">
+from hint import evaluate
+from hint.get_hint import get_hint
+
+# grader of the problem
+def check(expect, ans):
+  return evaluate.evaluate(expect, ans)
+
+# hint function
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid])
+  i = int(aid[-3])-2
+
+  if ans == "":
+    return
+  key = new_cmap.keys()[0]
+  if new_cmap[key]['correctness'] == "correct":
+    return
+
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
+  new_cmap.set_hint_and_mode(aid,hint,'always')
+    </script>
+
+        
+    <script type="text/javascript" src="/static/js/adaptive_hint.js"></script>
+    <script type="text/javascript">                             
+      for (var i=0; i != hint_number; i++) {
+        hide_hint(i);
+      }
+      show_hint(hint_number);
+    </script>
+
+  </text>
+</problem>

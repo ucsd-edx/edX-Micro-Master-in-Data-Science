@@ -1,0 +1,60 @@
+```python
+# random variables (no need to import random library)
+n = random.randrange(3,6,1)
+k = random.randrange(1,6,2)
+
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1. 
+option1 = ('T', 'F')
+solution1 = 'F'
+option2 = ('T', 'F')
+solution2 = 'T'
+option3 = ('T', 'F')
+solution3 = 'T'
+option4 = ('T', 'F')
+solution4 = 'F'
+option5 = ('T', 'F')
+solution5 = 'T'
+option6 = ('T', 'F')
+solution6 = 'F'
+option7 = ('T', 'F')
+solution7 = 'F'
+option8 = ('T', 'F')
+solution8 = 'F'
+
+solutions = [solution1, solution2, solution3, solution4, solution5, solution6, solution7, solution8]
+
+```
+Enter a T or a F in each answer space below to indicate whether the corresponding statement is true or false.
+
+* A random variable \(X\) defines an event
+
+[_choice]
+
+* If $X$ is a random variable and $a$ is a constant, $X \geq a$ defines an event
+
+[_choice]
+
+* The expected number of points when flipping a fair die is $3.5$
+
+[_choice]
+
+* $ \sum_{i=1}^{100} 1/i =\infty$
+
+[_choice]
+
+* $ \sum_{i=1}^{\infty} 1/i =\infty $
+
+[_choice]
+
+* $ \sum_{i=1}^{\infty} 1/i^2 =\infty $
+
+[_choice]
+
+* The bias of a coin is a random variable
+
+[_choice]
+
+* The set of pairs of integers is countable
+
+[_choice]

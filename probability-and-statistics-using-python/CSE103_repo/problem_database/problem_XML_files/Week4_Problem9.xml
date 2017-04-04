@@ -1,0 +1,88 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+
+import math
+# random variables (no need to import random library)
+
+def cnk(n, k):
+    return math.factorial(n)/(math.factorial(n - k) * math.factorial(k)) 
+
+a1 = 1-3/cnk(52-7,2)
+a2 = (1-3/cnk(52-7,2))*(1-3/cnk(52-9,2))
+
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1. 
+solution1 = "3"
+solution2 = "{0}".format(a1)
+solution3 = "{0}".format(a2)
+
+
+# Group all solutions into a list
+solutions = [solution1, solution2, solution3, solution4]
+
+
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+    </script>
+
+    <script type="text/javascript">
+      //fill in number of hint
+        var hint_number = 2;
+
+      //fill in hint input box id
+        var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
+                "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
+      //fill in problem input box id
+        var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
+               "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
+               
+      //fill in hint text id. Need to match the hint_text_id from above
+        var hintTextIds = ["cse103fall2016week1problem1part1",
+                  "cse103fall2016week1problem1part2"];
+    </script>
+
+
+
+<p>Like the previous question, suppose you have been dealt "4\(\heartsuit\), 5\(\heartsuit\)".</p><ol><li><p>Suppose you have one opponent. What is the conditional probability that you will win, given these two cards in hand, and that the board is "3\(\diamondsuit\), 4\(\diamondsuit\), 4\(\clubsuit\), 4\(\spadesuit\), 5\(\diamondsuit\)"?</p><ul><li>With this board, we have four of a kind. The only way the opponent will beat it is with a straight flush. How many possible two cards does the opponent have that can make a straight flush, regardless of order? </li></ul></li></ol><p>...(Recall that a straight flush is five cards in sequence of the same suit. This means that Given that there are three sequential diamonds on the table, think about which/how many pairs of diamonds could complete the 3,4,and 5 of diamonds to create such a sequence).  </p><pre><code>[_]- The conditional probability that you will win is the complement of the probability that they will, out of all the remaining cards, have in their hand the necessary cards for a straight flush:[_]</code></pre><ol><li>What if you have two opponents? What is the conditional probability that you will win?</li></ol><p>...(Take into account that opponent A and opponent B could have the straight flush.)</p><pre><code>- The conditional probability that you will win is[_]</code></pre>
+    
+    
+
+    
+
+    <script type="loncapa/python">
+from hint import evaluate
+from hint.get_hint import get_hint
+
+# grader of the problem
+def check(expect, ans):
+  return evaluate.evaluate(expect, ans)
+
+# hint function
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid])
+  i = int(aid[-3])-2
+
+  if ans == "":
+    return
+  key = new_cmap.keys()[0]
+  if new_cmap[key]['correctness'] == "correct":
+    return
+
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
+  new_cmap.set_hint_and_mode(aid,hint,'always')
+    </script>
+
+        
+    <script type="text/javascript" src="/static/js/adaptive_hint.js"></script>
+    <script type="text/javascript">                             
+      for (var i=0; i != hint_number; i++) {
+        hide_hint(i);
+      }
+      show_hint(hint_number);
+    </script>
+
+  </text>
+</problem>

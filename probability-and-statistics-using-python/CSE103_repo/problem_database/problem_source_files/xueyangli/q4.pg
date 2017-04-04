@@ -1,0 +1,42 @@
+DOCUMENT();
+
+loadMacros(
+    "PGstandard.pl",
+    "PGML.pl",
+    "MathObjects.pl",
+    "PGcourse.pl",
+);
+
+TEXT(beginproblem);
+$showPartialCorrectAnswers=1;
+
+#################################
+
+$context=Context("Interval");
+$b = random(2,5,1);
+$O = Set(1,4,9,16,25,36,49,64,81,100);
+if ($b == 2 || $b == 4) {$A = Set(4,16,36,64,100);}
+elsif ($b == 3) {$A = Set(9,36,81);}
+elsif ($b == 5) {$A = Set(25,100);}
+
+BEGIN_PGML
+
+### Practice with Uniform Distributions ###
+
+If we draw a number from the first 10 perfect square numbers starting from 1, what is the probability that this number is divisible by [$b] (*copy* the value after "divisible by" here [__]{$b})?
+
+The outcome space [`\Omega = [$O]`], and the event that the drawn number is divisible by [$b] corresponds to the subset [`A = [$A]`]. As there is equal chance of drawing each number in [`\Omega`], the probability of this event is calculated as [`\frac{|A|}{|\Omega|} =`] [____]{$A->length/10}.
+	
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The size of the outcome space [`\Omega`] is 10, and the size of [`A`] is [$A->length], so the probability of this event is [$A->length/10].
+
+END_PGML_SOLUTION
+
+
+#################################
+
+ENDDOCUMENT();
+

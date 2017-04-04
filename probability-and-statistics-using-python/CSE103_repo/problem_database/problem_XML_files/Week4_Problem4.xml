@@ -1,0 +1,106 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+
+# random variables (no need to import random library)
+p_men = random.randrange(6,8,1)
+p_women = random.randrange(3,5,1)
+
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
+solution1 = "{0}/100*0.5".format(p_men)
+solution2 = "{0}/100*0.5 + {1}/100*0.5".format(p_men,p_women)
+solution3 = "({0})/({1})".format(solution1,solution2)
+
+# Group all solutions into a list
+solutions = [solution1,solution2,solution3]
+
+
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+    </script>
+
+    <script type="text/javascript">
+      //fill in number of hint
+        var hint_number = 2;
+
+      //fill in hint input box id
+        var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
+                "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
+      //fill in problem input box id
+        var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
+               "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
+               
+      //fill in hint text id. Need to match the hint_text_id from above
+        var hintTextIds = ["cse103fall2016week1problem1part1",
+                  "cse103fall2016week1problem1part2"];
+    </script>
+
+
+
+<p>Suppose that there are equal numbers of men and women in the world, and that \($p_men\)% of men are colorblind \($p_women\)% of women are colorblind.</p><p>A person is chosen at random and found to be colorblind. What is the probability that the person is male?</p><p>We need to reverse the direction of conditioning. We are given \(\text{Pr}(\text{colorblind}|\text{male})\) and we need to compute \(\text{Pr}(\text{male}|\text{colorblind})\)?</p><p>To do so we use Bayes Formula, which for this setting is:\[\textbf{Pr}(\text{male}|\text{colorblind}) = \frac{\textbf{Pr}(\text{male},\text{colorblind)}}{\textbf{Pr}(\text{colorblind)}} \]\[=\frac{\textbf{Pr}(\text{colorblind}|\text{male})\textbf{Pr}(\text{male})}{\textbf{Pr}(\text{colorblind})}\]</p><p>We will compute the numerator and denominator of the Bayes equation separately:</p><p>First, the numerator is\[\textbf{Pr}(\text{male}, \text{colorblind})= \textbf{Pr}(\text{colorblind}| \text{male})* \textbf{Pr}(\text{male}) \]</p><p>which is equal to</p>
+
+    <customresponse cfn="check" expect="\[$solution1\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>Second, the denominator is \(\textbf{Pr}(\text{colorblind})\), which can be calculated using the Law of Total Probability as follows:\[\textbf{Pr}(\text{colorblind}) = \textbf{Pr}(\text{male}, \text{colorblind}) + \textbf{Pr}(\text{female}, \text{colorblind}) \]\[= \textbf{Pr}(\text{colorblind}|\text{male})\textbf{Pr}(\text{male}) + \textbf{Pr}(\text{colorblind}|\text{female})\textbf{Pr}(\text{female})\]</p><p>Which means that the denominator is equal to:</p>
+
+    <customresponse cfn="check" expect="\[$solution2\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>Finally, we take the ratio of the numerator and denominator to find the final answer:</p><p>\[\text{Pr}(\text{male}|\text{colorblind})=\]</p>
+
+    <customresponse cfn="check" expect="\[$solution3\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+
+    
+    
+
+    
+
+    <script type="loncapa/python">
+from hint import evaluate
+from hint.get_hint import get_hint
+
+# grader of the problem
+def check(expect, ans):
+  return evaluate.evaluate(expect, ans)
+
+# hint function
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid])
+  i = int(aid[-3])-2
+
+  if ans == "":
+    return
+  key = new_cmap.keys()[0]
+  if new_cmap[key]['correctness'] == "correct":
+    return
+
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
+  new_cmap.set_hint_and_mode(aid,hint,'always')
+    </script>
+
+        
+    <script type="text/javascript" src="/static/js/adaptive_hint.js"></script>
+    <script type="text/javascript">                             
+      for (var i=0; i != hint_number; i++) {
+        hide_hint(i);
+      }
+      show_hint(hint_number);
+    </script>
+
+  </text>
+</problem>
