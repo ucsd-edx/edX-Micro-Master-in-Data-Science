@@ -1,3 +1,4 @@
+# %load lib/create_file.py
 import time
 
 stat=open('stats.txt','w')

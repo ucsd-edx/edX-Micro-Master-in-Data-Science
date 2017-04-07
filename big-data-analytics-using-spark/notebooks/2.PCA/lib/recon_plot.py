@@ -17,7 +17,6 @@ class recon_plot:
         :param ax: The axis environment for plotting (used for generating multi-plots)
         :param interactive: Set to True if you want to use the plot in an interactive reconstruction Widget.
         :param Title: A string to be used as the title of this plot.
-
         """
         self.eigen_decomp=eigen_decomp
         self.interactive=interactive
@@ -70,10 +69,14 @@ class recon_plot:
         :returns: None
 
         """
-        
-        if self.interactive or self.fig is None:
+        print 'in plot_combination', coeff,'\n'
+        return None
+#        if self.interactive or (self.fig is None):
+        if self.fig is None:
             self.fig=plt.figure(figsize=(8,6))
             self.ax=self.fig.add_axes([0,0,1,1])
+        else:
+            self.fig.clear()
 
         A=self.eigen_decomp.mean
         self.plot(A,label='mean')
