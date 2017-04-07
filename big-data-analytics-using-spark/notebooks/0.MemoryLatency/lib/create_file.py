@@ -1,3 +1,4 @@
+# %load lib/create_file.py
 import time
 
 stat=open('stats.txt','w')
@@ -23,8 +24,8 @@ def create_file(n,m,filename='DataBlock'):
     for i in range(m):
         file.write(A)
         if i % 100 == 0:
-            print i,",",
+            print '\r',i,",",
     file.close()
     t3=time.time()
-    tee('\ncreating %d byte block: %f sec, writing %d blocks %f sec' % (n,t2-t1,m,t3-t2))
+    tee('\r              \ncreating %d byte block: %f sec, writing %d blocks %f sec' % (n,t2-t1,m,t3-t2))
     return (t2-t1,t3-t2)
