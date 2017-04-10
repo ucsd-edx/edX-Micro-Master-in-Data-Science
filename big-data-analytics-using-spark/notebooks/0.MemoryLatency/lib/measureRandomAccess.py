@@ -43,4 +43,6 @@ def measureRandomAccess(size,filename='',k=100000):
         sum += d
         sum2 += d*d
     mean=sum/k; var=(sum2/k)-mean**2; std=np.sqrt(var)
+    if not inmem:
+        file.close()
     return (mean,std,T)
