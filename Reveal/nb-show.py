@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+"""
+Run nbconvert + serve  with standard template
+"""
 import sys,os
 
 def runCommand(command):
@@ -14,5 +17,5 @@ if not os.path.isfile(name):
 if name[-6:] != '.ipynb':
     sys.exit('error in filename:'+name)
 
-command='jupyter nbconvert --to slides "{}" --reveal-prefix http://cdn.bootcss.com/reveal.js/3.4.1/ --template={} --post serve'
-runCommand(command.format(name, os.path.join(dir_path, 'slides_reveal_MM.tpl')))
+command='jupyter nbconvert --to slides "{}" --reveal-prefix http://cdn.bootcss.com/reveal.js/3.4.1/ --post serve'
+runCommand(command.format(name))
