@@ -59,10 +59,10 @@ def TestList(data, func_student, corAns, corType, isNum=True):
         print "Your Output: ", studentAns
         return False
     print "Great Job!"
-    return False
+    return True
 
 def TestListStr(data, func_student, corAns, corType):
-    TestList(data, func_student, corAns, corType, isNum=False)
+    return TestList(data, func_student, corAns, corType, isNum=False)
 
 
 def TestNumber(data, func_student, corAns, corType):
@@ -84,13 +84,13 @@ def TestNumber(data, func_student, corAns, corType):
     return True
 
 def TestRDDStr2(data, func_student, corAns, corType):
-    TestRDD( data, func_student, corAns, corType, isNum=False,twoInputs=True)
+    return TestRDD( data, func_student, corAns, corType, isNum=False,twoInputs=True)
 
 def TestRDDStr(data, func_student, corAns, corType,twoInputs=False):
-    TestRDD( data, func_student, corAns, corType, isNum=False)
+    return TestRDD( data, func_student, corAns, corType, isNum=False)
     
 def TestRDDK(data, func_student, corAns, corType,takeK):
-    TestRDD( data, func_student, corAns, corType, isNum=False, takeK=takeK)
+    return TestRDD( data, func_student, corAns, corType, isNum=False, takeK=takeK)
     
 def TestRDD( data, func_student, corAns, corType, isNum=True,twoInputs=False, takeK=0):
     if twoInputs:

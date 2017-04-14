@@ -2,8 +2,6 @@ import numpy as np
 
 from Tester import *
 
-
-
 ###   Exercise 1   ###
 def func_ex1_1(A):
     return A.map(np.cos)   
@@ -56,7 +54,8 @@ def exercise1_4(testPath, func_student, sc):
 
 ###   Exercise 5   ###
 def func_ex1_5(x,y):
-        return [max(x+y)]
+    return [max(x+y)]
+
 def gen_exercise1_5(pickleFile, sc):
     def func_ex1_5(x,y):
         return [max(x+y)]
@@ -72,32 +71,3 @@ def exercise1_5(testPath, func_student, sc):
                             lambda x: x.reduce(func_ex1_5), lambda y: y.reduce(func_student),
                             TestList, 'ex1_5', sc, isRDD=False)
         
-#TestList( data=input, func_student=func_student, corAns=corAns, corType=corType, isNum=True ) 
-    
-'''    
-def exercise1_5(testPath, func, sc):  
-    inputs = [ [[3,4],[2,1],[7,9]], [[-222],[-10,-33],[0,-5]], [[3.2,3.3,3.1,3.9],[-3.95],[3.4,3.7]]  ]
-    def func_teacher(A):
-        return A.reduce(lambda x,y: [max(x+y)])
-    def func_student(A):
-        return A.reduce(func)
-    
-    for input in inputs:
-        corAns  = func_teacher(input)
-        corType = type(func_teacher(input))
-        
-        TestList( data=input, func_student=func_student, corAns=corAns, corType=corType, isNum=True ) 
-        print ""
-'''
-
-
-
-
-
-
-
-
-
-
-
-
