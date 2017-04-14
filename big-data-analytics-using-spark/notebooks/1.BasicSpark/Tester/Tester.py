@@ -96,9 +96,12 @@ def TestRDD( data, func_student, corAns, corType, isNum=True,twoInputs=False, ta
     if twoInputs:
         initDebugStr = data[0].toDebugString()
         studentRDD = func_student(data[0], data[1])
+        print "Input: " + str(data[0].collect())
+        print data[1].collect()
     else:
         initDebugStr = data.toDebugString()
         studentRDD = func_student(data)
+        print "Input: " + str(data.collect())
     
     print "Correct Output: " + str(corAns)
     
