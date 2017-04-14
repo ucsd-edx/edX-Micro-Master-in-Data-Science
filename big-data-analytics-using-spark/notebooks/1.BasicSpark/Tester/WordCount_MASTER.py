@@ -1,5 +1,5 @@
 import numpy as np
-from Tester2 import *
+from Tester import *
 import re
 
 def map_kmers_correct(text,k):
@@ -43,7 +43,8 @@ def exercise(pickleFile, map_kmers, count_kmers, sort_counts, sc):
         func_teacher = lambda RDD: getkmers(RDD, l,k, map_kmers_correct, count_kmers_correct, sort_counts_correct)
         case = func_teacher(text_file)
         func_student = lambda RDD: getkmers(RDD, l,k, map_kmers, count_kmers, sort_counts)
-        TestRDDK( data=text_file, func_student=func_student, corAns=case.take(l), corType=type(case), takeK=l)
+        noError = TestRDDK( data=text_file, func_student=func_student, corAns=case.take(l), corType=type(case), takeK=l, toPrint=False)
+        if noError == False: raise AssertionError('Your Answer is Incorrect') 
         print 
     
 def gen_exercise(pickleFile, sc):

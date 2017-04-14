@@ -1,6 +1,4 @@
-import pickle
-
-from Tester2 import *
+from Tester import *
 import re 
 
 def getkmers(text_file, l,k, map_kmers, count_kmers, sort_counts):
@@ -22,5 +20,6 @@ def exercise(pickleFile, map_kmers, count_kmers, sort_counts, sc):
     data = getPickledData(pickleFile)
     case = data['ex4']['outputs'][0]
     func_student = lambda RDD: getkmers(RDD, 5,3, map_kmers, count_kmers, sort_counts)
-    TestRDDK( data=text_file, func_student=func_student, corAns=case[0], corType=case[1], takeK=5)
+    noError = TestRDDK( data=text_file, func_student=func_student, corAns=case[0], corType=case[1], takeK=5, toPrint=False)
+    if noError == False: raise AssertionError('Your Answer is Incorrect') 
     print 

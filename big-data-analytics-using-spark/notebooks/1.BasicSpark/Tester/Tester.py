@@ -40,10 +40,10 @@ def very_close(A,B,tol=0.000001):
             return False
     return True 
 
-def TestList(data, func_student, corAns, corType, isNum=True):
+def TestList(data, func_student, corAns, corType, isNum=True, toPrint=True):
     studentAns = func_student(data)
     
-    print "Input: " + str( data.collect() )
+    if toPrint: print "Input: " + str( data.collect() )
     print "Correct Output: " + str(corAns)
     
     try: assert( type(studentAns) == corType )
@@ -65,9 +65,9 @@ def TestListStr(data, func_student, corAns, corType):
     return TestList(data, func_student, corAns, corType, isNum=False)
 
 
-def TestNumber(data, func_student, corAns, corType):
+def TestNumber(data, func_student, corAns, corType, toPrint=True):
     studentAns = func_student(data)
-    print "Input: " + str( data.collect() )
+    if toPrint: print "Input: " + str( data.collect() )
     print "Correct Output: " + str(corAns)
     
     try: assert( type(studentAns) == corType )
@@ -89,19 +89,19 @@ def TestRDDStr2(data, func_student, corAns, corType):
 def TestRDDStr(data, func_student, corAns, corType,twoInputs=False):
     return TestRDD( data, func_student, corAns, corType, isNum=False)
     
-def TestRDDK(data, func_student, corAns, corType,takeK):
-    return TestRDD( data, func_student, corAns, corType, isNum=False, takeK=takeK)
+def TestRDDK(data, func_student, corAns, corType,takeK,toPrint=True):
+    return TestRDD( data, func_student, corAns, corType, isNum=False, takeK=takeK, toPrint=toPrint)
     
-def TestRDD( data, func_student, corAns, corType, isNum=True,twoInputs=False, takeK=0):
+def TestRDD( data, func_student, corAns, corType, isNum=True,twoInputs=False, takeK=0, toPrint=True):
     if twoInputs:
         initDebugStr = data[0].toDebugString()
         studentRDD = func_student(data[0], data[1])
         print "Input: " + str(data[0].collect())
-        print data[1].collect()
+        if toPrint: print data[1].collect()
     else:
         initDebugStr = data.toDebugString()
         studentRDD = func_student(data)
-        print "Input: " + str(data.collect())
+        if toPrint: print "Input: " + str(data.collect())
     
     print "Correct Output: " + str(corAns)
     
