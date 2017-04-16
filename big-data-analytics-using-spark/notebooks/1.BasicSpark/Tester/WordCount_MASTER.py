@@ -7,7 +7,7 @@ def map_kmers_correct(text,k):
     # k: length of `k`-mers
     def kgram(sentence):
         set=[]
-        for i in range(len(sentence)-k):
+        for i in range(len(sentence)-k+1):
             set.append((tuple(sentence[i:i+k]),1))
         return set
     singles = text.map(lambda x: x.split())\
