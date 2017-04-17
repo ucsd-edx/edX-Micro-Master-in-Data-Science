@@ -1,5 +1,13 @@
 from Tester import *
 import re 
+import os
+import urllib
+
+def get_data():
+    if not os.path.isfile('../../Data/Moby-Dick.txt'):
+        data_dir='../../Data'
+        filename='Moby-Dick.txt'
+        f = urllib.urlretrieve ("https://mas-dse-open.s3.amazonaws.com/"+filename, data_dir+'/'+filename)
 
 def getkmers(text_file, l,k, map_kmers, count_kmers, sort_counts):
     # text_file: the text_file RDD read above
