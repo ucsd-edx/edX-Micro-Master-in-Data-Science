@@ -1,6 +1,6 @@
 import pickle
 
-#      ***   WE MUST CHANGE VERY_CLOSE FUNCTION   ***
+
 def GenPickle(sc, func_teacher, inputs, filename, ex, isRDD=True,twoInputs=False ):
     try:
         f = open(filename,'r')
@@ -27,8 +27,33 @@ def GenPickle(sc, func_teacher, inputs, filename, ex, isRDD=True,twoInputs=False
     f = open(filename,'w')
     pickle.dump(toPickle,f)
     f.close()
-
     
+    
+    
+def GenPickle_RDD(sc, func_teacher, inputRDD, filename, ex,  outRDD=True, takes=1 ):
+    try:
+        f = open(filename,'r')
+        toPickle = pickle.load(f)
+        f.close()
+    except:
+        toPickle = {}    
+    
+    exData = []
+    tmpAns = func_teacher(inputRDD)
+    if outRDD:
+        exData.append([  tmpAns.take(takes),type(tmpAns)  ]) 
+    else:
+        exData.append([   tmpAns,type(tmpAns)   ]) 
+        
+    toPickle[ex] = {'inputs':type(inputRDD), 'outputs':exData}
+    
+    f = open(filename,'w')
+    pickle.dump(toPickle,f)
+    f.close()
+
+
+
+#      ***   WE MUST CHANGE VERY_CLOSE FUNCTION   ***
 def very_close(A,B,tol=0.000001):
     ''' Check that the two firs parameters are lists of equal length 
     and then check'''
@@ -93,16 +118,21 @@ def TestRDDK(data, func_student, corAns, corType,takeK,toPrint=True):
     return TestRDD( data, func_student, corAns, corType, isNum=False, takeK=takeK, toPrint=toPrint)
     
 def TestRDD( data, func_student, corAns, corType, isNum=True,twoInputs=False, takeK=0, toPrint=True):
-    if twoInputs:
-        initDebugStr = data[0].toDebugString()
-        studentRDD = func_student(data[0], data[1])
-        print "Input: " + str(data[0].collect())
-        if toPrint: print data[1].collect()
-    else:
-        initDebugStr = data.toDebugString()
-        studentRDD = func_student(data)
-        if toPrint: print "Input: " + str(data.collect())
-    
+    if takeK == 0:
+        if twoInputs:
+            if takeK>0: AssertionError('We have not coded case for twoInputs=True, takeK>1. Please code this up!')
+            initDebugStr = data[0].toDebugString()
+            studentRDD = func_student(data[0], data[1])
+            print "Input: " + str(data[0].collect())
+            if toPrint: print data[1].collect()
+        else:
+            initDebugStr = data.toDebugString()
+            studentRDD = func_student(data)
+            if takeK==0: 
+                if toPrint: print "Input: " + str(data.collect())
+            else: 
+                if toPrint: print "Input: "+ str(type(data)) 
+
     print "Correct Output: " + str(corAns)
     
     try: assert( type(studentRDD) == corType )
