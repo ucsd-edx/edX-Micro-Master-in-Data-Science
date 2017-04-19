@@ -17,5 +17,5 @@ if not os.path.isfile(name):
 if name[-6:] != '.ipynb':
     raise ValueError('Wrong file type error')
 
-command='jupyter nbconvert --to slides "{}" --reveal-prefix http://cdn.bootcss.com/reveal.js/3.4.1/ --post serve'
+command='jupyter nbconvert --to slides "{}" --reveal-prefix http://cdn.bootcss.com/reveal.js/3.4.1 --post serve'
 runCommand(command.format(name))
