@@ -9,10 +9,10 @@ name=sys.argv[1]
 dir_path = os.path.split(__file__)[0]  # get relative path of Reveal directory
 
 if not os.path.isfile(name):
-    sys.exit('file not found')
+    raise OSError('No such file found:', name)
 
 if name[-6:] != '.ipynb':
-    sys.exit('error in filename:'+name)
+    raise ValueError('Wrong file type error')
 
-command='jupyter nbconvert --to slides "{}" --reveal-prefix http://cdn.bootcss.com/reveal.js/3.4.1/ --template={} --post serve'
+command='jupyter nbconvert --to slides "{}" --reveal-prefix http://cdn.bootcss.com/reveal.js/3.4.1 --template={} --post serve'
 runCommand(command.format(name, os.path.join(dir_path, 'slides_reveal_MM.tpl')))
