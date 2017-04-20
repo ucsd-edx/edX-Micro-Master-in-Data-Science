@@ -5,14 +5,10 @@ import matplotlib.pyplot as plt
 from ipywidgets import interact, interactive, fixed, interact_manual
 import ipywidgets as widgets
 
-def compute_var(vector):
-    v=np.array(np.nan_to_num(vector),dtype=np.float64)
-    return np.dot(v,v)
- 
 class recon_plot:
     """A class for creating an interactive demonstration of approximating 
     a function with an orthonormal set of function"""
-    def __init__(self,eigen_decomp,year_axis=False):
+    def __init__(self,eigen_decomp,year_axis=False,fig=None,ax=None,interactive=False,Title=None,figsize=(6,4)):
         """ 
         Initialize the plot widget
         :param: eigen_decomp: An Eigen_Decomp object
@@ -20,16 +16,29 @@ class recon_plot:
 
         """
         self.eigen_decomp=eigen_decomp
-        #self.C=eigen_decomp.C
-        #self.coeff=eigen_decomp.coeff
-        #self.mean=eigen_decomp.mean
+        self.interactive=interactive
+        self.fig=fig
+        self.ax=ax
+        self.Title=Title
+        self.figsize=figsize
+        self.i=0
         
         self.year_axis=year_axis
         self.yearPlotter=None
         if year_axis:
             self.yearPlotter=YearPlotter()
-        self.plot_combination(**self.eigen_decomp.coeff)
+        if not self.interactive:
+            self.plot_combination(**self.eigen_decomp.coeff)
+
         return None
+
+    def get_Interactive(self):
+        widge_list,widge_dict = self.get_widgets()
+        w=interactive(self.plot_combination, **widge_dict);
+        self.Title='Best reconstruction'
+        self.plot_combination(**self.eigen_decomp.coeff)
+        self.Title='Interactive reconstruction'
+        return widgets.VBox([widgets.HBox(widge_list),w.children[-1]])
 
     def get_widgets(self):
         """return the slider widget that are to be used
@@ -48,7 +57,7 @@ class recon_plot:
             else:
                 r=[coeff[i]*2,0]
 
-            widge_list.append(widgets.FloatSlider(min=r[0],max=r[1],step=coeff[i]/10.,\
+            widge_list.append(widgets.FloatSlider(min=r[0],max=r[1],step=(r[1]-r[0])/10.,\
                                                   value=coeff[i],orientation='vertical',decription='v'+str(i)))
             widge_dict['c'+str(i)]=widge_list[-1]
 
@@ -67,9 +76,15 @@ class recon_plot:
         :returns: None
         """
         
+        #print self.i,coeff
+        #self.i+=1
+        #return None
+        
+        if self.interactive or self.fig is None:
+            self.fig=plt.figure(figsize=self.figsize)
+            self.ax=self.fig.add_axes([0,0,1,1])
+
         A=self.eigen_decomp.mean
-        self.fig=plt.figure(figsize=(8,6))
-        self.ax=self.fig.add_axes([0,0,1,1])
         self.plot(A,label='mean')
 
         for i in range(self.eigen_decomp.n):
@@ -79,5 +94,7 @@ class recon_plot:
         self.plot(self.eigen_decomp.f,label='target')
         self.ax.grid(figure=self.fig)        
         self.ax.legend()
+        self.ax.set_title(self.Title)
+        plt.show()
         return None
     
