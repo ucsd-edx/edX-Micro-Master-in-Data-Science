@@ -71,11 +71,6 @@ def TestList(data, func_student, corAns, corType, isNum=True, toPrint=True):
     if toPrint: print "Input: " + str( data.collect() )
     print "Correct Output: " + str(corAns)
     
-    try: assert( type(studentAns) == corType )
-    except AssertionError as e:
-        print "\nError: Incorrect return type. The return type of your function should be: " + str(corType)
-        return False
-    
     try:
         if isNum:  assert( very_close(studentAns,corAns))
         else:      assert(studentAns == corAns)
@@ -94,12 +89,7 @@ def TestNumber(data, func_student, corAns, corType, toPrint=True):
     studentAns = func_student(data)
     if toPrint: print "Input: " + str( data.collect() )
     print "Correct Output: " + str(corAns)
-    
-    try: assert( type(studentAns) == corType )
-    except AssertionError as e:
-        print "\nError: Incorrect return type. The return type of your function should be: "+str(corType)
-        return False
-    
+
     try: assert( very_close([studentAns],[corAns]) )
     except AssertionError as e:
         print "\nError: Function returned incorrect output"
@@ -133,11 +123,6 @@ def TestRDD( data, func_student, corAns, corType, isNum=True,twoInputs=False, ta
             if toPrint: print "Input: "+ str(type(data)) 
 
     print "Correct Output: " + str(corAns)
-    
-    try: assert( type(studentRDD) == corType )
-    except AssertionError as e:
-        print "\nError: Incorrect return type. The return type of your function should be: " + str(corType)
-        return False
     
     newDebugStr  = studentRDD.toDebugString()
     initDebugStr = '|'.join(initDebugStr.split('|')[-1:])[3:50]

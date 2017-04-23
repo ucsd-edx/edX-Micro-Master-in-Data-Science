@@ -118,20 +118,20 @@ def TestRDDK(data, func_student, corAns, corType,takeK,toPrint=True):
     return TestRDD( data, func_student, corAns, corType, isNum=False, takeK=takeK, toPrint=toPrint)
     
 def TestRDD( data, func_student, corAns, corType, isNum=True,twoInputs=False, takeK=0, toPrint=True):
-    if takeK == 0:
-        if twoInputs:
-            if takeK>0: AssertionError('We have not coded case for twoInputs=True, takeK>1. Please code this up!')
-            initDebugStr = data[0].toDebugString()
-            studentRDD = func_student(data[0], data[1])
-            print "Input: " + str(data[0].collect())
-            if toPrint: print data[1].collect()
-        else:
-            initDebugStr = data.toDebugString()
-            studentRDD = func_student(data)
-            if takeK==0: 
-                if toPrint: print "Input: " + str(data.collect())
-            else: 
-                if toPrint: print "Input: "+ str(type(data)) 
+    #if takeK == 0:
+    if twoInputs:
+        if takeK>0: AssertionError('We have not coded case for twoInputs=True, takeK>1. Please code this up!')
+        initDebugStr = data[0].toDebugString()
+        studentRDD = func_student(data[0], data[1])
+        print "Input: " + str(data[0].collect())
+        if toPrint: print data[1].collect()
+    else:
+        initDebugStr = data.toDebugString()
+        studentRDD = func_student(data)
+        if takeK==0: 
+            if toPrint: print "Input: " + str(data.collect())
+        else: 
+            if toPrint: print "Input: "+ str(type(data)) 
 
     print "Correct Output: " + str(corAns)
     
