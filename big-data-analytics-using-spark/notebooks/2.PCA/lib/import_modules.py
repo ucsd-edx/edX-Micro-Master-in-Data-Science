@@ -4,7 +4,8 @@ modules=[('pandas','pd','0.19.2'),
 ('numpy','np','1.12.0'),
 ('sklearn','sk','0.18.1'),
 ('urllib','urllib','1.17'),
-('pyspark','pyspark',None)
+('pyspark','pyspark','2.1.0'),
+('ipywidgets','ipywidgets','6.0.0')
 ]
 
 def import_modules(modules,Unknown_versions=False):

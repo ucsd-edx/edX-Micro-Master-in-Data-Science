@@ -19,6 +19,7 @@ class recon_plot:
         self.interactive=interactive
         self.fig=fig
         self.ax=ax
+        #print 'in recon_plot.__init__',ax
         self.Title=Title
         self.figsize=figsize
         self.i=0
@@ -81,6 +82,7 @@ class recon_plot:
         #return None
         
         if self.interactive or self.fig is None:
+            #print  'setting axis in plot_combination'
             self.fig=plt.figure(figsize=self.figsize)
             self.ax=self.fig.add_axes([0,0,1,1])
 
@@ -95,6 +97,12 @@ class recon_plot:
         self.ax.grid(figure=self.fig)        
         self.ax.legend()
         self.ax.set_title(self.Title)
-        plt.show()
+        if self.interactive:
+            plt.show()  # This hack was found by trial and error.  I
+                        # don't know why it works! But using the same
+                        # "show" for both interactive and
+                        # non-interactive creates problems.
+        else:
+            self.fig.show()
         return None
-    
+

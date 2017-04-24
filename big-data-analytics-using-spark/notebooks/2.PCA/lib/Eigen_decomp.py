@@ -2,10 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from ipywidgets import interact, interactive, fixed, interact_manual
 import ipywidgets as widgets
-
-def compute_var(vector):
-    v=np.array(np.nan_to_num(vector),dtype=np.float64)
-    return np.dot(v,v)
  
 class Eigen_decomp:
     """A class for approximating a function with an orthonormal set of
@@ -38,9 +34,9 @@ class Eigen_decomp:
     def compute_var_explained(self):
         """Compute a summary of the decomposition
 
-        :returns: (('total_var',total_variance),
-                ('residual var after mean, eig1,eig2,...',residual_var/total_variance),
-                ('reduction in var for mean,eig1,eig2,...',percent_explained/total_variance),
+        :returns: ('total_energy',total_energy),
+                ('residual var after mean, eig1,eig2,...',residual_var[0]/total_energy,residual_var[1:]/residual_var[0]),
+                ('reduction in var for mean,eig1,eig2,...',percent_explained[0]/total_energy,percent_explained[1:]/residual[0]),
                 ('eigen-vector coefficients',self.C)
 
         :rtype: tuple of pairs. The first element in each pair is a
@@ -48,9 +44,13 @@ class Eigen_decomp:
         array.
 
         """
+        def compute_var(vector):
+            v=np.array(np.nan_to_num(vector),dtype=np.float64)
+            return np.dot(v,v) # /float(total_variance)
+        
         residual_var=np.zeros(self.n+1)
         residual=self.f
-        total_variance=compute_var(residual)
+        total_energy=compute_var(residual)
         residual=residual-self.mean
         residual_var[0]=compute_var(residual)
         for i in range(self.n):
@@ -58,11 +58,15 @@ class Eigen_decomp:
             residual=residual-g
             residual_var[i+1]=compute_var(residual)
         percent_explained=np.zeros(self.n+1)
-        percent_explained[0]=total_variance-residual_var[0]  # percent explained by mean
+        percent_explained[0]=total_energy-residual_var[0]  # percent explained by mean
         for i in range(self.n):
             percent_explained[i+1]=residual_var[i]-residual_var[i+1]
-        return (('total_var',total_variance),
-                ('residual var after mean, eig1,eig2,...',residual_var/total_variance),
-                ('reduction in var for mean,eig1,eig2,...',percent_explained/total_variance),
+        _residuals=residual_var[1:]/residual_var[0]
+        _residuals=np.insert(_residuals,0,residual_var[0]/total_energy)
+        _percent_explained=percent_explained[1:]/residual[0]
+        _percent_explained=np.insert(_percent_explained,0,percent_explained[0]/total_energy)
+        return (('total_energy',total_energy),
+                ('residual var after mean, eig1,eig2,...',_residuals),
+                ('reduction in var for mean,eig1,eig2,...',_percent_explained),
                 ('eigen-vector coefficients',self.C)
         )
