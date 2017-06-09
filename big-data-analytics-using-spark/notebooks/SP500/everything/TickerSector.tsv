@@ -1,0 +1,506 @@
+Ticker	Name	Sector	SECTOR_ID
+MMM	3M|3M Company	Industrials	INDS
+ABT	Abbott Laboratories	Health Care	HC
+ABBV	AbbVie Inc.	Health Care	HC
+ACN	Accenture plc	Information Technology	IT
+ATVI	Activision Blizzard	Information Technology	IT
+AYI	Acuity Brands Inc	Industrials	INDS
+ADBE	Adobe Systems Inc	Information Technology	IT
+AMD	Advanced Micro Devices Inc	Information Technology	IT
+AAP	Advance Auto Parts	Consumer Discretionary	CD
+AES	AES Corp	Utilities	UTIL
+AET	Aetna Inc	Health Care	HC
+AMG	Affiliated Managers Group Inc	Financials	FIN
+AFL	AFLAC Inc	Financials	FIN
+A	Agilent Technologies Inc	Health Care	HC
+APD	Air Products & Chemicals Inc	Materials	MAT
+AKAM	Akamai Technologies Inc	Information Technology	IT
+ALK	Alaska Air Group Inc	Industrials	INDS
+ALB	Albemarle Corp	Materials	MAT
+ARE	Alexandria Real Estate Equities Inc	Real Estate	RE
+ALXN	Alexion Pharmaceuticals	Health Care	HC
+ALLE	Allegion	Industrials	INDS
+AGN	Allergan, Plc	Health Care	HC
+ADS	Alliance Data Systems	Information Technology	IT
+LNT	Alliant Energy Corp	Utilities	UTIL
+ALL	Allstate Corp	Financials	FIN
+GOOGL	Alphabet Inc.|Alphabet Inc Class A	Information Technology	IT
+GOOG	Alphabet Inc.|Alphabet Inc Class C	Information Technology	IT
+MO	Altria Group Inc	Consumer Staples	CS
+AMZN	Amazon.com Inc	Consumer Discretionary	CD
+AEE	Ameren Corp	Utilities	UTIL
+AAL	American Airlines Group	Industrials	INDS
+AEP	American Electric Power	Utilities	UTIL
+AXP	American Express Co	Financials	FIN
+AIG	American International Group|American International Group, Inc.	Financials	FIN
+AMT	American Tower Corp A	Real Estate	RE
+AWK	American Water Works|American Water Works Company Inc	Utilities	UTIL
+AMP	Ameriprise Financial	Financials	FIN
+ABC	AmerisourceBergen Corp	Health Care	HC
+AME	Ametek|AMETEK Inc	Industrials	INDS
+AMGN	Amgen Inc	Health Care	HC
+APH	Amphenol|Amphenol Corp	Information Technology	IT
+APC	Anadarko Petroleum|Anadarko Petroleum Corp	Energy	EN
+ADI	Analog Devices|Analog Devices, Inc.	Information Technology	IT
+ANTM	Anthem Inc.	Health Care	HC
+AON	Aon plc	Financials	FIN
+APA	Apache Corporation	Energy	EN
+AIV	Apartment Investment & Management	Real Estate	RE
+AAPL	Apple Inc.	Information Technology	IT
+AMAT	Applied Materials Inc	Information Technology	IT
+ADM	Archer-Daniels-Midland Co	Consumer Staples	CS
+ARNC	Arconic Inc	Industrials	INDS
+AJG	Arthur J. Gallagher & Co.	Financials	FIN
+AIZ	Assurant Inc	Financials	FIN
+T	AT&T Inc	Telecommunication Services	TS
+ADSK	Autodesk Inc	Information Technology	IT
+ADP	Automatic Data Processing	Information Technology	IT
+AN	AutoNation Inc	Consumer Discretionary	CD
+AZO	AutoZone Inc	Consumer Discretionary	CD
+AVB	AvalonBay Communities, Inc.	Real Estate	RE
+AVY	Avery Dennison Corp	Materials	MAT
+BHI	Baker Hughes Inc	Energy	EN
+BLL	Ball Corp	Materials	MAT
+BAC	Bank of America Corp	Financials	FIN
+BK	The Bank of New York Mellon Corp.	Financials	FIN
+BCR	Bard (C.R.) Inc.	Health Care	HC
+BAX	Baxter International Inc.	Health Care	HC
+BBT	BB&T Corporation	Financials	FIN
+BDX	Becton Dickinson	Health Care	HC
+BBBY	Bed Bath & Beyond	Consumer Discretionary	CD
+BRK.B	Berkshire Hathaway	Financials	FIN
+BBY	Best Buy Co. Inc.	Consumer Discretionary	CD
+BIIB	Biogen Inc.	Health Care	HC
+BLK	BlackRock	Financials	FIN
+HRB	Block H&R	Financials	FIN
+BA	Boeing Company	Industrials	INDS
+BWA	BorgWarner	Consumer Discretionary	CD
+BXP	Boston Properties	Real Estate	RE
+BSX	Boston Scientific	Health Care	HC
+BMY	Bristol-Myers Squibb	Health Care	HC
+AVGO	Broadcom Limited|Broadcom	Information Technology	IT
+BF.B	Brown-Forman Corp.	Consumer Staples	CS
+CHRW	C. H. Robinson Worldwide	Industrials	INDS
+CA	CA, Inc.	Information Technology	IT
+COG	Cabot Oil & Gas	Energy	EN
+CPB	Campbell Soup	Consumer Staples	CS
+COF	Capital One Financial	Financials	FIN
+CAH	Cardinal Health	Health Care	HC
+CBOE	Cboe Holdings|CBOE Holdings	Financials	FIN
+KMX	Carmax Inc	Consumer Discretionary	CD
+CCL	Carnival Corp.	Consumer Discretionary	CD
+CAT	Caterpillar Inc.	Industrials	INDS
+CBG	CBRE Group	Real Estate	RE
+CBS	CBS Corp.	Consumer Discretionary	CD
+CELG	Celgene Corp.	Health Care	HC
+CNC	Centene Corporation	Health Care	HC
+CNP	CenterPoint Energy	Utilities	UTIL
+CTL	CenturyLink Inc	Telecommunication Services	TS
+CERN	Cerner	Health Care	HC
+CF	CF Industries Holdings Inc	Materials	MAT
+SCHW	Charles Schwab Corporation	Financials	FIN
+CHTR	Charter Communications	Consumer Discretionary	CD
+CHK	Chesapeake Energy	Energy	EN
+CVX	Chevron Corp.	Energy	EN
+CMG	Chipotle Mexican Grill	Consumer Discretionary	CD
+CB	Chubb Limited	Financials	FIN
+CHD	Church & Dwight	Consumer Staples	CS
+CI	CIGNA Corp.	Health Care	HC
+XEC	Cimarex Energy	Energy	EN
+CINF	Cincinnati Financial	Financials	FIN
+CTAS	Cintas Corporation	Industrials	INDS
+CSCO	Cisco Systems	Information Technology	IT
+C	Citigroup Inc.	Financials	FIN
+CFG	Citizens Financial Group	Financials	FIN
+CTXS	Citrix Systems	Information Technology	IT
+CLX	The Clorox Company	Consumer Staples	CS
+CME	CME Group Inc.	Financials	FIN
+CMS	CMS Energy	Utilities	UTIL
+COH	Coach Inc.	Consumer Discretionary	CD
+KO	Coca-Cola Company	Consumer Staples	CS
+CTSH	Cognizant Technology Solutions	Information Technology	IT
+CL	Colgate-Palmolive	Consumer Staples	CS
+CMCSA	Comcast Corp.	Consumer Discretionary	CD
+CMA	Comerica Inc.	Financials	FIN
+CAG	Conagra Brands	Consumer Staples	CS
+CXO	Concho Resources	Energy	EN
+COP	ConocoPhillips	Energy	EN
+ED	Consolidated Edison	Utilities	UTIL
+STZ	Constellation Brands	Consumer Staples	CS
+COO	The Cooper Companies	Health Care	HC
+GLW	Corning Inc.	Information Technology	IT
+COST	Costco Wholesale Corp.	Consumer Staples	CS
+COTY	Coty, Inc	Consumer Staples	CS
+CCI	Crown Castle International Corp.	Real Estate	RE
+CSRA	CSRA (IT services company)|CSRA Inc.	Information Technology	IT
+CSX	CSX Corp.	Industrials	INDS
+CMI	Cummins Inc.	Industrials	INDS
+CVS	CVS Health	Consumer Staples	CS
+DHI	D. R. Horton	Consumer Discretionary	CD
+DHR	Danaher Corp.	Health Care	HC
+DRI	Darden Restaurants	Consumer Discretionary	CD
+DVA	DaVita	Health Care	HC
+DE	Deere & Co.	Industrials	INDS
+DLPH	Delphi Automotive	Consumer Discretionary	CD
+DAL	Delta Air Lines	Industrials	INDS
+XRAY	Dentsply Sirona	Health Care	HC
+DVN	Devon Energy	Energy	EN
+DLR	Digital Realty	Real Estate	RE
+DFS	Discover Financial Services	Financials	FIN
+DISCA	Discovery Communications	Consumer Discretionary	CD
+DISCK	Discovery Communications	Consumer Discretionary	CD
+DISH	Dish Network	Consumer Discretionary	CD
+DG	Dollar General	Consumer Discretionary	CD
+DLTR	Dollar Tree	Consumer Discretionary	CD
+D	Dominion Resources	Utilities	UTIL
+DOV	Dover Corp.	Industrials	INDS
+DOW	Dow Chemical	Materials	MAT
+DPS	Dr Pepper Snapple Group	Consumer Staples	CS
+DTE	DTE Energy	Utilities	UTIL
+DD	Du Pont (E.I.)	Materials	MAT
+DUK	Duke Energy	Utilities	UTIL
+DXC	DXC Technology	Information Technology	IT
+ETFC	E*Trade	Financials	FIN
+EMN	Eastman Chemical	Materials	MAT
+ETN	Eaton Corporation	Industrials	INDS
+EBAY	eBay	Information Technology	IT
+ECL	Ecolab	Materials	MAT
+EIX	Edison Int'l	Utilities	UTIL
+EW	Edwards Lifesciences	Health Care	HC
+EA	Electronic Arts	Information Technology	IT
+EMR	Emerson Electric Company	Industrials	INDS
+ETR	Entergy Corp.	Utilities	UTIL
+EVHC	Envision Healthcare	Health Care	HC
+EOG	EOG Resources	Energy	EN
+EQT	EQT Corporation	Energy	EN
+EFX	Equifax Inc.	Industrials	INDS
+EQIX	Equinix	Real Estate	RE
+EQR	Equity Residential	Real Estate	RE
+ESS	Essex Property Trust, Inc.	Real Estate	RE
+EL	Estee Lauder Cos.	Consumer Staples	CS
+ES	Eversource Energy	Utilities	UTIL
+EXC	Exelon Corp.	Utilities	UTIL
+EXPE	Expedia Inc.	Consumer Discretionary	CD
+EXPD	Expeditors International	Industrials	INDS
+ESRX	Express Scripts	Health Care	HC
+EXR	Extra Space Storage	Real Estate	RE
+XOM	Exxon Mobil Corp.	Energy	EN
+FFIV	F5 Networks	Information Technology	IT
+FB	Facebook, Inc.	Information Technology	IT
+FAST	Fastenal Co	Industrials	INDS
+FRT	Federal Realty Investment Trust	Real Estate	RE
+FDX	FedEx Corporation	Industrials	INDS
+FIS	Fidelity National Information Services	Information Technology	IT
+FITB	Fifth Third Bancorp	Financials	FIN
+FE	FirstEnergy Corp	Utilities	UTIL
+FISV	Fiserv Inc	Information Technology	IT
+FLIR	FLIR Systems	Information Technology	IT
+FLS	Flowserve Corporation	Industrials	INDS
+FLR	Fluor Corp.	Industrials	INDS
+FMC	FMC Corporation	Materials	MAT
+FL	Foot Locker Inc	Consumer Discretionary	CD
+F	Ford Motor	Consumer Discretionary	CD
+FTV	Fortive Corp	Industrials	INDS
+FBHS	Fortune Brands Home & Security	Industrials	INDS
+BEN	Franklin Resources	Financials	FIN
+FCX	Freeport-McMoRan Inc.	Materials	MAT
+GPS	Gap Inc.	Consumer Discretionary	CD
+GRMN	Garmin Ltd.	Consumer Discretionary	CD
+IT	Gartner|Gartner Inc	Information Technology	IT
+GD	General Dynamics	Industrials	INDS
+GE	General Electric	Industrials	INDS
+GGP	General Growth Properties Inc.	Real Estate	RE
+GIS	General Mills	Consumer Staples	CS
+GM	General Motors	Consumer Discretionary	CD
+GPC	Genuine Parts	Consumer Discretionary	CD
+GILD	Gilead Sciences	Health Care	HC
+GPN	Heartland Payment Systems|Global Payments Inc	Information Technology	IT
+GS	Goldman Sachs Group	Financials	FIN
+GT	Goodyear Tire & Rubber	Consumer Discretionary	CD
+GWW	Grainger (W.W.) Inc.	Industrials	INDS
+HAL	Halliburton Co.	Energy	EN
+HBI	Hanesbrands Inc	Consumer Discretionary	CD
+HOG	Harley-Davidson	Consumer Discretionary	CD
+HRS	Harris Corporation	Information Technology	IT
+HIG	Hartford Financial Svc.Gp.	Financials	FIN
+HAS	Hasbro Inc.	Consumer Discretionary	CD
+HCA	HCA Holdings	Health Care	HC
+HCP	HCP Inc.	Real Estate	RE
+HP	Helmerich & Payne	Energy	EN
+HSIC	Henry Schein	Health Care	HC
+HSY	The Hershey Company	Consumer Staples	CS
+HES	Hess Corporation	Energy	EN
+HPE	Hewlett Packard Enterprise	Information Technology	IT
+HOLX	Hologic	Health Care	HC
+HD	Home Depot	Consumer Discretionary	CD
+HON	Honeywell Int'l Inc.	Industrials	INDS
+HRL	Hormel Foods Corp.	Consumer Staples	CS
+HST	Host Hotels & Resorts	Real Estate	RE
+HPQ	HP Inc.	Information Technology	IT
+HUM	Humana Inc.	Health Care	HC
+HBAN	Huntington Bancshares	Financials	FIN
+IDXX	Idexx Laboratories|IDEXX Laboratories	Health Care	HC
+INFO	IHS Markit|IHS Markit Ltd.	Industrials	INDS
+ITW	Illinois Tool Works	Industrials	INDS
+ILMN	Illumina (company)|Illumina Inc	Health Care	HC
+IR	Ingersoll-Rand PLC	Industrials	INDS
+INTC	Intel Corp.	Information Technology	IT
+ICE	Intercontinental Exchange	Financials	FIN
+IBM	IBM|International Business Machines	Information Technology	IT
+INCY	Incyte	Health Care	HC
+IP	International Paper	Materials	MAT
+IPG	Interpublic Group	Consumer Discretionary	CD
+IFF	Intl Flavors & Fragrances	Materials	MAT
+INTU	Intuit	Information Technology	IT
+ISRG	Intuitive Surgical Inc.	Health Care	HC
+IVZ	Invesco Ltd.	Financials	FIN
+IRM	Iron Mountain Incorporated	Real Estate	RE
+JEC	Jacobs Engineering Group	Industrials	INDS
+JBHT	J. B. Hunt Transport Services	Industrials	INDS
+SJM	JM Smucker	Consumer Staples	CS
+JNJ	Johnson & Johnson	Health Care	HC
+JCI	Johnson Controls|Johnson Controls International	Industrials	INDS
+JPM	JPMorgan Chase & Co.	Financials	FIN
+JNPR	Juniper Networks	Information Technology	IT
+KSU	Kansas City Southern (company)|Kansas City Southern	Industrials	INDS
+K	Kellogg Co.	Consumer Staples	CS
+KEY	KeyCorp	Financials	FIN
+KMB	Kimberly-Clark	Consumer Staples	CS
+KIM	Kimco Realty	Real Estate	RE
+KMI	Kinder Morgan	Energy	EN
+KLAC	KLA-Tencor Corp.	Information Technology	IT
+KSS	Kohl's	Consumer Discretionary	CD
+KHC	Kraft Heinz	Consumer Staples	CS
+KR	Kroger Co.	Consumer Staples	CS
+LB	L Brands Inc.	Consumer Discretionary	CD
+LLL	L-3 Communications Holdings	Industrials	INDS
+LH	Laboratory Corp. of America Holding	Health Care	HC
+LRCX	Lam Research	Information Technology	IT
+LEG	Leggett & Platt	Consumer Discretionary	CD
+LEN	Lennar Corp.	Consumer Discretionary	CD
+LVLT	Level 3 Communications	Telecommunication Services	TS
+LUK	Leucadia National Corp.	Financials	FIN
+LLY	Lilly (Eli) & Co.	Health Care	HC
+LNC	Lincoln National	Financials	FIN
+LKQ	LKQ Corporation	Consumer Discretionary	CD
+LMT	Lockheed Martin Corp.	Industrials	INDS
+L	Loews Corp.	Financials	FIN
+LOW	Lowe's Cos.	Consumer Discretionary	CD
+LYB	LyondellBasell	Materials	MAT
+MTB	M&T Bank Corp.	Financials	FIN
+MAC	Macerich	Real Estate	RE
+M	Macy's Inc.	Consumer Discretionary	CD
+MNK	Mallinckrodt Plc	Health Care	HC
+MRO	Marathon Oil Corp.	Energy	EN
+MPC	Marathon Petroleum	Energy	EN
+MAR	Marriott Int'l.	Consumer Discretionary	CD
+MMC	Marsh & McLennan	Financials	FIN
+MLM	Martin Marietta Materials	Materials	MAT
+MAS	Masco Corp.	Industrials	INDS
+MA	Mastercard Inc.	Information Technology	IT
+MAT	Mattel Inc.	Consumer Discretionary	CD
+MKC	McCormick & Co.	Consumer Staples	CS
+MCD	McDonald's Corp.	Consumer Discretionary	CD
+MCK	McKesson Corp.	Health Care	HC
+MJN	Mead Johnson	Consumer Staples	CS
+MDT	Medtronic plc	Health Care	HC
+MRK	Merck & Co.	Health Care	HC
+MET	MetLife Inc.	Financials	FIN
+MTD	Mettler Toledo	Health Care	HC
+KORS	Michael Kors (brand)|Michael Kors Holdings	Consumer Discretionary	CD
+MCHP	Microchip Technology	Information Technology	IT
+MU	Micron Technology	Information Technology	IT
+MSFT	Microsoft Corp.	Information Technology	IT
+MAA	Mid-America Apartments	Real Estate	RE
+MHK	Mohawk Industries	Consumer Discretionary	CD
+TAP	Molson Coors Brewing Company	Consumer Staples	CS
+MDLZ	Mondelez|Mondelez International	Consumer Staples	CS
+MON	Monsanto Co.	Materials	MAT
+MNST	Monster Beverage	Consumer Staples	CS
+MCO	Moody's Corp	Financials	FIN
+MS	Morgan Stanley	Financials	FIN
+MOS	The Mosaic Company	Materials	MAT
+MSI	Motorola Solutions Inc.	Information Technology	IT
+MUR	Murphy Oil	Energy	EN
+MYL	Mylan N.V.	Health Care	HC
+NDAQ	Nasdaq, Inc.	Financials	FIN
+NOV	National Oilwell Varco Inc.	Energy	EN
+NAVI	Navient	Financials	FIN
+NTAP	NetApp	Information Technology	IT
+NFLX	Netflix Inc.	Information Technology	IT
+NWL	Newell Brands	Consumer Discretionary	CD
+NFX	Newfield Exploration Co	Energy	EN
+NEM	Newmont Mining Corporation	Materials	MAT
+NWSA	News Corp. Class A	Consumer Discretionary	CD
+NWS	News Corp. Class B	Consumer Discretionary	CD
+NEE	NextEra Energy	Utilities	UTIL
+NLSN	Nielsen Holdings	Industrials	INDS
+NKE	Nike (company)|Nike	Consumer Discretionary	CD
+NI	NiSource Inc.	Utilities	UTIL
+NBL	Noble Energy Inc	Energy	EN
+JWN	Nordstrom	Consumer Discretionary	CD
+NSC	Norfolk Southern Corp.	Industrials	INDS
+NTRS	Northern Trust Corp.	Financials	FIN
+NOC	Northrop Grumman Corp.	Industrials	INDS
+NRG	NRG Energy	Utilities	UTIL
+NUE	Nucor Corp.	Materials	MAT
+NVDA	Nvidia Corporation	Information Technology	IT
+ORLY	O'Reilly Automotive	Consumer Discretionary	CD
+OXY	Occidental Petroleum	Energy	EN
+OMC	Omnicom Group	Consumer Discretionary	CD
+OKE	ONEOK	Energy	EN
+ORCL	Oracle Corp.	Information Technology	IT
+PCAR	PACCAR Inc.	Industrials	INDS
+PH	Parker-Hannifin	Industrials	INDS
+PDCO	Patterson Companies	Health Care	HC
+PAYX	Paychex Inc.	Information Technology	IT
+PYPL	PayPal	Information Technology	IT
+PNR	Pentair|Pentair Ltd.	Industrials	INDS
+PBCT	People's United Financial	Financials	FIN
+PEP	PepsiCo Inc.	Consumer Staples	CS
+PKI	PerkinElmer	Health Care	HC
+PRGO	Perrigo	Health Care	HC
+PFE	Pfizer Inc.	Health Care	HC
+PCG	PG&E Corp.	Utilities	UTIL
+PM	Philip Morris International	Consumer Staples	CS
+PSX	Phillips 66	Energy	EN
+PNW	Arizona Public Service#Pinnacle West Capital|Pinnacle West Capital	Utilities	UTIL
+PXD	Pioneer Natural Resources	Energy	EN
+PNC	PNC Financial Services	Financials	FIN
+RL	Polo Ralph Lauren Corp.	Consumer Discretionary	CD
+PPG	PPG Industries	Materials	MAT
+PPL	PPL Corp.	Utilities	UTIL
+PX	Praxair Inc.	Materials	MAT
+PCLN	The Priceline Group|Priceline.com Inc	Consumer Discretionary	CD
+PFG	Principal Financial Group	Financials	FIN
+PG	Procter & Gamble	Consumer Staples	CS
+PGR	Progressive Corp.	Financials	FIN
+PLD	Prologis	Real Estate	RE
+PRU	Prudential Financial	Financials	FIN
+PEG	Public Serv. Enterprise Inc.	Utilities	UTIL
+PSA	Public Storage	Real Estate	RE
+PHM	Pulte Homes Inc.	Consumer Discretionary	CD
+PVH	PVH Corp.	Consumer Discretionary	CD
+QRVO	Qorvo	Information Technology	IT
+PWR	Quanta Services Inc.	Industrials	INDS
+QCOM	QUALCOMM Inc.	Information Technology	IT
+DGX	Quest Diagnostics	Health Care	HC
+RRC	Range Resources|Range Resources Corp.	Energy	EN
+RJF	Raymond James Financial Inc.	Financials	FIN
+RTN	Raytheon Co.	Industrials	INDS
+O	Realty Income Corporation	Real Estate	RE
+RHT	Red Hat Inc.	Information Technology	IT
+REG	Regency Centers Corporation	Real Estate	RE
+REGN	Regeneron	Health Care	HC
+RF	Regions Financial Corp.	Financials	FIN
+RSG	Republic Services Inc	Industrials	INDS
+RAI	Reynolds American Inc.	Consumer Staples	CS
+RHI	Robert Half International	Industrials	INDS
+ROK	Rockwell Automation Inc.	Industrials	INDS
+COL	Rockwell Collins	Industrials	INDS
+ROP	Roper Technologies	Industrials	INDS
+ROST	Ross Stores	Consumer Discretionary	CD
+RCL	Royal Caribbean Cruises Ltd	Consumer Discretionary	CD
+R	Ryder System	Industrials	INDS
+CRM	Salesforce.com	Information Technology	IT
+SCG	SCANA Corp	Utilities	UTIL
+SLB	Schlumberger Ltd.	Energy	EN
+SNI	Scripps Networks Interactive Inc.	Consumer Discretionary	CD
+STX	Seagate Technology	Information Technology	IT
+SEE	Sealed Air Corp.(New)|Sealed Air	Materials	MAT
+SRE	Sempra Energy	Utilities	UTIL
+SHW	Sherwin-Williams	Materials	MAT
+SIG	Signet Jewelers	Consumer Discretionary	CD
+SPG	Simon Property Group Inc	Real Estate	RE
+SWKS	Skyworks Solutions	Information Technology	IT
+SLG	SL Green Realty	Real Estate	RE
+SNA	Snap-On Inc.	Consumer Discretionary	CD
+SO	Southern Co.	Utilities	UTIL
+LUV	Southwest Airlines	Industrials	INDS
+SPGI	S&P Global, Inc.	Financials	FIN
+SWK	Stanley Black & Decker	Consumer Discretionary	CD
+SPLS	Staples Inc.	Consumer Discretionary	CD
+SBUX	Starbucks Corp.	Consumer Discretionary	CD
+STT	State Street Corp.	Financials	FIN
+SRCL	Stericycle Inc	Industrials	INDS
+SYK	Stryker Corp.	Health Care	HC
+STI	SunTrust Banks	Financials	FIN
+SYMC	Symantec Corp.	Information Technology	IT
+SYF	Synchrony Financial	Financials	FIN
+SNPS	Synopsys Inc.	Information Technology	IT
+SYY	Sysco Corp.	Consumer Staples	CS
+TROW	T. Rowe Price Group	Financials	FIN
+TGT	Target Corp.	Consumer Discretionary	CD
+TEL	TE Connectivity|TE Connectivity Ltd.	Information Technology	IT
+FTI	TechnipFMC	Energy	EN
+TDC	Teradata Corp.	Information Technology	IT
+TSO	Tesoro Petroleum Co.	Energy	EN
+TXN	Texas Instruments	Information Technology	IT
+TXT	Textron Inc.	Industrials	INDS
+TMO	Thermo Fisher Scientific	Health Care	HC
+TIF	Tiffany & Co.	Consumer Discretionary	CD
+TWX	Time Warner Inc.	Consumer Discretionary	CD
+TJX	TJX Companies Inc.	Consumer Discretionary	CD
+TMK	Torchmark Corp.	Financials	FIN
+TSS	Total System Services	Information Technology	IT
+TSCO	Tractor Supply Company	Consumer Discretionary	CD
+TDG	TransDigm Group	Industrials	INDS
+RIG	Transocean	Energy	EN
+TRV	The Travelers Companies Inc.	Financials	FIN
+TRIP	TripAdvisor	Consumer Discretionary	CD
+FOXA	Twenty-First Century Fox Class A	Consumer Discretionary	CD
+FOX	Twenty-First Century Fox Class B	Consumer Discretionary	CD
+TSN	Tyson Foods	Consumer Staples	CS
+UDR	UDR Inc	Real Estate	RE
+ULTA	Ulta Beauty|Ulta Salon Cosmetics & Fragrance Inc	Consumer Discretionary	CD
+USB	U.S. Bancorp	Financials	FIN
+UA	Under Armour	Consumer Discretionary	CD
+UAA	Under Armour	Consumer Discretionary	CD
+UNP	Union Pacific	Industrials	INDS
+UAL	United Continental Holdings	Industrials	INDS
+UNH	United Health Group Inc.	Health Care	HC
+UPS	United Parcel Service	Industrials	INDS
+URI	United Rentals, Inc.	Industrials	INDS
+UTX	United Technologies	Industrials	INDS
+UHS	Universal Health Services, Inc.	Health Care	HC
+UNM	Unum Group	Financials	FIN
+VFC	V.F. Corp.	Consumer Discretionary	CD
+VLO	Valero Energy	Energy	EN
+VAR	Varian Medical Systems	Health Care	HC
+VTR	Ventas Inc	Real Estate	RE
+VRSN	Verisign Inc.	Information Technology	IT
+VRSK	Verisk Analytics	Industrials	INDS
+VZ	Verizon Communications	Telecommunication Services	TS
+VRTX	Vertex Pharmaceuticals Inc	Health Care	HC
+VIAB	Viacom Inc.	Consumer Discretionary	CD
+V	Visa Inc.	Information Technology	IT
+VNO	Vornado Realty Trust	Real Estate	RE
+VMC	Vulcan Materials	Materials	MAT
+WMT	Wal-Mart Stores	Consumer Staples	CS
+WBA	Walgreens Boots Alliance	Consumer Staples	CS
+DIS	The Walt Disney Company	Consumer Discretionary	CD
+WM	Waste Management Inc.	Industrials	INDS
+WAT	Waters Corporation	Health Care	HC
+WEC	Wec Energy Group Inc	Utilities	UTIL
+WFC	Wells Fargo	Financials	FIN
+HCN	Welltower Inc.	Real Estate	RE
+WDC	Western Digital	Information Technology	IT
+WU	Western Union Co	Information Technology	IT
+WRK	WestRock Company	Materials	MAT
+WY	Weyerhaeuser Corp.	Real Estate	RE
+WHR	Whirlpool Corp.	Consumer Discretionary	CD
+WFM	Whole Foods Market	Consumer Staples	CS
+WMB	Williams Cos.	Energy	EN
+WLTW	Willis Towers Watson	Financials	FIN
+WYN	Wyndham Worldwide	Consumer Discretionary	CD
+WYNN	Wynn Resorts Ltd	Consumer Discretionary	CD
+XEL	Xcel Energy Inc	Utilities	UTIL
+XRX	Xerox Corp.	Information Technology	IT
+XLNX	Xilinx Inc	Information Technology	IT
+XL	XL Capital	Financials	FIN
+XYL	Xylem Inc.	Industrials	INDS
+YHOO	Yahoo Inc.	Information Technology	IT
+YUM	Yum! Brands Inc	Consumer Discretionary	CD
+ZBH	Zimmer Holdings|Zimmer Biomet Holdings	Health Care	HC
+ZION	Zions Bancorp	Financials	FIN
+ZTS	Zoetis	Health Care	HC

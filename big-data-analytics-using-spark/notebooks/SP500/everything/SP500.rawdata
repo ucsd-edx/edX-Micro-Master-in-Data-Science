@@ -1,0 +1,1016 @@
+==S&P 500 Component Stocks==
+{|  class="wikitable sortable"
+|-
+! [[Ticker symbol]] !! Security !! [[SEC filing]]s !! [[Global Industry Classification Standard|GICS]] Sector !! GICS Sub Industry !! Address of Headquarters !! Date first added !! [[Central Index Key|CIK]]
+|-
+|	{{NyseSymbol|MMM}}	||	[[3M|3M Company]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MMM&action=getcompany reports]	||	Industrials     ||		Industrial Conglomerates	||     [[St. Paul, Minnesota]] || || 0000066740
+|-
+|	{{NyseSymbol|ABT}}	||	[[Abbott Laboratories]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ABT&action=getcompany reports]	||	Health Care     ||	Health Care Equipment	||     [[North Chicago, Illinois]] || 1964-03-31 || 0000001800
+|-
+|	{{NyseSymbol|ABBV}}	||	[[AbbVie Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ABBV&action=getcompany reports]	||	Health Care     ||	Pharmaceuticals	||     [[North Chicago, Illinois]] || 2012-12-31 || 0001551152
+|-
+|	{{NyseSymbol|ACN}}	||	[[Accenture plc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ACN&action=getcompany reports]	||	Information Technology ||	IT Consulting & Other Services	|| [[Dublin, Ireland]] || 2011-07-06 || 0001467373
+|-
+|	{{NasdaqSymbol|ATVI}}	||	[[Activision Blizzard]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ATVI&action=getcompany reports]	||	Information Technology ||	Home Entertainment Software	|| [[Santa Monica, California]] || 2015-08-31 || 0000718877
+|-
+|	{{NyseSymbol|AYI}}	||	[[Acuity Brands Inc]] ||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AYI&action=getcompany reports]	||	Industrials ||	Electrical Components & Equipment 	|| [[Atlanta, Georgia]] || 2016-05-03 || 0001144215 
+|-
+|	{{NasdaqSymbol|ADBE}}	||	[[Adobe Systems Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ADBE&action=getcompany reports]	||	Information Technology     ||	Application Software	||     [[San Jose, California]] || 1997-05-05 || 0000796343
+|-
+|	{{NasdaqSymbol|AMD}}	||	[[Advanced Micro Devices Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AMD&action=getcompany reports]	||	Information Technology     ||	Semiconductors	||     [[Sunnyvale, California]] || 2017-03-20 || 0000002488
+|-
+|	{{NyseSymbol|AAP}}	||	[[Advance Auto Parts]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AAP&action=getcompany reports]	||	Consumer Discretionary ||	Automotive Retail || [[Roanoke, Virginia]] || 2015-07-09 || 0001158449
+|-
+|	{{NyseSymbol|AES}}	||	[[AES Corp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AES&action=getcompany reports]	||	Utilities     ||	Independent Power Producers & Energy Traders	||     [[Arlington, Virginia]] || || 0000874761
+|-
+|	{{NyseSymbol|AET}}	||	[[Aetna Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AET&action=getcompany reports]	||	Health Care     ||	Managed Health Care	||     [[Hartford, Connecticut]] || 1976-06-30 || 0001122304
+|-
+|	{{NyseSymbol|AMG}}	||	[[Affiliated Managers Group Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AMG&action=getcompany reports]	||	Financials ||	Asset Management & Custody Banks	|| [[Beverly, Massachusetts]] || 2014-07-01 || 0001004434
+|-
+|	{{NyseSymbol|AFL}}	||	[[AFLAC Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AFL&action=getcompany reports]	||	Financials     ||	Life & Health Insurance	||     [[Columbus, Georgia]] || || 0000004977
+|-
+|	{{NyseSymbol|A}}	||	[[Agilent Technologies Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=A&action=getcompany reports]	||	Health Care     ||	Health Care Equipment	||     [[Santa Clara, California]] || 2000-06-05 || 0001090872
+|-
+|	{{NyseSymbol|APD}}	||	[[Air Products & Chemicals Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=APD&action=getcompany reports]	||	Materials     ||	Industrial Gases	||     [[Allentown, Pennsylvania]] || 1985-04-30 || 0000002969
+|-
+|	{{NasdaqSymbol|AKAM}}	||	[[Akamai Technologies Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AKAM&action=getcompany reports]	||	Information Technology     ||	Internet Software & Services	||     [[Cambridge, Massachusetts]]  || 2007-07-12 || 0001086222
+|-
+|	{{NyseSymbol|ALK}}	||	[[Alaska Air Group Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ALK&action=getcompany reports]	||	Industrials   || Airlines || [[Seattle, Washington]] || 2016-05-13 || 0000766421
+|-
+|	{{NyseSymbol|ALB}}	||	[[Albemarle Corp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ALB&action=getcompany reports]	||	Materials || Specialty Chemicals || [[Baton Rouge, Louisiana]] || 2016-07-01 || 0000915913
+|-
+|	{{NyseSymbol|ARE}}	||	[[Alexandria Real Estate Equities Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ARE&action=getcompany reports]	||	Real Estate || Office REITs || [[Pasadena, California]] || 2017-03-20 || 0001035443
+|-
+|	{{NasdaqSymbol|ALXN}}	||	[[Alexion Pharmaceuticals]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ALXN&action=getcompany reports]	||	Health Care	||	Biotechnology	||	[[Cheshire, Connecticut]] || 2012-05-25 || 0000899866
+|-
+|	{{NyseSymbol|ALLE}}	||	[[Allegion]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ALLE&action=getcompany reports]	||	Industrials	||	Building Products	||	[[Dublin, Ireland]] ||    2013-12-02 || 0001579241
+|-
+|	{{NyseSymbol|AGN}}	||	[[Allergan, Plc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AGN&action=getcompany reports]	||	Health Care ||	Pharmaceuticals	|| [[Dublin, Ireland]] || || 0000884629
+|-
+|	{{NyseSymbol|ADS}}	||	[[Alliance Data Systems]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ADS&action=getcompany reports]	||	Information Technology     ||	Data Processing & Outsourced Services ||     [[Plano, Texas]] || 2013-12-23 || 0001101215
+|-
+|	{{NyseSymbol|LNT}}	||	[[Alliant Energy Corp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=LNT&action=getcompany reports]	||	Utilities ||	Electric Utilities	|| [[Madison, Wisconsin]]  || 2016-07-01 ||  0000352541 
+|-
+|	{{NyseSymbol|ALL}}	||	[[Allstate Corp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ALL&action=getcompany reports]	||	Financials     ||	Property & Casualty Insurance	||     [[Northfield Township, Illinois]] || || 0000899051
+|-
+|	{{NasdaqSymbol|GOOGL}}	||	[[Alphabet Inc.|Alphabet Inc Class A]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=GOOGL&action=getcompany reports]	||	Information Technology ||	Internet Software & Services	|| [[Mountain View, California]] || 2014-04-03 || 0001652044
+|-
+|	{{NasdaqSymbol|GOOG}}	||	[[Alphabet Inc.|Alphabet Inc Class C]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=GOOG&action=getcompany reports]	||	Information Technology ||	Internet Software & Services	|| [[Mountain View, California]] || || 0001652044
+|-
+|	{{NyseSymbol|MO}}	||	[[Altria Group Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MO&action=getcompany reports]	||	Consumer Staples     ||	Tobacco	||     [[Richmond, Virginia]] || || 0000764180
+|-
+|	{{NasdaqSymbol|AMZN}}	||	[[Amazon.com Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AMZN&action=getcompany reports]	||	Consumer Discretionary     ||     Internet & Direct Marketing Retail 	|| [[Seattle, Washington]] || 2005-11-18 || 0001018724
+|-
+|	{{NyseSymbol|AEE}}	||	[[Ameren Corp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AEE&action=getcompany reports]	||	Utilities     ||	Multi-Utilities	||     [[St. Louis, Missouri]]  || 1991-09-19 || 0001002910
+|-
+|	{{NasdaqSymbol|AAL}}	||	[[American Airlines Group]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AAL&action=getcompany reports]	||	Industrials     ||	Airlines 	||     [[Fort Worth, Texas]] || 2015-03-23 ||  0000006201 
+|-
+|	{{NyseSymbol|AEP}}	||	[[American Electric Power]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AEP&action=getcompany reports]	||	Utilities     ||	Electric Utilities	||     [[Columbus, Ohio]]  || || 0000004904
+|-
+|	{{NyseSymbol|AXP}}	||	[[American Express Co]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AXP&action=getcompany reports]	||	Financials     ||	Consumer Finance	||     [[New York, New York]] || 1976-06-30 || 0000004962
+|-
+|	{{NyseSymbol|AIG}}	||	[[American International Group|American International Group, Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AIG&action=getcompany reports]	||	Financials     ||	Property & Casualty Insurance	||     [[New York, New York]] || 1980-03-31 || 0000005272
+|-
+|	{{NyseSymbol|AMT}}	||	[[American Tower Corp A]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AMT&action=getcompany reports]	||	Real Estate     ||	Specialized REITs	||     [[Boston, Massachusetts]]  || 2007-11-19 || 0001053507
+|-
+|	{{NyseSymbol|AWK}}	||	[[American Water Works|American Water Works Company Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AWK&action=getcompany reports]	||	Utilities ||	Water Utilities||	 [[Voorhees, New Jersey]] || 2016-03-04 || 0001410636
+|-
+|	{{NyseSymbol|AMP}}	||	[[Ameriprise Financial]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AMP&action=getcompany reports]	||	Financials     ||	Asset Management & Custody Banks	||     [[Minneapolis, Minnesota]] || 2005-10-03 || 0000820027
+|-
+|	{{NyseSymbol|ABC}}	||	[[AmerisourceBergen Corp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ABC&action=getcompany reports]	||	Health Care     ||	Health Care Distributors	||     [[Chesterbrook, Pennsylvania]] || 2001-08-30 || 0001140859
+|-
+|       {{NyseSymbol|AME}}      ||	[[Ametek|AMETEK Inc]] || [http://www.sec.gov/cgi-bin/browse-edgar?CIK=AME&action=getcompany reports] || Industrials||	Electrical Components & Equipment  || [[Berwyn, Pennsylvania]] ||2013-09-23 || 0001037868
+|-
+|	{{NasdaqSymbol|AMGN}}	||	[[Amgen Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AMGN&action=getcompany reports]	||	Health Care     ||	Biotechnology	||     [[Thousand Oaks, California]] || 1992-01-02 || 0000318154
+|-
+|	{{NyseSymbol|APH}}	||	[[Amphenol|Amphenol Corp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=APH&action=getcompany reports]	||	Information Technology     ||	Electronic Components	||     [[Wallingford, Connecticut]] || 2008-09-30 || 0000820313
+|-
+|	{{NyseSymbol|APC}}	||	[[Anadarko Petroleum|Anadarko Petroleum Corp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=APC&action=getcompany reports]	||	Energy     ||	Oil & Gas Exploration & Production	||     [[The Woodlands, Texas]]  || || 0000773910
+|-
+|	{{NasdaqSymbol|ADI}}	||	[[Analog Devices|Analog Devices, Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ADI&action=getcompany reports]	||	Information Technology     ||	Semiconductors	||     [[Norwood, Massachusetts]]  || || 0000006281
+|-
+|	{{NyseSymbol|ANTM}}	||	[[Anthem Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ANTM&action=getcompany reports]	||	Health Care || Managed Health Care || [[Indianapolis, Indiana]] || || 0001156039
+|-
+|	{{NyseSymbol|AON}}	||	[[Aon plc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AON&action=getcompany reports]	||	Financials     ||	Insurance Brokers	||     [[London]], [[United Kingdom]] || || 0000315293
+|-
+|	{{NyseSymbol|APA}}	||	[[Apache Corporation]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=APA&action=getcompany reports]	||	Energy     ||	Oil & Gas Exploration & Production	||     [[Houston, Texas]] || || 0000006769
+|-
+|	{{NyseSymbol|AIV}}	||	[[Apartment Investment & Management]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AIV&action=getcompany reports]	||	Real Estate     ||	Residential REITs 	||     [[Denver, Colorado]] || || 0000922864
+|-
+|	{{NasdaqSymbol|AAPL}}	||	[[Apple Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AAPL&action=getcompany reports]	||	Information Technology     ||	Technology Hardware, Storage & Peripherals	||     [[Cupertino, California]] || 1982-11-30 || 0000320193
+|-
+|	{{NasdaqSymbol|AMAT}}	||	[[Applied Materials Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AMAT&action=getcompany reports]	||	Information Technology     ||	Semiconductor Equipment	||     [[Santa Clara, California]] || || 0000006951
+|-
+|	{{NyseSymbol|ADM}}	||	[[Archer-Daniels-Midland Co]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ADM&action=getcompany reports]	||	Consumer Staples     ||	Agricultural Products	||     [[Decatur, Illinois]] || 1981-07-29 || 0000007084
+|-
+|	{{NyseSymbol|ARNC}}	||	[[Arconic Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ARNC&action=getcompany reports]	||	Industrials     ||	Aerospace & Defense	||    [[New York, New York]] || 1964-03-31 || 0000004281
+|-
+|	{{NyseSymbol|AJG}}	||	[[Arthur J. Gallagher & Co.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AJG&action=getcompany reports]	||	Financials     ||	Insurance Brokers	||     [[Itasca, Illinois]] || 2016-05-31 || 0000354190
+|-
+|	{{NyseSymbol|AIZ}}	||	[[Assurant Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AIZ&action=getcompany reports]	||	Financials     ||	Multi-line Insurance	||     [[New York, New York]] || 2007-04-10 || 0001267238
+|-
+|	{{NyseSymbol|T}}	||	[[AT&T Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=T&action=getcompany reports]	||	Telecommunication Services     ||	Integrated Telecommunication Services	||     [[Dallas, Texas]] || 1983-11-30 || 0000732717
+|-
+|	{{NasdaqSymbol|ADSK}}	||	[[Autodesk Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ADSK&action=getcompany reports]	||	Information Technology     ||	Application Software	||     [[San Rafael, California]] || 1989-12-01 || 0000769397
+|-
+|	{{NasdaqSymbol|ADP}}	||	[[Automatic Data Processing]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ADP&action=getcompany reports]	||	Information Technology     ||	Internet Software & Services	||     [[Roseland, New Jersey]] || 1981-03-31 || 0000008670
+|-
+|	{{NyseSymbol|AN}}	||	[[AutoNation Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AN&action=getcompany reports]	||	Consumer Discretionary     ||     Specialty Stores	||	[[Fort Lauderdale, Florida]]  || || 0000350698
+|-
+|	{{NyseSymbol|AZO}}	||	[[AutoZone Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AZO&action=getcompany reports]	||	Consumer Discretionary     ||	Specialty Stores	||     [[Memphis, Tennessee]]  || || 0000866787
+|-
+|	{{NyseSymbol|AVB}}	||	[[AvalonBay Communities, Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AVB&action=getcompany reports]	||	Real Estate     ||	Residential REITs	||     [[Arlington, Virginia]]<ref>{{cite web|url=http://www.avalonbay.com/avalon/site/pages/index.html;jsessionid=E5CC67F688C3C8943020584BBA6CD0B2?code=r.ourcompany.home |title=Our Company |publisher=AvalonBay |date=1994-12-31 |accessdate=2012-02-10}}</ref> ||  2007-01-10|| 0000915912
+|-
+|	{{NyseSymbol|AVY}}	||	[[Avery Dennison Corp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AVY&action=getcompany reports]	||	Materials     ||Paper Packaging	||     [[Glendale, California]] || 1987-12-31 ||  0000008818
+|-
+|	{{NyseSymbol|BHI}}	||	[[Baker Hughes Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=BHI&action=getcompany reports]	||	Energy     ||	Oil & Gas Equipment & Services	||     [[Houston, Texas]] || || 0000808362
+|-
+|	{{NyseSymbol|BLL}}	||	[[Ball Corp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=BLL&action=getcompany reports]	||	Materials     ||	Metal & Glass Containers	||     [[Broomfield, Colorado]] || 1984-10-31 || 0000009389
+|-
+|	{{NyseSymbol|BAC}}	||	[[Bank of America Corp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=BAC&action=getcompany reports]	||	Financials     ||	Diversified Banks	||     [[Charlotte, North Carolina]] || 1976-06-30 || 0000070858
+|-
+|	{{NyseSymbol|BK}}	||	[[The Bank of New York Mellon Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=BK&action=getcompany reports]	||	Financials     ||	Asset Management & Custody Banks	||     [[New York, New York]] || || 0001390777
+|-
+|       {{NyseSymbol|BCR}}      ||      [[Bard (C.R.) Inc.]]            ||      [http://www.sec.gov/cgi-bin/browse-edgar?CIK=BCR&action=getcompany reports]     ||      Health Care     ||	Health Care Equipment	||     [[Murray Hill, New Jersey]] || 1975-06-30 || 0000009892
+|-
+|	{{NyseSymbol|BAX}}	||	[[Baxter International Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=BAX&action=getcompany reports]	||	Health Care     ||	Health Care Equipment	||    [[Deerfield, Illinois]] || 1972-09-30 || 0000010456
+|-
+|	{{NyseSymbol|BBT}}	||	[[BB&T Corporation]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=BBT&action=getcompany reports]	||	Financials     ||	Regional Banks	||     [[Winston-Salem, North Carolina]] || || 0000092230
+|-
+|	{{NyseSymbol|BDX}}	||	[[Becton Dickinson]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=BDX&action=getcompany reports]	||	Health Care     ||	Health Care Equipment	||     [[Franklin Lakes, New Jersey]] || 1972-09-30 || 0000010795
+|-
+|	{{NasdaqSymbol|BBBY}}	||	[[Bed Bath & Beyond]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=BBBY&action=getcompany reports]	||	Consumer Discretionary     ||	Specialty Stores	||     [[Union Township, Union County, New Jersey|Union, New Jersey]] || || 0000886158
+|-
+|	{{NyseSymbol|BRK.B}}	||	[[Berkshire Hathaway]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=BRKB&action=getcompany reports]	||	Financials     ||	Multi-Sector Holdings	||     [[Omaha, Nebraska]]  || 2010-02-16 || 0001067983
+|-
+|	{{NyseSymbol|BBY}}	||	[[Best Buy Co. Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=BBY&action=getcompany reports]	||	Consumer Discretionary     ||	Computer & Electronics Retail	||     [[Richfield, Minnesota]] || 1999-06-29 || 0000764478
+|-
+|	{{NasdaqSymbol|BIIB}}	||	[[Biogen Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=BIIB&action=getcompany reports]	||	Health Care     ||	Biotechnology	||     [[Weston, Massachusetts]] || || 0000875045
+|-
+|	{{NyseSymbol|BLK}}	||	[[BlackRock]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=BLK&action=getcompany reports]	||	Financials ||	Asset Management & Custody Banks	|| [[New York, New York]] || 2011-04-04 || 0001364742
+|-
+|	{{NyseSymbol|HRB}}	||	[[Block H&R]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HRB&action=getcompany reports]	||	Financials     ||	Consumer Finance	||     [[Kansas City, Missouri]] || 1986-11-30 || 0000012659
+|-
+|	{{NyseSymbol|BA}}	||	[[Boeing Company]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=BA&action=getcompany reports]	||	Industrials     ||     	Aerospace & Defense	||	[[Chicago, Illinois]] || || 0000012927
+|-
+|	{{NyseSymbol|BWA}}	||	[[BorgWarner]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=BWA&action=getcompany reports]	||	    Consumer Discretionary ||	Auto Parts & Equipment	||     [[Auburn Hills, Michigan]] ||  2011-12-19 || 0000908255
+|-
+|	{{NyseSymbol|BXP}}	||	[[Boston Properties]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=BXP&action=getcompany reports]	||	Real Estate     ||	Office REITs	||     [[Boston, Massachusetts]] || 2006-04-03 || 0001037540
+|-
+|	{{NyseSymbol|BSX}}	||	[[Boston Scientific]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=BSX&action=getcompany reports]	||	Health Care     ||	Health Care Equipment	||     [[Marlborough, Massachusetts]]<ref>http://www.bostonscientific.com/en-US/about-us/new-marlborough-headquarters.html</ref> || 1995-02-24 || 0000885725
+|-
+|	{{NyseSymbol|BMY}}	||	[[Bristol-Myers Squibb]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=BMY&action=getcompany reports]	||	Health Care     ||	Health Care Distributors	||     [[New York, New York]] || || 0000014272
+|-
+|	{{NasdaqSymbol|AVGO}}	||	[[Broadcom Limited|Broadcom]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=AVGO&action=getcompany reports]	||	Information Technology ||	Semiconductors	|| [[San Jose, California]] || 2014-05-08 || 0001441634
+|-
+|	{{NyseSymbol|BF.B}}	||	[[Brown-Forman Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=BFB&action=getcompany reports]	||	Consumer Staples     ||	Distillers & Vintners		||     [[Louisville, Kentucky]] || 1982-10-31 || 0000014693
+|-
+|	{{NasdaqSymbol|CHRW}}	||	[[C. H. Robinson Worldwide]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CHRW&action=getcompany reports]	||	Industrials     ||     Air Freight & Logistics	||	[[Eden Prairie, Minnesota]] || 2007-03-02 || 0001043277
+|-
+| 	{{NasdaqSymbol|CA}}	||	[[CA, Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CA&action=getcompany reports]	||	Information Technology     ||	Systems Software	||     [[Islandia, New York]] || 1987-07-31 || 0000356028
+|-
+|       {{NyseSymbol|COG}}     ||       [[Cabot Oil & Gas]] || [http://www.sec.gov/cgi-bin/browse-edgar?CIK=COG&action=getcompany reports]	||	Energy     ||	Oil & Gas Exploration & Production	||     [[Houston, Texas]] || 2008-06-23|| 0000858470
+|-
+|	{{NyseSymbol|CPB}}	||	[[Campbell Soup]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CPB&action=getcompany reports]	||	Consumer Staples     ||	Packaged Foods & Meats	||     [[Camden, New Jersey]] || || 0000016732
+|-
+|	{{NyseSymbol|COF}}	||	[[Capital One Financial]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=COF&action=getcompany reports]	||	Financials     ||	Consumer Finance	||     [[Tysons Corner, Virginia]] || || 0000927628
+|-
+|	{{NyseSymbol|CAH}}	||	[[Cardinal Health]] Inc. ||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CAH&action=getcompany reports]	||	Health Care     ||	Health Care Distributors	||     [[Dublin, Ohio]] || || 0000721371
+|-
+|	{{NasdaqSymbol|CBOE}}	||	[[Cboe Holdings|CBOE Holdings]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CBOE&action=getcompany reports]	||	Financials  ||	Financial Exchanges & Data  || [[Chicago, Illinois]] || 2017-03-01 || 0001374310 
+|-
+|	{{NyseSymbol|KMX}}	||	[[Carmax Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=KMX&action=getcompany reports]	||	Consumer Discretionary     ||	Specialty Stores	||     [[Richmond, Virginia]] || 2010-06-28 || 0001170010
+|-
+|	{{NyseSymbol|CCL}}	||	[[Carnival Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CCL&action=getcompany reports]	||	Consumer Discretionary     ||	Hotels, Resorts & Cruise Lines	||     [[Miami, Florida]] || || 0000815097
+|-
+|	{{NyseSymbol|CAT}}	||	[[Caterpillar Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CAT&action=getcompany reports]	||	Industrials     ||	Construction Machinery & Heavy Trucks	||     [[Peoria, Illinois]] || || 0000018230
+|-
+|	{{NyseSymbol|CBG}}	||	[[CBRE Group]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CBG&action=getcompany reports]	||	Real Estate     ||	Real Estate Services	||     [[Los Angeles, California]] || 2006-11-10 || 0001138118
+|-
+|	{{NyseSymbol|CBS}}	||	[[CBS Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CBS&action=getcompany reports]	||	Consumer Discretionary     ||	Broadcasting    ||     [[New York, New York]] || 1994-09-01 || 0000813828
+|-
+|	{{NasdaqSymbol|CELG}}	||	[[Celgene Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CELG&action=getcompany reports]	||	Health Care     ||	Biotechnology	||     [[Summit, New Jersey]] || 2006-11-06 || 0000816284
+|-
+|	{{NyseSymbol|CNC}}	||	[[Centene Corporation]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CNC&action=getcompany reports]	||	Health Care ||	Managed Health Care || [[St Louis, Missouri]] || 2016-03-30 || 0001071739 
+|-
+|	{{NyseSymbol|CNP}}	||	[[CenterPoint Energy]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CNP&action=getcompany reports]	||	Utilities     ||	Multi-Utilities	||     [[Houston, Texas]] || 1985-07-31 || 0001130310
+|-
+|	{{NyseSymbol|CTL}}	||	[[CenturyLink Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CTL&action=getcompany reports]	||	Telecommunication Services     ||	Integrated Telecommunication Services	||     [[Monroe, Louisiana]] || || 0000018926
+|-
+|	{{NasdaqSymbol|CERN}}	||	[[Cerner]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CERN&action=getcompany reports]	||	Health Care     ||	Health Care Technology	||     [[North Kansas City, Missouri]] || 2010-04-30 || 0000804753
+|-
+|	{{NyseSymbol|CF}}	||	[[CF Industries Holdings Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CF&action=getcompany reports]	||	Materials     ||	Fertilizers & Agricultural Chemicals	||     [[Deerfield, Illinois]] ||  2008-08-27 || 0001324404
+|-
+|	{{NyseSymbol|SCHW}}	||	[[Charles Schwab Corporation]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SCHW&action=getcompany reports]	||	Financials     ||	Investment Banking & Brokerage	||     [[San Francisco, California]] || || 0000316709
+|-
+|	{{NasdaqSymbol|CHTR}}	||	[[Charter Communications]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CHTR&action=getcompany reports]	||	Consumer Discretionary   ||	Cable & Satellite 	||	 [[Stamford, Connecticut]] || 2016-09-08 || 0001091667 
+|-
+|	{{NyseSymbol|CHK}}	||	[[Chesapeake Energy]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CHK&action=getcompany reports]	||	Energy     ||	Oil & Gas Exploration & Production	||     [[Oklahoma City, Oklahoma]] || || 0000895126
+|-
+|	{{NyseSymbol|CVX}}	||	[[Chevron Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CVX&action=getcompany reports]	||	Energy     ||	Integrated Oil & Gas	||     [[San Ramon, California]] || || 0000093410
+|-
+|	{{NyseSymbol|CMG}}	||	[[Chipotle Mexican Grill]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CMG&action=getcompany reports]	||	Consumer Discretionary||	Restaurants	|| [[Denver, Colorado]] || 2011-04-28 || 0001058090
+|-
+|	{{NyseSymbol|CB}}	||	[[Chubb Limited]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CB&action=getcompany reports]	||	Financials     ||	Property & Casualty Insurance ||  [[Zurich, Switzerland]] || 2010-07-15 || 0000896159 
+|-
+|	{{NyseSymbol|CHD}}	||	[[Church & Dwight]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CHD&action=getcompany reports]	||	Consumer Staples     ||	Household Products 	||     [[Ewing, New Jersey]] || 2015-12-29 || 0000313927
+|-
+|	{{NyseSymbol|CI}}	||	[[CIGNA Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CI&action=getcompany reports]	||	Health Care     ||	Managed Health Care	||     [[Philadelphia, Pennsylvania]] || 1976-06-30 || 0000701221
+|-
+|	{{NyseSymbol|XEC}}	||	[[Cimarex Energy]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=XEC&action=getcompany reports]	||	Energy || Oil & Gas Exploration & Production	|| 	[[Denver, Colorado]]  || 2014-06-21 || 0001168054
+|-
+|	{{NasdaqSymbol|CINF}}	||	[[Cincinnati Financial]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CINF&action=getcompany reports]	||	Financials     ||	Property & Casualty Insurance	||     [[Fairfield, Ohio]] || || 0000020286
+|-
+|	{{NasdaqSymbol|CTAS}}	||	[[Cintas Corporation]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CTAS&action=getcompany reports]	||	Industrials     ||	Diversified Support Services	||     [[Mason, Ohio]] || 2001-03-01 || 0000723254
+|-
+|	{{NasdaqSymbol|CSCO}}	||	[[Cisco Systems]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CSCO&action=getcompany reports]	||	Information Technology     ||	Communications Equipment	||     [[San Jose, California]] || 1993-12-01 || 0000858877
+|-
+|	{{NyseSymbol|C}}	||	[[Citigroup Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=C&action=getcompany reports]	||	Financials     ||	Diversified Banks	||     [[New York, New York]] || 1988-05-31 || 0000831001
+|-
+|       {{NyseSymbol|CFG}}      ||      [[Citizens Financial Group]] || [http://www.sec.gov/cgi-bin/browse-edgar?CIK=CFG&action=getcompany reports]    || Financials|| Regional Banks || [[Providence, Rhode Island]]||2016-01-29|| 0000759944
+|-
+|	{{NasdaqSymbol|CTXS}}	||	[[Citrix Systems]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CTXS&action=getcompany reports]	||	Information Technology     ||	Internet Software & Services	||     [[Fort Lauderdale, Florida]] || || 0000877890
+|-
+|	{{NyseSymbol|CLX}}	||	[[The Clorox Company]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CLX&action=getcompany reports]	||	Consumer Staples     ||	Household Products	||     [[Oakland, California]] || 1969-03-31 || 0000021076
+|-
+|	{{NasdaqSymbol|CME}}	||	[[CME Group Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CME&action=getcompany reports]	||	Financials     ||	Financial Exchanges & Data	||     [[Chicago, Illinois]] || || 0001156375
+|-
+|	{{NyseSymbol|CMS}}	||	[[CMS Energy]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CMS&action=getcompany reports]	||	Utilities     ||	Multi-Utilities	||     [[Jackson, Michigan]] || || 0000811156
+|-
+|	{{NyseSymbol|COH}}	||	[[Coach Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=COH&action=getcompany reports]	||	Consumer Discretionary     ||	Apparel, Accessories & Luxury Goods	||     [[New York, New York]] || || 0001116132
+|-
+|	{{NyseSymbol|KO}}	||	[[Coca-Cola Company]] (The)	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=KO&action=getcompany reports]	||	Consumer Staples     ||	Soft Drinks	||     [[Atlanta, Georgia]] || || 0000021344
+|-
+|	{{NasdaqSymbol|CTSH}}	||	[[Cognizant Technology Solutions]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CTSH&action=getcompany reports]	||	Information Technology ||	IT Consulting & Other Services	|| [[Teaneck, New Jersey]] || 2006-11-17 || 0001058290
+|-
+|	{{NyseSymbol|CL}}	||	[[Colgate-Palmolive]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CL&action=getcompany reports]	||	Consumer Staples ||	Household Products	||	 [[New York, New York]] || || 0000021665
+|-
+|	{{NasdaqSymbol|CMCSA}}	||	[[Comcast Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CMCSA&action=getcompany reports]	||	Consumer Discretionary ||	Cable & Satellite	||	[[Philadelphia, Pennsylvania]] || 2015-09-18 || 0001166691
+|-
+|	{{NyseSymbol|CMA}}	||	[[Comerica Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CMA&action=getcompany reports]	||	Financials ||	Diversified Banks	||	 [[Dallas, Texas]] || || 0000028412
+|-
+|	{{NyseSymbol|CAG}}	||	[[Conagra Brands]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CAG&action=getcompany reports]	||	Consumer Staples ||	Packaged Foods & Meats	||	 [[Chicago, Illinois]] || 1983-08-31 || 0000023217
+|-
+|	{{NyseSymbol|CXO}}	||	[[Concho Resources]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CXO&action=getcompany reports]	||	Energy ||	Oil & Gas Exploration & Production 	|| [[Midland, Texas]] || 2016-02-22 || 0001358071
+|-
+|	{{NyseSymbol|COP}}	||	[[ConocoPhillips]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=COP&action=getcompany reports]	||	Energy ||	Oil & Gas Exploration & Production	|| [[Houston, Texas]] || || 0001163165
+|-
+|	{{NyseSymbol|ED}}	||	[[Consolidated Edison]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ED&action=getcompany reports]	||	Utilities ||	Electric Utilities	||	 [[New York, New York]] || || 0001047862
+|-
+|	{{NyseSymbol|STZ}}	||	[[Constellation Brands]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=STZ&action=getcompany reports]	||	Consumer Staples ||	Distillers & Vintners	||	 [[Victor, New York]] || 2005-07-05 || 0000016918
+|-
+|	{{NyseSymbol|COO}}	||	[[The Cooper Companies]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=COO&action=getcompany reports]	||	Health Care || Health Care Supplies || [[Pleasanton, California]] || 2016-09-23 || 0000711404 
+|-
+|	{{NyseSymbol|GLW}}	||	[[Corning Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=GLW&action=getcompany reports]	||	Information Technology ||	Electronic Components	||	 [[Corning (city), New York|Corning, New York]] || || 0000024741
+|-
+|	{{NasdaqSymbol|COST}}	||	[[Costco Wholesale Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=COST&action=getcompany reports]	||	Consumer Staples ||	Hypermarkets & Super Centers	|| [[Issaquah, Washington]] || 1993-10-01 || 0000909832
+|-
+|	{{NyseSymbol|COTY}}	||	[[Coty, Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=COTY&action=getcompany reports]	||	Consumer Staples ||	Personal Products	|| [[New York, NY]] || 2016-10-03 || 0001024305 
+|-
+|	{{NyseSymbol|CCI}}	||	[[Crown Castle International Corp.]] ||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CCI&action=getcompany reports]	||	Real Estate ||	Specialized REITs	||	 [[Houston, Texas]] || 2012-03-14 || 0001051470
+|-
+|	{{NyseSymbol|CSRA}}	||	[[CSRA (IT services company)|CSRA Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CSRA&action=getcompany reports]	||	Information Technology || IT Consulting & Other Services	||	[[Falls Church, Virginia]] || 2015-12-01 || 0001646383
+|-
+|	{{NasdaqSymbol|CSX}}	||	[[CSX Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CSX&action=getcompany reports]	||	Industrials ||	Railroads	||	 [[Jacksonville, Florida]] || 1967-09-30 || 0000277948
+|-
+|	{{NyseSymbol|CMI}}	||	[[Cummins Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CMI&action=getcompany reports]	||	Industrials ||	Industrial Machinery	||	 [[Columbus, Indiana]] || 1965-03-31 || 0000026172
+|-
+|	{{NyseSymbol|CVS}}	||	[[CVS Health]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CVS&action=getcompany reports]	||	Consumer Staples ||	Drug Retail	||	 [[Woonsocket, Rhode Island]] || || 0000064803
+|-
+|	{{NyseSymbol|DHI}}	||	[[D. R. Horton]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DHI&action=getcompany reports]	||	Consumer Discretionary ||	Homebuilding	|| [[Fort Worth, Texas]] || || 0000882184
+|-
+|	{{NyseSymbol|DHR}}	||	[[Danaher Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DHR&action=getcompany reports]	||	Health Care ||	Health Care Equipment	|| [[Washington, D.C.]] || || 0000313616
+|-
+|	{{NyseSymbol|DRI}}	||	[[Darden Restaurants]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DRI&action=getcompany reports]	||	Consumer Discretionary ||	Restaurants	|| [[Orlando, Florida]] || || 0000940944
+|-
+|       {{NyseSymbol|DVA}}      ||      [[DaVita]] Inc. || [http://www.sec.gov/cgi-bin/browse-edgar?CIK=DVA&action=getcompany reports]	||	Health Care ||	Health Care Facilities	|| [[Denver, Colorado]] || 2008-07-31 || 0000927066
+|-
+|	{{NyseSymbol|DE}}	||	[[Deere & Co.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DE&action=getcompany reports]	||	Industrials ||	Agricultural & Farm Machinery	||	 [[Moline, Illinois]] || || 0000315189
+|-
+|	{{NyseSymbol|DLPH}}	||	[[Delphi Automotive]] PLC ||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DLPH&action=getcompany reports]	||	Consumer Discretionary ||	Auto Parts & Equipment	||	 [[Gillingham, Kent]], [[United Kingdom]] || 2012-12-24 || 0001521332
+|-
+|	{{NyseSymbol|DAL}}	||	[[Delta Air Lines]] Inc. ||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DAL&action=getcompany reports]	||	Industrials ||	Airlines	||	 [[Atlanta, Georgia]] || 2013-09-11 || 0000027904
+|-
+|	{{NasdaqSymbol|XRAY}}	||	[[Dentsply Sirona]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=XRAY&action=getcompany reports]	||	Health Care ||	Health Care Supplies	|| [[York, Pennsylvania]] || 2008-11-14 || 0000818479
+|-
+|	{{NyseSymbol|DVN}}	||	[[Devon Energy]] Corp.	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DVN&action=getcompany reports]	||	Energy ||	Oil & Gas Exploration & Production	||	 [[Oklahoma City, Oklahoma]] || 2000-08-30 || 0001090012
+|-
+|	{{NyseSymbol|DLR}}	||	[[Digital Realty]] Trust Inc	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DLR&action=getcompany reports]	||	Real Estate || Specialized REITs  || [[San Francisco, California]] || 2016-05-18 ||  0001297996
+|-
+|	{{NyseSymbol|DFS}}	||	[[Discover Financial Services]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DFS&action=getcompany reports]	||	Financials ||	Consumer Finance	|| [[Riverwoods, Illinois]] || 2007-07-02 || 0001393612
+|-
+|	{{NasdaqSymbol|DISCA}}	||	[[Discovery Communications]]-A	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DISCA&action=getcompany reports]	||	Consumer Discretionary ||	Cable & Satellite	||	 [[Silver Spring, Maryland]] || 2010-03-01 || 0001437107
+|-
+|	{{NasdaqSymbol|DISCK}}	||	[[Discovery Communications]]-C	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DISCK&action=getcompany reports]	||	Consumer Discretionary ||	Cable & Satellite	||	 [[Silver Spring, Maryland]] || 2014-08-07 || 0001437107
+|-
+|	{{NasdaqSymbol|DISH}}	||	[[Dish Network]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DISH&action=getcompany reports]	||	Consumer Discretionary ||	Cable & Satellite	||	 [[Meridian, Colorado]] || 2017-03-13 || 0001001082
+|-
+| 	{{NyseSymbol|DG}}	||	[[Dollar General]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DG&action=getcompany reports]	||	Consumer Discretionary ||	General Merchandise Stores	|| [[Goodlettsville, Tennessee]] || 2012-12-03 || 0000029534
+|-
+|	{{NasdaqSymbol|DLTR}}	||	[[Dollar Tree]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DLTR&action=getcompany reports]	||	Consumer Discretionary ||	General Merchandise Stores	|| [[Chesapeake, Virginia]] ||  2011-12-19 || 0000935703
+|-
+|	{{NyseSymbol|D}}	||	[[Dominion Resources]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=D&action=getcompany reports]	||	Utilities ||Electric Utilities || [[Richmond, Virginia]]	|| || 0000715957
+|-
+|	{{NyseSymbol|DOV}}	||	[[Dover Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DOV&action=getcompany reports]	||	Industrials ||	Industrial Machinery	|| [[Downers Grove, Illinois]] || 1985-10-31 || 0000029905
+|-
+|	{{NyseSymbol|DOW}}	||	[[Dow Chemical]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DOW&action=getcompany reports]	||	Materials ||	Diversified Chemicals	|| [[Midland, Michigan]] || || 0000029915
+|-
+|	{{NyseSymbol|DPS}}	||	[[Dr Pepper Snapple Group]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DPS&action=getcompany reports]	||	Consumer Staples ||	Soft Drinks	|| [[Plano, Texas]] || 2008-10-07 || 0001418135
+|-
+|	{{NyseSymbol|DTE}}	||	[[DTE Energy]] Co.	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DTE&action=getcompany reports]	||	Utilities || Multi-Utilities || [[Detroit, Michigan]]	|| || 0000936340
+|-
+|	{{NyseSymbol|DD}}	||	[[Du Pont (E.I.)]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DD&action=getcompany reports]	||	Materials ||	Diversified Chemicals	|| [[Wilmington, Delaware]] || || 0000030554
+|-
+|	{{NyseSymbol|DUK}}	||	[[Duke Energy]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DUK&action=getcompany reports]	||	Utilities ||	Electric Utilities	|| [[Charlotte, North Carolina]] || 1976-06-30 || 0001326160
+|-
+|	{{NyseSymbol|DXC}}	||	[[DXC Technology]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=0001688568&action=getcompany reports]||	Information Technology ||	IT Consulting & Other Services	|| [[Tysons Corner, Virginia]] || 2017-04-04 || 0001688568
+|-
+|	{{NasdaqSymbol|ETFC}}	||	[[E*Trade]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ETFC&action=getcompany reports]	||	Financials ||	Investment Banking & Brokerage	|| [[New York, New York]] ||2004-03-31|| 0001015780
+|-
+|	{{NyseSymbol|EMN}}	||	[[Eastman Chemical]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=EMN&action=getcompany reports]	||	Materials ||	Diversified Chemicals	|| [[Kingsport, Tennessee]] || 1994-01-01 || 0000915389
+|-
+|	{{NyseSymbol|ETN}}	||	[[Eaton Corporation]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ETN&action=getcompany reports]	||	Industrials ||	Electrical Components & Equipment	|| [[Dublin, Ireland]] || || 0001551182
+|-
+|	{{NasdaqSymbol|EBAY}}	||	[[eBay]] Inc.	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=EBAY&action=getcompany reports]	||	Information Technology ||	Internet Software & Services	|| [[San Jose, California]] || || 0001065088
+|-
+|	{{NyseSymbol|ECL}}	||	[[Ecolab]] Inc.	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ECL&action=getcompany reports]	||	Materials ||	Specialty Chemicals	|| [[St. Paul, Minnesota]] || 1989-01-31 || 0000031462
+|-
+|	{{NyseSymbol|EIX}}	||	[[Edison Int'l]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=EIX&action=getcompany reports]	||	Utilities ||	Electric Utilities	|| [[Rosemead, California]] || || 0000827052
+|-
+|	{{NyseSymbol|EW}}	||	[[Edwards Lifesciences]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=EW&action=getcompany reports]	||	Health Care ||	Health Care Equipment	|| [[Irvine, California]] || 2011-04-01 || 0001099800
+|-
+|	{{NasdaqSymbol|EA}}	||	[[Electronic Arts]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=EA&action=getcompany reports]	||	Information Technology ||	Home Entertainment Software	|| [[Redwood City, California]] || 2002-07-22 || 0000712515
+|-
+|	{{NyseSymbol|EMR}}	||	[[Emerson Electric Company]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=EMR&action=getcompany reports]	||	Industrials || 	Electrical Components & Equipment	||	 [[Ferguson, Missouri]] || 1965-03-31 || 0000032604
+|-
+|	{{NyseSymbol|ETR}}	||	[[Entergy Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ETR&action=getcompany reports]	||	Utilities ||	Electric Utilities	|| [[New Orleans, Louisiana]] || || 0000065984
+|-
+|	{{NyseSymbol|EVHC}}	||	[[Envision Healthcare]]	||	[https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001678531 reports]	||	Health Care || Health Care Services	|| [[Nashville, Tennessee]] || 2016-12-02 ||  0000895930
+|-
+|	{{NyseSymbol|EOG}}	||	[[EOG Resources]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=EOG&action=getcompany reports]	||	Energy ||	Oil & Gas Exploration & Production	|| [[Houston, Texas]] || 2000-11-02 || 0000821189
+|-
+|	{{NyseSymbol|EQT}}	||	[[EQT Corporation]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=EQT&action=getcompany reports]	||	Energy ||Oil & Gas Exploration & Production		|| [[Pittsburgh, Pennsylvania]] || 2008-12-19 || 0000033213
+|-
+|	{{NyseSymbol|EFX}}	||	[[Equifax Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=EFX&action=getcompany reports]	||	Industrials ||	Research & Consulting Services	|| [[Atlanta, Georgia]] || 1997-06-19 || 0000033185
+|-
+|	{{NasdaqSymbol|EQIX}}	||	[[Equinix]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=EQIX&action=getcompany reports]	||	Real Estate ||	Specialized REITs ||	 [[Redwood City, California]] || 2015-03-20 ||  0001101239 
+|-
+|	{{NyseSymbol|EQR}}	||	[[Equity Residential]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=EQR&action=getcompany reports]	||	Real Estate ||	Residential REITs	|| [[Chicago, Illinois]] || 2001-12-03 || 0000906107
+|-
+|	{{NyseSymbol|ESS}}	||	[[Essex Property Trust, Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ESS&action=getcompany reports]	||	Real Estate     ||	Residential REITs	||     [[Palo Alto, California]] || 2014-04-02 || 0000920522
+|-
+|	{{NyseSymbol|EL}}	||	[[Estee Lauder Cos.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=EL&action=getcompany reports]	||	Consumer Staples ||	Personal Products	|| [[New York, New York]] || 2006-01-05 || 0001001250
+|-
+|	{{NyseSymbol|ES}}	||	[[Eversource Energy]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NU&action=getcompany reports]	||	Utilities ||	Multi-Utilities	|| [[Springfield, Massachusetts]] || || 0000072741
+|-
+|	{{NyseSymbol|EXC}}	||	[[Exelon Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=EXC&action=getcompany reports]	||	Utilities ||	Multi-Utilities	|| [[Chicago, Illinois]] || || 0001109357
+|-
+|	{{NasdaqSymbol|EXPE}}	||	[[Expedia Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=EXPE&action=getcompany reports]	||	Consumer Discretionary ||	Internet & Direct Marketing Retail || [[Bellevue, Washington]] || 2007-10-02 || 0001324424
+|-
+|	{{NasdaqSymbol|EXPD}}	||	[[Expeditors International]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=EXPD&action=getcompany reports]	||	Industrials ||	Air Freight & Logistics	|| [[Seattle, Washington]] || 2007-10-10  || 0000746515
+|-
+|	{{NasdaqSymbol|ESRX}}	||	[[Express Scripts]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ESRX&action=getcompany reports]	||	Health Care ||	Health Care Distributors	|| [[Cool Valley, Missouri]] || 2003-09-25 || 0001532063
+|-
+|	{{NyseSymbol|EXR}}	||	[[Extra Space Storage]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=EXR&action=getcompany reports]	||	Real Estate     ||	Specialized REITs 	||[[Salt Lake City, Utah]]|| 2016-01-19 || 0001289490
+|-
+|	{{NyseSymbol|XOM}}	||	[[Exxon Mobil Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=XOM&action=getcompany reports]	||	Energy ||	Integrated Oil & Gas	|| [[Irving, Texas]] || || 0000034088
+|-
+|	{{NasdaqSymbol|FFIV}}	||	[[F5 Networks]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=FFIV&action=getcompany reports]	||	Information Technology ||	Communications Equipment	||	[[Seattle, Washington]] || 2010-12-20 || 0001048695
+|-
+|	{{NasdaqSymbol|FB}}	||	[[Facebook, Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?company=Facebook&owner=exclude&action=getcompany reports]     ||	    Information Technology ||	Internet Software & Services ||	[[Menlo Park, California]] || 2013-12-23 || 0001326801
+|-
+|	{{NasdaqSymbol|FAST}}	||	[[Fastenal Co]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=FAST&action=getcompany reports]	||	Industrials ||	Building Products	|| [[Winona, Minnesota]] || 2009-09-15 || 0000815556
+|-
+|	{{NyseSymbol|FRT}}	||	[[Federal Realty Investment Trust]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=FRT&action=getcompany reports]	||	Real Estate     ||	Retail REITs	||     [[Rockville, Maryland]] || 2016-02-01 || 0000034903
+|-
+|	{{NyseSymbol|FDX}}	||	[[FedEx Corporation]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=FDX&action=getcompany reports]	||	Industrials ||	Air Freight & Logistics	||	 [[Memphis, Tennessee]] || 1980-12-31  || 0001048911
+|-
+|	{{NyseSymbol|FIS}}	||	[[Fidelity National Information Services]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=FIS&action=getcompany reports]	||	Information Technology ||	Internet Software & Services	||	 [[Jacksonville, Florida]] || 2006-11-10 || 0001136893
+|-
+|	{{NasdaqSymbol|FITB}}	||	[[Fifth Third Bancorp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=FITB&action=getcompany reports]	||	Financials ||	Regional Banks	|| [[Cincinnati, Ohio]] || || 0000035527
+|-
+|	{{NyseSymbol|FE}}	||	[[FirstEnergy Corp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=FE&action=getcompany reports]	||	Utilities ||	Electric Utilities	|| [[Akron, Ohio]] || || 0001031296
+|-
+|	{{NasdaqSymbol|FISV}}	||	[[Fiserv Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=FISV&action=getcompany reports]	||	Information Technology ||	Internet Software & Services	|| [[Brookfield, Wisconsin]] || 2001-04-02 || 0000798354
+|-
+|	{{NasdaqSymbol|FLIR}}	||	[[FLIR Systems]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=FLIR&action=getcompany reports]	||	Information Technology ||	Electronic Equipment & Instruments	||	 [[Wilsonville, Oregon]] || 2009-01-02 || 0000354908
+|-
+|	{{NyseSymbol|FLS}}	||	[[Flowserve Corporation]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=FLS&action=getcompany reports]	||	Industrials ||	Industrial Machinery	|| [[Irving, Texas]] || 2008-10-02 || 0000030625
+|-
+|	{{NyseSymbol|FLR}}	||	[[Fluor Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=FLR&action=getcompany reports]	||	Industrials ||	Construction & Engineering	|| [[Irving, Texas]] || 1980-03-31 || 0001124198
+|-
+|	{{NyseSymbol|FMC}}	||	[[FMC Corporation]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=FMC&action=getcompany reports]	||	Materials ||	Fertilizers & Agricultural Chemicals	|| [[Philadelphia, Pennsylvania]] || 2009-08-19 || 0000037785
+|-
+|       {{NyseSymbol|FL}}     ||       [[Foot Locker Inc]] || [http://www.sec.gov/cgi-bin/browse-edgar?CIK=FL&action=getcompany reports]	||	Consumer Discretionary    ||		Apparel Retail||     [[New York, New York]] || 2016-04-04 || 0000850209
+|-
+|	{{NyseSymbol|F}}	||	[[Ford Motor]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=F&action=getcompany reports]	||	Consumer Discretionary ||	Automobile Manufacturers	|| [[Dearborn, Michigan]] || || 0000037996
+|-
+|	{{NyseSymbol|FTV}}	||	[[Fortive Corp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=FTV&action=getcompany reports]	||	Industrials	||	Industrial Machinery  	||	[[Everett, Washington]] || 2016-07-01 || 0001659166
+|-
+|	{{NyseSymbol|FBHS}}	||	[[Fortune Brands Home & Security]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=FBHS&action=getcompany reports]	||	Industrials  ||		Building Products ||  [[Deerfield, Illinois]] || 2016-06-22 || 0001519751 
+|-
+|	{{NyseSymbol|BEN}}	||	[[Franklin Resources]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=BEN&action=getcompany reports]	||	Financials ||	Asset Management & Custody Banks	|| [[San Mateo, California]] || || 0000038777
+|-
+|	{{NyseSymbol|FCX}}	||	[[Freeport-McMoRan Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=FCX&action=getcompany reports]	||	Materials ||	Copper	|| [[Phoenix, Arizona]] || || 0000831259
+|-
+|	{{NyseSymbol|GPS}}	||	[[Gap Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=GPS&action=getcompany reports]	||	Consumer Discretionary || Apparel Retail	||[[San Francisco, California]] || 1986-08-31 || 0000039911
+|-
+|	{{NasdaqSymbol|GRMN}}	||	[[Garmin Ltd.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=GRMN&action=getcompany reports]	||	Consumer Discretionary || Consumer Electronics 	||  [[Schaffhausen|Schaffhausen, Switzerland]] || 2012-12-12 || 0001121788
+|-
+|	{{NyseSymbol|IT}}	||	[[Gartner|Gartner Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=IT&action=getcompany reports]	||	Information Technology ||	IT Consulting & Other Services 	|| [[Stamford, Connecticut]] || 2017-04-05 || 0000749251  
+|-
+|	{{NyseSymbol|GD}}	||	[[General Dynamics]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=GD&action=getcompany reports]	||	Industrials || Aerospace & Defense	|| [[Falls Church, Virginia]] || || 0000040533
+|-
+|	{{NyseSymbol|GE}}	||	[[General Electric]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=GE&action=getcompany reports]	||	Industrials ||	Industrial Conglomerates	|| [[Fairfield, Connecticut]] || || 0000040545
+|-
+|	{{NyseSymbol|GGP}}	||	[[General Growth Properties Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=GGP&action=getcompany reports]	||	Real Estate ||	Retail REITs	|| [[Chicago, Illinois]] || 2013-12-10 || 0000895648
+|-
+|	{{NyseSymbol|GIS}}	||	[[General Mills]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=GIS&action=getcompany reports]	||	Consumer Staples ||	Packaged Foods & Meats	|| [[Golden Valley, Minnesota]] || 1969-03-31 || 0000040704
+|-
+|	{{NyseSymbol|GM}}	||	[[General Motors]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=GM&action=getcompany reports]	||	Consumer Discretionary ||	Automobile Manufacturers	|| [[Detroit, Michigan]] || 2013-06-06 || 0001467858
+|-
+|	{{NyseSymbol|GPC}}	||	[[Genuine Parts]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=GPC&action=getcompany reports]	||	Consumer Discretionary ||	Specialty Stores	|| [[Atlanta, Georgia]] || 1973-12-31 || 0000040987
+|-
+|	{{NasdaqSymbol|GILD}}	||	[[Gilead Sciences]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=GILD&action=getcompany reports]	||	Health Care ||	Biotechnology	|| [[Foster City, California]] || 2004-07-01 || 0000882095
+|-
+|	{{NyseSymbol|GPN}}	||	[[Heartland Payment Systems|Global Payments Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=GPN&action=getcompany reports]	||	Information Technology ||	Data Processing & Outsourced Services || [[Atlanta, Georgia]] || 2016-04-25 || 0001123360
+|-
+|	{{NyseSymbol|GS}}	||	[[Goldman Sachs Group]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=GS&action=getcompany reports]	||	Financials ||	Investment Banking & Brokerage 	|| [[New York, New York]] || 2002-07-22 || 0000886982
+|-
+|	{{NasdaqSymbol|GT}}	||	[[Goodyear Tire & Rubber]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=GT&action=getcompany reports]	||	Consumer Discretionary ||	Tires & Rubber	|| [[Akron, Ohio]] || || 0000042582
+|-
+|	{{NyseSymbol|GWW}}	||	[[Grainger (W.W.) Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=GWW&action=getcompany reports]	||	Industrials ||	Industrial Machinery	|| [[Lake Forest, Illinois]] || 1981-06-30 || 0000277135
+|-
+|	{{NyseSymbol|HAL}}	||	[[Halliburton Co.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HAL&action=getcompany reports]	||	Energy ||	Oil & Gas Equipment & Services	|| [[Houston, Texas]] || || 0000045012
+|-
+|	{{NyseSymbol|HBI}}	||	[[Hanesbrands Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HBI&action=getcompany reports]	||	Consumer Discretionary     ||    Apparel, Accessories & Luxury Goods || 	[[Winston-Salem, North Carolina]] || 2015-03-20 ||  0001359841
+|-
+|	{{NyseSymbol|HOG}}	||	[[Harley-Davidson]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HOG&action=getcompany reports]	||	Consumer Discretionary ||	Motorcycle Manufacturers	|| [[Milwaukee, Wisconsin]] || || 0000793952
+|-
+|	{{NyseSymbol|HRS}}	||	[[Harris Corporation]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HRS&action=getcompany reports]	||	Information Technology ||	Communications Equipment	|| [[Melbourne, Florida]] || 2008-09-22 || 0000202058
+|-
+|	{{NyseSymbol|HIG}}	||	[[Hartford Financial Svc.Gp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HIG&action=getcompany reports]	||	Financials ||	Property & Casualty Insurance	|| [[Hartford, Connecticut]] || || 0000874766
+|-
+|	{{NasdaqSymbol|HAS}}	||	[[Hasbro Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HAS&action=getcompany reports]	||	Consumer Discretionary ||	Leisure Products	|| [[Pawtucket, Rhode Island]] || 1984-09-30 || 0000046080
+|-
+|	 {{NyseSymbol|HCA}}	||	[[HCA Holdings]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HCA&action=getcompany reports]	||	Health Care || Health Care Facilities || [[Nashville, Tennessee]] || 2015-01-27 ||0000860730  
+|-
+|	{{NyseSymbol|HCP}}	||	[[HCP Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HCP&action=getcompany reports]	||	Real Estate ||	Health Care REITs	|| [[Long Beach, California]] || 2008-03-31 || 0000765880
+|-
+|	{{NyseSymbol|HP}}	||	[[Helmerich & Payne]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HP&action=getcompany reports]	||	Energy ||	Oil & Gas Drilling	|| [[Tulsa, Oklahoma]]<ref>{{cite web|url=http://www.hpinc.com/hpcntu.htm |title=Helmerich & Payne, Inc |publisher=Hpinc.com |date= |accessdate=2012-02-10}}</ref> || 2010-03-01 || 0000046765
+|-
+|	{{NasdaqSymbol|HSIC}}	||	[[Henry Schein]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HSIC&action=getcompany reports]	||	Health Care     ||	Health Care Distributors	||     [[Melville, New York]] || 2015-03-17 ||  0001000228 
+|-
+|	{{NyseSymbol|HSY}}	||	[[The Hershey Company]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HSY&action=getcompany reports]	||	Consumer Staples || Packaged Foods & Meats || [[Hershey, Pennsylvania]] || || 0000047111
+|-
+|	{{NyseSymbol|HES}}	||	[[Hess Corporation]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HES&action=getcompany reports]	||	Energy ||	Integrated Oil & Gas	|| [[New York, New York]] || 1984-05-31 || 0000004447
+|-
+|	{{NyseSymbol|HPE}}	||	[[Hewlett Packard Enterprise]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HPE&action=getcompany reports]	||	Information Technology  ||	Technology Hardware, Storage & Peripherals	|| [[Palo Alto, California]] || 2015-11-02  ||  0001645590
+|-
+|	{{NasdaqSymbol|HOLX}}	||	[[Hologic]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HOLX&action=getcompany reports]	||	Health Care ||	 Health Care Equipment 	|| [[Marlborough, Massachusetts]] || 2016-03-30 || 0000859737
+|-
+|	{{NyseSymbol|HD}}	||	[[Home Depot]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HD&action=getcompany reports]	||	Consumer Discretionary ||	Home Improvement Retail	|| [[Atlanta, Georgia]] || 1988-03-31 || 0000354950
+|-
+|	{{NyseSymbol|HON}}	||	[[Honeywell Int'l Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HON&action=getcompany reports]	||	Industrials ||	Industrial Conglomerates	|| [[Morristown, New Jersey]] || 1964-03-31 || 0000773840
+|-
+|	{{NyseSymbol|HRL}}	||	[[Hormel Foods Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HRL&action=getcompany reports]	||	Consumer Staples ||	Packaged Foods & Meats	|| [[Austin, Minnesota]] || 2009-03-04 || 0000048465
+|-
+|	{{NyseSymbol|HST}}	||	[[Host Hotels & Resorts]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HST&action=getcompany reports]	||	Real Estate ||	Hotel & Resort REITs	|| [[Bethesda, Maryland]] || 2007-03-20 || 0001070750
+|-
+|	{{NyseSymbol|HPQ}}	||	[[HP Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HPQ&action=getcompany reports]	||	Information Technology ||	Technology Hardware, Storage & Peripherals	|| [[Palo Alto, California]] || 1974-12-31 || 0000047217
+|-
+|	{{NyseSymbol|HUM}}	||	[[Humana Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HUM&action=getcompany reports]	||	Health Care ||	Managed Health Care	|| [[Louisville, Kentucky]] || || 0000049071
+|-
+|	{{NasdaqSymbol|HBAN}}	||	[[Huntington Bancshares]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HBAN&action=getcompany reports]	||	Financials ||	Regional Banks	|| [[Columbus, Ohio]] || || 0000049196
+|-
+|	{{NasdaqSymbol|IDXX}}	||	[[Idexx Laboratories|IDEXX Laboratories]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=IDXX&action=getcompany reports]	||	Health Care ||	Health Care Equipment	|| [[Westbrook, Maine]] || 2017-01-05 || 0000874716
+|-
+|	{{NasdaqSymbol|INFO}}	||	[[IHS Markit|IHS Markit Ltd.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=INFO&action=getcompany reports]	||	Industrials ||	Research & Consulting Services	  || [[London]], [[United Kingdom]] || 2017-06-02 || 0001598014
+|-
+|	{{NyseSymbol|ITW}}	||	[[Illinois Tool Works]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ITW&action=getcompany reports]	||	Industrials ||	Industrial Machinery	|| [[Glenview, Cook County, Illinois|Glenview, Illinois]] || 1986-02-28 || 0000049826
+|-
+|	{{NasdaqSymbol|ILMN}}	||	[[Illumina (company)|Illumina Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ILMN&action=getcompany reports]	||	Health Care || Life Sciences Tools & Services || [[San Diego, California]] || 2015-11-19 || 0001110803
+|-
+|	{{NyseSymbol|IR}}	||	[[Ingersoll-Rand PLC]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=IR&action=getcompany reports]	||	Industrials ||	Industrial Machinery	|| [[Dublin, Ireland]] || 2010-11-17 || 0001466258
+|-
+|	{{NasdaqSymbol|INTC}}	||	[[Intel Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=INTC&action=getcompany reports]	||	Information Technology ||	Semiconductors	|| [[Santa Clara, California]] || 1976-12-31 || 0000050863
+|-
+|	{{NyseSymbol|ICE}}	||	[[Intercontinental Exchange]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ICE&action=getcompany reports]	||	Financials ||	Financial Exchanges & Data	|| [[Atlanta, Georgia]] || 2007-09-26 || 0001571949
+|-
+|	{{NyseSymbol|IBM}}	||	[[IBM|International Business Machines]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=IBM&action=getcompany reports]	||	Information Technology ||	IT Consulting & Other Services	|| [[Armonk, New York]] || || 0000051143
+|-
+|	{{NasdaqSymbol|INCY}}	||	[[Incyte]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=INCY&action=getcompany reports]	||	Health Care  || Biotechnology  || [[Wilmington, Delaware]] || 2017-02-28 || 0000879169  
+|-
+|	{{NyseSymbol|IP}}	||	[[International Paper]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=IP&action=getcompany reports]	||	Materials ||	Paper Packaging	|| [[Memphis, Tennessee]] || || 0000051434
+|-
+|	{{NyseSymbol|IPG}}	||	[[Interpublic Group]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=IPG&action=getcompany reports]	||	Consumer Discretionary ||	Advertising	|| [[New York, New York]] || 1992-10-01 || 0000051644
+|-
+|	{{NyseSymbol|IFF}}	||	[[Intl Flavors & Fragrances]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=IFF&action=getcompany reports]	||	Materials ||	Specialty Chemicals	|| [[New York, New York]] || 1976-03-31 || 0000051253
+|-
+|	{{NasdaqSymbol|INTU}}	||	[[Intuit]] Inc.	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=INTU&action=getcompany reports]	||	Information Technology ||	Internet Software & Services	|| [[Mountain View, California]] || 2000-12-05 || 0000896878
+|-
+|       {{NasdaqSymbol|ISRG}}   ||      [[Intuitive Surgical Inc.]] || [http://www.sec.gov/cgi-bin/browse-edgar?CIK=ISRG&action=getcompany reports]	||	Health Care ||	Health Care Equipment	|| [[Sunnyvale, California]] || 2008-06-02 || 0001035267
+|-
+|	{{NyseSymbol|IVZ}}	||	[[Invesco Ltd.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=IVZ&action=getcompany reports]	||	Financials ||	Asset Management & Custody Banks	|| [[Atlanta, Georgia]] || 2008-08-21 || 0000914208
+|-
+|	{{NyseSymbol|IRM}}	||	[[Iron Mountain Incorporated]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=IRM&action=getcompany reports]	||	Real Estate ||	Specialized REITs	|| [[Boston, Massachusetts]] || 2009-01-06 || 0001020569
+|-
+|	{{NyseSymbol|JEC}}	||	[[Jacobs Engineering Group]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=JEC&action=getcompany reports]	||	Industrials ||	Construction & Engineering	|| [[Pasadena, California]] || 2007-10-26 || 0000052988
+|-
+|	{{NasdaqSymbol|JBHT}}	||	[[J. B. Hunt Transport Services]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=JBHT&action=getcompany reports]	||	Industrials ||	Trucking	|| [[Lowell, Arkansas]] || 2015-07-01 ||  0000728535
+|-
+|	{{NyseSymbol|SJM}}	||	[[JM Smucker]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SJM&action=getcompany reports]	||	Consumer Staples || Packaged Foods & Meats || [[Orrville, Ohio]] || 2008-11-06 || 0000091419
+|-
+|	{{NyseSymbol|JNJ}}	||	[[Johnson & Johnson]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=JNJ&action=getcompany reports]	||	Health Care ||	Health Care Equipment	|| [[New Brunswick, New Jersey]] || 1973-06-30 || 0000200406
+|-
+|	{{NyseSymbol|JCI}}	||	[[Johnson Controls|Johnson Controls International]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=JCI&action=getcompany reports]	||	Industrials ||	Building Products  || [[Cork (city)|Cork, Ireland]] || 2010-08-27 || 0000833444
+|-
+|	{{NyseSymbol|JPM}}	||	[[JPMorgan Chase & Co.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=JPM&action=getcompany reports]	||	Financials ||	Diversified Banks	|| [[New York, New York]] || 1975-06-30 || 0000019617
+|-
+|	{{NyseSymbol|JNPR}}	||	[[Juniper Networks]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=JNPR&action=getcompany reports]	||	Information Technology ||	Communications Equipment	|| [[Sunnyvale, California]] || || 0001043604
+|-
+|	{{NyseSymbol|KSU}}	||	[[Kansas City Southern (company)|Kansas City Southern]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=KSU&action=getcompany reports]	||	Industrials || Railroads	|| [[Kansas City, Missouri]] || 2013-05-24 || 0000054480
+|-
+|	{{NyseSymbol|K}}	||	[[Kellogg Co.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=K&action=getcompany reports]	||	Consumer Staples ||	Packaged Foods & Meats	|| [[Battle Creek, Michigan]] || || 0000055067
+|-
+|	{{NyseSymbol|KEY}}	||	[[KeyCorp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=KEY&action=getcompany reports]	||	Financials ||	Regional Banks	|| [[Cleveland, Ohio]] || 1994-03-01 || 0000091576
+|-
+|	{{NyseSymbol|KMB}}	||	[[Kimberly-Clark]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=KMB&action=getcompany reports]	||	Consumer Staples ||	Household Products	|| [[Irving, Texas]] || || 0000055785
+|-
+|	{{NyseSymbol|KIM}}	||	[[Kimco Realty]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=KIM&action=getcompany reports]	||	Real Estate ||	Retail REITs	|| [[New Hyde Park, New York]] || 2006-04-04 || 0000879101
+|-
+|	{{NyseSymbol|KMI}}	||	[[Kinder Morgan]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=KMI&action=getcompany reports]	||	Energy ||	Oil & Gas Storage & Transportation	|| [[Houston, Texas]] || 2012-05-25 || 0001506307
+|-
+|	{{NasdaqSymbol|KLAC}}	||	[[KLA-Tencor Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=KLAC&action=getcompany reports]	||	Information Technology ||	Semiconductor Equipment	|| [[Milpitas, California]] || || 0000319201
+|-
+|	{{NyseSymbol|KSS}}	||	[[Kohl's]] Corp.	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=KSS&action=getcompany reports]	||	Consumer Discretionary ||	General Merchandise Stores	|| [[Menomonee Falls, Wisconsin]] || || 0000885639
+|-
+|	{{NasdaqSymbol|KHC}}	||	[[Kraft Heinz]] Co ||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=KHC&owner=exclude&action=getcompany reports]	||	Consumer Staples ||	Packaged Foods & Meats	|| [[Pittsburgh, Pennsylvania]] || 2015-07-06 || 0001637459
+|-
+|	{{NyseSymbol|KR}}	||	[[Kroger Co.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=KR&action=getcompany reports]	||	Consumer Staples ||	Food Retail	|| [[Cincinnati, Ohio]] || || 0000056873
+|-
+|	{{NyseSymbol|LB}}	||	[[L Brands Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=LB&action=getcompany reports]	||	Consumer Discretionary || 	Apparel Retail	||	[[Columbus, Ohio]] || 1983-09-30 || 0000701985
+|-
+|	{{NyseSymbol|LLL}}	||	[[L-3 Communications Holdings]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=LLL&action=getcompany reports]	||	Industrials ||	Aerospace & Defense	|| [[New York, New York]] || || 0001056239
+|-
+|	{{NyseSymbol|LH}}	||	[[Laboratory Corp. of America Holding]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=LH&action=getcompany reports]	||	Health Care || 	Health Care Services	||[[Burlington, North Carolina]] || 2004-11-01 || 0000920148
+|-
+|	{{NasdaqSymbol|LRCX}}	||	[[Lam Research]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=LRCX&action=getcompany reports]	||	Information Technology || Semiconductor Equipment	||	[[Fremont, California]] || 2012-06-29|| 0000707549
+|-
+|	{{NyseSymbol|LEG}}	||	[[Leggett & Platt]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=LEG&action=getcompany reports]	||	Consumer Discretionary ||	Home Furnishings	|| [[Carthage, Missouri]] || || 0000058492
+|-
+|	{{NyseSymbol|LEN}}	||	[[Lennar Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=LEN&action=getcompany reports]	||	Consumer Discretionary ||	Homebuilding	|| [[Miami, Florida]] || 2005-10-04 || 0000920760
+|-
+|	{{NyseSymbol|LVLT}}	||	[[Level 3 Communications]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=LVLT&action=getcompany reports]	||	Telecommunication Services ||	Alternative Carriers	|| [[Broomfield, Colorado]] || 2014-11-05 || 0000794323
+|-
+|	{{NyseSymbol|LUK}}	||	[[Leucadia National Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=LUK&action=getcompany reports]	||	Financials ||	Multi-Sector Holdings	|| [[New York, New York]] || 2007-08-27 || 0000096223
+|-
+|	{{NyseSymbol|LLY}}	||	[[Lilly (Eli) & Co.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=LLY&action=getcompany reports]	||	Health Care ||	Pharmaceuticals	|| [[Indianapolis, Indiana]] || 1970-12-31 || 0000059478
+|-
+|	{{NyseSymbol|LNC}}	||	[[Lincoln National]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=LNC&action=getcompany reports]	||	Financials ||	Multi-line Insurance	|| [[Radnor, Pennsylvania]] || 1976-06-30 || 0000059558
+|-
+|	{{NasdaqSymbol|LKQ}}	||	[[LKQ Corporation]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=LKQ&action=getcompany reports]	||	Consumer Discretionary     ||	Distributors	||     [[Chicago, Illinois]] || 2016-05-23 || 0001065696
+|-
+|	{{NyseSymbol|LMT}}	||	[[Lockheed Martin Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=LMT&action=getcompany reports]	||	Industrials ||	Aerospace & Defense	|| [[Bethesda, Maryland]] || 1984-07-31 || 0000936468
+|-
+|	{{NyseSymbol|L}}	||	[[Loews Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=L&action=getcompany reports]	||	Financials ||	Multi-line Insurance	|| [[New York, New York]] || || 0000060086
+|-
+|	{{NyseSymbol|LOW}}	||	[[Lowe's Cos.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=LOW&action=getcompany reports]	||	Consumer Discretionary ||	Home Improvement Retail	|| [[Mooresville, North Carolina]] || 1984-02-29 || 0000060667
+|-
+|	{{NyseSymbol|LYB}}	||	[[LyondellBasell]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=LYB&action=getcompany reports]	||	Materials ||	Specialty Chemicals	|| [[Rotterdam, Netherlands]] || 2012-09-05 || 0001489393
+|-
+|	{{NyseSymbol|MTB}}	||	[[M&T Bank Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MTB&action=getcompany reports]	||	Financials ||	Regional Banks	|| [[Buffalo, New York]] || || 0000036270
+|-
+|	{{NyseSymbol|MAC}}	||	[[Macerich]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MAC&action=getcompany reports]	||	Real Estate ||	Retail REITs	|| [[Santa Monica, California]] || 2013-05-09 || 0000912242
+|-
+|	{{NyseSymbol|M}}	||	[[Macy's Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=M&action=getcompany reports]	||	Consumer Discretionary ||	Department Stores	|| [[Cincinnati, Ohio]] || || 0000794367
+|-
+|	{{NyseSymbol|MNK}}	||	[[Mallinckrodt Plc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MNK&action=getcompany reports]	||	Health Care     ||		Pharmaceuticals	||     [[Dublin, Ireland]] || 2014-08-19 || 0001567892
+|-
+|	{{NyseSymbol|MRO}}	||	[[Marathon Oil Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MRO&action=getcompany reports]	||	Energy ||	Oil & Gas Exploration & Production || [[Houston, Texas]] || 1991-05-01 || 0000101778
+|-
+|	{{NyseSymbol|MPC}}	||	[[Marathon Petroleum]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MPC&action=getcompany reports]	||	Energy ||	Oil & Gas Refining & Marketing	|| [[Findlay, Ohio]] || 2011-07-01 || 0001510295
+|-
+|	{{NasdaqSymbol|MAR}}	||	[[Marriott Int'l.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MAR&action=getcompany reports]	||	Consumer Discretionary ||	Hotels, Resorts & Cruise Lines	|| [[Bethesda, Maryland]] || || 0001048286
+|-
+|	{{NyseSymbol|MMC}}	||	[[Marsh & McLennan]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MMC&action=getcompany reports]	||	Financials ||	Insurance Brokers	|| [[New York, New York]] || 1987-08-31 || 0000062709
+|-
+|	{{NyseSymbol|MLM}}	||	[[Martin Marietta Materials]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MLM&action=getcompany reports]	||	Materials || Construction Materials || [[Raleigh, North Carolina]] || 2014-07-02 || 0000916076
+|-
+|	{{NyseSymbol|MAS}}	||	[[Masco Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MAS&action=getcompany reports]	||	Industrials ||	Building Products	|| [[Taylor, Michigan]] || 1981-06-30 || 0000062996
+|-
+|       {{NyseSymbol|MA}}       ||      [[Mastercard Inc.]] || [http://www.sec.gov/cgi-bin/browse-edgar?CIK=MA&action=getcompany reports]	||	Information Technology ||	Internet Software & Services	|| [[Harrison, New York]] || 2008-07-18 || 0001141391
+|-
+|	{{NasdaqSymbol|MAT}}	||	[[Mattel Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MAT&action=getcompany reports]	||	Consumer Discretionary ||	Leisure Products	|| [[El Segundo, California]] || 1982-03-31 || 0000063276
+|-
+|	{{NyseSymbol|MKC}}	||	[[McCormick & Co.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MKC&action=getcompany reports]	||	Consumer Staples ||	Packaged Foods & Meats	|| [[Sparks, Maryland]] || || 0000063754
+|-
+|	{{NyseSymbol|MCD}}	||	[[McDonald's Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MCD&action=getcompany reports]	||	Consumer Discretionary ||	Restaurants 	||	 [[Oak Brook, Illinois]] || 1970-06-30 || 0000063908
+|-
+|	{{NyseSymbol|MCK}}	||	[[McKesson Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MCK&action=getcompany reports]	||	Health Care ||	Health Care Distributors	|| [[San Francisco, California]] || || 0000927653
+|-
+|	{{NyseSymbol|MJN}}	||	[[Mead Johnson]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MJN&action=getcompany reports]	||	Consumer Staples ||	Packaged Foods & Meats	|| [[Glenview, Cook County, Illinois|Glenview, Illinois]] || 2009-12-21 || 0001452575
+|-
+|	{{NyseSymbol|MDT}}	||	[[Medtronic plc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MDT&action=getcompany reports]	||	Health Care ||	Health Care Equipment	|| [[Dublin]], [[Ireland]] || 1986-10-31 || 0000064670
+|-
+|	{{NyseSymbol|MRK}}	||	[[Merck & Co.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MRK&action=getcompany reports]	||	Health Care ||	Pharmaceuticals	|| [[Whitehouse Station, New Jersey]] || || 0000310158
+|-
+|	{{NyseSymbol|MET}}	||	[[MetLife Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MET&action=getcompany reports]	||	Financials ||	Life & Health Insurance	|| [[New York, New York]] || || 0001099219
+|-
+|	{{NyseSymbol|MTD}}	||	[[Mettler Toledo]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MTD&action=getcompany reports]	||	Health Care  || Life Sciences Tools & Services    || [[Columbus, Ohio]] || 2016-09-06 || 0001037646
+|-
+|	{{NyseSymbol|KORS}}	||	[[Michael Kors (brand)|Michael Kors Holdings]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=KORS&action=getcompany reports]	||	Consumer Discretionary ||	Apparel, Accessories & Luxury Goods	|| [[New York, New York]] || 2013-11-13 || 0001530721
+|-
+|	{{NasdaqSymbol|MCHP}}	||	[[Microchip Technology]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MCHP&action=getcompany reports]	||	Information Technology || Semiconductors	||	[[Chandler, Arizona]] || 2007-09-07 || 0000827054
+|-
+|	{{NasdaqSymbol|MU}}	||	[[Micron Technology]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MU&action=getcompany reports]	||	Information Technology ||	Semiconductors	|| [[Boise, Idaho]] || 1994-09-27 || 0000723125
+|-
+|	{{NasdaqSymbol|MSFT}}	||	[[Microsoft Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MSFT&action=getcompany reports]	||	Information Technology || Systems Software	|| [[Redmond, Washington]] || 1994-06-01 || 0000789019
+|-
+|	{{NyseSymbol|MAA}}	||	[[Mid-America Apartments]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MAA&action=getcompany reports]	||	Real Estate ||	Residential REITs	|| [[Memphis, Tennessee]] || 2016-12-02 ||  0000912595
+|-
+|	{{NyseSymbol|MHK}}	||	[[Mohawk Industries]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MHK&action=getcompany reports]	||	Consumer Discretionary ||	Home Furnishings	|| [[Amsterdam, New York]] || 2013-12-23  || 0000851968
+|-
+|	{{NyseSymbol|TAP}}	||	[[Molson Coors Brewing Company]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=TAP&action=getcompany reports]	||	Consumer Staples ||	Brewers	||	 [[Denver, Colorado]] || 1976-06-30 || 0000024545
+|-
+|	{{NasdaqSymbol|MDLZ}}	||	[[Mondelez|Mondelez International]] ||	[http://www.sec.gov/cgi-bin/browse-edgar?company=Mondelez&action=getcompany reports]	||	Consumer Staples ||	Packaged Foods & Meats	|| [[Northfield, Illinois]] || 2012-10-02 || 0001103982
+|-
+|	{{NyseSymbol|MON}}	||	[[Monsanto Co.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MON&action=getcompany reports]	||	Materials ||	Fertilizers & Agricultural Chemicals	|| [[Creve Coeur, Missouri]] || 2002-08-07 || 0001110783
+|-
+|	{{NasdaqSymbol|MNST}}	||	[[Monster Beverage]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MNST&action=getcompany reports]	||	Consumer Staples ||	Soft Drinks	|| [[Corona, California]] || 2012-06-28 || 0000865752
+|-
+|	{{NyseSymbol|MCO}}	||	[[Moody's Corp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MCO&action=getcompany reports]	||	Financials ||	Financial Exchanges & Data	|| [[New York, New York]] || || 0001059556
+|-
+|	{{NyseSymbol|MS}}	||	[[Morgan Stanley]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MS&action=getcompany reports]	||	Financials ||	Investment Banking & Brokerage	|| [[New York, New York]] || || 0000895421
+|-
+|	{{NyseSymbol|MOS}}	||	[[The Mosaic Company]]  ||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MOS&action=getcompany reports]	||	Materials ||	Fertilizers & Agricultural Chemicals	|| [[Plymouth, Minnesota]] || 2011-09-26 || 0001285785
+|-
+|	{{NyseSymbol|MSI}}	||	[[Motorola Solutions Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MSI&action=getcompany reports]	||	Information Technology ||  Communications Equipment 	|| [[Schaumburg, Illinois]] || || 0000068505
+|-
+|	{{NyseSymbol|MUR}}	||	[[Murphy Oil]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MUR&action=getcompany reports]	||	Energy ||	Integrated Oil & Gas	|| [[El Dorado, Arkansas]] || || 0000717423
+|-
+|	{{NasdaqSymbol|MYL}}	||	[[Mylan N.V.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=MYL&action=getcompany reports]	||	Health Care ||	Pharmaceuticals	|| [[Amsterdam]], [[Netherlands]] || 2004-04-23 || 0000069499
+|-
+| 	{{NasdaqSymbol|NDAQ}}	||	[[Nasdaq, Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NDAQ&action=getcompany reports]	||	Financials ||	Financial Exchanges & Data	|| [[New York, New York]] || 2008-10-22 || 0001120193
+|-
+|	{{NyseSymbol|NOV}}	||	[[National Oilwell Varco Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NOV&action=getcompany reports]	||	Energy ||	Oil & Gas Equipment & Services	|| [[Houston, Texas]] || 2005-03-14 || 0001021860
+|-
+|	{{NasdaqSymbol|NAVI}}	||	[[Navient]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NAVI&action=getcompany reports]	||	Financials || Consumer Finance ||  [[Wilmington, Delaware]] || 2014-05-01 || 0001593538
+|-
+|	{{NasdaqSymbol|NTAP}}	||	[[NetApp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NTAP&action=getcompany reports]	||	Information Technology ||	Internet Software & Services	|| [[Sunnyvale, California]] || 1999-06-25 || 0001002047
+|-
+|	{{NasdaqSymbol|NFLX}}	||	[[Netflix Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NFLX&action=getcompany reports]	||	Information Technology ||	Internet Software & Services	||  [[Los Gatos, California]] || 2010-12-20 || 0001065280
+|-
+|	{{NyseSymbol|NWL}}	||[[Newell Brands]]||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NWL&action=getcompany reports]	||	Consumer Discretionary ||	Housewares & Specialties	|| [[Sandy Springs, Georgia]] || 1989-04-30 || 0000814453
+|-
+|	{{NyseSymbol|NFX}}	||	[[Newfield Exploration Co]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NFX&action=getcompany reports]	||	Energy ||	Oil & Gas Exploration & Production	||  [[Houston, Texas]] || 2010-12-20 || 0000912750
+|-
+|	{{NyseSymbol|NEM}}	||	[[Newmont Mining Corporation]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NEM&action=getcompany reports]	||	Materials ||	Gold 	|| [[Denver, Colorado]] ||  1969-06-30 || 0001164727
+|-
+|	{{NasdaqSymbol|NWSA}}	||	[[News Corp. Class A]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NWSA&action=getcompany reports]	||	Consumer Discretionary ||	Publishing		|| [[New York, New York]] || 2013-08-01 || 0001564708
+|-
+|	{{NasdaqSymbol|NWS}}	||	[[News Corp. Class B]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NWSA&action=getcompany reports]	||	Consumer Discretionary ||	Publishing		|| [[New York, New York]] || 2015-09-18 || 0001564708
+|-
+|	{{NyseSymbol|NEE}}	||	[[NextEra Energy]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NEE&action=getcompany reports]	||	Utilities || Multi-Utilities	|| [[Juno Beach, Florida]] || 1976-06-30 || 0000753308
+|-
+|	{{NyseSymbol|NLSN}}	||	[[Nielsen Holdings]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NLSN&action=getcompany reports]	 ||Industrials || Research & Consulting Services || [[New York, New York]] || 2013-07-09 || 0001492633
+|-
+|	{{NyseSymbol|NKE}}	||	[[Nike (company)|Nike]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NKE&action=getcompany reports]	||	Consumer Discretionary ||	Apparel, Accessories & Luxury Goods	|| [[Washington County, Oregon]] || 1988-11-30 || 0000320187
+|-
+|	{{NyseSymbol|NI}}	||	[[NiSource Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NI&action=getcompany reports]	||	Utilities ||	Multi-Utilities	|| [[Merrillville, Indiana]] || || 0001111711
+|-
+|	{{NyseSymbol|NBL}}	||	[[Noble Energy Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NBL&action=getcompany reports]	||	Energy ||	Oil & Gas Exploration & Production	|| [[Houston, Texas]] || 2007-10-08  || 0000072207
+|-
+|	{{NyseSymbol|JWN}}	||	[[Nordstrom]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=JWN&action=getcompany reports]	||	Consumer Discretionary ||	Department Stores	|| [[Seattle, Washington]] || 1986-08-31 || 0000072333
+|-
+|	{{NyseSymbol|NSC}}	||	[[Norfolk Southern Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NSC&action=getcompany reports]	||	Industrials ||	Railroads	|| [[Norfolk, Virginia]] || || 0000702165
+|-
+|	{{NasdaqSymbol|NTRS}}	||	[[Northern Trust Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NTRS&action=getcompany reports]	||	Financials ||	Asset Management & Custody Banks	|| [[Chicago, Illinois]] || || 0000073124
+|-
+|	{{NyseSymbol|NOC}}	||	[[Northrop Grumman Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NOC&action=getcompany reports]	||	Industrials ||	Aerospace & Defense	|| [[West Falls Church, Virginia]] || 1985-06-30 || 0001133421
+|-
+|	{{NyseSymbol|NRG}}	||	[[NRG Energy]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NRG&action=getcompany reports]	||	Utilities ||	Independent Power Producers & Energy Traders	|| [[Princeton, New Jersey]]  || 2010-01-29 || 0001013871
+|-
+|	{{NyseSymbol|NUE}}	||	[[Nucor Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NUE&action=getcompany reports]	||	Materials ||	Steel	|| [[Charlotte, North Carolina]]  || 1985-04-30 || 0000073309
+|-
+|	{{NasdaqSymbol|NVDA}}	||	[[Nvidia Corporation]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=NVDA&action=getcompany reports]	||	Information Technology || Semiconductors	|| [[Santa Clara, California]] || 2001-11-30 || 0001045810
+|-
+|	{{NasdaqSymbol|ORLY}}	||	[[O'Reilly Automotive]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ORLY&action=getcompany reports]	||	Consumer Discretionary || Specialty Stores	|| [[Springfield, Missouri]] || 2009-03-27 || 0000898173
+|-
+|	{{NyseSymbol|OXY}}	||	[[Occidental Petroleum]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=OXY&action=getcompany reports]	||	Energy || Oil & Gas Exploration & Production	|| [[Los Angeles, California]] || 1982-12-31 || 0000797468
+|-
+|	{{NyseSymbol|OMC}}	||	[[Omnicom Group]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=OMC&action=getcompany reports]	||	Consumer Discretionary ||	Advertising	|| [[New York, New York]] || || 0000029989
+|-
+|	{{NyseSymbol|OKE}}	||	[[ONEOK]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=OKE&action=getcompany reports]	||	Energy ||	Oil & Gas Storage & Transportation	|| [[Tulsa, Oklahoma]] || 2010-03-15 || 0001039684
+|-
+|	{{NyseSymbol|ORCL}}	||	[[Oracle Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ORCL&action=getcompany reports]	||	Information Technology ||	Application Software	|| [[Redwood Shores, California]] || 1989-08-31 || 0001341439
+|-
+|	{{NasdaqSymbol|PCAR}}	||	[[PACCAR Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PCAR&action=getcompany reports]	||	Industrials || Construction Machinery & Heavy Trucks 	|| [[Bellevue, Washington]] || 1980-12-31 || 0000075362
+|-
+|	{{NyseSymbol|PH}}	||	[[Parker-Hannifin]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PH&action=getcompany reports]	||	Industrials ||	Industrial Machinery	|| [[Cleveland, Ohio]] || 1985-11-30 || 0000076334
+|-
+|	{{NasdaqSymbol|PDCO}}	||	[[Patterson Companies]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PDCO&action=getcompany reports]	||	Health Care ||	Health Care Supplies	|| [[St. Paul, Minnesota]] || 2005-10-11 || 0000891024
+|-
+|	{{NasdaqSymbol|PAYX}}	||	[[Paychex Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PAYX&action=getcompany reports]	||	Information Technology ||	Internet Software & Services	|| [[Penfield, New York]] || || 0000723531
+|-
+|	{{NasdaqSymbol|PYPL}}	||	[[PayPal]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PYPL&action=getcompany reports]	||	Information Technology ||	Data Processing & Outsourced Services 	||  [[San Jose, California]] || 2015-07-20 || 0001633917
+|-
+|	{{NyseSymbol|PNR}}	||	[[Pentair|Pentair Ltd.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PNR&action=getcompany reports]	||	Industrials ||	Industrial Machinery 	|| [[Worsley, UK]] || 2012-10-01 || 0000077360
+|-
+|	{{NasdaqSymbol|PBCT}}	||	[[People's United Financial]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PBCT&action=getcompany reports]	||	Financials ||	Thrifts & Mortgage Finance	|| [[Bridgeport, Connecticut]] || 2008-11-13 || 0001378946
+|-
+|	{{NyseSymbol|PEP}}	||	[[PepsiCo Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PEP&action=getcompany reports]	||	Consumer Staples ||	Soft Drinks	|| [[Purchase, New York]] || || 0000077476
+|-
+|	{{NyseSymbol|PKI}}	||	[[PerkinElmer]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PKI&action=getcompany reports]	||	Health Care ||	Health Care Equipment	|| [[Waltham, Massachusetts]] || 1985-05-31 || 0000031791
+|-
+|	{{NyseSymbol|PRGO}}	||	[[Perrigo]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PRGO&action=getcompany reports]	||	Health Care ||	Pharmaceuticals	|| [[Dublin, Ireland]] ||  2011-12-19 || 0001585364
+|-
+|	{{NyseSymbol|PFE}}	||	[[Pfizer Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PFE&action=getcompany reports]	||	Health Care ||	Pharmaceuticals	|| [[New York, New York]] || || 0000078003
+|-
+|	{{NyseSymbol|PCG}}	||	[[PG&E Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PCG&action=getcompany reports]	||	Utilities ||	Multi-Utilities	|| [[San Francisco, California]] || || 0001004980
+|-
+|       {{NyseSymbol|PM}}       ||      [[Philip Morris International]] || [http://www.sec.gov/cgi-bin/browse-edgar?CIK=PM&action=getcompany reports]	||	Consumer Staples ||	Tobacco	|| [[New York, New York]] || 2008-03-31 || 0001413329
+|-
+|	{{NyseSymbol|PSX}}	||	[[Phillips 66]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PSX&action=getcompany reports]	||	Energy ||	Oil & Gas Refining & Marketing	|| [[Houston, Texas]] || 2012-05-01 || 0001534701
+|-
+|	{{NyseSymbol|PNW}}	||	[[Arizona Public Service#Pinnacle West Capital|Pinnacle West Capital]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PNW&action=getcompany reports]	||	Utilities ||	Multi-Utilities	|| [[Phoenix, Arizona]] || || 0000764622
+|-
+|	{{NyseSymbol|PXD}}	||	[[Pioneer Natural Resources]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PXD&action=getcompany reports]	||	Energy ||	Oil & Gas Exploration & Production	|| [[Irving, Texas]] || 2008-09-24 || 0001038357
+|-
+|	{{NyseSymbol|PNC}}	||	[[PNC Financial Services]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PNC&action=getcompany reports]	||	Financials ||	Regional Banks	|| [[Pittsburgh, Pennsylvania]] || 1988-04-30 || 0000713676
+|-
+|	{{NyseSymbol|RL}}	||	[[Polo Ralph Lauren Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=RL&action=getcompany reports]	||	Consumer Discretionary ||	Apparel, Accessories & Luxury Goods	|| [[New York, New York]] || 2007-02-02 || 0001037038
+|-
+|	{{NyseSymbol|PPG}}	||	[[PPG Industries]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PPG&action=getcompany reports]	||	Materials ||	Specialty Chemicals	|| [[Pittsburgh, Pennsylvania]] || || 0000079879
+|-
+|	{{NyseSymbol|PPL}}	||	[[PPL Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PPL&action=getcompany reports]	||	Utilities ||	Electric Utilities	|| [[Allentown, Pennsylvania]] || || 0000922224
+|-
+|	{{NyseSymbol|PX}}	||	[[Praxair Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PX&action=getcompany reports]	||	Materials ||	Industrial Gases	|| [[Danbury, Connecticut]] || 1992-07-01 || 0000884905
+|-
+|	{{NasdaqSymbol|PCLN}}	||	[[The Priceline Group|Priceline.com Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PCLN&action=getcompany reports]	||	Consumer Discretionary || Internet & Direct Marketing Retail	|| [[Norwalk, Connecticut]] || 2009-11-06 || 0001075531
+|-
+|	{{NyseSymbol|PFG}}	||	[[Principal Financial Group]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PFG&action=getcompany reports]	||	Financials ||	Life & Health Insurance	|| [[Des Moines, Iowa]] || 2002-07-22 || 0001126328
+|-
+|	{{NyseSymbol|PG}}	||	[[Procter & Gamble]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PG&action=getcompany reports]	||	Consumer Staples || Personal Products	|| [[Cincinnati, Ohio]] || || 0000080424
+|-
+|	{{NyseSymbol|PGR}}	||	[[Progressive Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PGR&action=getcompany reports]	||	Financials ||	Property & Casualty Insurance	|| [[Mayfield Village, Ohio]] || 1997-08-04 || 0000080661
+|-
+|	{{NyseSymbol|PLD}}	||	[[Prologis]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PLD&action=getcompany reports]	||	Real Estate ||	Industrial REITs	|| [[San Francisco, California]] || 2003-07-17 || 0001045609
+|-
+|	{{NyseSymbol|PRU}}	||	[[Prudential Financial]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PRU&action=getcompany reports]	||	Financials ||	Life & Health Insurance	|| [[Newark, New Jersey]] || 2002-07-22 || 0001137774
+|-
+|	{{NyseSymbol|PEG}}	||	[[Public Serv. Enterprise Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PEG&action=getcompany reports]	||	Utilities || Electric Utilities ||  [[Newark, New Jersey]] || || 0000788784
+|-
+|	{{NyseSymbol|PSA}}	||	[[Public Storage]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PSA&action=getcompany reports]	||	Real Estate || Specialized REITs || [[Glendale, California]] || 2005-08-19 || 0001393311
+|-
+|	{{NyseSymbol|PHM}}	||	[[Pulte Homes Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PHM&action=getcompany reports]	||	Consumer Discretionary ||	Homebuilding 	|| [[Atlanta, Georgia]] || 1984-04-30 || 0000822416
+|-
+|	{{NyseSymbol|PVH}}	||	[[PVH Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PVH&action=getcompany reports]	||	Consumer Discretionary     ||	Apparel, Accessories & Luxury Goods	||     [[New York, New York]] || 2013-02-15 || 0000078239
+|-
+|	{{NasdaqSymbol|QRVO}}	||	[[Qorvo]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=QRVO&action=getcompany reports]	||	Information Technology ||	Semiconductors 	|| [[Greensboro, North Carolina]] || 2015-06-11 ||  0001604778
+|-
+|	{{NyseSymbol|PWR}}	||	[[Quanta Services Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=PWR&action=getcompany reports]	||	Industrials || Construction & Engineering || [[Houston, Texas]] || 2009-07-01 || 0001050915
+|-
+|	{{NasdaqSymbol|QCOM}}	||	[[QUALCOMM Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=QCOM&action=getcompany reports]	||	Information Technology || Semiconductors || [[San Diego, California]] || || 0000804328
+|-
+|	{{NyseSymbol|DGX}}	||	[[Quest Diagnostics]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DGX&action=getcompany reports]	||	Health Care || Health Care Services || [[Madison, New Jersey]] || 2002-12-12 || 0001022079
+|-
+|	{{NyseSymbol|RRC}}	||	[[Range Resources|Range Resources Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=RRC&action=getcompany reports]	||	Energy || Oil & Gas Exploration & Production ||[[Fort Worth, Texas]] || 2007-12-21  || 0000315852
+|-
+|	{{NyseSymbol|RJF}}	||	[[Raymond James Financial Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=RJF&action=getcompany reports]	||	Financials || Investment Banking & Brokerage || [[St. Petersburg, Florida]] || 2017-03-20 || 0000720005
+|-
+|	{{NyseSymbol|RTN}}	||	[[Raytheon Co.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=RTN&action=getcompany reports]	||	Industrials || Aerospace & Defense || [[Waltham, Massachusetts]] || || 0001047122
+|-
+|	{{NyseSymbol|O}}	||	[[Realty Income Corporation]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=O&action=getcompany reports]	||	Real Estate || Retail REITs  || [[San Diego, California]] || 2015-04-07 || 0000726728 
+|-
+|	{{NyseSymbol|RHT}}	||	[[Red Hat Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=RHT&action=getcompany reports]	||	Information Technology || Systems Software || [[Raleigh, North Carolina]] || 2009-07-27 || 0001087423
+|-
+|	{{NyseSymbol|REG}}	||	[[Regency Centers Corporation]]	||	[https://www.sec.gov/cgi-bin/browse-edgar?CIK=REG&action=getcompany reports]	||	Real Estate     || Retail REITs	 	||    [[Jacksonville, Florida]] || 2017-03-02 || 0000910606  
+|-
+|	{{NasdaqSymbol|REGN}}	||	[[Regeneron]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=REGN&action=getcompany reports]	||	Health Care ||	Biotechnology	|| [[Tarrytown, New York]] || 2013-05-01 || 0000872589
+|-
+|	{{NyseSymbol|RF}}	||	[[Regions Financial Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=RF&action=getcompany reports]	||	Financials || Regional Banks || [[Birmingham, Alabama]] || 1998-08-28 || 0001281761
+|-
+|	{{NyseSymbol|RSG}}	||	[[Republic Services Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=RSG&action=getcompany reports]	||	Industrials || Environmental & Facilities Services || [[Phoenix, Arizona]] || 2008-12-05 || 0001060391
+|-
+|	{{NyseSymbol|RAI}}	||	[[Reynolds American Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=RAI&action=getcompany reports]	||	Consumer Staples || Tobacco || [[Winston-Salem, North Carolina]] || || 0001275283
+|-
+|	{{NyseSymbol|RHI}}	||	[[Robert Half International]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=RHI&action=getcompany reports]	||	Industrials || Human Resource & Employment Services  || [[Menlo Park, California]] || 2000-12-05 || 0000315213
+|-
+|	{{NyseSymbol|ROK}}	||	[[Rockwell Automation Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ROK&action=getcompany reports]	||	Industrials || Electrical Components & Equipment || [[Milwaukee, Wisconsin]] || || 0001024478
+|-
+|	{{NyseSymbol|COL}}	||	[[Rockwell Collins]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=COL&action=getcompany reports]	||	Industrials || Aerospace & Defense || [[Cedar Rapids, Iowa]] || 2001-07-02 || 0001137411
+|-
+|	{{NyseSymbol|ROP}}	||	[[Roper Technologies]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ROP&action=getcompany reports]	||	Industrials || Industrial Conglomerates || [[Sarasota, Florida]] || 2009-12-23 || 0000882835
+|-
+|	{{NasdaqSymbol|ROST}}	||	[[Ross Stores]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ROST&action=getcompany reports]	||	Consumer Discretionary || Apparel Retail || [[Pleasanton, California]] || 2009-12-21 || 0000745732
+|-
+|	{{NyseSymbol|RCL}}	||	[[Royal Caribbean Cruises Ltd]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=RCL&action=getcompany reports]	||	Consumer Discretionary     ||	Hotels, Resorts & Cruise Lines	||     [[Miami, Florida]]  || 2014-12-05 || 0000884887
+|-
+|	{{NyseSymbol|R}}	||	[[Ryder System]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=R&action=getcompany reports]	||	Industrials ||  Trucking || [[Miami, Florida]] || 1982-12-31 || 0000085961
+|-
+|	{{NyseSymbol|CRM}}	||	[[Salesforce.com]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=CRM&action=getcompany reports]	||	Information Technology || Internet Software & Services || [[San Francisco, California]] || 2008-09-15 || 0001108524
+|-
+|	{{NyseSymbol|SCG}}	||	[[SCANA Corp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SCG&action=getcompany reports]	||	Utilities || Multi-Utilities || [[Cayce, South Carolina]] || 2009-01-02  || 0000754737
+|-
+|	{{NyseSymbol|SLB}}	||	[[Schlumberger Ltd.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SLB&action=getcompany reports]	||	Energy || Oil & Gas Equipment & Services || [[Curaçao]], [[Kingdom of the Netherlands]] || 1965-03-31 || 0000087347
+|-
+|       {{NasdaqSymbol|SNI}}      ||    [[Scripps Networks Interactive Inc.]] || [http://www.sec.gov/cgi-bin/browse-edgar?CIK=SNI&action=getcompany reports]	||	Consumer Discretionary || Cable & Satellite || [[Cincinnati, Ohio]] || 2008-07-01 || 0001430602
+|-
+|	{{NasdaqSymbol|STX}}	||	[[Seagate Technology]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=STX&action=getcompany reports]	|| Information Technology	|| Technology Hardware, Storage & Peripherals || [[Dublin, Ireland]] || 2012-07-02 || 0001137789
+|-
+|	{{NyseSymbol|SEE}}	||	[[Sealed Air Corp.(New)|Sealed Air]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SEE&action=getcompany reports]	||	Materials || Paper Packaging ||  [[Elmwood Park, New Jersey]] || || 0001012100
+|-
+|	{{NyseSymbol|SRE}}	||	[[Sempra Energy]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SRE&action=getcompany reports]	||	Utilities || Multi-Utilities || [[San Diego, California]] || || 0001032208
+|-
+|	{{NyseSymbol|SHW}}	||	[[Sherwin-Williams]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SHW&action=getcompany reports]	||	Materials ||Specialty Chemicals  || [[Cleveland, Ohio]] || 1964-06-30 || 0000089800
+|-
+|	{{NyseSymbol|SIG}}	||	[[Signet Jewelers]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SIG&action=getcompany reports]	||	Consumer Discretionary ||	Specialty Stores	|| [[Hamilton, Bermuda]] || 2015-07-29|| 0000832988
+|-
+|	{{NyseSymbol|SPG}}	||	[[Simon Property Group Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SPG&action=getcompany reports]	||	Real Estate || Retail REITs || [[Indianapolis, Indiana]] || 2002-06-26 || 0001063761
+|-
+|	{{NasdaqSymbol|SWKS}}	||	[[Skyworks Solutions]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SWKS&action=getcompany reports]	||	Information Technology ||	Semiconductors	|| [[Woburn, Massachusetts]] || 2015-03-12 || 0000004127
+|-
+|	{{NyseSymbol|SLG}}	||	[[SL Green Realty]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?SLG=NBR&action=getcompany reports]	||	Real Estate  ||		Office REITs|| [[New York, New York]] || 2015-03-20  || 0001040971 
+|-
+|	{{NyseSymbol|SNA}}	||	[[Snap-On Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SNA&action=getcompany reports]	||	Consumer Discretionary || Household Appliances || [[Kenosha, Wisconsin]] || 1982-09-30 || 0000091440
+|-
+|	{{NyseSymbol|SO}}	||	[[Southern Co.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SO&action=getcompany reports]	||	Utilities || Electric Utilities || [[Atlanta, Georgia]] || || 0000092122
+|-
+|	{{NyseSymbol|LUV}}	||	[[Southwest Airlines]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=LUV&action=getcompany reports]	||	Industrials || Airlines || [[Dallas, Texas]] || 1994-07-01 || 0000092380
+|-
+|	{{NyseSymbol|SPGI}}	||	[[S&P Global, Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SPGI&action=getcompany reports]	||	Financials ||	 	Financial Exchanges & Data	|| [[New York, New York]] || || 0000064040
+|-
+|	{{NyseSymbol|SWK}}	||	[[Stanley Black & Decker]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SWK&action=getcompany reports]	||	Consumer Discretionary || Household Appliances || [[New Britain, Connecticut]] || 1982-09-30  || 0000093556
+|-
+|	{{NasdaqSymbol|SPLS}}	||	[[Staples Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SPLS&action=getcompany reports]	||	Consumer Discretionary || Specialty Stores || [[Framingham, Massachusetts]] || 1998-10-07 || 0000791519
+|-
+|	{{NasdaqSymbol|SBUX}}	||	[[Starbucks Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SBUX&action=getcompany reports]	||	Consumer Discretionary || Restaurants || [[Seattle, Washington]] || || 0000829224
+|-
+|	{{NyseSymbol|STT}}	||	[[State Street Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=STT&action=getcompany reports]	||	Financials || Asset Management & Custody Banks ||  [[Boston, Massachusetts]] || || 0000093751
+|-
+|	{{NasdaqSymbol|SRCL}}	||	[[Stericycle Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SRCL&action=getcompany reports]	||	Industrials || Environmental & Facilities Services || [[Lake Forest, Illinois]] || 2008-11-19 || 0000861878
+|-
+|	{{NyseSymbol|SYK}}	||	[[Stryker Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SYK&action=getcompany reports]	||	Health Care || Health Care Equipment || [[Kalamazoo, Michigan]] || 2000-12-12 || 0000310764
+|-
+|	{{NyseSymbol|STI}}	||	[[SunTrust Banks]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=STI&action=getcompany reports]	||	Financials || Regional Banks || [[Atlanta, Georgia]] || 1988-05-31 || 0000750556
+|-
+|	{{NasdaqSymbol|SYMC}}	||	[[Symantec Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SYMC&action=getcompany reports]	||	Information Technology || Application Software || [[Mountain View, California]] || 2003-03-25 || 0000849399
+|-
+| 	{{NyseSymbol|SYF}}	||	[[Synchrony Financial]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SYF&action=getcompany reports]	||	Financials ||	Consumer Finance	|| [[Stamford, Connecticut]] || 2015-11-18 || 0001601712 
+|-
+|	{{NasdaqSymbol|SNPS}}	||	[[Synopsys Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SNPS&action=getcompany reports]	||	Information Technology || Application Software || [[Mountain View, California]] || 2017-03-16 || 0000883241
+|-
+|	{{NyseSymbol|SYY}}	||	[[Sysco Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=SYY&action=getcompany reports]	||	Consumer Staples || Food Distributors || [[Houston, Texas]] || 1986-12-31 || 0000096021
+|-
+|	{{NasdaqSymbol|TROW}}	||	[[T. Rowe Price Group]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=TROW&action=getcompany reports]	||	Financials || Asset Management & Custody Banks || [[Baltimore, Maryland]] || || 0001113169
+|-
+|	{{NyseSymbol|TGT}}	||	[[Target Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=TGT&action=getcompany reports]	||	Consumer Discretionary || General Merchandise Stores ||  [[Minneapolis, Minnesota]] || 1976-12-31 || 0000027419
+|-
+|	{{NyseSymbol|TEL}}	||	[[TE Connectivity|TE Connectivity Ltd.]] ||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=TEL&action=getcompany reports]	||	Information Technology     || Electronic Manufacturing Services ||     [[Schaffhausen, Switzerland]] || 2011-10-17 || 0001385157
+|-
+|	{{NyseSymbol|FTI}}	||	[[TechnipFMC]]	||	[https://www.sec.gov/cgi-bin/browse-edgar?company=TechnipFMC&owner=exclude&action=getcompany reports]	||	Energy ||	Oil & Gas Equipment & Services	|| [[London]], [[United Kingdom]] || 2009-06-05 || 0001681459
+|-
+|	{{NyseSymbol|TDC}}	||	[[Teradata Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=TDC&action=getcompany reports]	||	Information Technology || Application Software || [[Miamisburg, Ohio]] || 2007-10-01 || 0000816761
+|-
+|	{{NyseSymbol|TSO}}	||	[[Tesoro Petroleum Co.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=TSO&action=getcompany reports]	||	Energy || Oil & Gas Refining & Marketing || [[San Antonio, Texas]] || 2007-09-27 || 0000050104
+|-
+|	{{NasdaqSymbol|TXN}}	||	[[Texas Instruments]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=TXN&action=getcompany reports]	||	Information Technology || Semiconductors || [[Dallas, Texas]] || || 0000097476
+|-
+|	{{NyseSymbol|TXT}}	||	[[Textron Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=TXT&action=getcompany reports]	||	Industrials || Aerospace & Defense ||  [[Providence, Rhode Island]] || 1978-12-31 || 0000217346
+|-
+|	{{NyseSymbol|TMO}}	||	[[Thermo Fisher Scientific]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=TMO&action=getcompany reports]	||	Health Care || Health Care Equipment || [[Waltham, Massachusetts]] || || 0000097745
+|-
+|	{{NyseSymbol|TIF}}	||	[[Tiffany & Co.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=TIF&action=getcompany reports]	||	Consumer Discretionary || Apparel, Accessories & Luxury Goods || [[New York, New York]] || 2000-06-21 || 0000098246
+|-
+|	{{NyseSymbol|TWX}}	||	[[Time Warner Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=TWX&action=getcompany reports]	||	Consumer Discretionary || Cable & Satellite || [[New York, New York]] || || 0001105705
+|-
+|	{{NyseSymbol|TJX}}	||	[[TJX Companies Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=TJX&action=getcompany reports]	||	Consumer Discretionary || Apparel Retail || [[Framingham, Massachusetts]] || 1985-09-30 || 0000109198
+|-
+|	{{NyseSymbol|TMK}}	||	[[Torchmark Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=TMK&action=getcompany reports]	||	Financials || Life & Health Insurance || [[McKinney, Texas]] || 1989-04-30 || 0000320335
+|-
+|	{{NyseSymbol|TSS}}	||	[[Total System Services]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=TSS&action=getcompany reports]	||	Information Technology || Internet Software & Services ||  [[Columbus, Georgia]] || 2008-01-02 || 0000721683
+|-
+|	{{NasdaqSymbol|TSCO}}	||	[[Tractor Supply Company]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=TSCO&action=getcompany reports]	||	Consumer Discretionary ||	Specialty Stores       || [[Brentwood, Tennessee]] || 2014-01-24 || 0000916365
+|-
+|	{{NyseSymbol|TDG}}	||	[[TransDigm Group]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=TDG&action=getcompany reports]	||	Industrials || Aerospace & Defense || [[Cleveland, Ohio]] || 2016-06-03 || 0001260221   
+|-
+|	 {{NyseSymbol|RIG}}	||	[[Transocean]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=RIG&action=getcompany reports]	||	Energy || Oil & Gas Drilling || [[Vernier, Switzerland]] ||2013-10-29 || 0001451505
+|-
+|	{{NyseSymbol|TRV}}	||	[[The Travelers Companies Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=TRV&action=getcompany reports]	||	Financials || Property & Casualty Insurance || [[New York, New York]] || 2002-08-21 || 0000086312
+|-
+|	{{NasdaqSymbol|TRIP}}	||	[[TripAdvisor]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=TRIP&action=getcompany reports]	||	Consumer Discretionary || Internet & Direct Marketing Retail || [[Newton, Massachusetts]] || 2011-12-21 || 0001526520
+|-
+|	{{NasdaqSymbol|FOXA}}	||	[[Twenty-First Century Fox Class A]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=FOXA&action=getcompany reports]	||	Consumer Discretionary     ||	Publishing ||    [[New York, New York]] || 2013-07-01 || 0001308161
+|-
+|	{{NasdaqSymbol|FOX}}	||	[[Twenty-First Century Fox Class B]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=FOXA&action=getcompany reports]	||	Consumer Discretionary     ||	Publishing ||    [[New York, New York]] || 2015-09-18  || 0001308161
+|-
+|	{{NyseSymbol|TSN}}	||	[[Tyson Foods]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=TSN&action=getcompany reports]	||	Consumer Staples || Packaged Foods & Meats || [[Springdale, Arkansas]] || || 0000100493
+|-
+|	{{NyseSymbol|UDR}}	||	[[UDR Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=UDR&action=getcompany reports]	||	Real Estate || Residential REITs || [[Highlands Ranch, Colorado]] || 2016-03-07 || 0000074208
+|-
+|	{{NasdaqSymbol|ULTA}}	||	[[Ulta Beauty|Ulta Salon Cosmetics & Fragrance Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ULTA&action=getcompany reports]	||	Consumer Discretionary   || Specialty Stores  || [[Bolingbrook, Illinois]] || 2016-04-18 || 0001403568 
+|-
+|	{{NyseSymbol|USB}}	||	[[U.S. Bancorp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=USB&action=getcompany reports]	||	Financials || Diversified Banks ||  [[Minneapolis, Minnesota]] || || 0000036104
+|-
+|	{{NyseSymbol|UA}}	||	[[Under Armour]] Class C ||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=UA&action=getcompany reports]	||	Consumer Discretionary ||	Apparel, Accessories & Luxury Goods	  || [[Baltimore, Maryland]] || 2014-05-01 || 0001336917
+|-
+|	{{NyseSymbol|UAA}}	||	[[Under Armour]] Class A ||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=UA&action=getcompany reports]	||	Consumer Discretionary ||	Apparel, Accessories & Luxury Goods	  || [[Baltimore, Maryland]] || 2016-03-25 || 0001336917
+|-
+|   	{{NyseSymbol|UNP}}	||	[[Union Pacific]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=UNP&action=getcompany reports]	||	Industrials || Railroads || [[Omaha, Nebraska]] || || 0000100885
+|-
+|	{{NyseSymbol|UAL}}	||	[[United Continental Holdings]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=UAL&action=getcompany reports]	||	Industrials ||	Airlines	|| [[Chicago, Illinois]] || 2015-09-03 || 0000100517
+|-
+|	{{NyseSymbol|UNH}}	||	[[United Health Group Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=UNH&action=getcompany reports]	||	Health Care || Managed Health Care || [[Minnetonka, Minnesota]] || 1994-07-01  || 0000731766
+|-
+|	{{NyseSymbol|UPS}}	||	[[United Parcel Service]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=UPS&action=getcompany reports]	||	Industrials || Air Freight & Logistics || [[Atlanta, Georgia]] || 2002-07-22 || 0001090727
+|-
+|	{{NyseSymbol|URI}}	||	[[United Rentals, Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=URI&action=getcompany reports]	||	Industrials || Trading Companies & Distributors || [[Stamford, Connecticut]] || 2014-09-20 || 0001067701
+|-
+|	{{NyseSymbol|UTX}}	||	[[United Technologies]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=UTX&action=getcompany reports]	||	Industrials || Aerospace & Defense || [[Hartford, Connecticut]] || || 0000101829
+|-
+|	{{NyseSymbol|UHS}}	||	[[Universal Health Services, Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=UHS&action=getcompany reports]	||	Health Care || Health Care Facilities || [[King of Prussia, Pennsylvania]] || 2014-09-20 || 0000352915
+|-
+|	{{NyseSymbol|UNM}}	||	[[Unum Group]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=UNM&action=getcompany reports]	||	Financials || Life & Health Insurance || [[Chattanooga, Tennessee]] || 1994-03-01 || 0000005513
+|-
+|	{{NyseSymbol|VFC}}	||	[[V.F. Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=VFC&action=getcompany reports]	||	Consumer Discretionary || Apparel, Accessories & Luxury Goods || [[Greensboro, North Carolina]] || 1979-06-30 || 0000103379
+|-
+|	{{NyseSymbol|VLO}}	||	[[Valero Energy]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=VLO&action=getcompany reports]	||	Energy || Oil & Gas Refining & Marketing  || [[San Antonio, Texas]] || || 0001035002
+|-
+|	{{NyseSymbol|VAR}}	||	[[Varian Medical Systems]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=VAR&action=getcompany reports]	||	Health Care || Health Care Equipment || [[Palo Alto, California]] || 2007-02-12 || 0000203527
+|-
+|	{{NyseSymbol|VTR}}	||	[[Ventas Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=VTR&action=getcompany reports]	||	Real Estate || Health Care REITs || [[Chicago, Illinois]] || 2009-03-04 || 0000740260
+|-
+|	{{NasdaqSymbol|VRSN}}	||	[[Verisign Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=VRSN&action=getcompany reports]	||	Information Technology || Internet Software & Services || [[Dulles, Virginia]] || 2006-02-01 || 0001014473
+|-
+|	{{NasdaqSymbol|VRSK}}	||	[[Verisk Analytics]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=VRSK&action=getcompany reports]	||	Industrials ||	Research & Consulting Services	||  [[Jersey City, New Jersey]] || 2015-10-08 || 0001442145
+|-
+|	{{NyseSymbol|VZ}}	||	[[Verizon Communications]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=VZ&action=getcompany reports]	||	Telecommunication Services || Integrated Telecommunication Services || [[New York, New York]] || 1983-11-30 || 0000732712
+|-
+|       {{NasdaqSymbol|VRTX}}	||      [[Vertex Pharmaceuticals Inc]] || [http://www.sec.gov/cgi-bin/browse-edgar?CIK=VRTX&action=getcompany reports] || Health Care || Biotechnology || [[Cambridge, Massachusetts]] || 2013-09-23 || 0000875320
+|-
+|	{{NasdaqSymbol|VIAB}}	||	[[Viacom Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=VIAB&action=getcompany reports]	||	Consumer Discretionary || Cable & Satellite || [[New York, New York]] || || 0001339947
+|-
+|	{{NyseSymbol|V}}	||	[[Visa Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=V&action=getcompany reports]	||	Information Technology || Internet Software & Services || [[San Francisco, California]] || 2009-12-21 || 0001403161
+|-
+|	{{NyseSymbol|VNO}}	||	[[Vornado Realty Trust]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=VNO&action=getcompany reports]	||	Real Estate || Office REITs || [[New York, New York]] || || 0000899689
+|-
+|	{{NyseSymbol|VMC}}	||	[[Vulcan Materials]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=VMC&action=getcompany reports]	||	Materials || Construction Materials || [[Birmingham, Alabama]]  || 1999-06-30 || 0001396009
+|-
+|	{{NyseSymbol|WMT}}	||	[[Wal-Mart Stores]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=WMT&action=getcompany reports]	||	Consumer Staples || Hypermarkets & Super Centers || [[Bentonville, Arkansas]] || 1982-08-31 || 0000104169
+|-
+|	{{NasdaqSymbol|WBA}}	||	[[Walgreens Boots Alliance]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=WBA&action=getcompany reports]	||	Consumer Staples || Drug Retail || [[Deerfield, Illinois]] || 1979-12-31 || 0001618921
+|-
+|	{{NyseSymbol|DIS}}	||	[[The Walt Disney Company]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=DIS&action=getcompany reports]	||	Consumer Discretionary || Cable & Satellite || [[Burbank, California]] || 1976-06-30 || 0001001039
+|-
+|	{{NyseSymbol|WM}}	||	[[Waste Management Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=WM&action=getcompany reports]	||	Industrials || Environmental & Facilities Services || [[Houston, Texas]] || || 0000823768
+|-
+|	{{NyseSymbol|WAT}}	||	[[Waters Corporation]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=WAT&action=getcompany reports]	||	Health Care || Health Care Distributors ||  [[Milford, Massachusetts]] || || 0001000697
+|-
+|	{{NyseSymbol|WEC}}	||	[[Wec Energy Group Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=WEC&action=getcompany reports]	||	Utilities || Electric Utilities || [[Milwaukee, Wisconsin]] || 2008-10-31  || 0000783325
+|-
+|	{{NyseSymbol|WFC}}	||	[[Wells Fargo]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=WFC&action=getcompany reports]	||	Financials || Diversified Banks || [[San Francisco, California]] || 1976-06-30 || 0000072971
+|-
+|	{{NyseSymbol|HCN}}	||	[[Welltower Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=HCN&action=getcompany reports]	||	Real Estate || 	Health Care REITs	||	[[Toledo, Ohio]] || 2009-01-30 || 0000766704
+|-
+|	{{NasdaqSymbol|WDC}}	||	[[Western Digital]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=WDC&action=getcompany reports]	||	Information Technology || Technology Hardware, Storage & Peripherals || [[Irvine, California]] || 2009-07-01 || 0000106040
+|-
+|	{{NyseSymbol|WU}}	||	[[Western Union Co]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=WU&action=getcompany reports]	||	Information Technology || Internet Software & Services || [[Englewood, Colorado]] || || 0001365135
+|-
+|	{{NyseSymbol|WRK}}	||	[[WestRock Company]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=WRK&action=getcompany reports]	||	Materials ||	Paper Packaging	|| [[Richmond, Virginia]] || || 0001636023
+|-
+|	{{NyseSymbol|WY}}	||	[[Weyerhaeuser Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=WY&action=getcompany reports]	||	Real Estate || Specialized REITs || [[Federal Way, Washington]] || || 0000106535
+|-
+|	{{NyseSymbol|WHR}}	||	[[Whirlpool Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=WHR&action=getcompany reports]	||	Consumer Discretionary || Household Appliances || [[Benton Harbor, Michigan]] || || 0000106640
+|-
+|	{{NasdaqSymbol|WFM}}	||	[[Whole Foods Market]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=WFM&action=getcompany reports]	||	Consumer Staples || Food Retail || [[Austin, Texas]] || || 0000865436
+|-
+|	{{NyseSymbol|WMB}}	||	[[Williams Cos.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=WMB&action=getcompany reports]	||	Energy || Oil & Gas Storage & Transportation || [[Tulsa, Oklahoma]] || 1975-03-31 || 0000107263
+|-
+|	{{NasdaqSymbol|WLTW}}	||	[[Willis Towers Watson]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=WLTW&action=getcompany reports]	||	Financials ||	Insurance Brokers	|| [[London, United Kingdom]] || 2016-01-05 || 0001140536
+|-
+|	{{NyseSymbol|WYN}}	||	[[Wyndham Worldwide]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=WYN&action=getcompany reports]	||	Consumer Discretionary || Hotels, Resorts & Cruise Lines || [[Parsippany, New Jersey]] || || 0001361658
+|-
+|	{{NasdaqSymbol|WYNN}}	||	[[Wynn Resorts Ltd]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=WYNN&action=getcompany reports]	||	Consumer Discretionary || Casinos & Gaming || [[Las Vegas, Nevada]] || 2008-11-14 || 0001174922
+|-
+|	{{NyseSymbol|XEL}}	||	[[Xcel Energy Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=XEL&action=getcompany reports]	||	Utilities || Multi-Utilities || [[Minneapolis, Minnesota]] || || 0000072903
+|-
+|	{{NyseSymbol|XRX}}	||	[[Xerox Corp.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=XRX&action=getcompany reports]	||	Information Technology || Technology Hardware, Storage & Peripherals || [[Norwalk, Connecticut]] || || 0000108772
+|-
+|	{{NasdaqSymbol|XLNX}}	||	[[Xilinx Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=XLNX&action=getcompany reports]	||	Information Technology || Semiconductors ||  [[San Jose, California]] || 1999-11-08 || 0000743988
+|-
+|	{{NyseSymbol|XL}}	||	[[XL Capital]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=XL&action=getcompany reports]	||	Financials || Property & Casualty Insurance || [[Hamilton, Bermuda]] || || 0000875159
+|-
+|	{{NyseSymbol|XYL}}	||	[[Xylem Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=XYL&action=getcompany reports]	||	Industrials || Industrial Machinery || [[White Plains, New York]] || 2011-11-01 || 0001524472
+|-
+|	{{NasdaqSymbol|YHOO}}	||	[[Yahoo Inc.]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=YHOO&action=getcompany reports]	||	Information Technology || Internet Software & Services || [[Sunnyvale, California]] || 1999-12-08 || 0001011006
+|-
+|	{{NyseSymbol|YUM}}	||	[[Yum! Brands Inc]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=YUM&action=getcompany reports]	||	Consumer Discretionary || Restaurants || [[Louisville, Kentucky]] || 1997-10-06 || 0001041061
+|-
+|	{{NyseSymbol|ZBH}}	||	[[Zimmer Holdings|Zimmer Biomet Holdings]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ZBH&action=getcompany reports]	||	Health Care || Health Care Equipment || [[Warsaw, Indiana]] || 2001-08-07 || 0001136869
+|-
+|	{{NasdaqSymbol|ZION}}	||	[[Zions Bancorp]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ZION&action=getcompany reports]	||	Financials || Regional Banks || [[Salt Lake City, Utah]] || || 0000109380
+|-
+|	{{NyseSymbol|ZTS}}	||	[[Zoetis]]	||	[http://www.sec.gov/cgi-bin/browse-edgar?CIK=ZTS&action=getcompany reports]	||	Health Care || Pharmaceuticals || [[Florham Park, New Jersey]] || 2013-06-21 || 0001555280
+|}
+"""
