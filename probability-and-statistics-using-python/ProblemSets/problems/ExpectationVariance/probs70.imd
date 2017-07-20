@@ -1,0 +1,56 @@
+```python
+
+# random variables (no need to import random library)
+
+n = random.randrange(5,10,1)
+m = n + 4
+
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
+solution1 = "1/{0}".format(n)
+solution2 = "({0}-1)/({0}^2)".format(n)
+solution3 = "(({0} - 1) / {0})^{1}".format(n, m)
+solution4 = "({1}/{0})*(({0}-1)/{0})**({1}-1)".format(n, m)
+solution5 = "{1}/{0}".format(n, m)
+solution6 = "{1}*({0}-1)/({0}**2)".format(n, m)
+
+# Group all solutions into a list
+solutions = [solution1, solution2, solution3, solution4, solution5, solution6]
+
+
+```
+
+
+Suppose you throw $ m= \$m $ balls into $ n= \$n $ bins.
+
+Let $ X_i $ be the number of balls that fall into bin $ i $.  
+
+Let $ T_{i,j} $ Be a random variable that is 1 if the $ j $'th ball falls in the $ i $'th bin.  
+
+Clearly $ T_{i,j},T_{i,k} $ are independent for $ 1 \leq j < k \leq m $, and $ X_i = \sum_{j=1}^{m} T_{i,j} $.
+
+Using these facts, answer the following questions:
+
+(1) What is $ \mathbb{E}(T_{i,j}) $?
+
+[_]
+
+(2) What is $ var(T_{i,j}) $?
+
+[_]
+
+(3) What is $ Pr(X_i=0) $ (i.e. there are no balls in bin $ i $) ?  
+
+[_]
+
+(4) What is $ Pr(X_i = 1) $ (i.e. there is exactly one ball in bin $ i $) ? 
+
+[_]
+
+(5) What is $ \mathbb{E}(X_i) $? (Recall linearity of expectations:$ E(\sum_{i=1}^n T_{i,j})=\sum_{i=1}^n E(T_{i,j}) $ )
+
+[_]
+
+(6) What is $ var(X_i) $? (Recall the variance of the sum of *independent* random variables is equal to the sum of the variances.)
+
+[_]

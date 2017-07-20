@@ -1,0 +1,17 @@
+```python
+showPartialCorrectAnswers = 1
+
+solution1 = "3*4^2"
+solution2 = "(3*4^2)/C(52-5,2)"
+solutions = [solution1, solution2]
+```
+
+Suppose you have been dealt 4$\heartsuit$ and 5 $\heartsuit$. What is the probability that you will get a straight given that you have been dealt these two cards, and that the board is "3$\clubsuit$, Q$\spadesuit$, K$\diamondsuit$"?
+    With this flop we can make a straight with the set {6,7}, {2,6} or {A,2} on the turn and river.
+    The number of such card pairs, ignoring order, is 
+    
+    [_]
+    
+    The conditional probability is 
+
+    [_]

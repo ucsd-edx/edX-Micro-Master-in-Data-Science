@@ -1,0 +1,35 @@
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "MathObjects.pl",
+  "PGcourse.pl",
+  "contextIntegerFunctions.pl",
+  "PGauxiliaryFunctions.pl"
+);
+
+TEXT(beginproblem());
+
+$k = random(1,2,1);
+$r = random(1,2,1);
+$a = random(1,2,1);
+$select = random(8,15,1);
+$a1 = Compute("C($select+2,2)");
+$a2 = Compute("C($select+2-$k-$r-$a,2)");
+
+BEGIN_PGML
+
+#### Making Treat Bags ####
+
+Santa's elves are creating treat bags containing a selection of Kit Kats, Reese's cups and Almond Joys.
+
+o How many different types of bags can they make containing [$select] chocolate bars? [___________]{$a1}
+
+o How many different types of bags can they make containing [$select] chocolate bars if Santa wants to have at least [$k] Kit Kat(s), [$r] Reese's cup(s) and [$a] Almond Joy(s) in the bag? [___________]{$a2}
+
+END_PGML
+
+######################################################################
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.

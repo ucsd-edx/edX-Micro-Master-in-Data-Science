@@ -1,0 +1,26 @@
+```python
+#import random
+k=random.randint(2,5)
+l=random.randint(2,5)
+#k,l
+```
+
+## Markov and Chebyshev bounds I 
+
+Suppose $X$ is a non-negative random variable Whose expected value is $\mu=E(X)$.  
+  
+Which of the following statements are true?
+  
+[x] $\;\;P(X \leq \k \mu) \geq 1-(1/\k)$  
+[x] $\;\;P(X \geq \k \mu) \leq (1/\k)$  
+[] $\;\;P(X \leq \k \mu) \leq 1-(1/\k)$  
+[] $\;\;P(X \geq \k \mu) \geq (1/\k)$ 
+
+Suppose $Y$ is a random variable over both negative and positive reals with mean $\mu=E(Y)$ and variance $\sigma^2=Var(Y)$
+
+Which of the following statements are true?  
+[ ] $\;\;P(Y \geq \l \mu) \leq 1/\l$  
+[ ] $\;\;P(|Y-\mu| \geq \l \sigma) \geq (1/\l)^2 $  
+[x] $\;\;P(|Y-\mu| \geq \l \sigma) \leq (1/\l)^2 $  
+[x] $\;\;P(|Y-\mu| \leq \l \sigma) \geq 1-(1/\l)^2 $  
+[ ] $\;\;P(|Y-\k \mu| \geq \l \sigma) \geq (1/\l)^2 $  

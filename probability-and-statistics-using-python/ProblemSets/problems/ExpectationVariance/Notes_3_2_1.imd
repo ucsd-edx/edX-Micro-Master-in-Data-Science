@@ -1,0 +1,86 @@
+```python
+# variable names and values
+# if multiple variables, the number of values to test should be the same
+variable_values = {'p':[0.1,0.2,0.3]}
+
+F1 = "1/36"
+F2 = "2/36"
+F3 = "3/36"
+F4 = "4/36"
+F5 = "5/36"
+F6 = "6/36"
+
+# random variables
+r = random.randrange(3,6,1)
+
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
+solution1 = "p"
+solution2 = "p(1-p)"
+solution3 = "(1+2+3+4+5+6)/6"
+solution4 = "((1-3.5)^2 + (2-3.5)^2 + (3-3.5)^2 + (4-3.5)^2 + (5-3.5)^2 + (6-3.5)^2)/6"
+solution5 = "2*({0})".format(solution3)
+solution6 = "2*({0})".format(solution4)
+
+# Group all solutions into a list
+solutions = [solution1, solution2, solution3, solution4, solution5, solution6]
+```
+
+Suppose the random variable $X$ attains a finite set of values $A$, the *mean*, or *expected value*, is
+
+$$ \mathbb{E}(X) \ = \ \sum_{x\in A} x \, \mbox{Pr}(X = x) $$
+
+Consider a few examples
+
+### Biased coin ###
+
+We flip a coin one time, define $X$ to be the random variable that is $1$ if 
+the outcome is heads, and $0$ if it is tails. 
+
+Let $p=P(X=1)$, $1-p = P(X=0)$
+
+Complete the calculation of the expectation $\mathbb{E}(X)$:
+
+$$ \mathbb{E}(X) =
+0 \cdot \mbox{Pr}(X = 0) + 1 \cdot \mbox{Pr}(X = 1)  =
+0 \cdot (1-p) + 1 \cdot p =  $$
+
+[_]
+
+
+Another random variable on this space is $X^2$, which also takes on values in $\{0,1\}$.
+
+Notice that $X^2 = X$, and in fact $X^k = X$ for all $k = 1,2,3,\ldots$! 
+
+Recall that $Var(X) = E(X^2) - E(X)^2$. Therefor, for a coin whose bias is $p$, the variance is 
+
+[_]
+
+
+### Fair die ###
+
+Define $X$ to be the outcome of the roll, so $X \in \{1,2,3,4,5,6\}$. Then $\mathbb{E}(X) = $
+
+[_]
+
+The Variance of $X$ is
+
+[_]
+
+
+### Two dice ###
+
+Suppose we roll the dice twice and let $Y$ be the random variable corresponding to
+the sum.
+
+Recall that for **any** random variables $X_1,X_2$, $E(X_1+X_2) = E(X_1) + E(X_2)$. 
+
+Therefor $\mathbb{E}(Y) = $
+
+[_]
+
+Recall that for **independent** random variables $X_1,X_2$, $Var(X_1+X_2) = Var(X_1) + Var(X_2)$
+
+Therefor $Var(Y)=$
+
+[_]

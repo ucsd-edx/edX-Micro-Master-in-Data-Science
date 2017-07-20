@@ -1,0 +1,55 @@
+```python
+# random variables (no need to import random library)
+
+
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
+solution1 = "0.05/sqrt(0.16/200)"
+solution2 = "Q(0.05/sqrt(0.16/200))"
+solution3 = "1"
+solution4 = "0"
+
+# Group all solutions into a list
+solutions = [solution1, solution2, solution3, solution4]
+
+
+```
+
+### Testing a psychic
+A noted psychic was tested for extrasensory perception. The psychic was presented
+with 200 cards face down and asked to determine if the card were one of five symbols. We can think of this as 200 independent trials and associate a binary random variable $X_i$ with each trial, where the probability of success is denoted by $p \doteq P(X_i=1)$. The Null hypothesis is that the Psychic is doing no better than a random guess, in other words $p=1/5$.
+
+The expected number of correct guesses is denoted
+$$S_{200} = \sum_{i=1}^{200} X_i $$
+
+$$ E\left[ S_{200}\right] = 200*(1/5)=40$$
+
+In our test, the psychic was correct 50 times, in other words, 10 more times than expected. How strong is this as evidence that the psychic is actually able to predict better than chance?
+
+As $S_{200}$ is the sum of 200 IID random variables with finite mean and std. We can approximate $S_{200}$ by a normal distribution (using the central limit theorem).
+
+* What is the z-score?
+
+[_]
+
+* What is the p-value for the test statistic? (use the $Q$ function in your answer)
+
+[_]
+
+* Can you reject at the .05 significance level? (answer 1 for yes or 0 for no)
+
+(Recall the values of the $Q$ function: 
+$$Q(1) \approx 15\%;\;\;
+Q(2) \approx 2.5\%;\;\;
+Q(3) \approx 0.15\%;\;\;
+Q(4) \approx 0.003\%
+$$
+
+
+[x] Yes.  
+[ ] No.
+
+* Can you reject at the .01 significance level? (answer 1 for yes or 0 for no) 
+
+[ ] Yes.  
+[x] No.
