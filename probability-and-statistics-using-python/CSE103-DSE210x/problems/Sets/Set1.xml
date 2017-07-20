@@ -1,0 +1,38 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+solution1 = "{0}"
+solution2 = "{1}"
+solution3 = "{0,2,3}"
+    </script>
+
+
+<h1>Union, Intersection, and Complements of sets</h1>
+<p>Suppose \(\Omega = \{0,1,2,3\}, B = \{0\}, C = \{x \in \Omega | x \neq 1\}\).</p>
+<ul>
+<li>What is the set \(\Omega \cap B\)? The intersection of two sets is the set of elements in both \(\Omega\) and \(B\).</li>
+</ul>
+<p>Therefore \(\Omega \cap B\ =\)</p>
+    <stringresponse answer="$solution1" type="ci">
+      <textline size="20"/>
+    </stringresponse>
+
+<ul>
+<li>What is the set \(\Omega \cap C^c\)? The complement of \(C\) is the entire outcome space \(\Omega\) excluding the elements in \(C\). In other words \(C^c=\{1\} \).</li>
+</ul>
+<p>Therefor \(\Omega \cap C^c =\)</p>
+    <stringresponse answer="$solution2" type="ci">
+      <textline size="20"/>
+    </stringresponse>
+
+<ul>
+<li>What is the set \(\Omega \cap (B \cup C)\)? The union of two sets is the set formed by all the elements in both sets. \(B \cup C\). Note that \(B \subset C\), which means that \(B \cup C = C\).</li>
+</ul>
+<p>Therefore \( \Omega \cap (B \cup C)=\)</p>
+    <stringresponse answer="$solution3" type="ci">
+      <textline size="20"/>
+    </stringresponse>
+
+
+  </text>
+</problem>
