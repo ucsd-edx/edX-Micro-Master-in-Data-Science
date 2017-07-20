@@ -1,0 +1,38 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+# random variables
+import random
+a = random.randrange(2,3,1)
+b = random.randrange(2,3,1)
+c = 7-a-b
+
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
+solution1 = "10*26"
+solution2 = "10^{0}*26^{1}*10^(7-{0}-{1})".format(a,b)
+
+# Group all solutions into a list
+solutions = [solution1, solution2]
+
+    </script>
+
+
+<ul>
+<li>How many ways are there of picking one digit (from 0-9), followed by one letter (A-Z)?</li>
+</ul>
+    <numericalresponse answer="$solution1">
+      <formulaequationinput/>
+    </numericalresponse>
+
+<ul>
+<li>Suppose automobile license plates in an imaginary country consist of $a numbers,followed by $b letters, followed by $c numbers.</li>
+</ul>
+<p>How many different standard plates are possible in this system? (Assume repetition of letters and numbers is allowed.)</p>
+    <numericalresponse answer="$solution2">
+      <formulaequationinput/>
+    </numericalresponse>
+
+
+  </text>
+</problem>

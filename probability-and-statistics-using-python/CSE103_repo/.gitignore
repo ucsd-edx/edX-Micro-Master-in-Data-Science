@@ -1,8 +1,0 @@
-*.pyc
-*.out
-parsetab.py
-hint_database/parsetab.py
-hint_database/hint_class_helpers/expr_parser/parsetab.py
-.ipynb_checkpoints
-.ipynb_checkpoints/*
-problem_database/problem_source_files/setTestPreparation_pg/*
