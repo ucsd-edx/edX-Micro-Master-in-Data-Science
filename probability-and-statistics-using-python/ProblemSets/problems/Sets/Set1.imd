@@ -6,7 +6,7 @@ solution3 = "{0,2,3}"
 
 # Union, Intersection, and Complements of sets
 
-Suppose $\Omega = \\\{0,1,2,3\\\}, B = \\\{0\\\}, C = \\\{x \in \Omega | x \neq 1\\\}$.
+Suppose $\Omega = \{0,1,2,3\}, B = \{0\}, C = \{x \in \Omega | x \neq 1\}$.
 
 * What is the set $\Omega \cap B$? The intersection of two sets is the set of elements in both $\Omega$ and $B$.
 
@@ -14,7 +14,7 @@ Therefore $\Omega \cap B\ =$
 
 [_str]
 
-* What is the set $\Omega \cap C^c$? The complement of $C$ is the entire outcome space $\Omega$ excluding the elements in $C$. In other words $C^c=\\\{1\\\} $.
+* What is the set $\Omega \cap C^c$? The complement of $C$ is the entire outcome space $\Omega$ excluding the elements in $C$. In other words $C^c=\{1\} $.
 
 Therefor $\Omega \cap C^c =$
 
