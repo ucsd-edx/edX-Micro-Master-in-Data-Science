@@ -1,0 +1,43 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/yoavfreund/projects/edX-Micro-Master-in-Data-Science/probability-and-statistics-using-python/notebooks
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=28b210ccbdf03654a1fec1e5fb0ac609fac19a857bcd8e9b
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=28b210ccbdf03654a1fec1e5fb0ac609fac19a857bcd8e9b
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 10.31ms referer=http://localhost:8888/tree?token=55b68c3918d4683d0f469c07f5f6184b2921c3de287e2f5c
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170724185126 (::1) 2.55ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170724185126 (::1) 1.82ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170724185126 (::1) 2.13ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170724185126 (::1) 2.66ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /clusters?_=1500947488031 (::1) 1.84ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 1.61ms referer=http://localhost:8888/tree/poker
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170724185126 (::1) 1.94ms referer=http://localhost:8888/tree/poker
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170724185126 (::1) 1.72ms referer=http://localhost:8888/tree/poker
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170724185126 (::1) 2.47ms referer=http://localhost:8888/tree/poker
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170724185126 (::1) 2.33ms referer=http://localhost:8888/tree/poker
+[NotebookApp | WARNING] 404 GET /clusters?_=1500947527050 (::1) 1.88ms referer=http://localhost:8888/tree/poker
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 1.86ms referer=http://localhost:8888/notebooks/poker/Poker%20probabilities.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170724185126 (::1) 2.13ms referer=http://localhost:8888/notebooks/poker/Poker%20probabilities.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170724185126 (::1) 2.08ms referer=http://localhost:8888/notebooks/poker/Poker%20probabilities.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170724185126 (::1) 2.03ms referer=http://localhost:8888/notebooks/poker/Poker%20probabilities.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/rise/main.js?v=20170724185126 (::1) 1.89ms referer=http://localhost:8888/notebooks/poker/Poker%20probabilities.ipynb
+[NotebookApp | INFO] Kernel started: 23ce874f-fa56-4884-a769-bf29e61155c1
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170724185126 (::1) 2.32ms referer=http://localhost:8888/notebooks/poker/Poker%20probabilities.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170724185126 (::1) 1.67ms referer=http://localhost:8888/notebooks/poker/Poker%20probabilities.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170724185126 (::1) 1.60ms referer=http://localhost:8888/notebooks/poker/Poker%20probabilities.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170724185126 (::1) 1.66ms referer=http://localhost:8888/notebooks/poker/Poker%20probabilities.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170724185126 (::1) 2.06ms referer=http://localhost:8888/notebooks/poker/Poker%20probabilities.ipynb
+[NotebookApp | INFO] Saving file at /poker/Poker probabilities.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | INFO] Validating '/Users/yoavfreund/projects/edX-Micro-Master-in-Data-Science/probability-and-statistics-using-python/notebooks/poker/Poker probabilities.ipynb'
+[NotebookApp | INFO] Executing notebook with kernel: python2
+[NotebookApp | ERROR] Timeout waiting for execute reply (30s).
+[NotebookApp | ERROR] Interrupting kernel
+[NotebookApp | INFO] Saving file at /poker/Poker probabilities.ipynb
+[NotebookApp | INFO] Saving file at /poker/Poker probabilities.ipynb
