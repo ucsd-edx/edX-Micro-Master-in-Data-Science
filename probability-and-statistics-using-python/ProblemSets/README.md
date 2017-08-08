@@ -1,6 +1,4 @@
-## Problem Repository for DSE210x
-* Merge two readme
-* Here is the reference to the mathematical expression allowed on edX [link](http://edx.readthedocs.io/projects/edx-guide-for-students/en/latest/completing_assignments/SFD_mathformatting.html)
-* Folder ```problem_set``` has homework problems written in markdown.
-* translate.py is a script for translating imd files into xml or html files. See https://github.com/ucsd-edx/edX-extensions/tree/master/edX-markdown
-* Before using translate.py you need to run `source setup.sh` from inside the edX-markdown directory.
+## Problem Repository for CSE103-DSE210x
+* [Here](https://github.com/ucsd-edx/edX-extensions/blob/master/edX-markdown/README.md) is the document of how to setup translate.py.
+
+* [Here](https://github.com/ucsd-edx/edX-extensions/tree/master/edX-markdown/imd_examples/README.md) is a tutorial on how to write the .imd file.
