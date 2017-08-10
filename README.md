@@ -11,6 +11,10 @@ Problems and Notebooks for each course will be backed up in this repository in t
 
    4. probability-and-statistics-using-python
 
+## Location of post-production videos:
+Organized by name of presenter in: https://drive.google.com/open?id=0B8UIxrEnHRI_c0N5TnM0QzhWSUk
+
+
 ## To clone this repository with reveal.js:
 
 run `git clone --recursive https://github.com/ucsd-edx/edX-Micro-Master-in-Data-Science.git`
