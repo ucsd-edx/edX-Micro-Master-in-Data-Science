@@ -728,3 +728,209 @@
 [NotebookApp | INFO] Kernel shutdown: 69e3f84b-87c4-4bd2-b9fc-4ac79952edee
 [NotebookApp | INFO] Kernel shutdown: 5c68c574-b6c8-4b44-9c46-4a4387528070
 [NotebookApp | INFO] Kernel shutdown: 310d2404-e032-453c-a3c8-ceb2ccefbe05
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/yoavfreund/projects/edX-Micro-Master-in-Data-Science/probability-and-statistics-using-python/notebooks/regression
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=0f5ba7dc3ec6ea6dd3224d81fccf3969e56683db128ef12e
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=0f5ba7dc3ec6ea6dd3224d81fccf3969e56683db128ef12e
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 13.37ms referer=http://localhost:8888/tree?token=d6cd3573a3a0696350299d5000c9fd5d729a0fe01212d509
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170807112549 (::1) 1.64ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170807112549 (::1) 2.08ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170807112549 (::1) 1.77ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170807112549 (::1) 2.23ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /clusters?_=1502130351623 (::1) 2.35ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 1.62ms referer=http://localhost:8888/notebooks/Solving%20a%20system%20of%20Equations.ipynb
+[NotebookApp | INFO] Kernel started: 67719b8e-ad17-4b03-ac42-8e4e2ed13dc8
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170807112549 (::1) 2.77ms referer=http://localhost:8888/notebooks/Solving%20a%20system%20of%20Equations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170807112549 (::1) 2.53ms referer=http://localhost:8888/notebooks/Solving%20a%20system%20of%20Equations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170807112549 (::1) 2.29ms referer=http://localhost:8888/notebooks/Solving%20a%20system%20of%20Equations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170807112549 (::1) 2.19ms referer=http://localhost:8888/notebooks/Solving%20a%20system%20of%20Equations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170807112549 (::1) 1.96ms referer=http://localhost:8888/notebooks/Solving%20a%20system%20of%20Equations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170807112549 (::1) 1.87ms referer=http://localhost:8888/notebooks/Solving%20a%20system%20of%20Equations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170807112549 (::1) 3.40ms referer=http://localhost:8888/notebooks/Solving%20a%20system%20of%20Equations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170807112549 (::1) 2.02ms referer=http://localhost:8888/notebooks/Solving%20a%20system%20of%20Equations.ipynb
+[NotebookApp | INFO] Saving file at /Solving a system of Equations.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/yoavfreund/projects/edX-Micro-Master-in-Data-Science/probability-and-statistics-using-python/notebooks/regression
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8889/?token=f031ee6a4f9a369d61d325cb52ba51f102ca269298d814ee
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=f031ee6a4f9a369d61d325cb52ba51f102ca269298d814ee
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 11.16ms referer=http://localhost:8889/tree?token=97667fc650428ff2eda1e395c4e4bc91aaf86ae3f04dbbfd
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170807114035 (::1) 2.01ms referer=http://localhost:8889/tree
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170807114035 (::1) 1.85ms referer=http://localhost:8889/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170807114035 (::1) 2.07ms referer=http://localhost:8889/tree
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170807114035 (::1) 2.34ms referer=http://localhost:8889/tree
+[NotebookApp | WARNING] 404 GET /clusters?_=1502131237360 (::1) 2.46ms referer=http://localhost:8889/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 2.26ms referer=http://localhost:8889/notebooks/plot_ols_3d.ipynb
+[NotebookApp | WARNING] Notebook plot_ols_3d.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 044ed6b9-9441-4744-b293-3a75648a1409
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170807114035 (::1) 3.42ms referer=http://localhost:8889/notebooks/plot_ols_3d.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170807114035 (::1) 3.31ms referer=http://localhost:8889/notebooks/plot_ols_3d.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170807114035 (::1) 3.26ms referer=http://localhost:8889/notebooks/plot_ols_3d.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170807114035 (::1) 2.57ms referer=http://localhost:8889/notebooks/plot_ols_3d.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170807114035 (::1) 2.00ms referer=http://localhost:8889/notebooks/plot_ols_3d.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170807114035 (::1) 2.46ms referer=http://localhost:8889/notebooks/plot_ols_3d.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170807114035 (::1) 2.54ms referer=http://localhost:8889/notebooks/plot_ols_3d.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170807114035 (::1) 2.67ms referer=http://localhost:8889/notebooks/plot_ols_3d.ipynb
+[NotebookApp | INFO] Saving file at /plot_ols_3d.ipynb
+[NotebookApp | INFO] Saving file at /plot_ols_3d.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 1.81ms referer=http://localhost:8889/notebooks/Regression%20I-Copy1.ipynb
+[NotebookApp | WARNING] Notebook Regression I-Copy1.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170807114035 (::1) 2.21ms referer=http://localhost:8889/notebooks/Regression%20I-Copy1.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170807114035 (::1) 1.77ms referer=http://localhost:8889/notebooks/Regression%20I-Copy1.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170807114035 (::1) 1.67ms referer=http://localhost:8889/notebooks/Regression%20I-Copy1.ipynb
+[NotebookApp | INFO] Kernel started: 89504525-bbfd-4579-bcee-9dc1f6e64f14
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170807114035 (::1) 3.18ms referer=http://localhost:8889/notebooks/Regression%20I-Copy1.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170807114035 (::1) 2.94ms referer=http://localhost:8889/notebooks/Regression%20I-Copy1.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170807114035 (::1) 2.43ms referer=http://localhost:8889/notebooks/Regression%20I-Copy1.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170807114035 (::1) 1.99ms referer=http://localhost:8889/notebooks/Regression%20I-Copy1.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170807114035 (::1) 2.17ms referer=http://localhost:8889/notebooks/Regression%20I-Copy1.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Polynomial Regression.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 1.57ms referer=http://localhost:8889/notebooks/Regression%20I.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170807114035 (::1) 1.89ms referer=http://localhost:8889/notebooks/Regression%20I.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170807114035 (::1) 1.64ms referer=http://localhost:8889/notebooks/Regression%20I.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170807114035 (::1) 1.78ms referer=http://localhost:8889/notebooks/Regression%20I.ipynb
+[NotebookApp | INFO] Kernel started: dca595ca-ad17-4c62-909d-3979c8078680
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170807114035 (::1) 2.53ms referer=http://localhost:8889/notebooks/Regression%20I.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170807114035 (::1) 1.92ms referer=http://localhost:8889/notebooks/Regression%20I.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170807114035 (::1) 1.72ms referer=http://localhost:8889/notebooks/Regression%20I.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170807114035 (::1) 2.39ms referer=http://localhost:8889/notebooks/Regression%20I.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170807114035 (::1) 1.83ms referer=http://localhost:8889/notebooks/Regression%20I.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Kernel restarted: 89504525-bbfd-4579-bcee-9dc1f6e64f14
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Kernel restarted: 89504525-bbfd-4579-bcee-9dc1f6e64f14
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 6.53ms referer=http://localhost:8889/notebooks/plot_ols_3d.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170807114035 (::1) 2.35ms referer=http://localhost:8889/notebooks/plot_ols_3d.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170807114035 (::1) 2.23ms referer=http://localhost:8889/notebooks/plot_ols_3d.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170807114035 (::1) 1.95ms referer=http://localhost:8889/notebooks/plot_ols_3d.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170807114035 (::1) 1.87ms referer=http://localhost:8889/notebooks/plot_ols_3d.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170807114035 (::1) 1.85ms referer=http://localhost:8889/notebooks/plot_ols_3d.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170807114035 (::1) 2.44ms referer=http://localhost:8889/notebooks/plot_ols_3d.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170807114035 (::1) 2.58ms referer=http://localhost:8889/notebooks/plot_ols_3d.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170807114035 (::1) 2.10ms referer=http://localhost:8889/notebooks/plot_ols_3d.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /plot_ols_3d.ipynb
+[NotebookApp | INFO] Saving file at /plot_ols_3d.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/yoavfreund/projects/edX-Micro-Master-in-Data-Science/probability-and-statistics-using-python/notebooks/regression
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=79ec083006211966bcf0b1cd03259392883fcc23b188a25f
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=79ec083006211966bcf0b1cd03259392883fcc23b188a25f
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 15.34ms referer=http://localhost:8888/tree?token=9d808fe89011906e9f490316fb15e552923fce73814c7c2e
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170813133106 (::1) 2.04ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170813133106 (::1) 2.15ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170813133106 (::1) 2.30ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170813133106 (::1) 2.47ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /clusters?_=1502656269025 (::1) 2.17ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] delete /plot_ols_3d.ipynb
+[NotebookApp | CRITICAL] received signal 15, stopping
+[NotebookApp | INFO] Shutting down kernels
