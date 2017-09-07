@@ -1,0 +1,19 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+p = np.linspace(0,1,1001)
+sigma = np.sqrt(p*(1-p))
+
+plt.plot(p, sigma, linewidth=4.0)
+plt.xticks([0, 1/4, 1/2, 3/4, 1], fontsize = 18)
+plt.yticks([0, 1/4, 1/2], fontsize = 18)
+plt.xlabel('$p$', fontsize = 22)
+plt.ylabel('$\sigma$', fontsize = 22)
+plt.title("$\sigma$ vs. $p$", fontsize = 22)
+
+plt.gca().set_xlim([0, 1])
+plt.gca().set_ylim([0, 0.6])
+plt.gcf().set_size_inches(20,12)
+
+plt.savefig("p_sigma.pdf")
+plt.show()
