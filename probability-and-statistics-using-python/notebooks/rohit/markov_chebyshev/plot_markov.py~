@@ -1,0 +1,25 @@
+# Plots the Markov bound as a function of a
+
+import numpy as np
+import matplotlib.pyplot as plt
+import ipywidgets as widgets
+
+def plot_markov(μ):
+    a_min = 0
+    a_max = μ*20
+    a = np.linspace(-100, 100, 10001)
+
+    plt.gcf().set_size_inches(16,8)
+    plt.plot(a, μ/a, 'b', linewidth=3.0, label = "μ/x")
+    plt.legend(fontsize = 20)
+    plt.gca().set_xlim([x_min, x_max])
+    plt.gca().set_ylim([0,y_max])
+    plt.title('$P(X\ge a)$ when $\mu=$%0.2f' %(μ), fontsize = 20)
+
+    plt.xticks(fontsize = 16)
+    plt.yticks(fontsize = 16)
+    plt.xlabel('a', fontsize = 20)
+    plt.ylabel('$P(X\ge a)$', fontsize = 20)
+    plt.show()
+
+widgets.interact(plot_markov, μ=widgets.FloatSlider(description = '$\mu$', min=0.5, max=20, step=0.1, value=8, continuous_update = False))
