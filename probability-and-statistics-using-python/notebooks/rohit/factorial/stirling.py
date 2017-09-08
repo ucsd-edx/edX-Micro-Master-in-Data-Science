@@ -1,10 +1,11 @@
-# %load C:\Users\Rohit\Dropbox\Hanwen\code\stirling.py
 import matplotlib.pyplot as plt
 import numpy as np
+
 import random
 import math
-from ipywidgets import interact, interactive, fixed, interact_manual, ToggleButton, Layout
+
 import ipywidgets as widgets
+
 pi = np.pi
 e = np.e
 s = []
@@ -21,7 +22,11 @@ for i in range(1, 91):
 S = np.array(s)
 Sb = np.array(sb)
 C = np.array(c)
-def f(Higher_order_approximation, n):
+
+def ratio(Higher_order_approximation, n):
+    '''
+    Plot the ratio of Stirling's approximation of n! {s(n)} to n! and compare it to 1.
+    '''
     Sn = S[0:n]
     Sbn = Sb[0:n]
     Cn = C[0:n]
@@ -59,9 +64,12 @@ def f(Higher_order_approximation, n):
     print("ln s(n) = ", S[n-1], "    ln n! = ", C[n-1], "     s(n)/n! = ", e**(S[n-1]-C[n-1]), "     Error = ", e**(S[n-1]-C[n-1])-1)
     if Higher_order_approximation:
         print("Higher Order Approximation Error = ", e**(Sb[n-1]-C[n-1])-1)
-interact(f, Higher_order_approximation = ToggleButton(value=False, description = 'Higher order approximation s*[n]', layout=Layout(width='25%', height='40px')), n = widgets.IntSlider(min = 2, max = 90))
+interact(ratio, Higher_order_approximation = ToggleButton(value=False, description = 'Higher order approximation s*[n]', layout=Layout(width='25%', height='40px')), n = widgets.IntSlider(min = 2, max = 90))
 
-def g(Higher_order_approximation, n):
+def values(Higher_order_approximation, n):
+    '''
+    Plot n! and Stirlings approximation of n! for n <= 20 and thus compare the two plots.
+    '''
     Sn = S[0:n]
     Cn = C[0:n]
     Sbn = Sb[0:n]
@@ -76,4 +84,5 @@ def g(Higher_order_approximation, n):
         plt.plot(range(1, n+1), e**Sb[0:n], 'g', label = "s*[n]")
     plt.legend( prop={'size': 16})
     plt.show()
-interact(g, Higher_order_approximation = ToggleButton(value=False, description = 'Higher order approximation s*[n]', layout=Layout(width='25%', height='40px')), n = widgets.IntSlider(min = 2, max = 20))
+    
+widgets.interact(g, Higher_order_approximation = ToggleButton(value=False, description = 'Higher order approximation s*[n]', layout=Layout(width='25%', height='40px')), n = widgets.IntSlider(min = 2, max = 20))
