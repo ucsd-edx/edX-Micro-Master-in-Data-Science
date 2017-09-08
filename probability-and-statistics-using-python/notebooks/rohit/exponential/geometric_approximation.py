@@ -36,6 +36,6 @@ def exponential_approx(n, p):
     print("")
     
 widgets.interact(
-            f, 
+            exponential_approx, 
             p = widgets.FloatSlider(min=0, max=1, step=0.01, value=0.5), 
             n = widgets.IntSlider(min=2, max=1000, step=1, value=10))
