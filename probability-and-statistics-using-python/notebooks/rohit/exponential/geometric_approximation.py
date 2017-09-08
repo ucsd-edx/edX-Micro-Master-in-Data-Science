@@ -1,12 +1,17 @@
-from __future__ import print_function
 import numpy as np
 import matplotlib.pyplot as plt
+
 from scipy.stats import binom
-from ipywidgets import interact, interactive, fixed, interact_manual
 import ipywidgets as widgets
+
 import warnings
 warnings.filterwarnings("ignore")
-def f(n, p):
+
+def exponential_approx(n, p):
+    '''
+    Approximate the PMF of the geometric distribution with the 
+    PDF of the exponential distribution.
+    '''
     x = np.arange(1, n+1)
     y = [((1-p)**(z-1))*p for z in x]
     λ = p
@@ -29,4 +34,8 @@ def f(n, p):
     print('|| P_Exponential - P_Geometric ||\u2081 = ',sum(abs(y-y0)))
     print("")
     print("")
-interact(f, p=widgets.FloatSlider(min=0.01, max=0.09, step=0.01, value=0.5), n=widgets.IntSlider(min=2, max=1000, step=1, value=10))
+    
+widgets.interact(
+            f, 
+            p = widgets.FloatSlider(min=0, max=1, step=0.01, value=0.5), 
+            n = widgets.IntSlider(min=2, max=1000, step=1, value=10))
