@@ -1,12 +1,13 @@
-from __future__ import print_function
 import numpy as np
 import matplotlib.pyplot as plt
+
 from scipy.stats import binom
-from ipywidgets import interact, interactive, fixed, interact_manual
 import ipywidgets as widgets
-import warnings
-warnings.filterwarnings("ignore")
-def f(λ, x_max, y_max, CDF):
+
+def plot_pdf_cdf(λ, x_max, y_max, CDF):
+    '''
+    Plot the PDF and the CDF of the exponential distribution.
+    '''
     x = np.arange(0, x_max, x_max/1000)
     y = λ*np.exp(-λ*x)
     z = 1 - np.exp(-λ*x)
@@ -23,4 +24,9 @@ def f(λ, x_max, y_max, CDF):
     plt.gca().set_ylim([0,y_max])
     plt.legend(fontsize = 18)
     plt.show()
-interact(f, λ=widgets.FloatSlider(description = '$\lambda$', min=0.01, max=10, step=0.01, value=0.5), x_max=widgets.FloatSlider(description = '$x_{\max}$', min=1, max=1000, step=1, value=10), y_max=widgets.FloatSlider(description = '$y_{\max}$', min=0.1, max=10, step=0.1, value=1), CDF = widgets.ToggleButton(value = False))
+widgets.interact(
+            plot_pdf_cdf, 
+            λ=widgets.FloatSlider(description = '$\lambda$', min=0.01, max=10, step=0.01, value=0.5), 
+            x_max=widgets.FloatSlider(description = '$x_{\max}$', min=1, max=1000, step=1, value=10), 
+            y_max=widgets.FloatSlider(description = '$y_{\max}$', min=0.1, max=10, step=0.1, value=1), 
+            CDF = widgets.ToggleButton(value = False))
