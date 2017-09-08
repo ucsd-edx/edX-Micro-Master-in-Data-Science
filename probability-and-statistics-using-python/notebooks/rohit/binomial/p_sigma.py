@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 p = np.linspace(0,1,1001)
-sigma = np.sqrt(p*(1-p))
+sigma = np.sqrt(p*(1-p))                          # standard deviation of Bernoulli(p)
 
 plt.plot(p, sigma, linewidth=4.0)
 
