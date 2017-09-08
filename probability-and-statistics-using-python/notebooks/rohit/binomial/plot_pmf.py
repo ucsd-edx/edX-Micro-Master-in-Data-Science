@@ -22,6 +22,6 @@ def plot_pmf(n, p):
 
 
 widgets.interact(
-    f,
+    plot_pmf,
     n=widgets.IntSlider(min=0, max=30, step=1, value=15),
     p=widgets.FloatSlider(min=0, max=1, step=0.01, value=0.5))
