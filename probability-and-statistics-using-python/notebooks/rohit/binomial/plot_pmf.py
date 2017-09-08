@@ -1,12 +1,14 @@
-from __future__ import print_function
 import numpy as np
 import matplotlib.pyplot as plt
+
 from scipy.stats import binom
-from ipywidgets import interact, interactive, fixed, interact_manual
 import ipywidgets as widgets
 
 
-def f(n, p):
+def plot_pmf(n, p):
+    '''
+    Plot the probability mass function of Binom(n, p)
+    '''
     k = np.arange(0, n + 1)
     P_binom = binom.pmf(k, n, p)
     plt.plot(k, P_binom, '-o')
@@ -19,7 +21,7 @@ def f(n, p):
     plt.show()
 
 
-interact(
+widgets.interact(
     f,
     n=widgets.IntSlider(min=0, max=30, step=1, value=15),
     p=widgets.FloatSlider(min=0, max=1, step=0.01, value=0.5))
