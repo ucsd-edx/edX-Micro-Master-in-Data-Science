@@ -934,3 +934,564 @@
 [NotebookApp | WARNING] delete /plot_ols_3d.ipynb
 [NotebookApp | CRITICAL] received signal 15, stopping
 [NotebookApp | INFO] Shutting down kernels
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/yoavfreund/projects/edX-Micro-Master-in-Data-Science/probability-and-statistics-using-python/notebooks/regression
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=b3146c14b389a9c4fe6878336840fbf891230cb380c35c15
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=b3146c14b389a9c4fe6878336840fbf891230cb380c35c15
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 13.33ms referer=http://localhost:8888/tree?token=556284f4fb6d10a2ef6e03455c014e3f411693b911cb1eea
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170821181202 (::1) 2.35ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170821181202 (::1) 2.29ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170821181202 (::1) 2.27ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170821181202 (::1) 2.80ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /clusters?_=1503364324959 (::1) 1.82ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 2.14ms referer=http://localhost:8888/notebooks/Polynomial%20Regression.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170821181202 (::1) 2.07ms referer=http://localhost:8888/notebooks/Polynomial%20Regression.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170821181202 (::1) 1.83ms referer=http://localhost:8888/notebooks/Polynomial%20Regression.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170821181202 (::1) 2.71ms referer=http://localhost:8888/notebooks/Polynomial%20Regression.ipynb
+[NotebookApp | INFO] Kernel started: 56d60df3-fabb-4cff-8d5c-b53995040981
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170821181202 (::1) 2.75ms referer=http://localhost:8888/notebooks/Polynomial%20Regression.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170821181202 (::1) 1.91ms referer=http://localhost:8888/notebooks/Polynomial%20Regression.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170821181202 (::1) 2.67ms referer=http://localhost:8888/notebooks/Polynomial%20Regression.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170821181202 (::1) 2.63ms referer=http://localhost:8888/notebooks/Polynomial%20Regression.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170821181202 (::1) 3.06ms referer=http://localhost:8888/notebooks/Polynomial%20Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | WARNING] WebSocket ping timeout after 2610005 ms.
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | INFO] Saving file at /Polynomial Regression.ipynb
+[NotebookApp | CRITICAL] received signal 15, stopping
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Kernel shutdown: 56d60df3-fabb-4cff-8d5c-b53995040981
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/yoavfreund/projects/edX-Micro-Master-in-Data-Science/probability-and-statistics-using-python/notebooks/regression
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=5d6c0e067019c5e2d23b02ef398f1af148d06896e1949972
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=5d6c0e067019c5e2d23b02ef398f1af148d06896e1949972
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 20.21ms referer=http://localhost:8888/tree?token=4927572647afdd2277556ac264c1d1b6008a6d90570eaa8a
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170822135007 (::1) 2.78ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170822135007 (::1) 2.74ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170822135007 (::1) 2.70ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170822135007 (::1) 2.65ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /clusters?_=1503435013666 (::1) 2.42ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 2.21ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170822135007 (::1) 1.67ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170822135007 (::1) 1.85ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170822135007 (::1) 1.89ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | INFO] Kernel started: fd5f989e-d99a-4c7b-a2cc-0dd4b3f3ebc5
+[NotebookApp | INFO] 302 GET /notebooks/images/Matrix.svg.png (::1) 1.25ms
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170822135007 (::1) 1.96ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170822135007 (::1) 1.81ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170822135007 (::1) 1.84ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170822135007 (::1) 1.68ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170822135007 (::1) 1.92ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | INFO] Kernel restarted: fd5f989e-d99a-4c7b-a2cc-0dd4b3f3ebc5
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 2.27ms referer=http://localhost:8888/notebooks/Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170822135007 (::1) 1.89ms referer=http://localhost:8888/notebooks/Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170822135007 (::1) 1.57ms referer=http://localhost:8888/notebooks/Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170822135007 (::1) 1.63ms referer=http://localhost:8888/notebooks/Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/images/Matrix.svg.png (::1) 1.08ms
+[NotebookApp | INFO] Kernel started: bf7892f4-5966-40f2-ae4b-385962373ffd
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170822135007 (::1) 2.62ms referer=http://localhost:8888/notebooks/Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170822135007 (::1) 2.42ms referer=http://localhost:8888/notebooks/Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170822135007 (::1) 2.02ms referer=http://localhost:8888/notebooks/Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170822135007 (::1) 1.55ms referer=http://localhost:8888/notebooks/Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170822135007 (::1) 2.17ms referer=http://localhost:8888/notebooks/Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Kernel restarted: bf7892f4-5966-40f2-ae4b-385962373ffd
+[NotebookApp | INFO] Kernel restarted: bf7892f4-5966-40f2-ae4b-385962373ffd
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Matrix notation and operations.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/yoavfreund/projects/edX-Micro-Master-in-Data-Science/probability-and-statistics-using-python/notebooks/regression
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8889/?token=9d031a43462527aab4c1ca88c9f3fdc3746071ee5f49cb87
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=9d031a43462527aab4c1ca88c9f3fdc3746071ee5f49cb87
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 22.33ms referer=http://localhost:8889/tree?token=68867d8b45bc500f0724670a19b6506499eeb8f82c2ed759
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170824103104 (::1) 2.71ms referer=http://localhost:8889/tree
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170824103104 (::1) 2.73ms referer=http://localhost:8889/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170824103104 (::1) 2.71ms referer=http://localhost:8889/tree
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170824103104 (::1) 2.46ms referer=http://localhost:8889/tree
+[NotebookApp | WARNING] 404 GET /clusters?_=1503595871213 (::1) 2.36ms referer=http://localhost:8889/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 1.91ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170824103104 (::1) 1.91ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170824103104 (::1) 1.86ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170824103104 (::1) 2.03ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | INFO] Kernel started: 57ec973f-5bf0-4848-8dd3-9daeb6bbd881
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170824103104 (::1) 2.40ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170824103104 (::1) 1.81ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170824103104 (::1) 1.99ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170824103104 (::1) 2.14ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170824103104 (::1) 1.78ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 2.27ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170824103104 (::1) 1.66ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170824103104 (::1) 1.49ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170824103104 (::1) 2.33ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170824103104 (::1) 2.01ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170824103104 (::1) 1.75ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170824103104 (::1) 1.91ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170824103104 (::1) 1.76ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170824103104 (::1) 1.91ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | INFO] Kernel restarted: 57ec973f-5bf0-4848-8dd3-9daeb6bbd881
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 2.04ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170824103104 (::1) 2.84ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170824103104 (::1) 2.33ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170824103104 (::1) 3.01ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170824103104 (::1) 2.46ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170824103104 (::1) 1.80ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170824103104 (::1) 2.20ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170824103104 (::1) 2.37ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170824103104 (::1) 2.03ms referer=http://localhost:8889/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/ (::1) 1.00ms
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 1.71ms referer=http://localhost:8889/tree
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170824103104 (::1) 2.39ms referer=http://localhost:8889/tree
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170824103104 (::1) 1.95ms referer=http://localhost:8889/tree
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170824103104 (::1) 2.04ms referer=http://localhost:8889/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170824103104 (::1) 2.20ms referer=http://localhost:8889/tree
+[NotebookApp | WARNING] 404 GET /clusters?_=1503602820492 (::1) 2.12ms referer=http://localhost:8889/tree
+[NotebookApp | INFO] Kernel shutdown: 57ec973f-5bf0-4848-8dd3-9daeb6bbd881
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 2.53ms referer=http://localhost:8889/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170824103104 (::1) 2.33ms referer=http://localhost:8889/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170824103104 (::1) 1.92ms referer=http://localhost:8889/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170824103104 (::1) 2.08ms referer=http://localhost:8889/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | INFO] Kernel started: 165b11b0-700d-40b6-a188-e4e5209f8e2d
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170824103104 (::1) 2.34ms referer=http://localhost:8889/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170824103104 (::1) 1.58ms referer=http://localhost:8889/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170824103104 (::1) 2.41ms referer=http://localhost:8889/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170824103104 (::1) 2.26ms referer=http://localhost:8889/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170824103104 (::1) 3.12ms referer=http://localhost:8889/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 2.10ms referer=http://localhost:8889/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170824103104 (::1) 2.41ms referer=http://localhost:8889/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170824103104 (::1) 1.84ms referer=http://localhost:8889/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170824103104 (::1) 1.89ms referer=http://localhost:8889/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | INFO] Kernel started: b3d02cb8-b9ae-4afa-b312-d0d616a19796
+[NotebookApp | INFO] 302 GET /notebooks/images/Matrix.svg.png (::1) 1.31ms
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170824103104 (::1) 2.57ms referer=http://localhost:8889/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170824103104 (::1) 1.73ms referer=http://localhost:8889/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170824103104 (::1) 1.74ms referer=http://localhost:8889/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170824103104 (::1) 2.01ms referer=http://localhost:8889/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170824103104 (::1) 2.49ms referer=http://localhost:8889/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 2.78ms referer=http://localhost:8889/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170824103104 (::1) 2.31ms referer=http://localhost:8889/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170824103104 (::1) 1.87ms referer=http://localhost:8889/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170824103104 (::1) 1.93ms referer=http://localhost:8889/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170824103104 (::1) 1.66ms referer=http://localhost:8889/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170824103104 (::1) 1.65ms referer=http://localhost:8889/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170824103104 (::1) 1.68ms referer=http://localhost:8889/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170824103104 (::1) 1.59ms referer=http://localhost:8889/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170824103104 (::1) 1.65ms referer=http://localhost:8889/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | INFO] Saving file at /1.Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /1.Linear Algebra Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 8.32ms referer=http://localhost:8889/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170824103104 (::1) 1.77ms referer=http://localhost:8889/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170824103104 (::1) 1.89ms referer=http://localhost:8889/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170824103104 (::1) 1.86ms referer=http://localhost:8889/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/images/Matrix.svg.png (::1) 1.20ms
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170824103104 (::1) 2.07ms referer=http://localhost:8889/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170824103104 (::1) 1.73ms referer=http://localhost:8889/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170824103104 (::1) 1.94ms referer=http://localhost:8889/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170824103104 (::1) 1.84ms referer=http://localhost:8889/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170824103104 (::1) 1.93ms referer=http://localhost:8889/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/yoavfreund/projects/edX-Micro-Master-in-Data-Science/probability-and-statistics-using-python/notebooks/regression
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8890/?token=a9086ebc2d7c4dccd12a4b734df7be9dba856de90930e071
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8890/?token=a9086ebc2d7c4dccd12a4b734df7be9dba856de90930e071
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 17.86ms referer=http://localhost:8890/tree?token=9b71bdf3ce6e47efe691c788367e909ac480bfde0e1cad30
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170901133600 (::1) 1.89ms referer=http://localhost:8890/tree
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170901133600 (::1) 2.11ms referer=http://localhost:8890/tree
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170901133600 (::1) 1.78ms referer=http://localhost:8890/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170901133600 (::1) 2.33ms referer=http://localhost:8890/tree
+[NotebookApp | WARNING] 404 GET /clusters?_=1504298162911 (::1) 1.80ms referer=http://localhost:8890/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 2.56ms referer=http://localhost:8890/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170901133600 (::1) 2.02ms referer=http://localhost:8890/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170901133600 (::1) 2.20ms referer=http://localhost:8890/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170901133600 (::1) 2.85ms referer=http://localhost:8890/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | INFO] Kernel started: e4ad292e-3c07-491c-8000-127e42e73673
+[NotebookApp | INFO] 302 GET /notebooks/images/Matrix.svg.png (::1) 1.17ms
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170901133600 (::1) 2.06ms referer=http://localhost:8890/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170901133600 (::1) 1.98ms referer=http://localhost:8890/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170901133600 (::1) 1.53ms referer=http://localhost:8890/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170901133600 (::1) 1.64ms referer=http://localhost:8890/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170901133600 (::1) 1.58ms referer=http://localhost:8890/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Kernel restarted: e4ad292e-3c07-491c-8000-127e42e73673
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/yoavfreund/projects/edX-Micro-Master-in-Data-Science/probability-and-statistics-using-python/notebooks/regression
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=09d6692e21b70baafd591c86bce3511c3fdc18b178d33560
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=09d6692e21b70baafd591c86bce3511c3fdc18b178d33560
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 21.84ms referer=http://localhost:8888/tree?token=3b39b527bf2a4e7f58474659f13a212e8c3f86e3cccabe4f
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170906212920 (::1) 1.67ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170906212920 (::1) 1.86ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170906212920 (::1) 1.77ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170906212920 (::1) 1.60ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /clusters?_=1504758563868 (::1) 1.45ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 1.53ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] Notebook Linear Algebra Review.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170906212920 (::1) 2.06ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170906212920 (::1) 1.74ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170906212920 (::1) 1.97ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | INFO] Kernel started: 948dfbd3-430f-4655-8852-0ab4de8c04fa
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170906212920 (::1) 2.41ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170906212920 (::1) 2.13ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170906212920 (::1) 2.02ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170906212920 (::1) 1.89ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170906212920 (::1) 2.00ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 1.48ms referer=http://localhost:8888/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170906212920 (::1) 1.86ms referer=http://localhost:8888/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170906212920 (::1) 1.70ms referer=http://localhost:8888/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170906212920 (::1) 1.59ms referer=http://localhost:8888/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | INFO] Kernel started: bddc908a-4689-415c-a834-b3e55ba0b092
+[NotebookApp | INFO] 302 GET /notebooks/images/Matrix.svg.png (::1) 1.24ms
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170906212920 (::1) 2.06ms referer=http://localhost:8888/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170906212920 (::1) 2.11ms referer=http://localhost:8888/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170906212920 (::1) 1.71ms referer=http://localhost:8888/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170906212920 (::1) 1.85ms referer=http://localhost:8888/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170906212920 (::1) 1.81ms referer=http://localhost:8888/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/images/vector.png (::1) 1.07ms
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/images/vectorGeom1.png (::1) 1.03ms
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 5.35ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] Notebook Linear Algebra Review.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170906212920 (::1) 1.74ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170906212920 (::1) 1.86ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170906212920 (::1) 1.74ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/images/vector.png (::1) 1.23ms
+[NotebookApp | INFO] 302 GET /notebooks/images/vectorGeom1.png (::1) 1.17ms
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170906212920 (::1) 1.67ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170906212920 (::1) 2.42ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170906212920 (::1) 2.04ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170906212920 (::1) 1.81ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170906212920 (::1) 1.86ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] Saving untrusted notebook Linear Algebra Review.ipynb
+[NotebookApp | INFO] Kernel interrupted: 948dfbd3-430f-4655-8852-0ab4de8c04fa
+[NotebookApp | INFO] KernelRestarter: restarting kernel (1/5)
+[NotebookApp | INFO] Kernel restarted: 948dfbd3-430f-4655-8852-0ab4de8c04fa
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 1.57ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170906212920 (::1) 3.41ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170906212920 (::1) 1.69ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170906212920 (::1) 2.03ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/images/vector.png (::1) 1.07ms
+[NotebookApp | INFO] 302 GET /notebooks/images/vectorGeom1.png (::1) 1.10ms
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170906212920 (::1) 1.88ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170906212920 (::1) 1.94ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170906212920 (::1) 2.17ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170906212920 (::1) 1.89ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170906212920 (::1) 1.96ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Kernel restarted: 948dfbd3-430f-4655-8852-0ab4de8c04fa
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Kernel restarted: bddc908a-4689-415c-a834-b3e55ba0b092
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Kernel restarted: bddc908a-4689-415c-a834-b3e55ba0b092
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Kernel restarted: bddc908a-4689-415c-a834-b3e55ba0b092
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | CRITICAL] received signal 15, stopping
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Kernel shutdown: 948dfbd3-430f-4655-8852-0ab4de8c04fa
+[NotebookApp | INFO] Kernel shutdown: bddc908a-4689-415c-a834-b3e55ba0b092
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/yoavfreund/projects/edX-Micro-Master-in-Data-Science/probability-and-statistics-using-python/notebooks/regression
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8888/?token=5edc3f547298e1183cd1723004555d5b95cb7c439ec22d56
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=5edc3f547298e1183cd1723004555d5b95cb7c439ec22d56
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 16.07ms referer=http://localhost:8888/tree?token=00a2f338f27488f1037105f42583689e90cf62f2ba780101
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170907125108 (::1) 2.36ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170907125108 (::1) 2.65ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170907125108 (::1) 2.22ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170907125108 (::1) 2.30ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /clusters?_=1504813870486 (::1) 2.48ms referer=http://localhost:8888/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 1.58ms referer=http://localhost:8888/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170907125108 (::1) 2.28ms referer=http://localhost:8888/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170907125108 (::1) 1.93ms referer=http://localhost:8888/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170907125108 (::1) 1.97ms referer=http://localhost:8888/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | INFO] Kernel started: 49ac7b65-d53f-4d25-b8a2-d8f5a33fb9ac
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170907125108 (::1) 2.54ms referer=http://localhost:8888/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170907125108 (::1) 2.11ms referer=http://localhost:8888/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170907125108 (::1) 2.03ms referer=http://localhost:8888/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170907125108 (::1) 2.06ms referer=http://localhost:8888/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170907125108 (::1) 2.16ms referer=http://localhost:8888/notebooks/1.Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 1.57ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170907125108 (::1) 2.30ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170907125108 (::1) 2.27ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170907125108 (::1) 2.16ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170907125108 (::1) 2.01ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170907125108 (::1) 1.56ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170907125108 (::1) 1.58ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170907125108 (::1) 1.43ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170907125108 (::1) 2.05ms referer=http://localhost:8888/notebooks/Linear%20Algebra%20Review.ipynb
+[NotebookApp | INFO] Kernel started: 64f89f53-e34f-4bcf-b379-7f4f0c304869
+[NotebookApp | INFO] 302 GET /notebooks/images/vector.png (::1) 1.22ms
+[NotebookApp | INFO] 302 GET /notebooks/images/vectorGeom1.png (::1) 1.22ms
+[NotebookApp | INFO] Saving file at /1.Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 2.13ms referer=http://localhost:8888/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20170907125108 (::1) 2.54ms referer=http://localhost:8888/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20170907125108 (::1) 2.30ms referer=http://localhost:8888/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20170907125108 (::1) 1.47ms referer=http://localhost:8888/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | INFO] Kernel started: 84db6f1a-d46e-4034-a5b8-cac26d2265ff
+[NotebookApp | INFO] 302 GET /notebooks/images/Matrix.svg.png (::1) 1.34ms
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20170907125108 (::1) 2.64ms referer=http://localhost:8888/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20170907125108 (::1) 1.73ms referer=http://localhost:8888/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20170907125108 (::1) 2.10ms referer=http://localhost:8888/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20170907125108 (::1) 1.84ms referer=http://localhost:8888/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20170907125108 (::1) 1.62ms referer=http://localhost:8888/notebooks/2.Matrix%20notation%20and%20operations.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | INFO] Saving file at /1.Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
+[NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
