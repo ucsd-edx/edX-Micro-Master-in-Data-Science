@@ -1,0 +1,15 @@
+Prove equivalence between \(A\Delta B\), \((A\cup B)-(A\cap B)\) and \((A-B)\cup(B-A)\).
+
+
+
+Proof
+
+By definition: \(A\Delta B=\{x\mid x\in A,x\not\in B\text{ or }x\in B,x\not\in A\}=(A-B)\cup(B-A)\)
+
+And: \((A\cup B)-(A\cap B)=(A\cup B)\cap(A\cap B)^c=(A\cup B)\cap (A^c\cup B^c)\)
+
+\(=((A\cup B)\cap A^c)\cup ((A\cup B)\cap B^c)\)
+
+\(=(A\cap A^c)\cup (B\cap A^c)\cup (A\cap B^c)\cup (B\cap B^c)\)
+
+\(=(A-B)\cup(B-A)\)

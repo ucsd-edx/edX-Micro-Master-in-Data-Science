@@ -1,0 +1,35 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+solution1 = "{-2,-1,0,1,2,3,4}"
+solution2 = "{1}"
+solution3 = "{1}"
+    </script>
+
+
+<p>Explicitly express following sets by listing their elements in ascending order without spaces, enclosed in curly braces, e.g., {2,4}.</p>
+<p>(hint: for the cubic equation, you can first guess a solution \(a\) and then factor out \((x-a)\) on the left-hand side)</p>
+<ul>
+<li>\(\{x\in\mathbb{Z}\mid -2\le x &lt; 5\}\)</li>
+</ul>
+<stringresponse answer="$solution1" type="ci">
+  <textline size="20"/>
+</stringresponse>
+
+<ul>
+<li>\(\{x\in\mathbb{N}\mid x^2+x-2=0\}\)</li>
+</ul>
+<stringresponse answer="$solution2" type="ci">
+  <textline size="20"/>
+</stringresponse>
+
+<ul>
+<li>\(\{x\in\mathbb{R}\mid x^3+x-2=0\}\)</li>
+</ul>
+<stringresponse answer="$solution3" type="ci">
+  <textline size="20"/>
+</stringresponse>
+
+
+  </text>
+</problem>

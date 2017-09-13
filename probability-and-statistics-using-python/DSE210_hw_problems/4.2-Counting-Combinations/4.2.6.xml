@@ -1,0 +1,12 @@
+<problem>
+  <p>Count the number of 6-digit number with:</p>
+  <ul><li>strictly ascending digits from left to right. For example 124579. (hint: any 6 distinct digits can only be arranged in ascending order in one way)</li></ul>
+<numericalresponse answer="84">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>ascending digits from left to right. For example 133588. (hint: choose 6 digits out of {1,2,...,9} with repetition)</li></ul>
+<numericalresponse answer="5005">
+  <formulaequationinput />
+</numericalresponse>
+</problem>

@@ -1,0 +1,16 @@
+<problem>
+<ul><li>How many terms are there in the expansion of \((x+y+z)^{10}\)?</li></ul>
+<numericalresponse answer="66">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>What is the coefficient of \(x^3y^2\) in expansion of \((x+2y+1)^{10}\)?</li></ul>
+<numericalresponse answer="10080">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>What is the coefficient of \(x^3\) in expansion of \((x^2-x+2)^{10}\)?</li></ul>
+<numericalresponse answer="-26880">
+  <formulaequationinput />
+</numericalresponse>
+</problem>

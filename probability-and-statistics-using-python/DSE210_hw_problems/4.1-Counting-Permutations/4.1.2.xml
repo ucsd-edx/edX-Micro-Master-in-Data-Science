@@ -1,0 +1,17 @@
+<problem>
+  <p>How many anagrams, with or without meaning, does the following words have?</p>
+  <ul><li>CHAIR</li></ul>
+<numericalresponse answer="120">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>INDIA</li></ul>
+<numericalresponse answer="60">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>SWIMMING</li></ul>
+<numericalresponse answer="10080">
+  <formulaequationinput />
+</numericalresponse>
+</problem>

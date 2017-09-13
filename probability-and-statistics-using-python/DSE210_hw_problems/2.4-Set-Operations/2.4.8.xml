@@ -1,0 +1,47 @@
+<problem>
+  <p>Simplify the following expressions.</p>
+<optionresponse>
+<ul>
+<li>\((A^c)^c\)</li>
+</ul>
+<optioninput>
+    <option correct="False">\(\emptyset\)</option>
+    <option correct="True">\(A\)</option>
+  <option correct="False"> A^c</option>
+    <option correct="False">\(\Omega\)</option>
+  </optioninput>
+</optionresponse>
+<optionresponse>
+<ul>
+<li>\((A\Delta B)\Delta B\)</li>
+</ul>
+<optioninput>
+    <option correct="False">\(\emptyset\)</option>
+    <option correct="True">\(A\)</option>
+    <option correct="False">\(B\)</option>
+    <option correct="False">\(\Omega\)</option>
+  </optioninput>
+</optionresponse>
+<optionresponse>
+<ul>
+<li>\((\Omega\cap A)\cup(B\cap A)\)</li>
+</ul>
+<optioninput>
+    <option correct="False">\(\emptyset\)</option>
+    <option correct="True">\(A\)</option>
+    <option correct="False">\(B\)</option>
+    <option correct="False">\(\Omega\)</option>
+  </optioninput>
+</optionresponse>
+<optionresponse>
+<ul>
+<li>\((A\cup \Omega)\cap(\emptyset\cup A^c)\)</li>
+</ul>
+<optioninput>
+    <option correct="True">\(\emptyset\)</option>
+    <option correct="False">\(A\)</option>
+    <option correct="False">\(B\)</option>
+    <option correct="False">\(\Omega\)</option>
+  </optioninput>
+</optionresponse>
+</problem>

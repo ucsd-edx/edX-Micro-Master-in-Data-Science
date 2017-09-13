@@ -1,0 +1,22 @@
+<problem>
+  <p>Count the number of positive palindromic integers that are:</p>
+  <ul><li>at most 5 digits</li></ul>
+<numericalresponse answer="1098">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>5 digits and even</li></ul>
+<numericalresponse answer="400">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>5 digits and contain digits 7 or 8</li></ul>
+<numericalresponse answer="452">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>5 digits and smaller then 54321</li></ul>
+<numericalresponse answer="443">
+  <formulaequationinput />
+</numericalresponse>
+</problem>

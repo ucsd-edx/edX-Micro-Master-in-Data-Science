@@ -1,0 +1,23 @@
+<problem>
+  <p>How many ordered pairs \((A, B)\), where \(A\), \(B\) are subsets of \({1, 2, 3, 4, 5}\), are there if:
+</p>
+<ul><li>\(A\cap B=\emptyset\)</li></ul>
+<numericalresponse answer="243">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>\(A\cap B=\{1\}\)</li></ul>
+<numericalresponse answer="81">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>\(|A\cap B|=1\)</li></ul>
+<numericalresponse answer="405">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>\(|A\cup B|=4\)</li></ul>
+<numericalresponse answer="405">
+  <formulaequationinput />
+</numericalresponse>
+</problem>

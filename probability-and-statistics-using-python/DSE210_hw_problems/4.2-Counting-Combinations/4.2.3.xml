@@ -1,0 +1,23 @@
+<problem>
+<p>There are 13 ranks {A,2,...,10,J,Q,K} and 4 suits {diamond, club, heart, spade} in a 52 cards poker deck. How many ways can you draw 5 cards such that:</p>
+  
+  <ul><li>there is no constraint?</li></ul>
+<numericalresponse answer="2598960">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>they are of same suits?</li></ul>
+<numericalresponse answer="5148">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>they have all four suits?</li></ul>
+<numericalresponse answer="685464">
+  <formulaequationinput />
+</numericalresponse>
+  
+    <ul><li>they are of distinct ranks?</li></ul>
+<numericalresponse answer="1317888">
+  <formulaequationinput />
+</numericalresponse>
+</problem>

@@ -1,0 +1,32 @@
+<problem>
+  <p>Given set \(A\) = \{1,2,3\}\) and \(B = \{x,y\}\), list the following sets and calculate the following cardinalities.</p>
+<ul><li>\(|\mathcal{P}(A)|\)</li></ul>
+<numericalresponse answer="8">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>\(|\mathcal{P}(B)|\)</li></ul>
+<numericalresponse answer="4">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>\(|A\times B^2|\)</li></ul>
+<numericalresponse answer="12">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>\(|\mathcal{P}(A\times B)|\)</li></ul>
+<numericalresponse answer="64">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>\(|\mathcal{P}(A)\times B|\)</li></ul>
+<numericalresponse answer="16">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>\(|\mathcal{P}(\mathcal{P}(A))|\)</li></ul>
+<numericalresponse answer="256">
+  <formulaequationinput />
+</numericalresponse>
+</problem>

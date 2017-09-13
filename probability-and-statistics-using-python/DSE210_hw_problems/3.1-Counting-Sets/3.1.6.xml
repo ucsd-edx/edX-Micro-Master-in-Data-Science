@@ -1,0 +1,23 @@
+<problem>
+<p>Of 100 foreign journalists who can speak English, French or Chinese at the press conference:</p>
+<p>	&#x9; 65 speak English.</p>
+<p>	60 speak French.</p>
+<p>	60 speak Chinese.</p>
+<p>	35 speak both English and French.</p>
+<p>	35 speak both English and Chinese.</p>
+<p>	25 speak both French and Chinese.</p>
+<p>How many journalists speak exactly:</p>
+  <ul><li>one language?</li></ul>
+<numericalresponse answer="25">
+  <formulaequationinput />
+</numericalresponse>
+<ul><li>two languages?</li></ul>
+<numericalresponse answer="65">
+  <formulaequationinput />
+</numericalresponse>
+<ul><li>three languages?</li></ul>
+<numericalresponse answer="10">
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

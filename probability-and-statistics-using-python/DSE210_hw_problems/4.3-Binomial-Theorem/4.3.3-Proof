@@ -1,0 +1,3 @@
+Prove the following equation \(\sum_{k=0}^nk\binom{n}{k}=n2^{n-1}\).
+Proof:
+\(\sum_{k=0}^nk\binom{n}{k}=\sum_{k=0}^nn\binom{n-1}{k-1}=n2^{n-1}\)

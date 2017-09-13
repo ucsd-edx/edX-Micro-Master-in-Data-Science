@@ -1,0 +1,12 @@
+<problem>
+  <p>Three couples are going to sit, and each pair of them want to sit together. How many ways can they sit if there are:</p>
+<ul><li>6 seats in a row?</li></ul>
+<numericalresponse answer="48">
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>6 seats in a circle?</li></ul>
+<numericalresponse answer="96">
+  <formulaequationinput />
+</numericalresponse>
+</problem>

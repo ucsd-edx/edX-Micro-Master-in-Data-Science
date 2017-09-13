@@ -1,0 +1,9 @@
+<problem>
+<numericalresponse answer="126">
+  <p>A rectangle in an \(m\times n\) chessboard, is a cartesian product \(S\times T\), where \(S\) is an interval in \(\{1,...,m\}\) and \(T\) is an interval in \(\{1,2,...,n\}\). For example, here are two rectangles in the \(4\times 5\) chessboard. Observe that the \(2\times2\) chessboard has 9 rectangles. How many rectangles does the \(3\times 6\) chessboard have? </p>
+  <image> <image src="/static/42rectangles.png" height="200" width="240"/></image>
+  <label> This image has 2 examples of rectangles.</label>
+<formulaequationinput/>
+
+</numericalresponse>
+</problem>

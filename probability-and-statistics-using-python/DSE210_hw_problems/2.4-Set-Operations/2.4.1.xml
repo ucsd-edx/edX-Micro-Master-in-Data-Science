@@ -1,0 +1,60 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+    </script>
+
+
+<p>Let \(\Omega = \{1,2,...,10\}\) be universal set and let \(A = \{1,3,5,7,9\}\), \(B = \{1,2,3,4,5\}\). Find:</p>
+<p>(Indicate a set by listing its elements in ascending order without spaces, enclosed in curly braces, e.g., {2,4}.)</p>
+<ul>
+<li>\(A^c\)</li>
+</ul>
+<stringresponse answer="{2,4,6,8,10}" type="ci">
+  <textline size="20"/>
+</stringresponse>
+
+<ul>
+<li>\(B^c\)</li>
+</ul>
+<stringresponse answer="{6,7,8,9,10}" type="ci">
+  <textline size="20"/>
+</stringresponse>
+
+<ul>
+<li>\(A\cap B\)</li>
+</ul>
+<stringresponse answer="{1,3,5}" type="ci">
+  <textline size="20"/>
+</stringresponse>
+    
+<ul>
+<li>\(A\cup B\)</li>
+</ul>
+<stringresponse answer="{1,2,3,4,5,7,9}" type="ci">
+  <textline size="20"/>
+</stringresponse>
+    
+<ul>
+<li>\(A - B\)</li>
+</ul>
+<stringresponse answer="{7,9}" type="ci">
+  <textline size="20"/>
+</stringresponse>
+    
+<ul>
+<li>\(B - A\)</li>
+</ul>
+<stringresponse answer="{2,4}" type="ci">
+  <textline size="20"/>
+</stringresponse>
+    
+<ul>
+<li>\(A\Delta B\)</li>
+</ul>
+<stringresponse answer="{2,4,7,9}" type="ci">
+  <textline size="20"/>
+</stringresponse>
+
+
+  </text>
+</problem>

@@ -1,0 +1,17 @@
+<problem>
+  <p>Find the number of different 7-place license plates if:</p>
+<ul><li>first 3 places are letters and the last 4 places are numbers</li></ul>
+<numericalresponse answer="175760000">
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>first 2 places are letters and the last 5 places are numbers</li></ul>
+<numericalresponse answer="67600000">
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>first 3 places are letters and the last 4 places are numbers, and repetition among letters are prohibited.</li></ul>
+<numericalresponse answer="156000000">
+  <formulaequationinput />
+</numericalresponse>
+</problem>

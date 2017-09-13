@@ -1,0 +1,27 @@
+<problem>
+  <p>There are 10 points \(A,B,\ldots\) in a plane, no three on the same line.</p>
+  <ul><li>How many lines are determined by the points?</li></ul>
+<numericalresponse answer="45">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>How many of these lines do not pass through \(A\) or \(B\)?</li></ul>
+<numericalresponse answer="28">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>How many triangles are determined by the points?</li></ul>
+<numericalresponse answer="120">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>How many of these triangles contain point \(A\)?</li></ul>
+<numericalresponse answer="36">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>How many of these triangles contain the side \(AB\)?</li></ul>
+<numericalresponse answer="8">
+  <formulaequationinput />
+</numericalresponse>
+</problem>

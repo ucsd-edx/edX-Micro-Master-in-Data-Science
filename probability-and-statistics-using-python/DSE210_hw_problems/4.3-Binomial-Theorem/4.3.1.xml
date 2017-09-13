@@ -1,0 +1,41 @@
+<problem>
+  <p>Calculate the following results.</p>
+  <ul><li>\(\binom{10}{0}+\binom{10}{1}+\ldots+\binom{10}{10}\)</li></ul>
+<numericalresponse answer="1024">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>\(\binom{10}{0}-\binom{10}{1}+\binom{10}{2}-\ldots+\binom{10}{10}\)</li></ul>
+<numericalresponse answer="0">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>\(\binom{11}{1}+\binom{11}{3}+\binom{11}{5}+\ldots+\binom{11}{11}\)</li></ul>
+<numericalresponse answer="1024">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>\(\binom{10}{0}^2+\binom{10}{1}^2+\ldots+\binom{10}{10}^2\) (hint: Vandermonde's Identity \(\binom{10}{i}^2=\binom{10}{i}\binom{10}{10-i}\))</li></ul>
+<numericalresponse answer="184756">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>\(\binom{4}{4}+\binom{5}{4}+\ldots+\binom{10}{4}\) (hint: Pascal Identity, and this is a hard question)</li></ul>
+<numericalresponse answer="462">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>\(\binom{4}{0}+\binom{5}{1}+\ldots+\binom{10}{6}\)</li></ul>
+<numericalresponse answer="462">
+  <formulaequationinput />
+</numericalresponse>
+  
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>Hockey-Stick Identity: \(\sum_{i=r}^n\binom{n}{r}=\binom{n+1}{r+1}\) for \(n>r\)</p>
+
+</div>
+</solution>
+</problem>

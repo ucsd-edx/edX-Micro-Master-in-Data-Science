@@ -1,0 +1,17 @@
+<problem>
+<p>How many ways can we put 10 idential red balls and 10 identical  blue balls into 4 distinct urns such that:</p>
+  <ul><li>there is no constraint?</li></ul>
+<numericalresponse answer="81796">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>first urn has at least 1 red ball and 2 blue balls?</li></ul>
+<numericalresponse answer="36300">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>each urn has at least 1 ball? (hint: inclusion-exclusion principle)</li></ul>
+<numericalresponse answer="65094">
+  <formulaequationinput />
+</numericalresponse>
+</problem>

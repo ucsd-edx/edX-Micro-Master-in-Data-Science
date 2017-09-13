@@ -1,0 +1,27 @@
+<problem>
+  <p>Suppose a book case shelf has 5 history texts, 3 sociology texts, 6 anthropology texts and 4 psychology texts. Find the number of ways a student can choose:</p>
+<ul><li>one of the texts</li></ul>
+<numericalresponse answer="18">
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>two of the texts</li></ul>
+<numericalresponse answer="153">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>one history text and one other type of text</li></ul>
+<numericalresponse answer="75">
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>one of each type of texts</li></ul>
+<numericalresponse answer="360">
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>two different type of texts</li></ul>
+<numericalresponse answer="119">
+  <formulaequationinput />
+</numericalresponse>
+</problem>

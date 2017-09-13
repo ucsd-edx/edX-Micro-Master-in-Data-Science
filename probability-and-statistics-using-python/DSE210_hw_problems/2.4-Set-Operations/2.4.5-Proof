@@ -1,0 +1,24 @@
+Show that the following three statements are equivalent:
+
+(1) \(A \subseteq B\); (2) \(A \cap B = A\); (3) \(A \cup B = B\).
+
+
+
+Proof Part 1
+
+First prove \(A\subseteq B\) implies \(A\cap B=A\). Given \(A\subseteq B\), any \(x\in A\) also have \(x\in B\). Thus \(x\in A\cap B\) and \(A\subseteq A\cap B\). Also \(A\cap B\subseteq A\). Accordingly, \(A\cap B=A\).
+
+
+Proof Part 2
+
+Then prove \(A\cap B=A\) implies \(A\subseteq B\). Given \(A\cap B = A\), any \(x\in A\) also have \(x\in A \cap B\), which means \(x \in B\). Therefore \(A \subseteq B\).
+
+
+Proof Part 3
+
+Next prove \(A\subseteq B\) implies \(A\cup B=B\). Given \(A\subseteq B\), any \(x\in A\cup B\) also have \(x\in B\). Thus \(A\cup B\subseteq B\). Also \(B\subseteq A\cup B\). Accordingly, \(A\cup B=B\).
+
+
+Proof Part 4
+
+Last prove \(A\cup B=B\) implies \(A\subseteq B\). Given \(A\cup B=B\), any \(x\in A\) also have \(x\in A\cup B\), which means \(x\in B\). Therefore \(A\subseteq B\).

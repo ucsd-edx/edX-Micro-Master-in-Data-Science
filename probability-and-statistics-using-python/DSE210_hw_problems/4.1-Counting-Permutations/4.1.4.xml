@@ -1,0 +1,17 @@
+<problem>
+<p>How many ways are there to arrange 7 distinct red and 5 distinct blue balls in a row such that:</p>
+  <ul><li>red balls lie together</li></ul>
+<numericalresponse answer="3628800">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>blue balls lie together?</li></ul>
+<numericalresponse answer="4838400">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>no two blue balls lie next to each other?</li></ul>
+<numericalresponse answer="33868800">
+  <formulaequationinput />
+</numericalresponse>
+</problem>
