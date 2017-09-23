@@ -1,0 +1,49 @@
+1. 
+For two sets, the inclusion-exclusion principle says that 
+|A\union B|=|A|+|B|-|A\inter B|
+(may need to use \cap or \bigcap, \cup, \bigcup)
+
+Given two sets $A$ and B$G, calculate their union in two ways.
+
+a. First determine $A\union B$, and then the size of this union. 
+
+Input: Two sets A and B
+
+Output 1: The set AUB
+
+Output 2: |AUB| = 
+
+b. First deterimine $|A|$, $|B|$, $A\inter B$, and $|A\inter B|4.
+Then use the inclusion exclusion formula to determin $|A\union B$. 
+
+Input: Two sets A and B.
+
+Output 1: |A|=
+Output 2: |B|=
+Output 3: |A\inter B|=
+Output 4: |A\union B|=
+
+2. For three sets, the inclusion-exclusion principle says that 
+|A\union B|=|A|+|B|-|A\inter B|....
+
+Given three sets $A$, $B$, and $C$, determine... in two ways.
+
+a. First determine the union $A\union B\union C$, then its size
+$|A..|$. 
+
+Output 1: A Union
+
+Output 2: size
+
+b. First detemrine the sizes of the three sets and all their
+mutual intersections. Then determine |A\union...|. 
+Note that for brevity we are asking you to print the intermeiate
+answer just for $A\inter B\inter C$, but you need to calculate
+all. 
+
+Output 1: A\inter B\inter C
+Output 2: |....|
+Output 3: |A\union...|
+
+
+
