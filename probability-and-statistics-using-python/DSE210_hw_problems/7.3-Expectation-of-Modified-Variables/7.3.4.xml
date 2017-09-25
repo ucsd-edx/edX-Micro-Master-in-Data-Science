@@ -1,0 +1,28 @@
+<problem>
+<p>Given random variable \(X\) with support set \(S=\mathbb{N}\) and probability density function:</p>
+  <p>\[P(X=i)=\frac{k}{2^i}\]</p>
+<p>where \(k\in\mathbb{R}\) is a fixed number. If another random variable \(Y=X\mod 3\), answer the following questions</p>
+  
+<ul><li>What is \(k\)?</li></ul>
+  <numericalresponse answer="1/2">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>What is \(E[X]\)?</li></ul>
+<numericalresponse answer="1">
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>What is \(P(Y)=1\)?</li></ul>
+  <numericalresponse answer="2/7">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>What is \(E[Y]\)?</li></ul>
+  <numericalresponse answer="4/7">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+</problem>

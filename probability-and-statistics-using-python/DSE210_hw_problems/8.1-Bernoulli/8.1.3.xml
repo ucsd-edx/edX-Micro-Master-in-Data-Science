@@ -1,0 +1,34 @@
+<problem>
+<p>If \(X\) and \(Y\) are Bernoulli random variables with parameters 0.2 and 0.35, which means \(X \sim B_{0.2}\) and \(Y \sim B_{0.35}\). What is the Bernoulli parameter for the following random variables? If they are not Bernoulli, input -1.</p>
+
+<ul><li>\(1-X\)</li></ul>
+<numericalresponse answer="0.8">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(X^2\)</li></ul>
+<numericalresponse answer="0.2">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(X\cdot Y\)</li></ul>
+<numericalresponse answer="0.07">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(|X-Y|\)</li></ul>
+<numericalresponse answer="0.41">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(X+Y\)</li></ul>
+<numericalresponse answer="-1">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

@@ -1,0 +1,16 @@
+<problem>
+<p>Let \(X\) denote the number when rolling a fair six-sided die, then what is:</p>
+
+<ul><li>\(V(X)\)</li></ul>
+  <numericalresponse answer="35/12">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(\sigma_X\)</li></ul>
+<numericalresponse answer="1.7078">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

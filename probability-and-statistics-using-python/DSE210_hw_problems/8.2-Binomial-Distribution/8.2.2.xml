@@ -1,0 +1,22 @@
+<problem>
+<p>A biased coin with probability 0.6 to land on head is flipped 6 times, what is the probability:</p>
+
+<ul><li>there are two heads?</li></ul>
+<numericalresponse answer="0.1382">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>There is at most one tail?</li></ul>
+<numericalresponse answer="0.2333">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>There are even number of heads?</li></ul>
+<numericalresponse answer="0.5">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

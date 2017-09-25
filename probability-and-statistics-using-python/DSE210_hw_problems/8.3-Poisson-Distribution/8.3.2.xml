@@ -1,0 +1,23 @@
+<problem>
+<p>Assume that the number of typo errors on a single page of a book follows Poisson distribution with parameter 1/3.</p>
+
+<ul><li>
+What is the probability that there are no typo on this page?</li></ul>
+<numericalresponse answer="0.7165">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>What is the probability that there are two typos on this page?</li></ul>
+<numericalresponse answer="0.0398">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>What is the probability that there are more then one typo on this page?</li></ul>
+<numericalresponse answer="0.0446">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

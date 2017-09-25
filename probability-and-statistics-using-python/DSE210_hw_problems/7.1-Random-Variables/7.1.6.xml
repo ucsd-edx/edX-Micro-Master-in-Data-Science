@@ -1,0 +1,37 @@
+<problem>
+<p>Given the following cumulative density function with fixed number \(k\) and "\(+\)" or "\(-\)" sign in the blank:</p>
+  <p>\[F(x)=\begin{cases}
+    0 &amp; x&lt;1\\
+    k\underline{\hspace{0.5cm}}\frac{1}{\lfloor x\rfloor} &amp; x\ge1
+    \end{cases}\]</p>
+<ul><li>What is number \(k\)?</li></ul>
+<numericalresponse answer="1">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>The sign in the blank should be?</li></ul>
+<optionresponse>
+<optioninput>
+    <option correct="False">\(+\)</option>
+    <option correct="True">\(-\)</option>
+  </optioninput>
+</optionresponse>
+  
+<ul><li>What is \(x_{\min}\)?</li></ul>
+<numericalresponse answer="2">
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>What is \(P(X=4)\)?</li></ul>
+  <numericalresponse answer="1/12">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>What is \(P(2 &lt; X\le 4)\)?</li></ul>
+  <numericalresponse answer="3/10">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+</problem>

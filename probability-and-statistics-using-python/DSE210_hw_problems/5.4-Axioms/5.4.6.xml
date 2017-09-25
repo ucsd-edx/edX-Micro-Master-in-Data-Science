@@ -1,0 +1,42 @@
+<problem>
+<p>For random variable \(X\) in sample space \(\Omega = \{1,2,...,100\}\), we have \(P(X = i) = i/K\) for all \(i\in\Omega\).</p>
+  
+<ul><li>What is the fixed number \(K\)?</li></ul>
+<numericalresponse answer="5050">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>For events \(E_1=\{\text{integer divisible by }3\}\) and \(E_2=\{\text{integer divisible by }5\}\), what is \(|E_1|\) and \(|E_2|\)?</li></ul>
+
+<label> \(|E_1|=\) </label>
+<numericalresponse answer="33">
+  <formulaequationinput />
+</numericalresponse>
+  
+<label> \(|E_2|=\) </label>
+<numericalresponse answer="20">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>What is \(P(E_1)\) and \(P(E_2)\)?</li></ul>
+
+<label> \(P(E_1)=\) </label>
+<numericalresponse answer="594/5050">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<label> \(P(E_2)=\) </label>
+<numericalresponse answer="1050/5050">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>What is \(P(X\text{ not divisible by }3\text{ or }5)\)?</li></ul>
+
+<numericalresponse answer="3361/5050">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

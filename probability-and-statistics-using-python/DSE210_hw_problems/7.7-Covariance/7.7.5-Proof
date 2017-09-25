@@ -1,0 +1,15 @@
+7.7.5
+
+Given random variable \(Y\) as a linear function of random variable \(X\), which means \(Y=aX+b\), where \(a,b\in\mathbb{R}\), prove that \(|\sigma_{X,Y}|=1\).
+
+
+
+Proof
+
+\(Cov(X,Y)=Cov(X,aX+b)=aV(X)\), \(\sigma_Y=|a|\sigma_X\)
+
+If \(|\sigma_{X,Y}|=1\) for two random variables \(X\) and \(Y\), can we say that \(Y\) must be a linear function of \(X\)?
+
+Proof
+
+yes

@@ -1,0 +1,7 @@
+<problem>
+<p>A player flips two fair coins. The player win $3 if 2 heads occur and $1 if 1 head occurs. How much should the player lose if no heads occur for the game to be fair (expected gain is 0)</p>
+<numericalresponse answer="5">
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

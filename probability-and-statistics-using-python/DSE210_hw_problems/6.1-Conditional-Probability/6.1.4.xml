@@ -1,0 +1,35 @@
+<problem>
+<p>Find \(P(B|A)\) in the following cases:</p>
+
+<ul><li>\(A=B\)</li></ul>
+<numericalresponse answer="1">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(A=B^c\)</li></ul>
+<numericalresponse answer="0">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(A\subseteq B\)</li></ul>
+<numericalresponse answer="1">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(B=\Omega\)</li></ul>
+<numericalresponse answer="1">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(A\cap B=\emptyset\)</li></ul>
+<numericalresponse answer="0">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(B=\emptyset\)</li></ul>
+<numericalresponse answer="0">
+  <formulaequationinput />
+</numericalresponse>
+
+
+</problem>

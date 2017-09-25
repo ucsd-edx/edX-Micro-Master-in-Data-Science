@@ -1,0 +1,89 @@
+<problem>
+<p>Given \(U=B(0.3)\), \(V=B(0.6)\) and they are independent. Let \(X=I(U=V)\) be the indicator variable (check the definition in 7.4.2) and let \(Y=U\cdot V\).</p>
+
+<ul><li>Given following table for joint distribution of \(X\) and \(Y\):</li></ul>
+<table style="border: 1px solid black">
+    <tr>
+      <th>\(X\setminus Y\)</th>
+      <td>0</td> <td>1</td> <td>sum</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>blank1</td> <td>blank2</td> <td>blank3</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>blank4</td> <td>blank5</td> <td>blank6</td>
+    </tr>
+    <tr>
+      <td>sum</td>
+      <td>blank7</td> <td>blank8</td> <td></td>
+    </tr>
+  </table>
+  <p>Fill in the blank:</p>
+<numericalresponse answer="0.54">
+  <label>blank1</label>
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+<numericalresponse answer="0">
+  <label>blank2</label>
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+<numericalresponse answer="0.54">
+  <label>blank3</label>
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+<numericalresponse answer="0.28">
+  <label>blank4</label>
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+<numericalresponse answer="0.18">
+  <label>blank5</label>
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+<numericalresponse answer="0.46">
+  <label>blank6</label>
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+<numericalresponse answer="0.82">
+  <label>blank7</label>
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+<numericalresponse answer="0.18">
+  <label>blank8</label>
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(P(X=U)=\)?</li></ul>
+<numericalresponse answer="0.6">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(P(Y\not=V)=\)?</li></ul>
+<numericalresponse answer="0.42">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+ 
+<ul><li>For random variable \(Z=I(X=Y)\), \(E[Z]=\)?</li></ul>
+<numericalresponse answer="0.72">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(V(Z)=\)?</li></ul>
+<numericalresponse answer="0.2016">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+</problem>

@@ -1,0 +1,23 @@
+<problem>
+<p>We say \(X_A\) is an indicator variable for event \(A\) if:</p>
+  <p>\begin{align*}
+        I=\begin{cases}
+          1 &amp; A\text{ occurs}\\
+          0 &amp; A^c\text{ occurs}
+        \end{cases}
+      \end{align*}</p>
+  <p>If \(P(A)=0.35\), what is:</p>
+
+<ul><li>\(E(X_A)\)</li></ul>
+<numericalresponse answer="0.35">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(V(X_A)\)</li></ul>
+<numericalresponse answer="0.2275">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

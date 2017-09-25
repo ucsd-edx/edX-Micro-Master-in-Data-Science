@@ -1,0 +1,25 @@
+<problem>
+<p>There are 5 red balls and 3 blue balls of identical size and shape in a bag.</p>
+
+<ul><li>Pick one ball at random, what is the size of the sample space for color \(X\)?</li></ul>
+<numericalresponse answer="2">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(P(X = \text{blue}) = \) ?</li></ul>
+<numericalresponse answer=".375">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>If \(P(X = \text{blue}) = 0.4\) after another two balls are added into the bag, how many blue balls are added?</li></ul>
+<numericalresponse answer="1">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>If \(P(X = \text{blue}) = 0.5\) after two balls are removed from the bag, how many blue balls are removed?</li></ul>
+<numericalresponse answer="0">
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

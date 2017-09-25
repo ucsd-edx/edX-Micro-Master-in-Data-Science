@@ -1,0 +1,16 @@
+<problem>
+<p>Continually flip a biased coin with 0.6 probability to land on head until a tail occurs. Let X denote the number of flips.</p>
+
+<ul><li>What is \(P(X\le 3)\)?</li></ul>
+<numericalresponse answer="0.784">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>What is \(P(X\ge 5)\)?</li></ul>
+<numericalresponse answer="0.1296">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

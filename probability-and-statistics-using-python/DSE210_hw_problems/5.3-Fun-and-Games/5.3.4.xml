@@ -1,0 +1,16 @@
+<problem>
+<p>Suppose a 52-card regular poker deck is randomly divided into 4 13-card hands with order. What is the probability that:</p>
+
+<ul><li>each hand has an ace?</li></ul>
+<numericalresponse answer="0.1055">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>one hand has four aces?</li></ul>
+<numericalresponse answer="0.0106">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

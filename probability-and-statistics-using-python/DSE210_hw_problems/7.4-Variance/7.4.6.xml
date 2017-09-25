@@ -1,0 +1,22 @@
+<problem>
+<p>Repeatly flip a biased coin with probability \(1/3\) to land on head and stop when the first head appear. Denote the number of flips by \(X\).</p>
+
+<ul><li>What is \(E[X]\)?</li></ul>
+<numericalresponse answer="3">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>What is \(V(X)\)?</li></ul>
+<numericalresponse answer="6">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>What is the expected number of flips when we first get pattern "HHT"?</li></ul>
+<numericalresponse answer="19.5">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

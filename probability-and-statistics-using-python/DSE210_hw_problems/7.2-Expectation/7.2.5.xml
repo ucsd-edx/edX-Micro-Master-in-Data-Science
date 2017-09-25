@@ -1,0 +1,9 @@
+<problem>
+<p>There are 3 classes with 20, 22 and 25 students in each class. If one out of 67 students is
+randomly chosen, and let \(X\) denote the number of students in his or her class, what is \(E[X]\)?</p>
+
+<numericalresponse answer="22.5224">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+</problem>

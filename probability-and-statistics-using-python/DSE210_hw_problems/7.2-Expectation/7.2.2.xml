@@ -1,0 +1,14 @@
+<problem>
+<p>A bag contains five balls numbered 1 to 5. Randomly draw two balls from the bag and let \(X\) denote the sum of the numbers.</p>
+
+<ul><li>What is \(P(X\le 5)\)?</li></ul>
+<numericalresponse answer="0.4">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>What is \(E[X]\)?</li></ul>
+<numericalresponse answer="6">
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

@@ -1,0 +1,15 @@
+<problem>
+<p>A product, sold seasonly, yield a net profit of $100 for each unit sold and a net loss of $60 for each unit left unsold. The number of units for the product ordered at a department store during a season is the random variable \(X\) with probability density function:</p>
+  <p>\[\begin{align*}
+        P(X=i)=\begin{cases}
+          1/11 &amp; 10\le i\le 20\\
+          0 &amp; \text{otherwise}
+        \end{cases}
+      \end{align*}\]</p>
+  <p>If the store must stock this product in advance, how many should it stores to maximize the expected profit?</p>
+
+<numericalresponse answer="16">
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

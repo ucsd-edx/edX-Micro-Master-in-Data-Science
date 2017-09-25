@@ -1,0 +1,23 @@
+<problem>
+<p>If two Bernoulli random variables \(U\) and \(V\) follow different distribution but has the same
+variance 0.21, and \(X = U + V\), calculate the following:</p>
+
+<ul><li>\(E[X]\)</li></ul>
+<numericalresponse answer="1">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(V(X)\)</li></ul>
+<numericalresponse answer="0.42">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(\sigma_X\)</li></ul>
+<numericalresponse answer="0.6481">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

@@ -1,0 +1,9 @@
+6.1.7
+
+Prove that for two non-empty events \(A\) and \(B\), \(P (A|B) \le P (A)\) implies \(P (B|A) \ge P (B)\).
+
+
+
+Proof
+
+\(P(A\cap B)\le P(A)P(B)\)

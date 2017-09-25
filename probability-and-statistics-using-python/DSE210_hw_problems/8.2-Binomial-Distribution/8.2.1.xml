@@ -1,0 +1,28 @@
+<problem>
+<p>If random variable \(X\) follows Binomial distribution with \(n = 10\), \(p = 0.7\), calculate the following:</p>
+
+<ul><li>\(E[X]\)</li></ul>
+<numericalresponse answer="7">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(V(X)\)</li></ul>
+<numericalresponse answer="2.1">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(\sigma_X\)</li></ul>
+<numericalresponse answer="1.4491">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>The most probable outcome of \(X\)</li></ul>
+<numericalresponse answer="7">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

@@ -1,0 +1,9 @@
+8.3.4
+
+Given two independent random variable \(X\) and \(Y\) both follow Poisson distribution with parameter \(\lambda_1\) and \(\lambda_2\). Prove that \(Z=X+Y\) also follows Poisson distribution, and with parameter \(\lambda_1+\lambda_2\).
+
+
+
+Proof
+
+\[\begin{align*} P(Z=k)&=\sum_{i=0}^k e^{\lambda_1}\frac{\lambda_1^i}{i!}e^{\lambda_2}\frac{\lambda_2^{k-i}}{(k-i)!}\\ &=e^{\lambda_1+\lambda_2}\frac{1}{k!}\sum_{i=0}^k\binom{k}{i}\lambda_1^i\lambda_2^{k-i}\\ &=e^{\lambda_1+\lambda_2}\frac{(\lambda_1+\lambda_2)^k}{k!} \end{align*}\]

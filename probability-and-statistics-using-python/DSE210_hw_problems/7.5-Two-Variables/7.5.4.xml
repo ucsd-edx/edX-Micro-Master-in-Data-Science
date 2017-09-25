@@ -1,0 +1,28 @@
+<problem>
+<p>Roll two fair six-sided dice, and let \(X\), \(Y\) denote the first and the second numbers.</p>
+
+<ul><li>If \(Z=\max\{X,Y\}\), find \(E[Z]\) and \(V(Z)\).</li></ul>
+<numericalresponse answer="4.4722">
+  <label>\(E[Z]\)</label>
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+<numericalresponse answer="1.9715">
+  <label>\(V(Z)\)</label>
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>If \(Z=|X-Y|\), find \(E[Z]\) and \(V(Z)\).</li></ul>
+<numericalresponse answer="1.9444">
+  <label>\(E[Z]\)</label>
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+<numericalresponse answer="2.0525">
+  <label>\(V(Z)\)</label>
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

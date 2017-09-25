@@ -1,0 +1,72 @@
+<problem>
+<p>Given random variables \(X\), \(Y\) with following joint distribution:</p>
+<table style="border: 1px solid black">
+    <tr>
+      <th>\(X\setminus Y\)</th>
+      <td>-3</td> <td>2</td> <td>4</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0.1</td> <td>0.2</td> <td>0.2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>0.3</td> <td>0.1</td> <td>0.1</td>
+    </tr>
+  </table>
+<ul><li>What is \(P(X=1)\)?</li></ul>
+<numericalresponse answer="0.5">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>What is \(E[X]\)?</li></ul>
+<numericalresponse answer="2">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>What is \(V(X)\)?</li></ul>
+<numericalresponse answer="1">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>What is \(P(Y&gt;0)\)?</li></ul>
+<numericalresponse answer="0.6">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>What is \(E[Y]\)?</li></ul>
+<numericalresponse answer="0.6">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>What is \(V(Y)\)?</li></ul>
+<numericalresponse answer="9.24">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>What is \(P(X=1|Y=-3)\)?</li></ul>
+<numericalresponse answer="0.25">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>What is \(P(Y&gt;0|X=3)\)?</li></ul>
+  <numericalresponse answer="1/3">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>Are \(X\) and \(Y\) independent?</li></ul>
+<optionresponse>
+<optioninput>
+    <option correct="False">yes</option>
+    <option correct="True">no</option>
+  </optioninput>
+</optionresponse>
+</problem>

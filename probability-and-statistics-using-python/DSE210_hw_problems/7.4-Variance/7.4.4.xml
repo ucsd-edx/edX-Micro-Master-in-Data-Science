@@ -1,0 +1,43 @@
+<problem>
+<p>Given random variable \(X\) with following probability density function:</p>
+<table style="border: 1px solid black">
+    <tr>
+      <th>\(x\)</th>
+      <td>1</td> <td>2</td> <td>3</td>
+    </tr>
+    <tr>
+      <th>\(P(x)\)</th>
+      <td>0.3</td> <td>0.5</td> <td>0.2</td>
+    </tr>
+  </table>
+
+<ul><li>For \(Y=2^X\), what is \(E[Y]\), \(V(Y)\) and \(\sigma_Y\)?</li></ul>
+<numericalresponse answer="4.2">
+  <label>\(E[Y]\)</label>
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+<numericalresponse answer="23.6">
+  <label>\(V(Y)\)</label>
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+<numericalresponse answer="4.86">
+  <label>\(\sigma_Y\)</label>
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>If \(Z=aX+b\) with two constant \(a,b\in\mathbb{R}\), and \(E[Z]=0\), \(V(Z)=1\), what is \(a\) and \(b\)?</li></ul>
+<numericalresponse answer="1.4286">
+  <label>\(a\)</label>
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+<numericalresponse answer="-2.7143">
+  <label>\(b\)</label>
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

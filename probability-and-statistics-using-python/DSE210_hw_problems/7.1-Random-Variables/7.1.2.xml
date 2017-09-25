@@ -1,0 +1,21 @@
+<problem>
+<p>Three balls are randomly selected from an urn containing 20 balls numbered 1 through 20. Let random variable X denote the largest number selected:</p>
+
+<ul><li>How many numbers can X take?</li></ul>
+<numericalresponse answer="18">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>What is \(P(X=18)\)?</li></ul>
+  <numericalresponse answer="34/285">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>What is \(P(X\ge 17)\)?</li></ul>
+  <numericalresponse answer="29/57">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+</problem>

@@ -1,0 +1,22 @@
+<problem>
+<p>A computer manufacturing company produce chips with defect probability 0.001. In a package of 2000 chips, denote the number of defective chips by \(X\). Use Poisson distribution for approximation:</p>
+
+<ul><li>The Poisson parameter for \(X\) is:</li></ul>
+<numericalresponse answer="2">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(P(X>1)=\)?</li></ul>
+<numericalresponse answer="0.5490">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(P(X\le 3)=\)?</li></ul>
+<numericalresponse answer="0.8571">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

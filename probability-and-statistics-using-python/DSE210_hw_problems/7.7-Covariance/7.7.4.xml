@@ -1,0 +1,16 @@
+<problem>
+<p>Flip a fair coin, four times. Let \(X\) denote the number of heads occuring, and let \(Y\) denote the longest string of heads occuring. For example \(Y=2\) for outcome "HHTH". Caculate the following:</p>
+
+<ul><li>\(Cov(X,Y)\)</li></ul>
+<numericalresponse answer="0.52">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(\sigma_{X,Y}\)</li></ul>
+<numericalresponse answer="0.89">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

@@ -1,0 +1,16 @@
+<problem>
+<p>Let \(P\) be a probability function on \(S = \{a_1,a_2,a_3\}\). Find \(P(a_1)\) if:</p>
+
+<ul><li>\(P(a_2,a_3)=3P(a_1)\)</li></ul>
+<numericalresponse answer="0.25">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(P(a_1)=2P(a_2)=3P(a_3)\)</li></ul>
+  <numericalresponse answer="6/11">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

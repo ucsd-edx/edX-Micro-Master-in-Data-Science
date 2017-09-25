@@ -1,0 +1,9 @@
+7.4.5
+
+For a given random variable \(X\) and a real number \(a\), prove that \(E[(X-a)^2]\) is maximized when \(a=E[X]\).
+
+
+
+Proof
+
+\(E[(X-a)^2]=a^2-2aE[X]+E[X^2]\), and the quadratic function is maximized when \(a=E[X]\)

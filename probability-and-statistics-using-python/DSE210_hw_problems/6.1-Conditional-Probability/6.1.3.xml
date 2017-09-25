@@ -1,0 +1,29 @@
+<problem>
+<p>Given events \(A\), \(B\) with \(P(A) = 0.5\), \(P(B) = 0.7\), and \(P(A \cap B) = 0.3\), what is:</p>
+
+<ul><li>\(P(A|B)\)</li></ul>
+  <numericalresponse answer="3/7">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(P(B|A)\)</li></ul>
+  <numericalresponse answer="3/5">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(P(A^c|B^c)\)</li></ul>
+  <numericalresponse answer="2/3">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(P(B^c|A^c)\)</li></ul>
+  <numericalresponse answer="4/5">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+
+</problem>

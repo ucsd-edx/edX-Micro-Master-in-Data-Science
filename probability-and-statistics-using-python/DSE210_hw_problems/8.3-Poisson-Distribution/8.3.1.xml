@@ -1,0 +1,48 @@
+<problem>
+<p>Given random variable X following Poisson distribution with parameter 2.5, calculate the following:</p>
+
+<ul><li>\(E[X]\)</li></ul>
+<numericalresponse answer="2.5">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(V(X)\)</li></ul>
+<numericalresponse answer="2.5">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(\sigma_X\)</li></ul>
+<numericalresponse answer="1.5811">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(E[X^2]\)</li></ul>
+<numericalresponse answer="1.75">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(E[X^3]\)</li></ul>
+  <label>hint: \(E[X^{\underline{r}}]=\lambda^r\)</label>
+<numericalresponse answer="21.875">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(P(X\ge 2)\)</li></ul>
+<numericalresponse answer="0.7127">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(P(X\text{ is even})\)</li></ul>
+  <label>hint: consider \(P(X\text{ is even})\) and \(P(X\text{ is odd})\)</label>
+<numericalresponse answer="0.5034">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

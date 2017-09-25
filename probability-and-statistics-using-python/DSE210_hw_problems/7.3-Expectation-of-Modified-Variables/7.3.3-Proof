@@ -1,0 +1,9 @@
+7.3.3
+
+For random variable \(X\), if \(E[X]<\infty\), then prove that \(E[|X|]\ge |E[X]|\).
+
+hint: \(E[X]=\sum_{x\ge 0}x\cdot p(x)+\sum_{x<0}x\cdot p(x)\)
+
+Proof
+
+\[\begin{align*} |E[X]|&=|\sum_{x\ge 0}x\cdot p(x)+\sum_{x<0}x\cdot p(x)|\\ &=|\sum_{x\ge 0}|x|\cdot p(x)-\sum_{x<0}|x|\cdot p(x)|\\ &\le \sum_{x\ge 0}|x|\cdot p(x)+\sum_{x<0}|x|\cdot p(x)\\ &=E[|X|] \end{align*}\]

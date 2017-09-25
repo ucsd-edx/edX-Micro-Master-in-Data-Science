@@ -1,0 +1,40 @@
+<problem>
+<p>Suppose \(A\), \(B\) are events that \(P(A) = 0.65\), \(P(B) = 0.5\) and \(P(A \cap B) = 0.25\).  What are the following probabilities?</p>
+
+<ul><li>\(P(A^c)\)</li></ul>
+<numericalresponse answer="0.35">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(P(B^c)\)</li></ul>
+<numericalresponse answer="0.5">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(P(A\cup B)\)</li></ul>
+<numericalresponse answer="0.9">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(P(A - B)\)</li></ul>
+<numericalresponse answer="0.4">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(P(B - A)\)</li></ul>
+<numericalresponse answer="0.25">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(P(A\Delta B)\)</li></ul>
+<numericalresponse answer="0.65">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(P((A\cup B)^c)\)</li></ul>
+<numericalresponse answer="0.1">
+  <formulaequationinput />
+</numericalresponse>
+
+
+</problem>

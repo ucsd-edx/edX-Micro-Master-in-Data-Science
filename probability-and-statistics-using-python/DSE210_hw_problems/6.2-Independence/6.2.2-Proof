@@ -1,0 +1,11 @@
+6.2.2
+
+Prove if event \(A\) is independent of event \(B\), then \(A^c\) is also independent of \(B\).
+
+
+
+Proof
+
+\(P(A^c\cap B)=P(B - A)=P(B)-P(B\cap A)=P(B)-P(B)P(A)\)
+
+\(=(1-P(A))P(B)=P(A^c)P(B)\)

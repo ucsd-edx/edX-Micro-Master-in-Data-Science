@@ -1,0 +1,21 @@
+<problem>
+<p>Three fair coins are tossed. What is the probability that they are all heads if:</p>
+  
+<ul><li>the first coin is head?</li></ul>
+  <numericalresponse answer="1/4">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>at least one coin is head?</li></ul>
+  <numericalresponse answer="1/7">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>the third coin is tail?</li></ul>
+  <numericalresponse answer="0">
+  <formulaequationinput />
+</numericalresponse>
+
+
+</problem>

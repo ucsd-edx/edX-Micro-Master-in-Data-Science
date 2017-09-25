@@ -1,0 +1,11 @@
+7.2.6
+
+A box contains \(N\) balls, of which \(r\) are red and \(N-r\) are black. Balls are drawn from the box until a red ball is drawn. Show that the expected number of draws is
+
+\[\frac{N+1}{r+1}\]
+
+hint: for support set of \(X\) equals to \(\mathbb{N}\), \(  E[X] =\sum_{k=0}^{\infty} P(X > k)\)
+
+Proof
+
+\[\begin{align} E[X]&=\sum_{k=0}^{N-r}P(X> k)\\ &=\sum_{k=0}^{N-r}\binom{N-r}{k}/\binom{N}{k}\\ &=\sum_{k=0}^{N-r}\binom{N-k}{r}/\binom{N}{r}\\ &=\binom{N+1}{r+1}/\binom{N}{r}\\ &=\frac{N+1}{r+1} \end{align}\]

@@ -1,0 +1,23 @@
+<problem>
+<p>Three fair six-sided dice are thrown. What is the probability that:</p>
+
+<ul><li>Three numbers are distinct?</li></ul>
+<numericalresponse answer="0.5556">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>There is a "1"?</li></ul>
+<numericalresponse answer="0.4213">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>Three numbers can form a consecutive sequence, for example 2,3,4?</li></ul>
+<numericalresponse answer="0.1389">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+
+</problem>

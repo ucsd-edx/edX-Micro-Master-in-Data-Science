@@ -1,0 +1,22 @@
+<problem>
+<p>Flip four biased coin at the same time, and denote the total number of heads by \(X\). If those four coins have 0.3,0.4,0.7,0.8 probability to land on head, calculate the following:</p>
+
+<ul><li>\(P(X)=1\)</li></ul>
+<numericalresponse answer="0.1872">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(E[X]\)</li></ul>
+<numericalresponse answer="2.2">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(V(X)\)</li></ul>
+<numericalresponse answer="0.82">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

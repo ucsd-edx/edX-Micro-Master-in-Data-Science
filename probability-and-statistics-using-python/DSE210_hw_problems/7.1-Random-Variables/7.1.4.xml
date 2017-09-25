@@ -1,0 +1,19 @@
+<problem>
+<p>Given the following probability density function in the picture, what is:</p>
+  <image> <image src="/static/fig_714.png" height="200" width="300"/></image>
+<ul><li>\(P(X=1)\)</li></ul>
+<numericalresponse answer="0.1">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(P(X\ge 1)\)</li></ul>
+<numericalresponse answer="0.4">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(P(X\in\mathbb{Z})\)</li></ul>
+<numericalresponse answer="0.6">
+  <formulaequationinput />
+</numericalresponse>
+  
+</problem>

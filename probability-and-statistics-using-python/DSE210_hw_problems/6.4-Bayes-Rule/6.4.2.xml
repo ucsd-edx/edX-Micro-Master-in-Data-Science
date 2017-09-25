@@ -1,0 +1,16 @@
+<problem>
+<p>A particular car manufacturer has three factories \(F_1\), \(F_2\), \(F_3\) making 21%, 35%, and 44%, respectively, of its cars. Of their output, 7%, 6%, and 2%, respectively, are defective. A car is chosen at random from the manufacturer’s supply.</p>
+
+<ul><li>What is the probability that the car is defective?</li></ul>
+<numericalresponse answer="0.0445">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>Given that the car is defective, what is the probability that it came from factory \(F_1\)?</li></ul>
+<numericalresponse answer="0.3303">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

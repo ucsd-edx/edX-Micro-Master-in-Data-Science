@@ -1,0 +1,24 @@
+<problem>
+<p>Given a uniform space \(\Omega\) = {1,2,...,10}:</p>
+  
+<ul>
+<li>How many distinct events do we have that contain the outcome "1"?</li>
+</ul>
+<numericalresponse answer="512">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>What is \(P(E)\) with \(E\) = {primes}?</li></ul>
+<numericalresponse answer="2/5">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul>
+<li>What is \(P(E)\) with \(E\) = {multiples of 3}?</li></ul>
+<numericalresponse answer="3/10">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

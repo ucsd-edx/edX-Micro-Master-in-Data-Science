@@ -1,0 +1,23 @@
+<problem>
+<p>Assume in blackjack aces always worth 11 and all face cards (jack, queen, king) worth 10. Given a shuffled deck of 52 cards:</p>
+
+<ul><li>What is the probability that you draw 2 cards and they sum 21?</li></ul>
+<numericalresponse answer="0.0483">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>What is the probability that you draw 2 cards and they sum 10?</li></ul>
+<numericalresponse answer="0.0407">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>If you have drawn the 10 of clubs and 4 of hearts, and there are 50 cards left in the deck, what is the probability that the sum exceeds 21 when the third card is drawn?</li></ul>
+<numericalresponse answer="0.54">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+
+</problem>

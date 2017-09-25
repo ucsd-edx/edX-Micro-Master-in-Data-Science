@@ -1,0 +1,16 @@
+<problem>
+<p>An instructor gives his class a set of 10 problems and tells them the final exam will consist of a random selection of 5 of them.  If a student has figured out how to do 7 of them, what is the probability that he or she will answer correctly:</p>
+
+<ul><li>all 5 problems?</li></ul>
+<numericalresponse answer="0.083333">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>at least 4 problems?</li></ul>
+<numericalresponse answer="0.50">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

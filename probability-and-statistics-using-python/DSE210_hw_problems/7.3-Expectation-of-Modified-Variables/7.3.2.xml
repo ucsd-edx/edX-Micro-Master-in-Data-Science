@@ -1,0 +1,29 @@
+<problem>
+<p>Given random variable \(X\) with following probability density distribution, calculate the following:</p>
+<table style="border: 1px solid black">
+    <tr>
+      <th>\(x\)</th>
+      <td>-2</td> <td>-1</td> <td>0</td> <td>1</td> <td>2</td> <td>3</td>
+    </tr>
+    <tr>
+      <th>\(P(x)\)</th>
+      <td>0.1</td> <td>0.2</td> <td>0.1</td> <td>0.3</td> <td>0.2</td> <td>0.1</td>
+    </tr>
+  </table>
+
+<ul><li>\(P(X^3-X&lt;0)\)</li></ul>
+<numericalresponse answer="0.4">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(E[X^2]\)</li></ul>
+<numericalresponse answer="2.6">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(E[|X-1|]\)</li></ul>
+<numericalresponse answer="1.2">
+  <formulaequationinput />
+</numericalresponse>
+  
+</problem>

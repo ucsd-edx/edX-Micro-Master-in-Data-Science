@@ -1,0 +1,22 @@
+<problem>
+<p>Roll a fair six-sided die for 10 times, let \(X\) denote the total number of “1”s and let \(Y\) denote the total number of primes. Calculate the following:</p>
+
+<ul><li>\(P(Y\le 2)\)</li></ul>
+<numericalresponse answer="0.0547">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(P(X=3,Y=4)\)</li></ul>
+<numericalresponse answer="0.045">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(P(X+Y\le 8)\)</li></ul>
+<numericalresponse answer="0.9996">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>
