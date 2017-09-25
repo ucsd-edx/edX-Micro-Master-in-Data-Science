@@ -6,7 +6,7 @@ sigma = np.sqrt(p*(1-p))                          # standard deviation of Bernou
 
 plt.plot(p, sigma, linewidth=4.0)
 
-plt.xticks([0, 1/4, 1/2, 3/4, 1], fontsize = 30)
+plt.xticks([0, 1/4, 1/2, 3/4, 1], fontsize = 30)    # plot commmands
 plt.yticks([1/4, 1/2], fontsize = 30)
 plt.xlabel('$p$', fontsize = 30)
 plt.ylabel('$\sigma$', fontsize = 30)

@@ -11,7 +11,7 @@ def plot_pmf(n, p):
     '''
     k = np.arange(0, n + 1)
     P_binom = binom.pmf(k, n, p)
-    plt.plot(k, P_binom, '-o')
+    plt.plot(k, P_binom, '-o')                           # plot commands
     axes = plt.gca()
     axes.set_xlim([0, n])
     axes.set_ylim([0, 1.1 * max(P_binom)])

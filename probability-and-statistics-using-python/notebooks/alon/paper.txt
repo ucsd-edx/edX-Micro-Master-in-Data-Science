@@ -1,0 +1,42 @@
+The great limnologist George Evelyn
+Hutchinson famously asked the
+question, "why are there so many
+kinds of animals?"1
+. Hutchinson's answer
+to his own question has become one
+of the foundational ideas in ecology, and
+has to do with the abundance of 'regulating
+factors' in the environment. However,
+the idea’s deceptive simplicity can lead
+to important misinterpretations, as
+reported by Ashby et al2
+ in Nature Ecology
+& Evolution.
+Building on a classical theoretical
+model in which species possess a suite
+of traits and the degree of competition
+between them is governed by trait
+similarity, they show that the way
+competition should vary with trait distance
+depends sensitively on whether the
+different traits introduce new ways of being
+regulated. If not — and the authors argue
+that this case is typical — then the number
+of trait combinations that can coexist is
+much smaller than the full set of
+available permutations, leaving many
+potential ecological possibilities
+unfilled.
+Every species is a mind-bogglingly
+complex solution to a unique evolutionary
+problem. But the confusing fact that there
+are more than eight million eukaryotic
+species alone3
+ reveals an apparent
+contradiction in our ideas about how
+such diversity could arise in the first
+place. For if take it for granted that
+inferior types are discarded via natural
+selection, then why are there multiple
+species to begin with, instead of just
+the 'best' one?
