@@ -1,5 +1,5 @@
 <problem>
-  <p>Given set \(A\) = \{1,2,3\}\) and \(B = \{x,y\}\), list the following sets and calculate the following cardinalities.</p>
+  <p>Given set \(A\) = \(\{1,2,3\}\) and \(B = \{x,y\}\), list the following sets and calculate the following cardinalities.</p>
 <ul><li>\(|\mathcal{P}(A)|\)</li></ul>
 <numericalresponse answer="8">
   <formulaequationinput />
