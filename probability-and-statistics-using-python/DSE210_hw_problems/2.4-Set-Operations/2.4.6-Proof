@@ -4,7 +4,7 @@ Prove the Distributive Law: \(A\cap(B\cup C)=(A\cup B)\cap(A\cup C)\)
 Proof
 
 \(A\cap(B\cup C)=\{x\mid x\in A, x\in B\cup C\}\)
-\(=\{x\mid x\in A, x\in B\text{ or }x\in A, x\in C\}=(A\cup B)\cap(A\cup C)\)
+\(=\{x\mid x\in A, x\in B\text{ or }x\in A, x\in C\}=(A\cap B)\cup(A\cap C)\)
 
 
 
@@ -13,7 +13,7 @@ Similarly, what is \(A\cup(B\cap C)\) equal to?
 
 Proof
 
-\(A\cup(B\cap C)=(A\cap B)\cup(A\cap C)\)
+\(A\cup(B\cap C)=(A\cup B)\cap(A\cup C)\)
 
 
 What is \(A\cap\left(\bigcup_{i=1}^t B_i\right)\) and \(A\cup\left(\bigcap_{i=1}^t B_i\right)\)?
