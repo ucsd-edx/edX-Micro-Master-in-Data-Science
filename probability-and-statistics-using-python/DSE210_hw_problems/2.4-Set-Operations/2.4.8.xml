@@ -40,7 +40,7 @@
 <optioninput>
     <option correct="False">\(\emptyset\)</option>
     <option correct="False">\(A\)</option>
-    <option correct="True">\(A^c\)</option>
+    <option correct="True"> A^c </option>
     <option correct="False">\(\Omega\)</option>
   </optioninput>
 </optionresponse>
