@@ -38,9 +38,9 @@
 <li>\((A\cup \Omega)\cap(\emptyset\cup A^c)\)</li>
 </ul>
 <optioninput>
-    <option correct="True">\(\emptyset\)</option>
+    <option correct="False">\(\emptyset\)</option>
     <option correct="False">\(A\)</option>
-    <option correct="False">\(B\)</option>
+    <option correct="True">\(A^c\)</option>
     <option correct="False">\(\Omega\)</option>
   </optioninput>
 </optionresponse>
