@@ -8,7 +8,7 @@ Proof
 
 
 
-Similarly, what is \(A\cup(B\cap C)\) equal to?
+What is \(A\cup(B\cap C)\) equal to?
 
 
 Proof
@@ -16,7 +16,7 @@ Proof
 \(A\cup(B\cap C)=(A\cup B)\cap(A\cup C)\)
 
 
-What is \(A\cap\left(\bigcup_{i=1}^t B_i\right)\) and \(A\cup\left(\bigcap_{i=1}^t B_i\right)\)?
+Generalize the Distributive Law to \(A\cap\left(\bigcup_{i=1}^t B_i\right)\) and \(A\cup\left(\bigcap_{i=1}^t B_i\right)\).
 
 
 
