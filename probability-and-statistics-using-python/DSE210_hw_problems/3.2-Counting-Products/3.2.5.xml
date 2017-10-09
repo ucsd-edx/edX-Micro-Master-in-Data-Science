@@ -1,12 +1,12 @@
 <problem>
   <p>In how many ways can you place 8 rooks on a 8x8 chessboard so that no row or column contains more than one rook if</p>
 
-  <ul><li>rooks are <b>indistinguishable</b></li></ul>
+  <ul><li>rooks are <b>indistinguishable</b>,</li></ul>
 <numericalresponse answer="40320">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>rooks are <b>distinguishable</b></li></ul>
+  <ul><li>rooks are <b>distinguishable</b>?</li></ul>
 <numericalresponse answer="1625702400">
   <formulaequationinput />
 </numericalresponse>
