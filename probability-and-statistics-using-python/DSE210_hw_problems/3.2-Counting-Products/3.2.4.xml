@@ -1,11 +1,11 @@
 <problem>
   <p>Three couples are going to dinner, and each pair wants to sit together. How many ways can they sit if they</p>
-<ul><li>sit in a row?</li></ul>
+<ul><li>sit in a row,</li></ul>
 <numericalresponse answer="48">
   <formulaequationinput />
 </numericalresponse>
   
-<ul><li>sit in a circle and cyclic shift are considered identical?</li></ul>
+<ul><li>sit in a circle and cyclic shift are considered identical,</li></ul>
 <numericalresponse answer="16">
   <formulaequationinput />
 </numericalresponse>
