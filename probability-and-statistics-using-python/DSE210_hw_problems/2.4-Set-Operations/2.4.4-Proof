@@ -1,7 +1,0 @@
-Prove \(B-A=B\cap A^c\).
-
-
-
-Proof
-
-\(B-A = \{x|x\in B,x\not\in A\}=\{x|x\in B,x\in A^c\}=B\cap A^c\)
