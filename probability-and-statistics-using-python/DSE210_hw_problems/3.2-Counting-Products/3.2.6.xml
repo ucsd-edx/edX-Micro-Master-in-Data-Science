@@ -16,6 +16,11 @@
   <formulaequationinput />
 </numericalresponse>
   
+  <ul><li>\(|A\cup B|=5\)</li></ul>
+<numericalresponse answer="243">
+  <formulaequationinput />
+</numericalresponse>
+  
   <ul><li>\(|A\cup B|=4\)</li></ul>
 <numericalresponse answer="405">
   <formulaequationinput />
