@@ -7,7 +7,7 @@ Which of the following represent a set unambiguously?
 <choiceresponse>
 <checkboxgroup>
 <choice correct="true">{3,4,5,7}</choice>
-<choice correct="true">{negative prime}</choice>
+<choice correct="true">{negative primes}</choice>
   <choice correct="true">\(\{x∈R|x^3 >100\}\)</choice>
 <choice correct="false">{good drivers in San Diego}</choice>
 </checkboxgroup>
