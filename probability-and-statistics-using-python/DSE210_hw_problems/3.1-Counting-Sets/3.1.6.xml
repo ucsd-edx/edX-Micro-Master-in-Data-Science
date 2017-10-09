@@ -6,12 +6,12 @@
 <p>	35 speak both English and French.</p>
 <p>	35 speak both English and Chinese.</p>
 <p>	25 speak both French and Chinese.</p>
-<p>How many journalists speak <b>exactly</b>:</p>
-  <ul><li>one language?</li></ul>
+<p>How many journalists speak <b>exactly</b></p>
+  <ul><li>one language,</li></ul>
 <numericalresponse answer="25">
   <formulaequationinput />
 </numericalresponse>
-<ul><li>two languages?</li></ul>
+<ul><li>two languages,</li></ul>
 <numericalresponse answer="65">
   <formulaequationinput />
 </numericalresponse>
