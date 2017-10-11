@@ -1,11 +1,16 @@
 <problem>
-  <p>Three couples are going to sit, and each pair of them want to sit together. How many ways can they sit if there are:</p>
-<ul><li>6 seats in a row?</li></ul>
+  <p>Three couples are going to dinner, and each pair wants to sit together. How many ways can they sit if they</p>
+<ul><li>sit in a row,</li></ul>
 <numericalresponse answer="48">
   <formulaequationinput />
 </numericalresponse>
   
-<ul><li>6 seats in a circle?</li></ul>
+<ul><li>sit in a circle and cyclic shift are considered identical,</li></ul>
+<numericalresponse answer="16">
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>sit in a circle and cyclic shift are considered different?</li></ul>
 <numericalresponse answer="96">
   <formulaequationinput />
 </numericalresponse>

@@ -1,15 +1,30 @@
-Prove equivalence between \(A\Delta B\), \((A\cup B)-(A\cap B)\) and \((A-B)\cup(B-A)\).
+Prove the Distributive Law: \(A\cap(B\cup C)=(A\cap B)\cup(A\cap C)\).
+
+
+Proof
+
+\(A\cap(B\cup C)=\{x\mid x\in A, x\in B\cup C\}\)
+\(=\{x\mid x\in A, x\in B\text{ or }x\in A, x\in C\}=(A\cap B)\cup(A\cap C)\)
+
+
+
+What is \(A\cup(B\cap C)\) equal to?
+
+
+Proof
+
+\(A\cup(B\cap C)=(A\cup B)\cap(A\cup C)\)
+
+
+Generalize the Distributive Law to \(A\cap\left(\bigcup_{i=1}^t B_i\right)\) and \(A\cup\left(\bigcap_{i=1}^t B_i\right)\).
+
+
+
 
 
 
 Proof
 
-By definition: \(A\Delta B=\{x\mid x\in A,x\not\in B\text{ or }x\in B,x\not\in A\}=(A-B)\cup(B-A)\)
+\(A\cap\left(\bigcup_{i=1}^t B_i\right)=\bigcap_{i=1}^t A\cup B_i\)
 
-And: \((A\cup B)-(A\cap B)=(A\cup B)\cap(A\cap B)^c=(A\cup B)\cap (A^c\cup B^c)\)
-
-\(=((A\cup B)\cap A^c)\cup ((A\cup B)\cap B^c)\)
-
-\(=(A\cap A^c)\cup (B\cap A^c)\cup (A\cap B^c)\cup (B\cap B^c)\)
-
-\(=(A-B)\cup(B-A)\)
+\(A\cup\left(\bigcap_{i=1}^t B_i\right)=\bigcup_{i=1}^t A\cap B_i\)

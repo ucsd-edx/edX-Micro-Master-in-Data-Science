@@ -1,11 +1,11 @@
 <problem>
-  <p>Count the number of 7-digit telephone numbers that:</p>
-  <ul><li>start or end with two same digits</li></ul>
-<numericalresponse answer="1900000">
+  <p>In the following, assume that any 7-digit sequence, even 0000000 is a valid telephone number. Count the number of telephone numbers that</p>
+  <ul><li>start or end with two same digits,</li></ul>
+<numericalresponse answer="8100000">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>contain a 5-digit consecutive substring. For example “34567” and “56789”.</li></ul>
+  <ul><li>contain a 5-digit consecutive substring. For example “34567” and “56789”?</li></ul>
 <numericalresponse answer="1700">
   <formulaequationinput />
 </numericalresponse>

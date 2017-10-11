@@ -1,24 +1,32 @@
 <problem>
-  <p>A function \(f:X\rightarrow Y\) is <i>injective</i> if none of the two different elements in \(X\) are mapped to the same element in \(Y\), which means:\[\forall x_1,x_2\in X,\quad x_1\not= x_2 \quad\Rightarrow\quad f(x_1)\not= f(x_2)\]
-    A function \(f:X\rightarrow Y\) is <i>surjective</i> if all elements in \(Y\) are mapped by at least one element in \(X\), which means:\[\forall y\in Y\quad\exists x\in X,\quad f(x)=y\]
-  For sets \(A = \{1,2,3\}\) and \(B = \{a,b,c,d\}\):</p>
-  <ul><li>How many functions \(f:A\rightarrow B\) are there?</li></ul>
+  <p>For \(A\) = \(\{1,2,3\}\) and \(B = \{x,y\}\), calculate the following cardinalities.</p>
+<ul><li>\(|\mathcal{P}(A)|\)</li></ul>
+<numericalresponse answer="8">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>\(|\mathcal{P}(B)|\)</li></ul>
+<numericalresponse answer="4">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>\(|A\times B^2|\)</li></ul>
+<numericalresponse answer="12">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>\(|\mathcal{P}(A\times B)|\)</li></ul>
 <numericalresponse answer="64">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>How many functions \(f:B\rightarrow A\) are there?</li></ul>
-<numericalresponse answer="27">
+  <ul><li>\(|\mathcal{P}(A)\times B|\)</li></ul>
+<numericalresponse answer="16">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>How many <i>injective</i> functions \(f:A\rightarrow B\) are there?</li></ul>
-<numericalresponse answer="64">
-  <formulaequationinput />
-</numericalresponse>
-  
-  <ul><li>\(^\ast\) How many <i>surjective</i> functions \(f:B\rightarrow A\) are there?</li></ul>
-<numericalresponse answer="36">
+  <ul><li>\(|\mathcal{P}(\mathcal{P}(A))|\)</li></ul>
+<numericalresponse answer="256">
   <formulaequationinput />
 </numericalresponse>
 </problem>

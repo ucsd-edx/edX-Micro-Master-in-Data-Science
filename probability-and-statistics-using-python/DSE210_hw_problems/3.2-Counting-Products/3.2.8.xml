@@ -1,0 +1,24 @@
+<problem>
+  <p>A function \(f:X\rightarrow Y\) is <i>injective</i> or <i>one-to-one</i> if different elements in \(X\) map to different elements in \(Y\), namely,\[\forall x_1,x_2\in X,\quad x_1\not= x_2 \quad\Rightarrow\quad f(x_1)\not= f(x_2).\]
+    A function \(f:X\rightarrow Y\) is <i>surjective</i> or <i>onto</i> if all elements in \(Y\) are mapped by at least one element of \(X\), namely, \[\forall y\in Y\quad\exists x\in X,\quad f(x)=y.\]
+  For sets \(A = \{1,2,3\}\) and \(B = \{a,b,c,d\}\), find the number of</p>
+  <ul><li>functions from \(A\) to \(B\),</li></ul>
+<numericalresponse answer="64">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>functions from \(B\) to \(A\),</li></ul>
+<numericalresponse answer="27">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li><b>one-to-one</b> functions from \(A\) to \(B\),</li></ul>
+<numericalresponse answer="64">
+  <formulaequationinput />
+</numericalresponse>
+  
+    <ul><li><b>onto</b> functions from \(B\) to \(A\).</li></ul>
+<numericalresponse answer="36">
+  <formulaequationinput />
+</numericalresponse>
+</problem>

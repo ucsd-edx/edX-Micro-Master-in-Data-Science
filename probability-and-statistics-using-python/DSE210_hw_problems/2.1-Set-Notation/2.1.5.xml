@@ -8,7 +8,7 @@ solution3 = "{1}"
 
 
 <p>Explicitly express following sets by listing their elements in ascending order without spaces, enclosed in curly braces, e.g., {2,4}.</p>
-<p>(hint: for the cubic equation, you can first guess a solution \(a\) and then factor out \((x-a)\) on the left-hand side)</p>
+<p>Hint: for the cubic equation, you can first guess a solution \(a\) and then factor out \((x-a)\).</p>
 <ul>
 <li>\(\{x\in\mathbb{Z}\mid -2\le x &lt; 5\}\)</li>
 </ul>

@@ -1,21 +1,22 @@
 <problem>
-  <p>Count the number of positive palindromic integers that are:</p>
-  <ul><li>at most 5 digits</li></ul>
+  <p>A word that reads the same from left to right and right to left is a <i>palindrome</i>. For example, "I", "noon" and "racecar" are palindromes. In the following, we consider palindromic integers. Note that the first digit of an integer cannot be 0.</p>
+  <p>How many positive palindromic integers are</p>
+  <ul><li>at most 5-digit long,</li></ul>
 <numericalresponse answer="1098">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>5 digits and even</li></ul>
+  <ul><li>exactly 5-digit long and even,</li></ul>
 <numericalresponse answer="400">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>5 digits and contain digits 7 or 8</li></ul>
+  <ul><li>5-digit long and contain 7 or 8,</li></ul>
 <numericalresponse answer="452">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>5 digits and smaller then 54321</li></ul>
+  <ul><li>5-digit long and smaller than 54321?</li></ul>
 <numericalresponse answer="443">
   <formulaequationinput />
 </numericalresponse>

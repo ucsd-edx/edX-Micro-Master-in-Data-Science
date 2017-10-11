@@ -1,23 +1,14 @@
 <problem>
-  <p>How many ordered pairs \((A, B)\), where \(A\), \(B\) are subsets of \({1, 2, 3, 4, 5}\), are there if:
-</p>
-<ul><li>\(A\cap B=\emptyset\)</li></ul>
-<numericalresponse answer="243">
+  <p>In how many ways can you place 8 rooks on a 8x8 chessboard so that no row or column contains more than one rook if</p>
+
+  <ul><li>rooks are <b>indistinguishable</b>,</li></ul>
+<numericalresponse answer="40320">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>\(A\cap B=\{1\}\)</li></ul>
-<numericalresponse answer="81">
+  <ul><li>rooks are <b>distinguishable</b>?</li></ul>
+<numericalresponse answer="1625702400">
   <formulaequationinput />
 </numericalresponse>
-  
-  <ul><li>\(|A\cap B|=1\)</li></ul>
-<numericalresponse answer="405">
-  <formulaequationinput />
-</numericalresponse>
-  
-  <ul><li>\(|A\cup B|=4\)</li></ul>
-<numericalresponse answer="405">
-  <formulaequationinput />
-</numericalresponse>
+
 </problem>

@@ -1,30 +1,24 @@
-Prove the Distributive Law: \(A\cap(B\cup C)=(A\cup B)\cap(A\cup C)\)
+Show that the following three statements are equivalent:
 
-
-Proof
-
-\(A\cap(B\cup C)=\{x\mid x\in A, x\in B\cup C\}\)
-\(=\{x\mid x\in A, x\in B\text{ or }x\in A, x\in C\}=(A\cap B)\cup(A\cap C)\)
+(1) \(A \subseteq B\); (2) \(A \cap B = A\); (3) \(A \cup B = B\).
 
 
 
-Similarly, what is \(A\cup(B\cap C)\) equal to?
+Proof Part 1
+
+First prove \(A\subseteq B\) implies \(A\cap B=A\). Given \(A\subseteq B\), any \(x\in A\) also have \(x\in B\). Thus \(x\in A\cap B\) and \(A\subseteq A\cap B\). Also \(A\cap B\subseteq A\). Accordingly, \(A\cap B=A\).
 
 
-Proof
+Proof Part 2
 
-\(A\cup(B\cap C)=(A\cup B)\cap(A\cup C)\)
-
-
-What is \(A\cap\left(\bigcup_{i=1}^t B_i\right)\) and \(A\cup\left(\bigcap_{i=1}^t B_i\right)\)?
+Then prove \(A\cap B=A\) implies \(A\subseteq B\). Given \(A\cap B = A\), any \(x\in A\) also have \(x\in A \cap B\), which means \(x \in B\). Therefore \(A \subseteq B\).
 
 
+Proof Part 3
+
+Next prove \(A\subseteq B\) implies \(A\cup B=B\). Given \(A\subseteq B\), any \(x\in A\cup B\) also have \(x\in B\). Thus \(A\cup B\subseteq B\). Also \(B\subseteq A\cup B\). Accordingly, \(A\cup B=B\).
 
 
+Proof Part 4
 
-
-Proof
-
-\(A\cap\left(\bigcup_{i=1}^t B_i\right)=\bigcap_{i=1}^t A\cup B_i\)
-
-\(A\cup\left(\bigcap_{i=1}^t B_i\right)=\bigcup_{i=1}^t A\cap B_i\)
+Last prove \(A\cup B=B\) implies \(A\subseteq B\). Given \(A\cup B=B\), any \(x\in A\) also have \(x\in A\cup B\), which means \(x\in B\). Therefore \(A\subseteq B\).

@@ -1,32 +1,28 @@
 <problem>
-  <p>Given set \(A\) = \(\{1,2,3\}\) and \(B = \{x,y\}\), list the following sets and calculate the following cardinalities.</p>
-<ul><li>\(|\mathcal{P}(A)|\)</li></ul>
-<numericalresponse answer="8">
+  <p>How many ordered pairs \((A, B)\), where \(A\), \(B\) are subsets of \({1, 2, 3, 4, 5}\), are there if
+</p>
+<ul><li>\(A\cap B=\emptyset\)</li></ul>
+<numericalresponse answer="243">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>\(|\mathcal{P}(B)|\)</li></ul>
-<numericalresponse answer="4">
+  <ul><li>\(A\cap B=\{1\}\)</li></ul>
+<numericalresponse answer="81">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>\(|A\times B^2|\)</li></ul>
-<numericalresponse answer="12">
+  <ul><li>\(|A\cap B|=1\)</li></ul>
+<numericalresponse answer="405">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>\(|\mathcal{P}(A\times B)|\)</li></ul>
-<numericalresponse answer="64">
+  <ul><li>\(|A\cup B|=5\)</li></ul>
+<numericalresponse answer="243">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>\(|\mathcal{P}(A)\times B|\)</li></ul>
-<numericalresponse answer="16">
-  <formulaequationinput />
-</numericalresponse>
-  
-  <ul><li>\(|\mathcal{P}(\mathcal{P}(A))|\)</li></ul>
-<numericalresponse answer="256">
+  <ul><li>\(|A\cup B|=4\)</li></ul>
+<numericalresponse answer="405">
   <formulaequationinput />
 </numericalresponse>
 </problem>
