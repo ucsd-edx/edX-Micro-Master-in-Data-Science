@@ -1,5 +1,5 @@
 <problem>
-  <p>How many anagrams, with or without meaning, does the following words have?</p>
+  <p>How many anagrams, with or without meaning, do the following words have?</p>
   <ul><li>CHAIR</li></ul>
 <numericalresponse answer="120">
   <formulaequationinput />
