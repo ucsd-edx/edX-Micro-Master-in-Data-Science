@@ -1,7 +1,7 @@
 <problem>
   <p>In the following, assume that any 7-digit sequence, even 0000000 is a valid telephone number. Count the number of telephone numbers that</p>
   <ul><li>start or end with two same digits,</li></ul>
-<numericalresponse answer="8100000">
+<numericalresponse answer="1900000">
   <formulaequationinput />
 </numericalresponse>
   
