@@ -1,4 +1,5 @@
 <problem>
+  <p>Recall that the power set \(\mathcal{P}(S)\) of a set \(S\) is the collection of all subsets of \(S\).</p> 
   <p>For \(A\) = \(\{1,2,3\}\) and \(B = \{x,y\}\), calculate the following cardinalities.</p>
 <ul><li>\(|\mathcal{P}(A)|\)</li></ul>
 <numericalresponse answer="8">
