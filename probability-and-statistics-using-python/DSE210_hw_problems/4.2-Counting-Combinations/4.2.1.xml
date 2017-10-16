@@ -5,7 +5,12 @@
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>How many of these lines do not pass through \(A\) or \(B\)?</li></ul>
+  <ul><li>How many of the lines pass through \(A\), \(B\), or both?</li></ul>
+<numericalresponse answer="17">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>How many of the lines do not pass through \(A\) or \(B\)?</li></ul>
 <numericalresponse answer="28">
   <formulaequationinput />
 </numericalresponse>
@@ -15,12 +20,12 @@
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>How many of these triangles contain point \(A\)?</li></ul>
+  <ul><li>How many of the triangles contain point \(A\)?</li></ul>
 <numericalresponse answer="36">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>How many of these triangles contain the side \(AB\)?</li></ul>
+  <ul><li>How many of the triangles contain the side \(AB\)?</li></ul>
 <numericalresponse answer="8">
   <formulaequationinput />
 </numericalresponse>
