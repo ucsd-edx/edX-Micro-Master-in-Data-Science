@@ -1,4 +1,4 @@
-Prove the following generalized Pascal Identity with \(n,k_1,k_2,k_3\ge 1\)
+Prove the following generalized Pascal Identity for \(n,k_1,k_2,k_3\ge 1\)
 
 \[\binom{n}{k_1,k_2,k_3}=\binom{n-1}{k_1-1,k_2,k_3}+\binom{n-1}{k_1,k_2-1,k_3}+\binom{n-1}{k_1,k_2,k_3-1}\]
 
