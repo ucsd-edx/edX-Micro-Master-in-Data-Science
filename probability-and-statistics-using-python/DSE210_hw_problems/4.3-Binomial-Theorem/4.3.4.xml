@@ -1,15 +1,15 @@
 <problem>
-<ul><li>What is the coefficient for \(x^4\) in the expansion of \((2x-1)^7\)?</li></ul>
+<ul><li>What is the coefficient of \(x^4\) in the expansion of \((2x-1)^7\)?</li></ul>
 <numericalresponse answer="-560">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>What is the constant in the expansion of \((x-\frac 2 x)^6\)?</li></ul>
+  <ul><li>What is the constant term in the expansion of \((x-\frac 2 x)^6\)?</li></ul>
 <numericalresponse answer="160">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>What is the coefficient for \(x^2\) in the expansion of \((x+2)^4(x+3)^5\)?</li></ul>
+  <ul><li>What is the coefficient of term \(x^2\) in the expansion of \((x+2)^4(x+3)^5\)?</li></ul>
 <numericalresponse answer="18738">
   <formulaequationinput />
 </numericalresponse>
