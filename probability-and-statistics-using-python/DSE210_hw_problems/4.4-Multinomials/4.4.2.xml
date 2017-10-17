@@ -1,11 +1,16 @@
 <problem>
   <p>How many ways can we divide 12 people into:</p>
-  <ul><li>three distinct groups evenly?</li></ul>
+  <ul><li>three distinct groups evenly,</li></ul>
 <numericalresponse answer="34650">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>three distinct groups with 3,4 and 5 people?</li></ul>
+  <ul><li>three identical groups evenly,</li></ul>
+  <numericalresponse answer="5775">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>three distinct groups with 3,4 and 5 people,</li></ul>
 <numericalresponse answer="27720">
   <formulaequationinput />
 </numericalresponse>
