@@ -1,5 +1,5 @@
 <problem>
-<ul><li>How many terms are there in the expansion of \((x+y+z)^{10}\)?</li></ul>
+<ul><li>How many terms are there in the expansion of \((x+y+z)^{10}\) after combining of like terms?</li></ul>
 <numericalresponse answer="66">
   <formulaequationinput />
 </numericalresponse>
