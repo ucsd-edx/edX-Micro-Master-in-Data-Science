@@ -1,11 +1,11 @@
 <problem>
-<p>How many ordered integer solutions \((a,b,c,d)\) are there to the equation \(a+b+c+d=10\) such that:</p>
-  <ul><li>they are non-negative?</li></ul>
+<p>How many ordered integer solutions \((a,b,c,d)\) are there to the equation \(a+b+c+d=10\) if all of \(a,b,c,d\) are</p>
+  <ul><li>non-negative,</li></ul>
 <numericalresponse answer="286">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>they are positive?</li></ul>
+  <ul><li>positive?</li></ul>
 <numericalresponse answer="84">
   <formulaequationinput />
 </numericalresponse>
