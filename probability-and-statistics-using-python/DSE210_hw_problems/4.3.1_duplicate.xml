@@ -1,0 +1,73 @@
+<problem>
+  <p>Calculate the following for even \(n\)</p>
+  <ul><li>\(\binom{n}{0}+\binom{n}{1}+\ldots+\binom{n}{n}\)</li></ul>
+<multiplechoiceresponse>
+<choicegroup type="MultipleChoice">
+    <choice correct="false">\(\binom{2n}{n}\)</choice>
+  <choice correct="false">\(\binom{n}{n/2}\)</choice>
+    <choice correct="true">\(2^n\)</choice>
+  <choice correct="false">\(2^{n-1}\)</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+  
+  <ul><li>\(\binom{n}{0}-\binom{n}{1}+\binom{n}{2}-\ldots+\binom{n}{n}\)</li></ul>
+<multiplechoiceresponse>
+<choicegroup type="MultipleChoice">
+  <choice correct="false">\(\binom{n}{n/2}\)</choice>
+  <choice correct="false">\(2^{n-1}\)</choice>
+  <choice correct="false">\(n/2\)</choice>
+  <choice correct="true">\(0\)</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+  
+  <ul><li>\(\binom{n}{0}^2+\binom{n}{1}^2+\ldots+\binom{n}{n}^2\) (hint: \(\binom{n}{i}^2=\binom{n}{i}\binom{n}{10-i}\))</li></ul>
+<multiplechoiceresponse>
+<choicegroup type="MultipleChoice">
+  <choice correct="true">\(\binom{2n}{n}\)</choice>
+  <choice correct="false">\(\binom{n}{n/2}\)</choice>
+  <choice correct="false">\(2^n\)</choice>
+  <choice correct="false">\(2^{n-1}\)</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+  
+<p>Calculate the following for odd \(n\)</p>
+  <ul><li>\(\binom{n}{1}+\binom{n}{3}+\binom{n}{5}+\ldots+\binom{n}{n}\)</li></ul>
+<multiplechoiceresponse>
+<choicegroup type="MultipleChoice">
+  <choice correct="false">\(\binom{2n}{n}\)</choice>
+  <choice correct="false">\(\binom{n}{n/2}\)</choice>
+  <choice correct="false">\(2^{n}\)</choice>
+  <choice correct="true">\(2^{n-1}\)</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+  
+<p>Calculate the following for \(r\le n\)</p>
+  <ul><li>\(\binom{r}{r}+\binom{r+1}{r}+\ldots+\binom{n}{r}\)</li></ul>
+<multiplechoiceresponse>
+<choicegroup type="MultipleChoice">
+  <choice correct="false">\(\binom{2n}{r}\)</choice>
+  <choice correct="false">\(\binom{n}{r+1}\)</choice>
+  <choice correct="false">\(\binom{n+1}{n-r}\)</choice>
+  <choice correct="true">\(\binom{n+1}{r+1}\)</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+  
+  <ul><li>\(\binom{n-r}{0}+\binom{n-r+1}{1}+\ldots+\binom{n}{r}\)</li></ul>
+<multiplechoiceresponse>
+<choicegroup type="MultipleChoice">
+  <choice correct="false">\(\binom{2n}{n-r}\)</choice>
+  <choice correct="false">\(\binom{n+1}{r+1}\)</choice>  
+  <choice correct="false">\(\binom{n+1}{n-r}\)</choice>
+  <choice correct="true">\(\binom{n+1}{n-r+1}\)</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+  
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>Hockey-Stick Identity: \(\sum_{i=r}^n\binom{n}{r}=\binom{n+1}{r+1}\) for \(n>r\)</p>
+
+</div>
+</solution>
+</problem>
