@@ -1,5 +1,5 @@
 <problem>
-<ul><li>What is the coefficient of \(x^4\) in the expansion of \((2x-1)^7\)?</li></ul>
+<ul><li>What is the coefficient of term \(x^4\) in the expansion of \((2x-1)^7\)?</li></ul>
 <numericalresponse answer="-560">
   <formulaequationinput />
 </numericalresponse>
