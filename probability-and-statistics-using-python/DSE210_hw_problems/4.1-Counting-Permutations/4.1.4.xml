@@ -1,5 +1,5 @@
 <problem>
-<p>In how many ways can 7 distinct red and 5 distinct blue balls be in a row such that</p>
+<p>In how many ways can 7 distinct red and 5 distinct blue balls be placed in a row such that</p>
   <ul><li>all red balls are adjacent,</li></ul>
 <numericalresponse answer="3628800">
   <formulaequationinput />
