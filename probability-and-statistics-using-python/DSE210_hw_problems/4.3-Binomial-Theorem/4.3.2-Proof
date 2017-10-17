@@ -2,7 +2,7 @@
 
 Prove the "Subset-of-a-subset" Identity \(\binom{n}{m}\binom{m}{k}=\binom{n}{k}\binom{n-k}{m-k}\) with \(0\le k\le m\le n\) algebraically, and try to understand it combinatorially.
 
-(hint: for the combinatorial proof, think about its name)
+Hint: for the combinatorial proof, think about its name.
 
 Proof
 
