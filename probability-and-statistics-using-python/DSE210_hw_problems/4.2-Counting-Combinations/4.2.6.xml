@@ -1,11 +1,11 @@
 <problem>
   <p>Count the number of 6-digit numbers with</p>
-  <ul><li><b>strictly</b> ascending digits, for example 124579. (hint: any 6 distinct digits can only be arranged in ascending order in one way and the first digit cannot be 0)</li></ul>
+  <ul><li><b>strictly</b> ascending digits, for example 124579. Hint: any 6 distinct digits can only be arranged in ascending order in one way and the first digit cannot be 0.</li></ul>
 <numericalresponse answer="84">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>ascending digits, for example 133588. (hint: choose 6 digits with repetition and the first digit cannot be 0)</li></ul>
+  <ul><li>ascending digits, for example 133588. Hint: choose 6 digits with repetition and the first digit cannot be 0.</li></ul>
 <numericalresponse answer="5005">
   <formulaequationinput />
 </numericalresponse>
