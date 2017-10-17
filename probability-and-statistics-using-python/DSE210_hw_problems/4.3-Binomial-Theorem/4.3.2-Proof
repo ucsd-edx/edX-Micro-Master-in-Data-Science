@@ -1,5 +1,10 @@
+4.3.2
+
 Prove the "Subset-of-a-subset" Identity \(\binom{n}{m}\binom{m}{k}=\binom{n}{k}\binom{n-k}{m-k}\) with \(0\le k\le m\le n\) algebraically, and try to understand it combinatorially.
+
 (hint: for the combinatorial proof, think about its name)
 
-Proof:
-The algebraic proof is omitted. The number of ways of first pick an \(m\)-element subset \(B\) of an \(n\)-element set \(A\), and then pick a \(k\)-element subset \(C\) from \(B\) is equal to the number of ways that we first pick \(k\)-element subset \(C\) from \(A\), and then pick \((m-k)\)-element subset \(B-C\) from \(A-C\).
+Proof
+
+The algebraic proof is omitted. The number of ways to first pick an \(m\)-element subset \(B\) from an \(n\)-element set \(A\), and then pick a \(k\)-element subset \(C\) from \(B\) is equal to the number of ways that we first pick the \(k\)-element subset \(C\) from \(A\), and then pick the \((m-k)\)-element subset \(B-C\) from \(A-C\).
+
