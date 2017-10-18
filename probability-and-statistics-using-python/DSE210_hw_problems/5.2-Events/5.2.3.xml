@@ -1,33 +1,35 @@
 <problem>
-<p>Suppose you throw two fair six-sided dice at the same time. Let random variable \(X\) be the sum of the faces.</p>
-<p>(Indicate a set by listing its elements in ascending order without spaces, enclosed in curly braces, e.g., {2,4}.)</p>
+<p>Let the random variable \(X\) be the sum of two fair six-sided dice rolls.</p>
+<p>Indicate a set by listing its elements in ascending order without spaces, enclosed in curly braces, e.g., {2,4}.</p>
 
-<ul><li>What is the sample space \(\Omega\)?</li></ul>
+<ul><li>What is the sample space?</li></ul>
 <stringresponse answer="{2,3,4,5,6,7,8,9,10,11,12}" type="ci">
   <textline size="20"/>
 </stringresponse>
 
-
-<ul><li>How many distinct events do we have?</li></ul>
+<ul><li>How many possible events are there?</li></ul>
 <numericalresponse answer="2048">
   <formulaequationinput />
 </numericalresponse>
 
-
-<ul><li>Which outcome in the sample space \(\Omega\) has the highest probability of occuring?</li></ul>
-<numericalresponse answer="7">
-  <formulaequationinput />
-</numericalresponse>
-
-
-<ul><li>What is the probability of the outcome in the previous question?</li></ul>
+<ul><li>What is the highest probability of any value of \(X\)?</li></ul>
 <numericalresponse answer="1/6">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
 </numericalresponse>
 
+<ul><li>What is the lowest probability of any value of \(X\)?</li></ul>
+<numericalresponse answer="1/36">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
 
-<ul><li>Let \(E\) be the event that the sum of the two dice is a perfect square.  What is the probability of \(E\), \(P(E)\)?</li></ul>
+<ul><li>What is the event \(E\) when \(X\) is a perfect square?</li></ul>
+<stringresponse answer="{4,9}" type="ci">
+  <textline size="20"/>
+</stringresponse>
+  
+<ul><li>\(P(E)=\)?</li></ul>
 <numericalresponse answer="7/36">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
