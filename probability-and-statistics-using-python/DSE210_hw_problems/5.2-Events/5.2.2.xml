@@ -1,8 +1,8 @@
 <problem>
-<p>Given a uniform space \(\Omega\) = {1,2,...,10}:</p>
+<p>For the uniform space \(\Omega\) = {1,2,...,10}</p>
   
 <ul>
-<li>How many distinct events do we have that contain the outcome "1"?</li>
+<li>How many distinct events contain outcome "1"?</li>
 </ul>
 <numericalresponse answer="512">
   <formulaequationinput />
