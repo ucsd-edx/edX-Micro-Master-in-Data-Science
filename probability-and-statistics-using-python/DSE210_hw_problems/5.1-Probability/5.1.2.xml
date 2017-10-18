@@ -1,0 +1,29 @@
+<problem>
+  <text>
+    
+<p>What are the sample spaces for the following experiments?</p>
+<p>Indicate a set by listing its elements in ascending order without spaces, enclosed in curly braces, e.g., {2,4}.</p>
+<ul>
+<li>The outcome when rolling a six-sided die.</li>
+</ul>
+<stringresponse answer="{1,2,3,4,5,6}" type="ci">
+  <textline size="20"/>
+</stringresponse>
+
+<ul>
+<li>The sum when rolling two six-sided dice.</li>
+</ul>
+<stringresponse answer="{2,3,4,5,6,7,8,9,10,11,12}" type="ci">
+  <textline size="20"/>
+</stringresponse>
+
+<ul>
+<li>The absolute value of the difference between the outcomes when rolling two six-sided dice.</li>
+</ul>
+<stringresponse answer="{0,1,2,3,4,5}" type="ci">
+  <textline size="20"/>
+</stringresponse>
+
+
+  </text>
+</problem>
