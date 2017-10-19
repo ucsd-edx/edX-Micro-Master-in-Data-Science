@@ -10,7 +10,7 @@
 </numericalresponse>
   
   <ul><li>What is the coefficient of \(x^3\) in expansion of \((x^2-x+2)^{10}\)?</li></ul>
-<numericalresponse answer="-26880">
+<numericalresponse answer="-38400">
   <formulaequationinput />
 </numericalresponse>
 </problem>
