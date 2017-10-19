@@ -1,26 +1,21 @@
 <problem>
   <p>How many ways can we divide 12 people into:</p>
-  <ul><li>three distinct groups evenly,</li></ul>
+  <ul><li>three disjoint 4-person groups when the order of the groups matters, for example each group will perform a different task,</li></ul>
 <numericalresponse answer="34650">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>three identical groups evenly,</li></ul>
+  <ul><li>three disoint 4-person groups when the order of the groups does not matter,</li></ul>
   <numericalresponse answer="5775">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>three distinct groups with 3,4 and 5 people,</li></ul>
+  <ul><li>three disjoint groups with 3,4 and 5 people,</li></ul>
 <numericalresponse answer="27720">
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>three unordered groups evenly,</li></ul>
-<numericalresponse answer="11550">
-  <formulaequationinput />
-</numericalresponse>
-  
-  <ul><li>three unordered groups with 3,3 and 6 people?</li></ul>
+  <ul><li>three disjoint groups with 3,3 and 6 people, when the order of the groups does not matter?</li></ul>
 <numericalresponse answer="9240">
   <formulaequationinput />
 </numericalresponse>
