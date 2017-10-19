@@ -5,12 +5,12 @@
 </numericalresponse>
   
   <ul><li>What is the constant term in the expansion of \((x-\frac 2 x)^6\)?</li></ul>
-<numericalresponse answer="160">
+<numericalresponse answer="-160">
   <formulaequationinput />
 </numericalresponse>
   
   <ul><li>What is the coefficient of term \(x^2\) in the expansion of \((x+2)^4(x+3)^5\)?</li></ul>
-<numericalresponse answer="18738">
+<numericalresponse answer="23112">
   <formulaequationinput />
 </numericalresponse>
 </problem>
