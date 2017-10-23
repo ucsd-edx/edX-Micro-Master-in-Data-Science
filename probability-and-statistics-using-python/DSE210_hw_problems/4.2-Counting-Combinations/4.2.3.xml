@@ -1,5 +1,5 @@
 <problem>
-<p>A standard 52-card poker deck consists of 4 cards and 13 ranks.
+<p>A standard 52-card poker deck consists of 4 suits and 13 ranks.
   How many ways can you draw 5 cards such that:</p>
   
   <ul><li>there is no constraint,</li></ul>
