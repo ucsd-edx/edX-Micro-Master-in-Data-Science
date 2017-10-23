@@ -1,7 +1,7 @@
 <problem>
-<p>An instructor gives his class a set of 10 problems and tells them the final exam will consist of a random selection of 5 of them.  If a student has figured out how to do 7 of them, what is the probability that he or she will answer correctly:</p>
+<p>An instructor gives a class a set of 10 problems and says that the final exam will consist of a random selection of 5 of the problems. If a student has figured out how to solve 7 of the problems, what is the probability that he or she will answer correctly</p>
 
-<ul><li>all 5 problems?</li></ul>
+<ul><li>all 5 problems,</li></ul>
 <numericalresponse answer="0.083333">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
