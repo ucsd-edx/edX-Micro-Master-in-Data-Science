@@ -1,24 +1,24 @@
 <problem>
-<p>5 cards are dealt from a regular 52 card poker deck. Answer the following questions:</p>
+<p>If 5 cards are dealt from a standard poker deck. What is</p>
 
-<ul><li>What is the size of the sample space?</li></ul>
+<ul><li>the size of the sample space,</li></ul>
 <numericalresponse answer="2598960">
   <formulaequationinput />
 </numericalresponse>
 
-<ul><li>What is the probability for a three-of-a-kind? (the other two cards rank differently)</li></ul>
+<ul><li>the probability for a three-of-a-kind, (three cards of the same rank and two cards of two other ranks)</li></ul>
 <numericalresponse answer="0.0211">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
 </numericalresponse>
 
-<ul><li>What is the probability that the hand contains two pairs?</li></ul>
+<ul><li>the probability for two pairs, (two cards of the same rank, two cards of another rank and one card of a third rank) </li></ul>
 <numericalresponse answer="0.0475">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
 </numericalresponse>
 
-<ul><li>What is the probability for just one pair? (the other three cards rank differently)</li></ul>
+<ul><li>the probability for just one pair? (two cards of the same rank and three cards of three other ranks)</li></ul>
 <numericalresponse answer="0.4226">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
