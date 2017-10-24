@@ -1,19 +1,19 @@
 <problem>
-<p>Two fair six-sided dice are tossed and their numbers are different. What is the probability that:</p>
+<p>Two fair six-sided dice are tossed and they show different values. What is the probability that</p>
 
-<ul><li>the sum is even?</li></ul>
+<ul><li>the sum is even,</li></ul>
   <numericalresponse answer="12/30">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
 </numericalresponse>
 
-<ul><li>the sum is less than 5?</li></ul>
+<ul><li>the sum is less than 5,</li></ul>
   <numericalresponse answer="4/30">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
 </numericalresponse>
 
-<ul><li>There is a "1"?</li></ul>
+<ul><li>one of the sides is "1"?</li></ul>
   <numericalresponse answer="10/30">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
