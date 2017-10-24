@@ -1,7 +1,7 @@
 <problem>
-<p>There are 5 red balls and 3 blue balls of identical size and shape in a bag.</p>
+<p>A bag contains 5 red balls and 3 blue balls.</p>
 
-<ul><li>Pick one ball at random, what is the size of the sample space for color \(X\)?</li></ul>
+<ul><li>Pick one ball at random, and let \(X\) be the random color. What is the size of the sample space?</li></ul>
 <numericalresponse answer="2">
   <formulaequationinput />
 </numericalresponse>
@@ -12,12 +12,12 @@
   <formulaequationinput />
 </numericalresponse>
 
-<ul><li>If \(P(X = \text{blue}) = 0.4\) after another two balls are added into the bag, how many blue balls are added?</li></ul>
+<ul><li>Two red-or-blue balls are added to the original 8-ball bag. If \(P(X = \text{blue})\) is now \(0.4\), how many of the two balls were blue?</li></ul>
 <numericalresponse answer="1">
   <formulaequationinput />
 </numericalresponse>
 
-<ul><li>If \(P(X = \text{blue}) = 0.5\) after two balls are removed from the bag, how many blue balls are removed?</li></ul>
+<ul><li>Two balls are removed from the original 8-ball bag, resulting \(P(X = \text{blue})=0.5\). How many of the two balls were blue?</li></ul>
 <numericalresponse answer="0">
   <formulaequationinput />
 </numericalresponse>
