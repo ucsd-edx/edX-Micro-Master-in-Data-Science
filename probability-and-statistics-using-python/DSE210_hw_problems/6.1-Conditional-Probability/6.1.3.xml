@@ -1,5 +1,5 @@
 <problem>
-<p>Given events \(A\), \(B\) with \(P(A) = 0.5\), \(P(B) = 0.7\), and \(P(A \cap B) = 0.3\), what is:</p>
+<p>Given events \(A\) and \(B\) with \(P(A) = 0.5\), \(P(B) = 0.7\), and \(P(A \cap B) = 0.3\), determine</p>
 
 <ul><li>\(P(A|B)\)</li></ul>
   <numericalresponse answer="3/7">
