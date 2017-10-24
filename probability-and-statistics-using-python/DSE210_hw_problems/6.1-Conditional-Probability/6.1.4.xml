@@ -1,5 +1,5 @@
 <problem>
-<p>Find \(P(B|A)\) in the following cases:</p>
+<p>Find \(P(B|A)\) when \(A\ne\emptyset\) and</p>
 
 <ul><li>\(A=B\)</li></ul>
 <numericalresponse answer="1">
