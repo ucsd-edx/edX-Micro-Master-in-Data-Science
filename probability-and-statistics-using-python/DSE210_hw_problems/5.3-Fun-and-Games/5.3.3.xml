@@ -1,18 +1,18 @@
 <problem>
-<p>Given a shuffled poker deck, if we draw one card at a time from the top and stop when we draw an ace, and denote X as the number of cards we have drawn, what is:</p>
+<p>We draw one card at a time without replacement from the top of a shuffled standard poker deck and stop when we draw an ace. Let \(X\) be the number of cards we have drawn, what is</p>
 
-<ul><li>\(P(X = 10)\)</li></ul>
+<ul><li>\(P(X = 10)\),</li></ul>
 <numericalresponse answer="0.0394">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
 </numericalresponse>
 
-<ul><li>\(P(X = 50)\)</li></ul>
+<ul><li>\(P(X = 50)\),</li></ul>
 <numericalresponse answer="0">
   <formulaequationinput />
 </numericalresponse>
 
-<ul><li>\(P(X &lt; 10)\)</li></ul>
+<ul><li>\(P(X &lt; 10)\)?</li></ul>
 <numericalresponse answer="0.5866">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
