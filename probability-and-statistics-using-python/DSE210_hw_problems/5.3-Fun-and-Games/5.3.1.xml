@@ -1,19 +1,19 @@
 <problem>
-<p>A poker deck has 52 cards, 13 ranks {A,2,...,10,J,Q,K} and 4 suits {diamond, club, heart, spade}. If 5 cards are dealt, what is the probability that there is:</p>
+<p>A poker deck has 52 cards, of 13 ranks {A,2,...,10,J,Q,K} and 4 suits {diamond, club, heart, spade}. What is the probability that a hand of five cards contain</p>
 
-<ul><li>an ace of diamonds?</li></ul>
+<ul><li>a queen of hearts,</li></ul>
 <numericalresponse answer="5/52">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
 </numericalresponse>
 
-<ul><li>an ace?</li></ul>
+<ul><li>a queen,</li></ul>
 <numericalresponse answer="0.3412">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
 </numericalresponse>
 
-<ul><li>a diamond?</li></ul>
+<ul><li>a hearts?</li></ul>
 <numericalresponse answer=".7785">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
