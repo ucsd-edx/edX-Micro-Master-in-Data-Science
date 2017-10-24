@@ -1,0 +1,16 @@
+<problem>
+<p>An urn contains 15 white and 20 black balls. The balls are withdrawn one at a time randomly until all balls remaining in the urn have the same color. What is the probability that</p>
+
+<ul><li>the color of the remaining balls  is white,</li></ul>
+  <numericalresponse answer="15/35">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>5 balls remain?</li></ul>
+<numericalresponse answer="0.030046">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>
