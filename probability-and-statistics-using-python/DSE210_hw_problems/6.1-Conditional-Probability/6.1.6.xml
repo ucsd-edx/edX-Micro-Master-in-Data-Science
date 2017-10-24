@@ -1,14 +1,14 @@
 <problem>
-<p>Given a random poker hand of 5 cards from a regular 52-card deck, find the probability that:</p>
+<p>Given a random poker hand of 5 cards from a standard 52-card deck, find the probability that</p>
 
-<ul><li>no card is smaller than 7 (i.e. 2,3,4,5,6) given that it contains at least one face card (i.e.
-J,Q,K)?</li></ul>
+<ul><li>all cards are at least 7 (i.e., 7, 8, ..., K, A - note that we count the Ace as a high card) given that the hand contains at least one face card (i.e.
+J,Q,K),</li></ul>
 <numericalresponse answer="0.09576">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
 </numericalresponse>
 
-<ul><li>it contains exactly two suits given that it contains exactly one queen?</li></ul>
+<ul><li>the hand contains exactly two suits given that it contains exactly one queen.</li></ul>
 <numericalresponse answer="0.15619796">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
