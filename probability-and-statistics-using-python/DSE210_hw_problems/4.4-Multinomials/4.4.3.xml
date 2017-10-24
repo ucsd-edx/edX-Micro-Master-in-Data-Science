@@ -1,7 +1,12 @@
 <problem>
-  <p>How many anagrams of "REFEREE", with or without meaning, are there</p>
-  <ul><li>without any constraint,</li></ul>
+  <p>How many anagrams of "REFEREE", with or without meaning,</p>
+  <ul><li>are there without any constraint,</li></ul>
 <numericalresponse answer="105">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>begin with "R"?</li></ul>
+<numericalresponse answer="30">
   <formulaequationinput />
 </numericalresponse>
   
@@ -15,8 +20,4 @@
   <formulaequationinput />
 </numericalresponse>
   
-  <ul><li>begin with "R"?</li></ul>
-<numericalresponse answer="30">
-  <formulaequationinput />
-</numericalresponse>
 </problem>
