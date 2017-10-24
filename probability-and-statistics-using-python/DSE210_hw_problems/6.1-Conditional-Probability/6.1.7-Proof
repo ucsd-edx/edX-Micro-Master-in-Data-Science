@@ -7,3 +7,4 @@ Prove that for two non-empty events \(A\) and \(B\), \(P (A|B) \le P (A)\) impli
 Proof
 
 \(P(A\cap B)\le P(A)P(B)\)
+
