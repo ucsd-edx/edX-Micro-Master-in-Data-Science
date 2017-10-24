@@ -1,0 +1,37 @@
+<problem/>
+<p>Given a biased coin with probability 1/4 to land on head, keep flipping it until we get a head, and denote the number of flips by \(X\). Calculate the following:</p>
+
+<ul><li>\(E[X]\)</li></ul>
+<numericalresponse answer="4">
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(E[X^2]\)</li></ul>
+<numericalresponse answer="28">
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(V(X)\)</li></ul>
+<numericalresponse answer="12">
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(\sigma_X\)</li></ul>
+<numericalresponse answer="3.4614">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(P(X\le 10)\)</li></ul>
+<numericalresponse answer="0.9437">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(P(X &gt; 5)\)</li></ul>
+<numericalresponse answer="0.2373">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

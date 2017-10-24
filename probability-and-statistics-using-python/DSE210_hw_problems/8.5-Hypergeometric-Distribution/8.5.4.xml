@@ -1,0 +1,22 @@
+<problem>
+<p>A warehouse has many apple packages, each with 100 apples. When a package leaves the warehouse, an inspector randomly selects 10 apples out of each package, without replacement, and fails the package if two or more are rotten. A given package contains 100 apples.</p>
+
+<ul><li>What is the probability that the inspector finds 3 rotten apples in the package?</li></ul>
+<numericalresponse answer="0.05179">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>What is the probability that this package passes the inspection?</li></ul>
+<numericalresponse answer="0.73847">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>Every time the inspector finds exactly 2 out of the 10 inspected apples to be rotten, the package is sent back to the waiting line for another inspection. What is the probability that this package eventually passes the inspection, namely that it will not be rejected.</li></ul>
+<numericalresponse answer="0.92483">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

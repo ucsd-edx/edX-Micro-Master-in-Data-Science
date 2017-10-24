@@ -1,0 +1,22 @@
+<problem>
+<p>Keep flipping two biased coins alternatively until we get a head, starting with the first coin. If the probability to land on head of the first and second coin are 1/3 and 1/4, Denote the number of total flips by \(X\), calculate the following:</p>
+
+<ul><li>\(P(X=5)\)</li></ul>
+  <numericalresponse answer="1/12">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(P(X\text{ even})\)</li></ul>
+  <numericalresponse answer="1/3">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(E[X]\)</li></ul>
+  <numericalresponse answer="10/3">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

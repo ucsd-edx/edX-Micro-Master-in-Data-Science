@@ -1,0 +1,19 @@
+<problem>
+<p>For Hypergeometric distribution, when the sampling fraction is sufficiently small, we can simplify “sampling without replacement” by “sampling with replacement”, and use Binomial distribution for approximation. For example, if 5 balls are randomly picked from a bag with 20 blue balls and 80 red balls without replacement</p>
+
+<ul><li>What is the probability that there are 2 blue balls?</li></ul>
+<numericalresponse answer="0.20734">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>What is the probability that there are 2 blue balls if 5 balls are picked with replacement?</li></ul>
+<numericalresponse answer="0.2048">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+  <p>Consider the expectation and variance for Hypergeometric distribution we calculated in the problem 1. When the sampling fraction \(n/N\) is very small and we replace \(K/N\) by \(p\), we will get the following approximation:</p>
+  <p>\[E[X]=np\quad\quad V(X)=np(1-p)\frac{N-n}{N-1}\approx np(1-p)\]</p>
+  
+</problem>

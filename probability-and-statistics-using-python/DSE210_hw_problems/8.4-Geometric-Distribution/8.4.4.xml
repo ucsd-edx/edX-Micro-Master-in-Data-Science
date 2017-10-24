@@ -1,0 +1,27 @@
+<problem>
+<p>A basketball player is doing a shooting workout, in which he keeps shooting until he makes 10. If the probability that he make a shot is 0.7, denote the number of shots he take as X, calculate the following:</p>
+
+<ul><li>\(P(X=17)\)</li></ul>
+<numericalresponse answer="0.07067">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(E[X]\)</li></ul>
+  <numericalresponse answer="100/7">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(V(X)\)</li></ul>
+  <numericalresponse answer="300/49">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>The number of shots he most likely will take</li></ul>
+  <numericalresponse answer="14">
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

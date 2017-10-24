@@ -1,0 +1,21 @@
+8.5.1
+
+A bag contains \(K\) blue balls and \(N − K\) red balls. If \(n\) balls are randomly taken from the bag and denote number of blue balls as \(X\), prove that:
+
+\[E[X] = n\frac{K}{N}\]
+
+Proof
+
+\(\sum_{k=0}^n k\frac{\binom{K}{k}\binom{N-K}{n-k}}{\binom{N}{n}}\)
+
+\(=\frac{K}{\binom{N}{n}}\sum_{k=1}^n \binom{K-1}{k-1}\binom{N-K}{n-k}\)
+
+\(=\frac{K}{\binom{N}{n}}\sum_{k=0}^{n-1} \binom{K-1}{k}\binom{N-K}{n-1-k}\)
+
+\(=\frac{K}{\binom{N}{n}}\binom{N-1}{n-1}\)
+
+\(=n\frac{K}{N}\)
+
+Also
+
+\[V(X)=n\frac{K}{N}\frac{N-K}{N}\frac{N-n}{N-1}\]
