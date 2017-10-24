@@ -14,13 +14,13 @@
 </numericalresponse>
 
 <ul><li>\(P(A^c|B^c)\)</li></ul>
-  <numericalresponse answer="2/3">
+  <numericalresponse answer="1/3">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
 </numericalresponse>
 
 <ul><li>\(P(B^c|A^c)\)</li></ul>
-  <numericalresponse answer="4/5">
+  <numericalresponse answer="1/5">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
 </numericalresponse>
