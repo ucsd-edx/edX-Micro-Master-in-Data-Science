@@ -1,5 +1,5 @@
 <problem>
-<p>A poker deck has 52 cards, of 13 ranks {A,2,...,10,J,Q,K} and 4 suits {diamond, club, heart, spade}. What is the probability that a hand of five cards contain</p>
+<p>A standard poker deck has 52 cards, of 13 ranks {A,2,...,10,J,Q,K} and 4 suits {diamonds, clubs, hearts, spades}. What is the probability that a hand of five cards contain</p>
 
 <ul><li>a queen of hearts,</li></ul>
 <numericalresponse answer="5/52">
