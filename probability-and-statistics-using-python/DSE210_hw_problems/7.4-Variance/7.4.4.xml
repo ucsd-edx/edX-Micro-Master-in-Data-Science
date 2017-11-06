@@ -16,25 +16,57 @@
   <label>\(E[Y]\)</label>
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
+    <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p> Calculate the value of Y for all possible x values </p>
+      <p> \(E[Y]\) = (0.3*2) + (0.5*4) + (0.2*8) = 4.2 </p>
+    </div>
+  </solution>
 </numericalresponse>
-<numericalresponse answer="23.6">
+<numericalresponse answer="4.36">
   <label>\(V(Y)\)</label>
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
+    <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p> \(V[Y]\) = E([Y - &#956;]<sup>2</sup>) where &#956; = 4.2 </p>
+      <p> Simplifying it, \(V[Y]\) = 4.36 </p>
+    </div>
+  </solution>
+
 </numericalresponse>
-<numericalresponse answer="4.86">
+<numericalresponse answer="2.088">
   <label>\(\sigma_Y\)</label>
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
+    <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p> \(\sigma_Y\) =  <math><msqrt><mi>(V(Y))</mi></msqrt></math> </p>
+      <p> \(\sigma_Y\) = 2.088 </p>
+    </div>
+  </solution>
 </numericalresponse>
 
 <ul><li>If \(Z=aX+b\) with two constant \(a,b\in\mathbb{R}\), and \(E[Z]=0\), \(V(Z)=1\), what is \(a\) and \(b\)?</li></ul>
-<numericalresponse answer="1.4286">
+<numericalresponse answer="0.3674">
   <label>\(a\)</label>
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
+    <solution>
+    <div class="detailed-solution">
+      <p>Explanation</p>
+      <p> E(aX + b) = a*E(X) + b </p>
+      <p> E(X) = 1.9 and thus, 1.9*a + b = 0 </p>
+      <p> V(aX + b) = a<sup>2</sup>*V(X) + 0 as V(b) = 0 </p>
+      <p> V(X) = 2.722 and thus, a<sup>2</sup>*2.722 = 1 </p>
+      <p> Solving these equations, a = 0.3674 and b = -0.6980 </p>
+    </div>
+  </solution>
 </numericalresponse>
-<numericalresponse answer="-2.7143">
+<numericalresponse answer="-0.6980">
   <label>\(b\)</label>
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
