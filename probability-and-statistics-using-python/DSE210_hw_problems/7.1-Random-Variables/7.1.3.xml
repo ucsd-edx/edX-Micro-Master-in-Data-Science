@@ -1,16 +1,33 @@
 <problem>
-<p>Continually flip a biased coin with 0.6 probability to land on head until a tail occurs. Let X denote the number of flips.</p>
+  <p>Continually flip a biased coin with 0.6 probability to land on head until a tail occurs. Let X denote the number of flips.</p>
+  <ul>
+    <li>What is \(P(X\le 3)\)?</li>
+  </ul>
+  <numericalresponse answer="0.784">
+    <responseparam type="tolerance" default="0.001"/>
+    <formulaequationinput/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation-1</p>
+        <p>\(P(X\le 3)\) = \(1 - P(X\gt 3)\). \(X > 3\) implies first 3 flips must be head. Therefore, \(P(X\gt 3)\) = \(0.6^3\) and \(P(X\le 3)\) = \(1 - 0.6^3\) = 0.784</p>
+        <p>Explanation-2</p>
+        <p>\(P(X\le 3)\) = \(P(X=1)+P(X=2)+P(X=3)\) = 0.4 + 0.6 * 0.4 + 0.6 * 0.6 * 0.4 = 0.784</p>
+        
+      </div>
+    </solution>
+  </numericalresponse>
+  <ul>
+    <li>What is \(P(X\ge 5)\)?</li>
+  </ul>
+  <numericalresponse answer="0.1296">
+    <responseparam type="tolerance" default="0.001"/>
+    <formulaequationinput/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>\(P(X\ge 5)\) = \(P(X\gt 4)\) = \(0.6^4\) = 0.1296</p>
 
-<ul><li>What is \(P(X\le 3)\)?</li></ul>
-<numericalresponse answer="0.784">
-<responseparam type="tolerance" default="0.001"/>
-  <formulaequationinput />
-</numericalresponse>
-
-<ul><li>What is \(P(X\ge 5)\)?</li></ul>
-<numericalresponse answer="0.1296">
-<responseparam type="tolerance" default="0.001"/>
-  <formulaequationinput />
-</numericalresponse>
-
+      </div>
+    </solution>
+  </numericalresponse>
 </problem>
