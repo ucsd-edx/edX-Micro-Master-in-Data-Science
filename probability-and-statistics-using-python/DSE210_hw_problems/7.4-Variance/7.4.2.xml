@@ -12,12 +12,25 @@
 <numericalresponse answer="0.35">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
+  <solution>
+  	<div class="detailed-solution">
+  		<p>Explanation</p>
+  		<p>\(E(X_A)\) = (0.35*1) + (0.65*0) = 0.35</p>
+  	</div>
+  </solution>
 </numericalresponse>
 
 <ul><li>\(V(X_A)\)</li></ul>
 <numericalresponse answer="0.2275">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
+    <solution>
+  	<div class="detailed-solution">
+  		<p>Explanation</p>
+  		<p>\(V(X_A)\) = \(E(X_A^2)\) - \(E(X_A)\)<sup>2</sup> </p>
+  		<p>\(V(X_A)\) = 0.35 - (0.35<sup>2</sup>) = 0.2275 </p>
+  	</div>
+  </solution>
 </numericalresponse>
 
 </problem>

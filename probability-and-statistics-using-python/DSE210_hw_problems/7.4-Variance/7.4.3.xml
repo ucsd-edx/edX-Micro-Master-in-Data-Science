@@ -5,12 +5,28 @@
   <numericalresponse answer="35/12">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
+    <solution>
+  	<div class="detailed-solution">
+  		<p>Explanation</p>
+  		<p>\(V(X)\) = (X_i - &#956;)<sup>2</sup> for all values of i from 1 to 6 </p>
+  		<p> &#956; = 3.5 </p>
+  		<p> \(V(X)\) = ((1-3.5)<sup>2</sup> + (2-3.5)<sup>2</sup> + ..... + (6-3.5)<sup>2</sup> ) / 6 </p>
+  		<p> \(V(X)\) = 35/12 </p>
+  	</div>
+  </solution>
 </numericalresponse>
 
 <ul><li>\(\sigma_X\)</li></ul>
 <numericalresponse answer="1.7078">
 <responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
+    <solution>
+  	<div class="detailed-solution">
+  		<p>Explanation</p>
+  		<p> \(\sigma_X\) =  <math><msqrt><mi>(V(X))</mi></msqrt></math> </p>
+  		<p> \(\sigma_X\) = 1.7078 </p>
+  	</div>
+  </solution>
 </numericalresponse>
 
 </problem>
