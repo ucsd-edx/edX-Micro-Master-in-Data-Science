@@ -1,21 +1,41 @@
 <problem>
-<p>Three balls are randomly selected from an urn containing 20 balls numbered 1 through 20. Let random variable X denote the largest number selected:</p>
-
-<ul><li>How many numbers can X take?</li></ul>
-<numericalresponse answer="18">
-  <formulaequationinput />
-</numericalresponse>
-
-<ul><li>What is \(P(X=18)\)?</li></ul>
+  <p>Three balls are randomly selected from an urn containing 20 balls numbered 1 through 20. Let random variable X denote the largest number selected:</p>
+  <ul>
+    <li>How many numbers can X take?</li>
+  </ul>
+  <numericalresponse answer="18">
+    <formulaequationinput/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Out of 3 balls, balls numbered 1 and 2 can never be max. So, 20-2=18</p>
+      </div>
+    </solution>
+  </numericalresponse>
+  <ul>
+    <li>What is \(P(X=18)\)?</li>
+  </ul>
   <numericalresponse answer="34/285">
-<responseparam type="tolerance" default="0.001"/>
-  <formulaequationinput />
-</numericalresponse>
-
-<ul><li>What is \(P(X\ge 17)\)?</li></ul>
+    <responseparam type="tolerance" default="0.001"/>
+    <formulaequationinput/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>X=18 imples other two balls must be less than 18. \(P(X=18)\) = \(17 \choose 2\) / \(20 \choose 3\) = 34/285</p>
+      </div>
+    </solution>
+  </numericalresponse>
+  <ul>
+    <li>What is \(P(X\ge 17)\)?</li>
+  </ul>
   <numericalresponse answer="29/57">
-<responseparam type="tolerance" default="0.001"/>
-  <formulaequationinput />
-</numericalresponse>
-  
+    <responseparam type="tolerance" default="0.001"/>
+    <formulaequationinput/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>\(P(X\ge 17)\) = \(1 - P(X \lt 17)\) = 1 - (\(16 \choose 3\) / \(20 \choose 3\)) = 29/57</p>
+      </div>
+    </solution>
+  </numericalresponse>
 </problem>
