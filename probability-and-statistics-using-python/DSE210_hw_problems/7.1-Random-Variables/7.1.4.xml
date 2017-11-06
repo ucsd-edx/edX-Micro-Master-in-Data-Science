@@ -1,19 +1,42 @@
 <problem>
-<p>Given the following probability density function in the picture, what is:</p>
-  <image> <image src="/static/fig_714.png" height="200" width="300"/></image>
-<ul><li>\(P(X=1)\)</li></ul>
-<numericalresponse answer="0.1">
-  <formulaequationinput />
-</numericalresponse>
-
-<ul><li>\(P(X\ge 1)\)</li></ul>
-<numericalresponse answer="0.4">
-  <formulaequationinput />
-</numericalresponse>
-
-<ul><li>\(P(X\in\mathbb{Z})\)</li></ul>
-<numericalresponse answer="0.6">
-  <formulaequationinput />
-</numericalresponse>
-  
+  <p>Given the following cumulative density function in the picture, what is?</p>
+  <image>
+    <image src="/static/fig_715.png" height="200" width="340"/>
+  </image>
+  <ul>
+    <li>\(P(X=0)\)</li>
+  </ul>
+  <numericalresponse answer="0.6">
+    <formulaequationinput/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>\(P(X=0)\) = F(0) - F(-1) = 0.8 - 0.2 = 0.6</p>
+      </div>
+    </solution>
+  </numericalresponse>
+  <ul>
+    <li>\(P(X &lt; 1)\)</li>
+  </ul>
+  <numericalresponse answer="0.8">
+    <formulaequationinput/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>\(P(X\lt 1)\) = F(0) = 0.8</p>
+      </div>
+    </solution>
+  </numericalresponse>
+  <ul>
+    <li>\(P(X^2 &lt; 2)\)</li>
+  </ul>
+  <numericalresponse answer="0.8">
+    <formulaequationinput/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>\(P(X^2 \lt 2)\) = \(P(X \gt -\sqrt{2}\ and\ X \lt \sqrt{2})\)  = \(P(X \lt \sqrt{2}) - P(X \lt -\sqrt{2}) = F(1) - F(-2)\) = 1.0 - 0.2 = 0.8 </p>
+      </div>
+    </solution>
+  </numericalresponse>
 </problem>
