@@ -10,7 +10,7 @@
 
 <ul><li>\(E(X_A)\)</li></ul>
 <numericalresponse answer="0.35">
-<responseparam type="toleranc	e" default="0.001"/>
+<responseparam type="tolerance" default="0.001"/>
   <formulaequationinput />
   <solution>
   	<div class="detailed-solution">
