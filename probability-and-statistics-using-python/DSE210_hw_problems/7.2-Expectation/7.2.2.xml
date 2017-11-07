@@ -1,14 +1,27 @@
 <problem>
-<p>A bag contains five balls numbered 1 to 5. Randomly draw two balls from the bag and let \(X\) denote the sum of the numbers.</p>
-
-<ul><li>What is \(P(X\le 5)\)?</li></ul>
-<numericalresponse answer="0.4">
-  <formulaequationinput />
-</numericalresponse>
-
-<ul><li>What is \(E[X]\)?</li></ul>
-<numericalresponse answer="6">
-  <formulaequationinput />
-</numericalresponse>
-
+  <p>A bag contains five balls numbered 1 to 5. Randomly draw two balls from the bag and let \(X\) denote the sum of the numbers.</p>
+  <ul>
+    <li>What is \(P(X\le 5)\)?</li>
+  </ul>
+  <numericalresponse answer="0.4">
+    <formulaequationinput/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>There are 10 combinations of pairs i.e. \(5 \choose 2\). Through enumeration, you can find that there are four combos that sum to less than or equal to 5. Therefore, \(P(X &lt;= 9)\) = 4/10</p>
+      </div>
+    </solution>
+  </numericalresponse>
+  <ul>
+    <li>What is \(E[X]\)?</li>
+  </ul>
+  <numericalresponse answer="6">
+    <formulaequationinput/>
+        <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>\(E[X]\)= 3*.1 + 4*.1 + 5*.2 + 6*.2 + 7*.2 + 8*.1+9*.1</p>
+      </div>
+    </solution>
+  </numericalresponse>
 </problem>

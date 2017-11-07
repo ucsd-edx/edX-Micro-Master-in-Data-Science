@@ -1,7 +1,12 @@
 <problem>
-<p>A player flips two fair coins. The player win $3 if 2 heads occur and $1 if 1 head occurs. How much should the player lose if no heads occur for the game to be fair (expected gain is 0)</p>
-<numericalresponse answer="5">
-  <formulaequationinput />
-</numericalresponse>
-
+  <p>A player flips two fair coins. The player win $3 if 2 heads occur and $1 if 1 head occurs. How much should the player lose if no heads occur for the game to be fair (expected gain is 0)</p>
+  <numericalresponse answer="5">
+    <formulaequationinput/>
+    <solution>
+      <div class="detailed-solution">
+        <p>Explanation</p>
+        <p>Let y = amount player loose on no heads. Let X = net gain after two coins flip. \(E[X]\)= 3*.25 + 1*.5 - y *.25. For game to be fair, E[X] = 0. Solving for y we get y=5. Therefore, player loose 5$ if no heads occur for the game to be fair.</p>
+      </div>
+    </solution>
+  </numericalresponse>
 </problem>
