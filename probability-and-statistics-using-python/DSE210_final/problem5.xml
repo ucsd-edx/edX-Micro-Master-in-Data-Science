@@ -1,0 +1,41 @@
+<problem>
+<p>Rrandom variables \(X\) and \(Y\) have the joint distribution below, and \(Z=\max\{X,Y\}\).</p>
+  <p>\[        \begin{array}{c|ccc}
+          X\setminus Y &amp; 1 &amp; 2 &amp; 3\\
+          \hline
+          1 &amp; 0.12 &amp; 0.08 &amp; 0.20\\
+          2 &amp; 0.18 &amp; 0.12 &amp; 0.30
+        \end{array}\]</p>
+<optionresponse>
+  <ul><li>Are \(X\) and \(Y\) independent?</li></ul>
+  <optioninput>
+    <option correct="True">Yes</option>
+    <option correct="False">No</option>
+  </optioninput>
+</optionresponse>
+
+<ul><li>\(P(Y\not=3)\)</li></ul>
+<numericalresponse answer="0.5">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(P(X&lt;Y)\)</li></ul>
+<numericalresponse answer="0.58">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+<ul><li>\(E[Z]\)</li></ul>
+<numericalresponse answer="2.38">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+<ul><li>\(V[Z]\)</li></ul>
+<numericalresponse answer="0.4756">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+
+</problem>

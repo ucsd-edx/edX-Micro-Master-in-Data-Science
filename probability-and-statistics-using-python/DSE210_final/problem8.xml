@@ -1,0 +1,15 @@
+<problem>
+<p>A hen lays eight eggs weighing 60, 56, 61, 68, 51, 53, 69, and 54 grams, respecitvely. Use the unbiased estimators discussed in class to estimate the weight distribution's</p>
+  <ul><li>mean,</li></ul>
+  <numericalresponse answer="59">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+    <ul><li>variance.</li></ul>
+  <numericalresponse answer="50.857142857142854">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+</problem>

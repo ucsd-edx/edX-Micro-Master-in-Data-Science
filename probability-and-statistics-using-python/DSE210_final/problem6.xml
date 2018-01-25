@@ -1,0 +1,21 @@
+<problem>
+<p>\(X\) follows normal distribution \(\mathcal{N}(\mu,\sigma^2)\) with pdf \(f\) and cdf \(F\). If \(\max_x f(x)=0.997356\) and \(F(-1)+F(7)=1\), determine</p>
+  
+  <ul><li>\(\mu\)</li></ul>
+  <numericalresponse answer="3">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>\(\sigma\)</li></ul>
+  <numericalresponse answer="4">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>\(P(X\le 0)\)</li></ul>
+  <numericalresponse answer="0.226627352376868">
+<responseparam type="tolerance" default="0.001"/>
+  <formulaequationinput />
+</numericalresponse>
+</problem>

@@ -1,0 +1,7 @@
+Which of the following statements hold for all sets \(A\) and \(B\)?
+
+[x] \(B-A = B\cap A^c\)
+[ ] \(A\times B\ \subseteq\ A\cup B\)
+[ ] \((A\Delta B)-B=\emptyset\)
+[x] \((A\cup B)−(A\cap B) = (A−B)\cup(B−A)\)
+

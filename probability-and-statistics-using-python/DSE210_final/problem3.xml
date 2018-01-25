@@ -1,0 +1,18 @@
+<problem>
+<p>In how many ways can we divide 10 people into</p>
+  
+  <ul><li>two distinct groups, each with at least 1 person,</li></ul>
+<numericalresponse answer="2^10-2">
+  <formulaequationinput />
+</numericalresponse>
+  
+  <ul><li>two distinct groups with 4 and 6 people,</li></ul>
+<numericalresponse answer="210">
+  <formulaequationinput />
+</numericalresponse>
+  
+    <ul><li>three distinct groups with 3, 3, and 4 people?</li></ul>
+<numericalresponse answer="4200">
+  <formulaequationinput />
+</numericalresponse>
+</problem>
