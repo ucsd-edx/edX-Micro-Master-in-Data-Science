@@ -1,0 +1,27 @@
+
+Model Selection
+=====
+
+A \(k\)-piece-constant function is define by \(k-1\) thresholds \(-100 \lt t_1 \lt t_2 \lt \cdots \lt t_{k-1} \lt 100\) and \(k\) values \(a_1,a_2,\ldots,a_k\)
+
+The function is defined as follows:
+- If \(x \lt t_1\) then \(f(x)=a_1\)
+- If \(t_1 \leq x \lt t_2\) then \(f(x)=a_2\)
+- ...
+- If \(t_{i-1} \leq x \lt t_i\) then \(f(x)=a_i\)
+- ...
+- If \(t_{k-1} \leq x \) then \(f(x)=a_k\)
+
+Let \(f\) be a \(k\)-piece-constant function. Suoppose you are given \(n\) data points \(((x_1,y_1),\ldots,(x_n,y_n))\) each of which is generated in the following way: 
+1. first, \(x\) is drawn according to the uniform distribution over the range \([-100,100]\). 
+2. second \(y\) is chosen to be \(f(x)+\omega\) where \(\omega\) is drawn according to the normal distribution \({\cal N}(0,\sigma)\) 
+
+You partition the data into a traing set and a test set of equal sizes. For each \(j=1,2,\ldots\) you find the \(j\)-piece-constant function \(g_j\) that minimizes the root-mean-square-error on the training set. Denote by \(train(j)\) the RMSE on the training set and by \(test(j)\) the RMSE on the test set. 
+
+Which of the following statements it correct?
+
+[x] \(train(j)\) is a monotonically non-increasing function.
+[ ] \(test(j)\) is a monotonically non-increasing function.
+[x] \(test(j)\) has a minimum close to \(j=k\)
+[ ] \(train(j)\) has a minimum close to \(j=k\)
+[x] if \(j>n\) \(train(j)=0\)
