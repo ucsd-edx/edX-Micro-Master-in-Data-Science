@@ -5,6 +5,8 @@
 * To install Spark on your computer, for the directions here: https://mas-dse.github.io/DSE230/installation/
 * To set up Reveal, do `source Reveal/setup.sh`
 
+* Script for creating a spark cluster on AWS: https://github.com/mas-dse/spark-notebook
+
 ## Directory structure
 
 For each of the 5 parts (spark basics, PCA, ...)
