@@ -1495,3 +1495,23 @@
 [NotebookApp | INFO] Saving file at /1.Linear Algebra Review.ipynb
 [NotebookApp | INFO] Saving file at /Linear Algebra Review.ipynb
 [NotebookApp | INFO] Saving file at /2.Matrix notation and operations.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/yoavfreund/projects/edX-Micro-Master-in-Data-Science/probability-and-statistics-using-python/notebooks/Week 9- RegressionPCA
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8891/?token=4da744287f1b619bbcf7ebad65d816d9a17e77362d895f4e
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8891/?token=4da744287f1b619bbcf7ebad65d816d9a17e77362d895f4e
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 88.76ms referer=http://localhost:8891/tree?token=3e83c70f12f81dac791caecbc8bb98abf8b5ac2601dddaf5
+[NotebookApp | WARNING] 404 GET /clusters?_=1512491717135 (::1) 1.57ms referer=http://localhost:8891/tree
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20171205083514 (::1) 2.09ms referer=http://localhost:8891/tree
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20171205083514 (::1) 1.82ms referer=http://localhost:8891/tree
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20171205083514 (::1) 1.96ms referer=http://localhost:8891/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20171205083514 (::1) 1.77ms referer=http://localhost:8891/tree
+[NotebookApp | CRITICAL] received signal 15, stopping
+[NotebookApp | INFO] Shutting down kernels

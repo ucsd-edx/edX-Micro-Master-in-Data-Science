@@ -676,3 +676,44 @@
 [NotebookApp | INFO] Saving file at /MotivationClass/What is Probability?.ipynb
 [NotebookApp | INFO] Saving file at /MotivationClass/What is Probability?.ipynb
 [NotebookApp | INFO] Saving file at /MotivationClass/What is Probability?.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/yoavfreund/projects/edX-Micro-Master-in-Data-Science/probability-and-statistics-using-python/notebooks
+[NotebookApp | INFO] 0 active kernels 
+[NotebookApp | INFO] The Jupyter Notebook is running at: http://localhost:8891/?token=c8706c00daa775604b7fd8c7753e1db2efe323f9a08e54db
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8891/?token=c8706c00daa775604b7fd8c7753e1db2efe323f9a08e54db
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 16.06ms referer=http://localhost:8891/tree?token=247367ffb4d22b86ce0391f0cda7c620a3b8f560563b2e17
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20171205084630 (::1) 4.35ms referer=http://localhost:8891/tree
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20171205084630 (::1) 4.66ms referer=http://localhost:8891/tree
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20171205084630 (::1) 3.47ms referer=http://localhost:8891/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20171205084630 (::1) 2.65ms referer=http://localhost:8891/tree
+[NotebookApp | WARNING] 404 GET /clusters?_=1512492392790 (::1) 1.97ms referer=http://localhost:8891/tree
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 2.94ms referer=http://localhost:8891/tree/regression
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20171205084630 (::1) 1.70ms referer=http://localhost:8891/tree/regression
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20171205084630 (::1) 1.73ms referer=http://localhost:8891/tree/regression
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20171205084630 (::1) 1.67ms referer=http://localhost:8891/tree/regression
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20171205084630 (::1) 2.16ms referer=http://localhost:8891/tree/regression
+[NotebookApp | WARNING] 404 GET /clusters?_=1512492395814 (::1) 2.31ms referer=http://localhost:8891/tree/regression
+[NotebookApp | WARNING] 404 GET /static/custom/dc.css (::1) 2.37ms referer=http://localhost:8891/notebooks/regression/4.Regression%20I.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nbpresent/js/nbpresent.min.js?v=20171205084630 (::1) 3.16ms referer=http://localhost:8891/notebooks/regression/4.Regression%20I.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_anacondacloud/main.js?v=20171205084630 (::1) 3.34ms referer=http://localhost:8891/notebooks/regression/4.Regression%20I.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/nb_conda/main.js?v=20171205084630 (::1) 2.68ms referer=http://localhost:8891/notebooks/regression/4.Regression%20I.ipynb
+[NotebookApp | INFO] Kernel started: 0e51254e-90b5-4820-9120-36d2b917170c
+[NotebookApp | INFO] 302 GET /notebooks/data/hw/reg_ex_table.png (::1) 1.61ms
+[NotebookApp | WARNING] 404 GET /static/custom/jquery.handsontable.full.js?v=20171205084630 (::1) 2.77ms referer=http://localhost:8891/notebooks/regression/4.Regression%20I.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/crossfilter.js?v=20171205084630 (::1) 1.78ms referer=http://localhost:8891/notebooks/regression/4.Regression%20I.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/dc.js?v=20171205084630 (::1) 1.73ms referer=http://localhost:8891/notebooks/regression/4.Regression%20I.ipynb
+[NotebookApp | WARNING] 404 GET /static/custom/d3.js?v=20171205084630 (::1) 1.94ms referer=http://localhost:8891/notebooks/regression/4.Regression%20I.ipynb
+[NotebookApp | WARNING] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171205084630 (::1) 2.55ms referer=http://localhost:8891/notebooks/regression/4.Regression%20I.ipynb
+[NotebookApp | INFO] Saving file at /regression/4.Regression I.ipynb
+[NotebookApp | INFO] Saving file at /regression/4.Regression I.ipynb
+[NotebookApp | INFO] Saving file at /regression/4.Regression I.ipynb
+[NotebookApp | CRITICAL] received signal 15, stopping
+[NotebookApp | INFO] Shutting down kernels
+[NotebookApp | INFO] Kernel shutdown: 0e51254e-90b5-4820-9120-36d2b917170c
