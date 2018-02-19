@@ -1,6 +1,3 @@
-
-
-
 # check for master node
 if grep isMaster /mnt/var/lib/info/instance.json | grep true;
 then
@@ -11,7 +8,7 @@ then
    git config --global user.email "yoav.freund@gmail.com"
    git config --global user.name “Yoav Freund”
    git config --global credential.helper cache
-   git clone https://github.com/ucsd-edx/edX-Micro-Master-in-Data-Science.git
+   echo "git clone https://github.com/ucsd-edx/edX-Micro-Master-in-Data-Science.git" > clone.sh
 
    date +%H.%M:%S:%N  #>> /mnt/workspace/PrivateBootstrap.log
    echo “copy files from S3 to Local”  #>> /mnt/workspace/PrivateBootstrap.log
