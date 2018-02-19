@@ -24,7 +24,7 @@ then
    hdfs dfs -copyFromLocal weather.parquet /weather/weather.parquet
    hdfs dfs -copyFromLocal stations.parquet /weather/stations.parquet
 
-   hdfs dfs -l /weather/  >> /mnt/workspace/PrivateBootstrap.log
+   hdfs dfs -ls /weather/  >> /mnt/workspace/PrivateBootstrap.log
 
    date +%H.%M:%S:%N  >> /mnt/workspace/PrivateBootstrap.log
    echo “Bootstrap done”  >> /mnt/workspace/PrivateBootstrap.log
