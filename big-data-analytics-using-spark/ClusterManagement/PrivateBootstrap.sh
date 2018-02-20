@@ -20,11 +20,11 @@ then
    aws s3 cp --recursive s3://dse-weather/info/stations.parquet/ ./stations.parquet
    date +%H.%M:%S:%N  
    echo “copy files from Local to HDFS”  
-   hdfs dfs -mkdir /weather
-   hdfs dfs -copyFromLocal weather.parquet /weather/weather.parquet
-   hdfs dfs -copyFromLocal stations.parquet /weather/stations.parquet
+   /usr/bin/hdfs dfs -mkdir /weather
+   /usr/bin/hdfs dfs -copyFromLocal weather.parquet /weather/weather.parquet
+   /usr/bin/hdfs dfs -copyFromLocal stations.parquet /weather/stations.parquet
 
-   hdfs dfs -ls /weather/  
+   /usr/bin/hdfs dfs -ls /weather/  
 
    date +%H.%M:%S:%N  
    echo “Bootstrap done”  
