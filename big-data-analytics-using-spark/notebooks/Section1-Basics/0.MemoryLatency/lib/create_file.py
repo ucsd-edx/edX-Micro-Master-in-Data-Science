@@ -1,10 +1,9 @@
-# %load lib/create_file.py
 import time
 
 stat=open('stats.txt','w')
 
 def tee(line):
-    print line
+    print(line)
     stat.write(line+'\n')
     
 def create_file(n,m,filename='DataBlock'):
@@ -20,11 +19,11 @@ def create_file(n,m,filename='DataBlock'):
     t1=time.time()
     A=bytearray(n)
     t2=time.time()
-    file=open(filename,'w')
+    file=open(filename,'wb')
     for i in range(m):
         file.write(A)
         if i % 100 == 0:
-            print '\r',i,",",
+            print('\r',i,",", end=' ')
     file.close()
     t3=time.time()
     tee('\r              \ncreating %d byte block: %f sec, writing %d blocks %f sec' % (n,t2-t1,m,t3-t2))

@@ -1,4 +1,3 @@
-# %load ../../lib/measureRandomAccess.py
 import numpy as np
 from numpy.random import rand
 import time
@@ -28,7 +27,7 @@ def measureRandomAccess(size,filename='',k=100000):
     sum=0; sum2=0
     T=np.zeros(k)
     for i in range(k):
-        if (i%10000==0): print '\r',i,
+        if (i%10000==0): print('\r',i, end=' ')
         t=time.time()
         loc=int(rand()*size)
         if inmem:
