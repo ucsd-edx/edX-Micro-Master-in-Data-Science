@@ -12,6 +12,7 @@ then
    git config --global credential.helper cache
    echo "git clone https://github.com/ucsd-edx/edX-Micro-Master-in-Data-Science.git" > clone.sh
 
+   export PROMPT_COMMAND='echo -n "$PWD $"'
    date +%H.%M:%S:%N  
    echo “copy files from S3 to Local”  
    mkdir Data
