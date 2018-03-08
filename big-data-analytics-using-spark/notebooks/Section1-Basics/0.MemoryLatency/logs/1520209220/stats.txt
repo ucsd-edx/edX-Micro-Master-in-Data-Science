@@ -1,0 +1,10 @@
+File pokes _mean=1.95939683914e-05, file _std=6.94366754982e-06
+Memory pokes _mean=1.66810750961e-06, Memory _std=3.27154389863e-06
+File pokes _mean=2.13542604446e-05, file _std=7.9670764108e-06
+Memory pokes _mean=1.62890672684e-06, Memory _std=3.17651014702e-06
+File pokes _mean=2.47857880592e-05, file _std=6.17612891668e-05
+Memory pokes _mean=1.32655143738e-06, Memory _std=3.0529676319e-06
+File pokes _mean=3.15186595917e-05, file _std=1.56932110017e-05
+Memory pokes _mean=1.41987085342e-06, Memory _std=2.8902918841e-06
+File pokes _mean=2.76489877701e-05, file _std=4.14816510228e-05
+Memory pokes _mean=1.17298603058e-06, Memory _std=2.50157332642e-06

@@ -1,0 +1,93 @@
+\documentclass[11pt]{article}
+
+\newcommand{\littleblank}{\rule{.5in}{.01in}}
+\newcommand{\blank}{\rule{1in}{.01in}}
+\newcommand{\bigblank}{\rule{2in}{.01in}}
+\newcommand{\bigbigblank}{\rule{3in}{.01in}}
+\newcommand{\CUT}[0]{}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{fancyvrb}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{subfig} 
+\usepackage{bm}
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\rhead{PID: \underline{\hspace{1in}}}
+
+\vspace{.1in}
+\begin{document}
+
+\setlength\parindent{0pt}
+\thispagestyle{empty}
+
+{\textbf \Large Quiz 2} \hfill CSE 255, Spring 2017
+\\
+
+\vspace{.1in}
+
+Name: \underline{\hspace{3in}}
+\\
+
+PID: \underline{\hspace{3.15in}}
+
+\vspace{.1in}
+
+{\small \setlength\parindent{20pt}This is the second quiz of CSE255/DSE230
+
+On your desk you should have only the exam paper and writing tools.
+No hats or hoods allowed (unless religious items).
+There are 2 questions in this exam, totalling 100 points.
+Circle all correct answers.
+
+You have 5 minutes to complete the exam.
+
+Start by writing your name and PID on this page.
+
+Good Luck!}
+
+\vspace{.2in}
+\noindent
+I. (20 points)  Lazy evaluation: \\
+Mark {\bf all} correct answers
+\begin{enumerate}
+\item Has lower memory requirements than Busy evaluation.
+\item Requires fewer scans of memory than Busy evaluation.
+\item Stores intermediate results.
+\end{enumerate}
+
+
+\vspace{.1in}
+\noindent
+II. (80 points) Consider the following code snippet:
+\begin{verbatim}
+1> X=sc.paralellize(range(3000000))
+2> Y=X.map(lambda x: (x,cos(x)*sin(x))).cache()
+3> Z=X.map(lambda x: (x,cos(x)*sin(x)))
+4> print Y.reduce(lambda x,y:x+y)
+5> print Y.reduce(lambda x,y:x+y)
+6> print Z.reduce(lambda x,y:x+y)
+7> print Z.reduce(lambda x,y:x+y)
+\end{verbatim}
+Mark {\bf all} correct answers
+\begin{enumerate}
+\item Line 1 will take significantly more time than line 2
+\item Line 2 will take significantly more time than line 3
+\item Line 6 will take significantly more time than line 4
+\item Line 6 will take significantly more time than line 7
+\item Line 7 will take significantly more time than line 4
+\item Line 4 will take significantly more time than line 5
+\end{enumerate}
+
+\end{document}   
+
+
+
+
+ 

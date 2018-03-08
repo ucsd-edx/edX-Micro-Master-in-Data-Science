@@ -1,0 +1,99 @@
+\documentclass[10pt]{article}
+
+\newcommand{\littleblank}{\rule{.5in}{.01in}}
+\newcommand{\blank}{\rule{1in}{.01in}}
+\newcommand{\bigblank}{\rule{2in}{.01in}}
+\newcommand{\bigbigblank}{\rule{3in}{.01in}}
+\newcommand{\CUT}[0]{}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{fancyvrb}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{subfig} 
+\usepackage{bm}
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\rhead{PID: \underline{\hspace{1in}}}
+
+\vspace{.1in}
+\begin{document}
+
+\setlength\parindent{0pt}
+\thispagestyle{empty}
+
+{\textbf \Large Quiz 5} \hfill CSE 255, Spring 2017
+\\
+
+\vspace{.1in}
+
+Name: \underline{\hspace{3in}}
+\\
+
+PID: \underline{\hspace{3.15in}}
+
+\vspace{.1in}
+
+{\small \setlength\parindent{20pt}This is the fifth quiz of CSE255/DSE230
+
+On your desk you should have only the exam paper and writing tools.
+No hats or hoods allowed (unless religious items).
+There is one question in this quiz.
+
+You have 10 minutes to complete the exam.
+
+Start by writing your name and PID on this page.
+
+Good Luck!}\\
+\underline{\hspace{6in}}
+
+\newcommand{\uu}{\vec{u}}
+\newcommand{\xx}{\vec{x}}
+\newcommand{\yy}{\vec{y}}
+\newcommand{\vmu}{\vec{\mu}}
+~\\
+~\\
+\noindent
+    This problem regards the following concepts
+    \begin{itemize}
+      \item the K-means {\bf cost function}, which is the
+    average distance between each point and its closest
+    representative.
+    \item The K-means {\bf problem}, which is the
+    problem of finding the set of $k$ representatives that minimizes
+    the cost function.
+    \item The K-means {\bf algorithm} which is an algorithm for
+      iteratively improving the cost function.
+    \item We say that an the K-means algorithm has
+    {\bf converged} if the assignment of points to representatives does not
+    change from one iteration to the next.
+    \item {\bf Simplifying assumption:} assume it is never the case
+      that a point has two closest representatives. In other words
+      there is always a unique closest representative for each point.
+    \end{itemize}
+    ~\\
+    ~\\
+    Mark all of the correct statements
+    \begin{itemize}
+      \item When using the K-means algorithm, each step before
+        convergence is guaranteed to reduce the cost. 
+    \item K-means algortihm is guaranteed to converge.
+    \item If the K-means algorithm converges, it found a solution to
+      the K-means problem.
+    \item The K-means algrithm solves the K-means problem.
+    \item If there is a poly-time algorithm for the K-means
+      problem, then there is a poly-time algorithm for the decision
+      version of the travelling salesman problem.
+    \end{itemize}
+
+\end{document}   
+
+
+
+
+ 
