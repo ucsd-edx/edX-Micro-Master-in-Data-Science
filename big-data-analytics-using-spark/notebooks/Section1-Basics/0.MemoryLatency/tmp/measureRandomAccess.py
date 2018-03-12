@@ -26,32 +26,24 @@ def measureRandomAccess(size,filename='',k=1000):
     # Read and write k times from/to buffer.
     sum=0; sum2=0
     T=np.zeros(k)
-    try:
-        for i in range(k):
-            if (i%10000==0): print('\r',i, end=' ')
-            loc=int(rand()*(size-0.00001))
-            if size==0:
-                t=time.time()
-                d=time.time()-t
-            elif inmem:
-                t=time.time()
-                x=A[loc]
-                A[loc]=22
-                d=time.time()-t
-            else:
-                t=time.time()
-                file.seek(loc)
-                poke=file.read(1)
-                file.write("X")
-                d=time.time()-t
-            T[i]=d
-            sum += d
-            sum2 += d*d
-        mean=sum/k; var=(sum2/k)-mean**2; std=np.sqrt(var)
-        if not inmem:
-            file.close()
-        return (mean,std,T)
-    except:
-        print('bad loc',size,len(A),loc)
-
- 
+    for i in range(k):
+        if (i%10000==0): print('\r',i, end=' ')
+        loc=int(rand()*size)
+        if inmem:
+            t=time.time()
+            x=A[loc]
+            A[loc]=(i % 256)
+            d=time.time()-t
+        else:
+            t=time.time()
+            file.seek(loc)
+            poke=file.read(1)
+            file.write("X")
+            d=time.time()-t
+        T[i]=d
+        sum += d
+        sum2 += d*d
+    mean=sum/k; var=(sum2/k)-mean**2; std=np.sqrt(var)
+    if not inmem:
+        file.close()
+    return (mean,std,T)
