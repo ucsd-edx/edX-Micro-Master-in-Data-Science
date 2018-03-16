@@ -2,8 +2,8 @@ date +%H.%M:%S:%N
 echo “copy files from Local to HDFS”
 cd /mnt/workspace/Data
 /usr/bin/hdfs dfs -mkdir /weather
-/usr/bin/hdfs dfs -copyFromLocal weather.parquet /weather/weather.parquet
-/usr/bin/hdfs dfs -copyFromLocal stations.parquet /weather/stations.parquet
+/usr/bin/hdfs dfs -copyFromLocal US_weather.parquet /weather/US_weather.parquet
+/usr/bin/hdfs dfs -copyFromLocal US_stations.parquet /weather/US_stations.parquet
 /usr/bin/hdfs dfs -ls /weather/  
 cd ..
 
