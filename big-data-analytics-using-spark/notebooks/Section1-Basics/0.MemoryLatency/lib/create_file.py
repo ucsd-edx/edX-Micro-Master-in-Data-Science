@@ -21,7 +21,7 @@ def create_file(n,m,filename='DataBlock'):
     t2=time.time()
     file=open(filename,'wb')
     for i in range(m):
-        file.write(A)
+        file.write(str(A))
         if i % 100 == 0:
             print('\r',i,",", end=' ')
     file.close()

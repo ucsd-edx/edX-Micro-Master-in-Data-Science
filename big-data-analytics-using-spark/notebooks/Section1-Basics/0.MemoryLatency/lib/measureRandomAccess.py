@@ -26,6 +26,7 @@ def measureRandomAccess(size,filename='',k=1000):
     # Read and write k times from/to buffer.
     sum=0; sum2=0
     T=np.zeros(k)
+
     try:
         for i in range(k):
             if (i%10000==0): print('\r',i, end=' ')
@@ -54,4 +55,3 @@ def measureRandomAccess(size,filename='',k=1000):
     except:
         print('bad loc',size,len(A),loc)
 
- 
