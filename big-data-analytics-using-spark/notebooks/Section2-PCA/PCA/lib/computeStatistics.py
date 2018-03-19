@@ -24,8 +24,9 @@ def computeStatistics(sqlContext,df):
         t=time()
         Query="SELECT * FROM weather\n\tWHERE measurement = '%s'"%(meas)
         mdf = sqlContext.sql(Query)
+        print(meas,': shape of mdf is ',mdf.count())
 
-        data=df.rdd.map(lambda row: unpackArray(row['Values'],np.float16))
+        data=mdf.rdd.map(lambda row: unpackArray(row['Values'],np.float16))
 
         #Compute basic statistics
         STAT[meas]=computeOverAllDist(data)   # Compute the statistics 
