@@ -1,7 +1,11 @@
 import numpy as np
-from YearPlotter import YearPlotter
-from Eigen_decomp import Eigen_decomp
+import pylab as plt
+
+from lib.numpy_pack import packArray,unpackArray
+from lib.Eigen_decomp import *
+from lib.YearPlotter import YearPlotter
 import matplotlib.pyplot as plt
+
 from ipywidgets import interact, interactive, fixed, interact_manual
 import ipywidgets as widgets
 
@@ -90,7 +94,8 @@ class recon_plot:
         self.plot(A,label='mean')
 
         for i in range(self.eigen_decomp.n):
-            g=self.eigen_decomp.v[i]*coeff['c'+str(i)]
+            #print('in plot_combinations, U.shape=',self.eigen_decomp.U.shape)
+            g=self.eigen_decomp.U[:,i]*coeff['c'+str(i)]
             A=A+g
             self.plot(A,label='c'+str(i))
         self.plot(self.eigen_decomp.f,label='target')
@@ -105,3 +110,51 @@ class recon_plot:
         else:
             self.fig.show()
         return None
+
+def plot_decomp(row,Mean,EigVec,fig=None,ax=None,Title=None,interactive=False):
+    """Plot a single reconstruction with an informative title
+
+    :param row: SparkSQL Row that contains the measurements for a particular station, year and measurement. 
+    :param Mean: The mean vector of all measurements of a given type
+    :param v: eigen-vectors for the distribution of measurements.
+    :param fig: a matplotlib figure in which to place the plot
+    :param ax: a matplotlib axis in which to place the plot
+    :param Title: A plot title over-ride.
+    :param interactive: A flag that indicates whether or not this is an interactive plot (widget-driven)
+    :returns: a plotter returned by recon_plot initialization
+    :rtype: recon_plot
+
+    """
+    target=np.array(unpackArray(row.Values,np.float16),dtype=np.float64)
+    if Title is None:
+        Title='%s / %d    %s'%(row['station'],row['year'],row['measurement'])
+    eigen_decomp=Eigen_decomp(range(1,366),target,Mean,EigVec)
+    plotter=recon_plot(eigen_decomp,year_axis=True,fig=fig,ax=ax,interactive=interactive,Title=Title)
+    return plotter
+
+def plot_recon_grid(rows,Mean,EigVec,column_n=4, row_n=3, figsize=(15,10)):
+    """plot a grid of reconstruction plots
+
+    :param rows: Data rows (as extracted from the measurements data-frame
+    :param Mean: A vector defining the mean
+    :param EigVec: The top k eigen-vectors
+    :param column_n: number of columns
+    :param row_n:  number of rows
+    :param figsize: Size of figure
+    :returns: None
+    :rtype: 
+
+    """
+    fig,axes=plt.subplots(row_n,column_n, sharex='col', sharey='row',figsize=figsize);
+    k=0
+    for i in range(row_n):
+        for j in range(column_n):
+            row=rows[k]
+            k+=1
+            #_title='%3.2f,r1=%3.2f'\
+            #        %(row['res_mean'],row['res_1'],row['res_2'],row['res_3'])
+            _title='c1=%3.2f,r1=%3.2f'\
+                    %(row['coeff_1'],row['res_1'])
+            #print i,j,_title,axes[i,j]
+            plot_decomp(row,Mean,EigVec,fig=fig,ax=axes[i,j],Title=_title,interactive=False)
+    return None
