@@ -1,0 +1,75 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/gurkanwal/repos/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=42f3c056bfd561324a2ba4ec34956b1f1da99ad888bd72ef
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=42f3c056bfd561324a2ba4ec34956b1f1da99ad888bd72ef
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | INFO] Creating new notebook in /source/ps1
+[NotebookApp | INFO] Kernel started: 15b9a3ce-f83b-4511-b4c4-b90dd584360a
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 15b9a3ce-f83b-4511-b4c4-b90dd584360a
+[NotebookApp | WARNING] 404 GET /notebooks/source/ps1/jupyter.png (::1): No such file or directory: source/ps1/jupyter.png
+[NotebookApp | WARNING] 404 GET /notebooks/source/ps1/jupyter.png (::1) 10.77ms referer=http://localhost:8888/notebooks/source/ps1/problem1.ipynb
+[NotebookApp | WARNING] 404 GET /api/contents/source/ps1/problem1.ipynb?content=0&_=1521052756939 (::1): No such file or directory: source/ps1/problem1.ipynb
+[NotebookApp | WARNING] No such file or directory: source/ps1/problem1.ipynb
+[NotebookApp | WARNING] 404 GET /api/contents/source/ps1/problem1.ipynb?content=0&_=1521052756939 (::1) 3.30ms referer=http://localhost:8888/notebooks/source/ps1/problem1.ipynb
+[NotebookApp | INFO] Uploading file to /source/ps1/problem1.ipynb
+[NotebookApp | INFO] Kernel started: a2480b7c-0beb-4185-b065-4c8b13884fec
+[NotebookApp | WARNING] 404 GET /notebooks/source/ps1/jupyter.png (::1): No such file or directory: source/ps1/jupyter.png
+[NotebookApp | WARNING] 404 GET /notebooks/source/ps1/jupyter.png (::1) 2.96ms referer=http://localhost:8888/notebooks/source/ps1/problem1.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel a2480b7c-0beb-4185-b065-4c8b13884fec
+[NotebookApp | INFO] Starting buffering for 15b9a3ce-f83b-4511-b4c4-b90dd584360a:ae9343f484634933af0a064a9aa3e527
+[NotebookApp | INFO] Kernel shutdown: 15b9a3ce-f83b-4511-b4c4-b90dd584360a
+[NotebookApp | WARNING] delete /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Starting buffering for a2480b7c-0beb-4185-b065-4c8b13884fec:d5bf1468913e4eb5880d6876f1643a3f
+[NotebookApp | WARNING] 404 GET /notebooks/source/ps1/jupyter.png (::1): No such file or directory: source/ps1/jupyter.png
+[NotebookApp | WARNING] 404 GET /notebooks/source/ps1/jupyter.png (::1) 1.51ms referer=http://localhost:8888/notebooks/source/ps1/problem1.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel a2480b7c-0beb-4185-b065-4c8b13884fec
+[NotebookApp | INFO] Copying source/ps1/problem1.ipynb to /source/ps1
+[NotebookApp | INFO] Kernel started: 6a53d1b0-e044-4879-ab10-6844d675bcb3
+[NotebookApp | WARNING] 404 GET /notebooks/source/ps1/jupyter.png (::1): No such file or directory: source/ps1/jupyter.png
+[NotebookApp | WARNING] 404 GET /notebooks/source/ps1/jupyter.png (::1) 2.42ms referer=http://localhost:8888/notebooks/source/ps1/problem1-Copy1.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 6a53d1b0-e044-4879-ab10-6844d675bcb3
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/source/ps1/non-collinear-points.jpg (::1) 0.98ms
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Starting buffering for a2480b7c-0beb-4185-b065-4c8b13884fec:28c4fc5243d1425fa7fd525c2f452761
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/source/ps1/jupyter.png (::1): No such file or directory: source/ps1/jupyter.png
+[NotebookApp | WARNING] 404 GET /notebooks/source/ps1/jupyter.png (::1) 5.17ms referer=http://localhost:8888/notebooks/source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
