@@ -1,6 +1,6 @@
 This directory shall contain all the Homework Programming Assignments for CSE 255 | DSE 230 for Spring 2018
 
-Since grading is managed by nbgrader, an example directory structure is as follows:
+Since grading is managed by nbgrader, we have to follow a particular directory structure. An example directory structure is shown below:
 
 ```
 course101/
