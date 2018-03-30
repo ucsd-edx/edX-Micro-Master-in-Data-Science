@@ -1,0 +1,19 @@
+server:        # URLs to the spark master servers
+  - ec2-34-200-238-163.compute-1.amazonaws.com
+spark:
+  path: /home/arapat/dev/spark/
+timeout:
+  twitter-10mb: 5
+  twitter-1gb: 5
+  twitter-10gb: 50
+  twitter-100gb: 360
+input-files:
+  twitter-10mb: ./input/input-10mb.txt
+  twitter-1gb: ./input/input-1gb.txt
+  twitter-10gb: ./input/input-10gb.txt
+  twitter-100gb: ./input/input-100gb.txt
+solution:
+  twitter-10mb: ./solutions/twitter-10mb.txt
+  twitter-1gb: ./solutions/twitter-1gb.txt
+  twitter-10gb: ./solutions/twitter-10gb.txt
+  twitter-100gb: ./solutions/twitter-100gb.txt
