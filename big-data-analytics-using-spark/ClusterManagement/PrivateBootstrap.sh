@@ -1,31 +1,19 @@
 # check for master node
 if grep isMaster /mnt/var/lib/info/instance.json | grep true;
 then
-   cd /mnt/workspace/
 
-   echo '====================Starting======================'  
+   echo '====================Bootstrap Starting======================'  
    
    date +%H.%M:%S:%N  
-   echo “Start of bootsrap, set up git” 
-   git config --global user.email "yoav.freund@gmail.com"
-   git config --global user.name “Yoav Freund”
-   git config --global credential.helper cache
-   echo "git clone https://github.com/ucsd-edx/edX-Micro-Master-in-Data-Science.git" > clone.sh
-
-   export PROMPT_COMMAND='echo -n "$PWD $"'
-   date +%H.%M:%S:%N  
+   cd /mnt/workspace/
    echo “copy files from S3 to Local”  
+   aws s3 cp s3://dse-weather/RunFromTerminal.sh ./RunFromTerminal.sh
+
    mkdir Data
    cd Data
-   aws s3 cp --recursive s3://dse-weather/weather.parquet  ./weather.parquet
-   aws s3 cp --recursive s3://dse-weather/info/stations.parquet/ ./stations.parquet
-   date +%H.%M:%S:%N  
-   echo “copy files from Local to HDFS”  
-   /usr/bin/hdfs dfs -mkdir /weather
-   /usr/bin/hdfs dfs -copyFromLocal weather.parquet /weather/weather.parquet
-   /usr/bin/hdfs dfs -copyFromLocal stations.parquet /weather/stations.parquet
-
-   /usr/bin/hdfs dfs -ls /weather/  
+   
+   aws s3 cp --recursive --quiet s3://dse-weather/US_stations.parquet  ./US_stations.parquet
+   aws s3 cp --recursive --quiet s3://dse-weather/US_weather.parquet  ./US_weather.parquet
 
    date +%H.%M:%S:%N  
    echo “Bootstrap done”  

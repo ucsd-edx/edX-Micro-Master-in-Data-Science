@@ -1,12 +1,12 @@
 from numpy import arange
-from matplotlib.pylab import loglog,grid
+from matplotlib.pylab import loglog,grid,plot
 from scipy.special import erf,erfinv
 from math import sqrt
 
 def NormalCDF(x):
     return (1+erf(x/sqrt(2)))/2.0
 
-def PlotTime(Tsorted,Mean,Std,Color='b',LS='-',Legend='',m_i=1):
+def PlotTime(Tsorted,Mean,Std,Color='b',LS='-',Legend='',m_i=1,LogLog=True):
     """ plot distribution of times on a log-log scale
 
     :param Tsorted: a sorted sample of latencies 
@@ -24,13 +24,19 @@ def PlotTime(Tsorted,Mean,Std,Color='b',LS='-',Legend='',m_i=1):
         Color=[Color]*4
     if type(LS)==str:
         LS=[LS]*4
-        
-    P=arange(1,0,-1.0/len(Tsorted))    # probability 
-    loglog(Tsorted,P,color=Color[0],label=Legend,linestyle=LS[0])       # plot log-log of 1-CDF 
     
-    loglog([Mean,Mean],[1,0.0001],color=Color[1],linestyle=LS[1])       # vert line at mean
+    if LogLog:
+        _plt=loglog
+    else:
+        _plt=plot
+            
+    P=arange(1,0,-1.0/len(Tsorted))    # probability 
+    _plt(Tsorted,P,color=Color[0],label=Legend,linestyle=LS[0])       # plot log-log of 1-CDF 
+    
+
+    _plt([Mean,Mean],[1,0.0001],color=Color[1],linestyle=LS[1])       # vert line at mean
     Y=0.1**((m_i+1.)/2.)
-    loglog([Mean,min(Mean+Std,1)],[Y,Y],color=Color[2],linestyle=LS[2]) # horiz line from mean to mean + std
+    _plt([Mean,min(Mean+Std,1)],[Y,Y],color=Color[2],linestyle=LS[2]) # horiz line from mean to mean + std
         
     x=arange(Mean,Mean+sqrt(2)*Std*erfinv(1.0-1.0/len(Tsorted)),Std/100)  # normal distribution 
-    loglog(x,1-NormalCDF((x-Mean)/Std),color=Color[3],linestyle=LS[3])
+    _plt(x,1-NormalCDF((x-Mean)/Std),color=Color[3],linestyle=LS[3])
