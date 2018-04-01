@@ -73,3 +73,304 @@
 [NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
 [NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
 [NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=b40d0440b553c9d909dd430f62874a6aa1859c5b08bef60c
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=b40d0440b553c9d909dd430f62874a6aa1859c5b08bef60c
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] Removing existing assignment: /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/ps1
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data100.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data100.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data100_res.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data100_res.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data200.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data200.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data200_res.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data200_res.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data400.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data400.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data400_res.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data400_res.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data50.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data50.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data800.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data800.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data800_res.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data800_res.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/non-collinear-points.jpg -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/non-collinear-points.jpg
+[NotebookApp | INFO] Updating/creating assignment 'ps1': {}
+[NotebookApp | INFO] Converting notebook /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/HW1.ipynb
+[NotebookApp | INFO] Writing 2353 bytes to /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/HW1.ipynb
+[NotebookApp | INFO] Converting notebook /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Writing 15703 bytes to /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Setting destination file permissions to 644
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] Notebook release/ps1/collinearPoints.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 4024e4c2-8e37-4a82-a291-765b0ecd12a4
+[NotebookApp | INFO] 302 GET /notebooks/release/ps1/non-collinear-points.jpg (::1) 1.38ms
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 4024e4c2-8e37-4a82-a291-765b0ecd12a4
+[NotebookApp | WARNING] delete /submitted/A53234692/ps1/collinearPoints.ipynb
+[NotebookApp | WARNING] Notebook source/ps1/collinearPoints.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 6252ae7a-c51b-468f-af40-feeff99cdf09
+[NotebookApp | INFO] 302 GET /notebooks/source/ps1/non-collinear-points.jpg (::1) 1.83ms
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 6252ae7a-c51b-468f-af40-feeff99cdf09
+[NotebookApp | WARNING] Notebook submitted/A53234692/ps1/collinearPoints.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 22f18651-2ff4-4fdb-a05c-35e026a8ec6a
+[NotebookApp | WARNING] 404 GET /notebooks/submitted/A53234692/ps1/non-collinear-points.jpg (::1): No such file or directory: submitted/A53234692/ps1/non-collinear-points.jpg
+[NotebookApp | WARNING] 404 GET /notebooks/submitted/A53234692/ps1/non-collinear-points.jpg (::1) 40.85ms referer=http://localhost:8888/notebooks/submitted/A53234692/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 22f18651-2ff4-4fdb-a05c-35e026a8ec6a
+[NotebookApp | INFO] Saving file at /submitted/A53234692/ps1/collinearPoints.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | INFO] Validating '/Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/submitted/A53234692/ps1/collinearPoints.ipynb'
+[NotebookApp | INFO] Executing notebook with kernel: python3
+[NotebookApp | INFO] Saving file at /submitted/A53234692/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /submitted/A53234692/ps1/collinearPoints.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | INFO] Validating '/Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/submitted/A53234692/ps1/collinearPoints.ipynb'
+[NotebookApp | INFO] Executing notebook with kernel: python3
+[NotebookApp | INFO] Kernel interrupted: 22f18651-2ff4-4fdb-a05c-35e026a8ec6a
+[NotebookApp | INFO] Starting buffering for 22f18651-2ff4-4fdb-a05c-35e026a8ec6a:dadb527917c8434c8d48ef22ae7de100
+[NotebookApp | INFO] Kernel restarted: 22f18651-2ff4-4fdb-a05c-35e026a8ec6a
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 22f18651-2ff4-4fdb-a05c-35e026a8ec6a
+[NotebookApp | INFO] Restoring connection for 22f18651-2ff4-4fdb-a05c-35e026a8ec6a:dadb527917c8434c8d48ef22ae7de100
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Starting buffering for 22f18651-2ff4-4fdb-a05c-35e026a8ec6a:dadb527917c8434c8d48ef22ae7de100
+[NotebookApp | WARNING] 404 GET /notebooks/submitted/A53234692/ps1/non-collinear-points.jpg (::1): No such file or directory: submitted/A53234692/ps1/non-collinear-points.jpg
+[NotebookApp | WARNING] 404 GET /notebooks/submitted/A53234692/ps1/non-collinear-points.jpg (::1) 1.80ms referer=http://localhost:8888/notebooks/submitted/A53234692/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 22f18651-2ff4-4fdb-a05c-35e026a8ec6a
+[NotebookApp | INFO] Saving file at /submitted/A53234692/ps1/collinearPoints.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | INFO] Validating '/Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/submitted/A53234692/ps1/collinearPoints.ipynb'
+[NotebookApp | INFO] Executing notebook with kernel: python3
+[NotebookApp | INFO] interrupted
+[NotebookApp | INFO] Saving file at /submitted/A53234692/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /submitted/A53234692/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /submitted/A53234692/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Starting buffering for 22f18651-2ff4-4fdb-a05c-35e026a8ec6a:15b842fcceac402f824aa7b3ed900dee
+[NotebookApp | INFO] Kernel restarted: 22f18651-2ff4-4fdb-a05c-35e026a8ec6a
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 22f18651-2ff4-4fdb-a05c-35e026a8ec6a
+[NotebookApp | INFO] Restoring connection for 22f18651-2ff4-4fdb-a05c-35e026a8ec6a:15b842fcceac402f824aa7b3ed900dee
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /submitted/A53234692/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /submitted/A53234692/ps1/collinearPoints.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | INFO] Validating '/Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/submitted/A53234692/ps1/collinearPoints.ipynb'
+[NotebookApp | INFO] Executing notebook with kernel: python3
+[NotebookApp | INFO] Starting buffering for 22f18651-2ff4-4fdb-a05c-35e026a8ec6a:15b842fcceac402f824aa7b3ed900dee
+[NotebookApp | INFO] Kernel restarted: 22f18651-2ff4-4fdb-a05c-35e026a8ec6a
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 22f18651-2ff4-4fdb-a05c-35e026a8ec6a
+[NotebookApp | INFO] Restoring connection for 22f18651-2ff4-4fdb-a05c-35e026a8ec6a:15b842fcceac402f824aa7b3ed900dee
+[NotebookApp | INFO] Replaying 5 buffered messages
+[NotebookApp | INFO] Saving file at /submitted/A53234692/ps1/collinearPoints.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | INFO] Validating '/Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/submitted/A53234692/ps1/collinearPoints.ipynb'
+[NotebookApp | INFO] Executing notebook with kernel: python3
+[NotebookApp | INFO] Starting buffering for 22f18651-2ff4-4fdb-a05c-35e026a8ec6a:15b842fcceac402f824aa7b3ed900dee
+[NotebookApp | INFO] Starting buffering for 4024e4c2-8e37-4a82-a291-765b0ecd12a4:2fb5604fa9a64c59854e75d6173e8ba7
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Starting buffering for 6252ae7a-c51b-468f-af40-feeff99cdf09:9bbc963e2d3649c085c156609496d8ae
+[NotebookApp | INFO] Kernel restarted: 6252ae7a-c51b-468f-af40-feeff99cdf09
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 6252ae7a-c51b-468f-af40-feeff99cdf09
+[NotebookApp | INFO] Restoring connection for 6252ae7a-c51b-468f-af40-feeff99cdf09:9bbc963e2d3649c085c156609496d8ae
+[NotebookApp | INFO] Replaying 3 buffered messages
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Starting buffering for 6252ae7a-c51b-468f-af40-feeff99cdf09:9bbc963e2d3649c085c156609496d8ae
+[NotebookApp | INFO] Kernel restarted: 6252ae7a-c51b-468f-af40-feeff99cdf09
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 6252ae7a-c51b-468f-af40-feeff99cdf09
+[NotebookApp | INFO] Restoring connection for 6252ae7a-c51b-468f-af40-feeff99cdf09:9bbc963e2d3649c085c156609496d8ae
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] 302 GET /notebooks/release/ps1/non-collinear-points.jpg (::1) 2.20ms
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 4024e4c2-8e37-4a82-a291-765b0ecd12a4
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /release/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Kernel interrupted: 6252ae7a-c51b-468f-af40-feeff99cdf09
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Kernel interrupted: 6252ae7a-c51b-468f-af40-feeff99cdf09
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Kernel interrupted: 6252ae7a-c51b-468f-af40-feeff99cdf09
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Starting buffering for 6252ae7a-c51b-468f-af40-feeff99cdf09:9bbc963e2d3649c085c156609496d8ae
+[NotebookApp | INFO] Kernel restarted: 6252ae7a-c51b-468f-af40-feeff99cdf09
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 6252ae7a-c51b-468f-af40-feeff99cdf09
+[NotebookApp | INFO] Restoring connection for 6252ae7a-c51b-468f-af40-feeff99cdf09:9bbc963e2d3649c085c156609496d8ae
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] received signal 2, stopping
+[NotebookApp | INFO] Shutting down 3 kernels
+[NotebookApp | INFO] Kernel shutdown: 4024e4c2-8e37-4a82-a291-765b0ecd12a4
+[NotebookApp | INFO] Kernel shutdown: 6252ae7a-c51b-468f-af40-feeff99cdf09
+[NotebookApp | INFO] Kernel shutdown: 22f18651-2ff4-4fdb-a05c-35e026a8ec6a
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=b9a35432e8f33ff2577b83a5b418818775503cd4c3831a4e
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=b9a35432e8f33ff2577b83a5b418818775503cd4c3831a4e
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] 404 GET /api/kernels/4024e4c2-8e37-4a82-a291-765b0ecd12a4/channels?session_id=7a2bfb39cdac4095a825184d68b808fe (::1): Kernel does not exist: 4024e4c2-8e37-4a82-a291-765b0ecd12a4
+[NotebookApp | WARNING] 404 GET /api/kernels/4024e4c2-8e37-4a82-a291-765b0ecd12a4/channels?session_id=7a2bfb39cdac4095a825184d68b808fe (::1) 22.34ms referer=None
+[NotebookApp | WARNING] 404 GET /api/kernels/6252ae7a-c51b-468f-af40-feeff99cdf09/channels?session_id=9bbc963e2d3649c085c156609496d8ae (::1): Kernel does not exist: 6252ae7a-c51b-468f-af40-feeff99cdf09
+[NotebookApp | WARNING] 404 GET /api/kernels/6252ae7a-c51b-468f-af40-feeff99cdf09/channels?session_id=9bbc963e2d3649c085c156609496d8ae (::1) 4.02ms referer=None
+[NotebookApp | INFO] Kernel started: f78dcefa-ee4e-4d66-b38e-852ee6a1b6e1
+[NotebookApp | INFO] 302 GET /notebooks/source/ps1/non-collinear-points.jpg (::1) 1.52ms
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel f78dcefa-ee4e-4d66-b38e-852ee6a1b6e1
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] Removing existing assignment: /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/ps1
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data100.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data100.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data100_res.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data100_res.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data200.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data200.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data200_res.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data200_res.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data400.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data400.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data400_res.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data400_res.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data50.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data50.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data800.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data800.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data800_res.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data800_res.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/non-collinear-points.jpg -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/non-collinear-points.jpg
+[NotebookApp | INFO] Updating/creating assignment 'ps1': {}
+[NotebookApp | INFO] Converting notebook /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/HW1.ipynb
+[NotebookApp | INFO] Writing 2353 bytes to /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/HW1.ipynb
+[NotebookApp | INFO] Converting notebook /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Writing 22186 bytes to /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Setting destination file permissions to 644
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] Replacing stale connection: 4024e4c2-8e37-4a82-a291-765b0ecd12a4:7a2bfb39cdac4095a825184d68b808fe
+[NotebookApp | WARNING] Notebook release/ps1/collinearPoints.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: e4a45d09-03e7-47c2-a0a2-180ca3281d88
+[NotebookApp | INFO] 302 GET /notebooks/release/ps1/non-collinear-points.jpg (::1) 1.82ms
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel e4a45d09-03e7-47c2-a0a2-180ca3281d88
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /source/ps1/collinearPoints.ipynb
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] Removing existing assignment: /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/ps1
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data100.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data100.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data100_res.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data100_res.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data200.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data200.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data200_res.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data200_res.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data400.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data400.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data400_res.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data400_res.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data50.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data50.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data800.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data800.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/data800_res.txt -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/data800_res.txt
+[NotebookApp | INFO] Copying /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/non-collinear-points.jpg -> /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/non-collinear-points.jpg
+[NotebookApp | INFO] Updating/creating assignment 'ps1': {}
+[NotebookApp | INFO] Converting notebook /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/HW1.ipynb
+[NotebookApp | INFO] Writing 2353 bytes to /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/HW1.ipynb
+[NotebookApp | INFO] Converting notebook /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Writing 22226 bytes to /Users/gurkanwal/repos/study/ta/cse255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./ps1/collinearPoints.ipynb
+[NotebookApp | INFO] Setting destination file permissions to 644
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | INFO] Starting buffering for e4a45d09-03e7-47c2-a0a2-180ca3281d88:c378df98a5a64b16815e061742fee8c1
+[NotebookApp | WARNING] Notebook release/ps1/collinearPoints.ipynb is not trusted
+[NotebookApp | INFO] 302 GET /notebooks/release/ps1/non-collinear-points.jpg (::1) 1.39ms
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel e4a45d09-03e7-47c2-a0a2-180ca3281d88
