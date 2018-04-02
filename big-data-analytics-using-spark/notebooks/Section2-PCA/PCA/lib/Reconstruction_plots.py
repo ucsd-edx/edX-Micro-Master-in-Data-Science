@@ -2,7 +2,7 @@ import numpy as np
 import pylab as plt
 
 from lib.numpy_pack import packArray,unpackArray
-from lib.Eigen_decomp import *
+from lib.decomposer import *
 from lib.YearPlotter import YearPlotter
 import matplotlib.pyplot as plt
 
