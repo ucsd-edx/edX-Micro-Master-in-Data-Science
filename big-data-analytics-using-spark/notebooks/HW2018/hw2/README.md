@@ -60,3 +60,11 @@ the [Spark Notebook](https://github.com/mas-dse/spark-notebook).
 Once the cluster is up, simply append its master URL to `spark-grader.yml`.
 The grader will always choose the first free Spark cluster to send a submission
 for grading.
+
+### Credentials
+
+The grader uses `ssh` to submit jobs to the Spark clusters.
+Therefore, the Spark clusters must know the public key of the server
+that the grader is running on.
+To achieve that, please set the `$PUBLIC_KEY` variable in the `deploy/s3hook.sh`
+accordingly.
