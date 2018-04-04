@@ -42,12 +42,18 @@ class SparkGrader:
             return SparkGrader._handle_result(False, msg=str(err), correct=False, score=0)
         return None
 
-    def _convert(self, notebook_path):
-        try:
-            subprocess.run(["jupyter", "nbconvert", "--to", "python", notebook_path], check=True)
-        except subprocess.CalledProcessError as err:
-            self._clean()
-            return SparkGrader._handle_result(False, msg=str(err), correct=False, score=0)
+    def _convert(self, notebook_path, python_file_path):
+        # IF students are submitting Jupyter notebooks
+            # try:
+            #     subprocess.run(["jupyter", "nbconvert", "--to", "python", notebook_path], check=True)
+            # except subprocess.CalledProcessError as err:
+            #     self._clean()
+            #     return SparkGrader._handle_result(False, msg=str(err), correct=False, score=0)
+        # ELSE IF students are submitting Python files
+        with open(notebook_path) as f_in:
+            content = f_in.read()
+            with open(python_file_path, 'w') as f_out:
+                f_out.write(content)
         return None
 
     def _compile(self, python_file_path):
@@ -65,19 +71,28 @@ class SparkGrader:
                     api = "http://{}:18080/api/v1/applications?status=running".format(url)
                     if requests.get(api).json():
                         continue
-                    return "spark://{}:7077".format(url)
+                    return url
                 sleep(5)
 
-        spark_submit = os.path.join(self.config["spark"]["path"], "bin/spark-submit")
         master_url = get_master_url()
+        python_file_name = python_file_path.rsplit("/", 1)[1]
         timeout = self.config["timeout"][problem_name]
 
         try:
+            subprocess.run(
+                ["scp",
+                 "submitted/hw2-files.txt",
+                 python_file_path,
+                 "hadoop@{}:~".format(master_url)],
+                check=True
+            )
             completed = subprocess.run(
-                [spark_submit, "--master", master_url,
-                 "--files", "submitted/hw2-files.txt",
+                ["ssh", "hadoop@" + master_url,
+                 "spark-submit",
+                 "--master", "yarn",
+                 "--files", "./hw2-files.txt",
                  "--name", "hacker",
-                 python_file_path],
+                 "./" + python_file_name],
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
                 timeout=timeout,
@@ -87,19 +102,18 @@ class SparkGrader:
             return ("ERROR: {}".format(err), "", "")
         except subprocess.TimeoutExpired:
             return ("TIME_OUT", "", "")
-        return ("OK", completed.stdout, completed.stderr)
+        return ("OK", completed.stdout.decode(), completed.stderr.decode())
 
-    def _grade(self, output, problem_name):
+    def _grade(self, output, answer):
         output = [line.strip() for line in output.split('\n') if line.strip()]
-        with open(self.config["solution"][problem_name]) as f:
-            idx = 0
-            for line in f:
-                line = line.strip()
-                if not line:
-                    continue
-                if line != output[idx]:
-                    return False
-                idx += 1
+        idx = 0
+        for line in answer.split('\n'):
+            line = line.strip()
+            if not line:
+                continue
+            if line != output[idx]:
+                return False
+            idx += 1
         return True
 
     def _clean(self):
@@ -114,6 +128,8 @@ class SparkGrader:
 
         with open(self.config["input-files"][problem_name]) as f:
             files_list = f.read()
+        with open(self.config["solution"][problem_name]) as f:
+            answer = f.read()
 
         os.chdir(self.course_dir)
 
@@ -134,7 +150,7 @@ class SparkGrader:
             return ret
 
         # convert to python file
-        ret = self._convert(notebook_path)
+        ret = self._convert(notebook_path, python_file_path)
         if ret is not None:
             return ret
 
@@ -148,7 +164,7 @@ class SparkGrader:
         if res != "OK":
             result = res
             score = 0
-        elif self._grade(stdout, problem_name): 
+        elif self._grade(stdout, answer):
             # grade
             result = "match"
             score = 10

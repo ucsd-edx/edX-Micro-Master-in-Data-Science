@@ -1,0 +1,125 @@
+Number of elements: 2254653
+The number of unique users is: 577125
+[(0, 90022), (1, 350674), (2, 48539), (3, 400497), (4, 149092), (5, 243464), (6, 311923), (7, 617521)]
+Group 0 posted 90022 tweets
+Group 1 posted 350674 tweets
+Group 2 posted 48539 tweets
+Group 3 posted 400497 tweets
+Group 4 posted 149092 tweets
+Group 5 posted 243464 tweets
+Group 6 posted 311923 tweets
+Group 7 posted 617521 tweets
+Number of elements: 1012770
+Number of elements: 14283
+===== overall =====
+:	396203.0000
+rt	353132.0000
+.	288814.0000
+the	244346.0000
+to	211612.0000
+,	208612.0000
+a	190493.0000
+…	188986.0000
+for	174794.0000
+is	166224.0000
+of	158766.0000
+trump	158617.0000
+in	151911.0000
+bernie	143379.0000
+hillary	142245.0000
+and	142005.0000
+sanders	133686.0000
+clinton	125179.0000
+i	121507.0000
+on	114904.0000
+===== group 0 =====
+@trevdon	-0.5146
+estimates	-1.8541
+ummm	-1.9948
+battleground	-2.2605
+#bc2dc16	-2.2730
+couch	-2.3219
+worldview	-2.3646
+https://t.co/qr6tnmD3	-2.3785
+@fullfrontalsamb	-2.3923
+liveblog	-2.3959
+===== group 1 =====
+https://t.co/lx55Htdqy9	-0.0056
+https://t.co/zqzhVOE5aZ	-0.0056
+https://t.co/8IKhEdLkST	-0.0083
+https://t.co/u9Qaat72u0	-0.0096
+@hankthtank	-0.0096
+https://t.co/ZiWXV8SEsu	-0.0098
+https://t.co/9dTaAeAf0j	-0.0101
+@jettaangeli	-0.0108
+gurrrl	-0.0108
+@whiphoyer	-0.0115
+===== group 2 =====
+stride	-0.5601
+mini-movie	-0.5805
+@cnicolemason	-0.7789
+@trendincontent	-0.8242
+@truechatinc	-0.8769
+https://t.co/jBlNXBlosL	-0.8911
+truechat	-0.8911
+bernie-burn	-0.9272
+@thehamptonsbest	-0.9351
+👢	-0.9519
+===== group 3 =====
+#iamnotherfirewall	-0.0332
+@sanders4all	-0.0485
+@alexaskew757	-0.0493
+@newyorkweissman	-0.0566
+https://t.co/kUqo0pL8ya	-0.0594
+@livingonchi	-0.0637
+#blackbelt	-0.0662
+#fl23	-0.0697
+@vegans4bernie	-0.0704
+#nothereforboys	-0.0721
+===== group 4 =====
+https://t.co/HPk	-0.0792
+@faithvoterspac	-1.0841
+@who_is_trending	-1.6213
+https://t.co/HAhU3MmiMf)	-1.6485
+snoodling	-1.6651
+schmekle	-1.6909
+@govwalker	-1.7340
+resigns	-1.7489
+worldwide	-1.7926
+@petridishes	-1.8007
+===== group 5 =====
+https://t.co/yL22NBfkw1	-0.0350
+https://t.co/HJE6u6E1El	-0.0621
+https://t.co/t6C4TbiGnb	-0.0621
+https://t.co/K1s8DI495M	-0.0637
+https://t.co/0IL	-0.0685
+@rose10052	-0.0704
+https://t.co/HxGexBV8PY	-0.0735
+https://t.co/YUW3xX050H	-0.0735
+https://t.co/Bc0N52cq5i	-0.0762
+https://t.co/MeyX4TacSh.	-0.1034
+===== group 6 =====
+https://t.co/ftI7US0k8U	-0.0111
+99.2	-0.0125
+re-organized	-0.0125
+@trumpnv	-0.0195
+pmcst	-0.0222
+#sc4trump	-0.0227
+#turnoutfortrump	-0.0241
+@the_lady_colors	-0.0245
+@sanbernstrong	-0.0260
+@cjcboi	-0.0265
+===== group 7 =====
+#voteenriquefpp	0.0000
+@adel__almalki	0.0000
+@funnyorbooks	0.0000
+@kwiatkowskioff	0.0000
+@suga_s_diary	0.0000
+@thecomedipedia	0.0000
+https://t.co/3z9BT6OITO	0.0000
+https://t.co/zMeiyt2LEW	0.0000
+lizquen	0.0000
+notimex	0.0000
+Users from group 3 are most likely to support Bernie Sanders.
+Users from group 5 are most likely to support Ted Cruz.
+Users from group 6 are most likely to support Donald Trump.
