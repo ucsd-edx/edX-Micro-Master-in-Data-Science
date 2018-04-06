@@ -1,4 +1,20 @@
-## Measurements tables
+# Notebooks
+
+1. **FunctionsAsVectors.ipynb** : Demonstration of the fourier orthonormal basis for functions.
+2. **PCA_computation per state.ipynb** : Computing the PCA and other statistics for data from a single state.
+3. **Weather Analysis - Initial Visualisation.ipynb** : Visualizing the statistics.
+4. **Weather Analysis - reconstruction SNWD.ipynb** : Reconstruction using top eigenvector: generates reconstruction file
+5. **Maps using iPyLeaflet.ipynb** : Plotting information about stations on an interactive map.
+6. **Is SNWD variation spatial or temporal?.ipynb** : Using the "variance explained" criteria to decide whether space or time has a bigger effect on a coefficient.
+7. **Smoothing.ipynb** : Code for smoothing the measurements across days.
+
+
+# Files / Tables
+
+## Readme file describing the original data
+[download from s3](https://mas-dse-open.s3.amazonaws.com/Weather/Info/ghcnd-readme.txt)
+
+## Data
 
 The data is stored in parquet files. `ALL.parquet` contains all of the data, `NY.parquet` includes the data for all stations in New-York State.
 
@@ -92,26 +108,34 @@ stations_df.show(4)
 
 ### Statistics file
 
-A file with the name `data_dir/STAT_NY.pickle.gz` is gzipped pickle file containing the statistics computed for the state of NY.  
+A file with the name `data_dir/STAT_<state>.pickle.gz` is gzipped pickle file containing the statistics computed for the state of NY.  
 The pickle file contains a pair: `(STAT,STAT_Descriptions)`. 
 * `STAT` contains the calculated statistics as a dictionary. 
 * `STAT_Descriptions` contains a human-readable description of each element of the dictionary `STAT`
 
+### Reconstruction file
 
-# Notebooks
-
-* 1. FunctionsAsVectors_CLASS.ipynb
-* 2. PCA\_computation per state.ipynb: Generates STAT_state.pickle
-* Prelim.Weather-Analysis-Smoothing.ipynb: running a gaussian smoother.
-* 4.0 Weather Analysis - Initial Visualisation.ipynb: Visualizing overall statistics
-* 4.4 Weather Analysis - Visualisation.ipynb: 
-* 4.5 Weather Analysis - reconstruction SNWD.ipynb : Reconstruction games
-* 5. maps using iPyLeaflet.ipynb  : Maps
-* 5.5 DataOnMaps.ipynb : Maps
-* 6. Is SNWD variation spatial or temporal?.ipynb
-
-### Move to old
-* 2. Small\_PCA_computation_CLASS.ipynb
-* 7. Analyzing residuals-Cov.ipynb
-* 7. Analyzing residuals.ipynb
-
+Stored in files named `recon_<state>_<measurement>.parquet`
+#### Fields:
+1. **Station** :  Station ID
+21. **State** :  The state in which the station resides
+22. **Name** :  The name of the station
+17. **Dist_coast** :  Distance from Coast (units unclear)
+18. **Latitude** :  of station
+19. **Longitude** :  of station
+20. **Elevation** :  Elevation of station in Meters
+2. **Measurement** :  Type of measurement (TMAX, PRCP,...)
+3. **Values** :  A byte array with all of the value (365X2 bytes)
+4. **Year** :  The Year
+5. **coeff_1** :  The coefficient of the 1st eigenvector
+6. **coeff_2** :  The coefficient of the 2nd eigenvector
+7. **coeff_3** :  The coefficient of the 3rd eigenvector
+8. **coeff_4** :  The coefficient of the 4th eigenvector
+9. **coeff_5** :  The coefficient of the 5th eigenvector
+16. **total_var** : The total variance (square distance from the mean. 
+15. **res_mean** :  The residual variance after subtracting the mean.
+10. **res_1** :  The residual variance after subtracting the mean and eig1 
+11. **res_2** :  The residual variance after subtracting the mean and eig1-2
+12. **res_3** :  The residual variance after subtracting the mean and eig1-3 
+13. **res_4** :  The residual variance after subtracting the mean and eig1-4 
+14. **res_5** :  The residual variance after subtracting the mean and eig1-5 

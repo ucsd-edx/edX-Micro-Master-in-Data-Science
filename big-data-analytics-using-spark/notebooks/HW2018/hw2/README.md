@@ -20,7 +20,15 @@ To use the grader, please install all dependencies:
 pip install -r grader/requirements.txt
 ```
 
-There are four problems in this assignment:
+After that, start as many Spark clusters as needed using [Spark Notebook](github.com/mas-dse/spark-notebook).
+Spark Notebook support using custom bootstrap code, for which please provide `deploy/s3hook.sh`,
+and set $PUBLIC_KEY to the public key value of the server that the grader will be running on.
+
+Finally, set the server head node URLs in `grader/spark-grader.yml`.
+
+### Switch between different input sizes
+
+There are four problems in this assignment, each for a different input file size:
 
 * twitter-10mb
 * twitter-1gb
@@ -29,11 +37,15 @@ There are four problems in this assignment:
 
 Their only differences are the input file size.
 
+### Other settings
+
 The grader supports setting timeout for running the student's submission
 in `spark-grader.yml`.
 The time unit of the timeout parameter is second.
 If the student's program does not terminate within the specified time frame,
 it will be forced exited and a TIME_OUT error would be returned.
+
+
 
 
 ## Grading
@@ -60,3 +72,11 @@ the [Spark Notebook](https://github.com/mas-dse/spark-notebook).
 Once the cluster is up, simply append its master URL to `spark-grader.yml`.
 The grader will always choose the first free Spark cluster to send a submission
 for grading.
+
+### Credentials
+
+The grader uses `ssh` to submit jobs to the Spark clusters.
+Therefore, the Spark clusters must know the public key of the server
+that the grader is running on.
+To achieve that, please set the `$PUBLIC_KEY` variable in the `deploy/s3hook.sh`
+accordingly.
