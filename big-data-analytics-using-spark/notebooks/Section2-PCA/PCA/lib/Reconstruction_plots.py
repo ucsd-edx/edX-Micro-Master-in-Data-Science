@@ -40,8 +40,8 @@ class recon_plot:
     def get_Interactive(self):
         widge_list,widge_dict = self.get_widgets()
         w=interactive(self.plot_combination, **widge_dict);
-        self.Title='Best reconstruction'
-        self.plot_combination(**self.eigen_decomp.coeff)
+        #self.Title='Best reconstruction'
+        #self.plot_combination(**self.eigen_decomp.coeff)
         self.Title='Interactive reconstruction'
         return widgets.VBox([widgets.HBox(widge_list),w.children[-1]])
 
@@ -58,12 +58,12 @@ class recon_plot:
         widge_list=[]
         for i in range(self.eigen_decomp.n):
             if coeff[i]>0:
-                r=[0,coeff[i]*2]
+                r=[0,coeff[i]]
             else:
-                r=[coeff[i]*2,0]
+                r=[coeff[i],0]
 
             widge_list.append(widgets.FloatSlider(min=r[0],max=r[1],step=(r[1]-r[0])/10.,\
-                                                  value=coeff[i],orientation='vertical',decription='v'+str(i)))
+                                                  value=0,orientation='vertical',decription='v'+str(i)))
             widge_dict['c'+str(i)]=widge_list[-1]
 
         return widge_list,widge_dict
