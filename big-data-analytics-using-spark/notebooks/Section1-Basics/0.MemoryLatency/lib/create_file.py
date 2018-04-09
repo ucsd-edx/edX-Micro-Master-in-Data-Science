@@ -19,7 +19,7 @@ def create_file(n,m,filename='DataBlock'):
     t1=time.time()
     A=bytearray(n)
     t2=time.time()
-    file=open(filename,'wb')
+    file=open(filename,'w')
     for i in range(m):
         file.write(str(A))
         if i % 100 == 0:
