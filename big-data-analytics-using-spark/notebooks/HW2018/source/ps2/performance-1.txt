@@ -1,0 +1,9 @@
+set up sc       1.6061110496520996
+read data       5.02547287940979
+Count unique users      6.275520324707031
+Count tweets in each partition  5.084429502487183
+Count the number of tokens      9.741686582565308
+Count overall most popular tokens       2.0092873573303223
+Print popular tokens in each group      19.97769260406494
+
+Total time: 49.720200300216675
