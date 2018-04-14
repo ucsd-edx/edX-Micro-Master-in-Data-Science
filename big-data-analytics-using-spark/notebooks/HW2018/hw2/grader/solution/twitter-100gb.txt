@@ -1,6 +1,5 @@
 Number of elements: 21721256
 The number of unique users is: 2883853
-[(0, 924119), (1, 3015250), (2, 419319), (3, 2992756), (4, 1113463), (5, 3031776), (6, 3799972), (7, 6179489)]
 Group 0 posted 924119 tweets
 Group 1 posted 3015250 tweets
 Group 2 posted 419319 tweets
