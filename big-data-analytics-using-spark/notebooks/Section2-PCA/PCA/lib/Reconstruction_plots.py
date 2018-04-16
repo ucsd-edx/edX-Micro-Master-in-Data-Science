@@ -132,7 +132,7 @@ def plot_decomp(row,Mean,EigVec,fig=None,ax=None,Title=None,interactive=False):
     plotter=recon_plot(eigen_decomp,year_axis=True,fig=fig,ax=ax,interactive=interactive,Title=Title)
     return plotter
 
-def plot_recon_grid(rows,Mean,EigVec,column_n=4, row_n=3, figsize=(15,10)):
+def plot_recon_grid(rows,Mean,EigVec,column_n=4, row_n=3, figsize=(15,10),header='c2=%3.2f,r2=%3.2f',params=('coeff_2','res_2')):
     """plot a grid of reconstruction plots
 
     :param rows: Data rows (as extracted from the measurements data-frame
@@ -141,6 +141,8 @@ def plot_recon_grid(rows,Mean,EigVec,column_n=4, row_n=3, figsize=(15,10)):
     :param column_n: number of columns
     :param row_n:  number of rows
     :param figsize: Size of figure
+    :param header: the format of the header that appears above each graph.
+    :param params: the names of the columns whose value will appear in the header.
     :returns: None
     :rtype: 
 
@@ -151,10 +153,7 @@ def plot_recon_grid(rows,Mean,EigVec,column_n=4, row_n=3, figsize=(15,10)):
         for j in range(column_n):
             row=rows[k]
             k+=1
-            #_title='%3.2f,r1=%3.2f'\
-            #        %(row['res_mean'],row['res_1'],row['res_2'],row['res_3'])
-            _title='c1=%3.2f,r1=%3.2f'\
-                    %(row['coeff_1'],row['res_1'])
-            #print i,j,_title,axes[i,j]
+            P=tuple([row[p] for p in params])
+            _title=header%P
             plot_decomp(row,Mean,EigVec,fig=fig,ax=axes[i,j],Title=_title,interactive=False)
     return None

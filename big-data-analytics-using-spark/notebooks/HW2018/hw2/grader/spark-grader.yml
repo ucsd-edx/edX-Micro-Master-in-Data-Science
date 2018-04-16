@@ -1,5 +1,5 @@
 server:        # URLs to the spark master servers
-  - ec2-34-232-50-228.compute-1.amazonaws.com
+  - 127.0.0.1
 spark:
   path: /home/arapat/dev/spark/
 timeout:

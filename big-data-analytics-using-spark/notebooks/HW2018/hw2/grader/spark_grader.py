@@ -81,13 +81,16 @@ class SparkGrader:
         try:
             subprocess.run(
                 ["scp",
+                 "-o", "StrictHostKeyChecking=no",
                  "submitted/hw2-files.txt",
                  python_file_path,
                  "hadoop@{}:~".format(master_url)],
                 check=True
             )
             completed = subprocess.run(
-                ["ssh", "hadoop@" + master_url,
+                ["ssh",
+                 "-o", "StrictHostKeyChecking=no",
+                 "hadoop@" + master_url,
                  "spark-submit",
                  "--master", "yarn",
                  "--files", "./hw2-files.txt",

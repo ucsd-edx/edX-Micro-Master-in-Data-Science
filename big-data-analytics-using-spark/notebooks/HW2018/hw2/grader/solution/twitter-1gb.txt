@@ -1,6 +1,5 @@
 Number of elements: 225000
 The number of unique users is: 110802
-[(0, 9631), (1, 27661), (2, 5037), (3, 29918), (4, 14182), (5, 25174), (6, 28891), (7, 81077)]
 Group 0 posted 9631 tweets
 Group 1 posted 27661 tweets
 Group 2 posted 5037 tweets
@@ -120,6 +119,3 @@ https://t.co/O8ZGkipMGw	-0.0277
 #dienachrichten	-0.0281
 https://t.co/RmbdBa5t2b	-0.0281
 @methone	-0.0295
-Users from group 3 are most likely to support Bernie Sanders.
-Users from group 5 are most likely to support Ted Cruz.
-Users from group 6 are most likely to support Donald Trump.

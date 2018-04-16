@@ -8,5 +8,6 @@ then
     echo "$PUBLIC_KEY" >> ~/.ssh/authorized_keys
     cd /mnt/workspace/
     aws s3 cp s3://mas-dse-open/Twitter/RunFromTerminal.sh ./RunFromTerminal.sh
+    aws s3 cp s3://mas-dse-open/Twitter/kill_job.sh ~/kill_job.sh
 fi
 
