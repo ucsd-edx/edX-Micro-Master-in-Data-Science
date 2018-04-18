@@ -14,6 +14,5 @@ git config --global user.name “Yoav Freund”
 git config --global credential.helper cache
 git clone https://github.com/ucsd-edx/edX-Micro-Master-in-Data-Science.git
 
-export PROMPT_COMMAND='echo -n "$PWD $ "'
 
 echo "RunFromTerminal done"
