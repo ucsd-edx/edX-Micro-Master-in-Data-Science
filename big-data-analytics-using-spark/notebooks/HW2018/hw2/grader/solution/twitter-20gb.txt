@@ -1,0 +1,121 @@
+Number of elements: 4411677
+The number of unique users is: 863784
+Group 0 posted 190199 tweets
+Group 1 posted 589433 tweets
+Group 2 posted 88046 tweets
+Group 3 posted 614223 tweets
+Group 4 posted 265901 tweets
+Group 5 posted 645287 tweets
+Group 6 posted 826857 tweets
+Group 7 posted 1133397 tweets
+Number of elements: 1731526
+Number of elements: 22211
+===== overall =====
+:	602101.0000
+rt	543775.0000
+.	459109.0000
+the	411688.0000
+to	333893.0000
+,	332174.0000
+a	331424.0000
+…	309969.0000
+trump	300807.0000
+is	278929.0000
+for	248637.0000
+of	243301.0000
+in	234322.0000
+and	229574.0000
+i	202131.0000
+on	181423.0000
+?	172624.0000
+"	168217.0000
+!	163839.0000
+that	159058.0000
+===== group 0 =====
+@clayaiken	-1.3365
+https://t.co/HdMgX9	-1.7944
+reinhold	-1.8260
+#nomorepoliticians	-1.8613
+#jimgilmore	-1.9048
+@heelziggler	-1.9758
+#winbenwin	-1.9814
+https://t.co/EngU3E9bpG	-2.0365
+@cbschicago	-2.0633
+https://t.co/gDiWZpuFJF	-2.0940
+===== group 1 =====
+@moresciencenews	0.0000
+https://t.co/2dBVdGDWFW	-0.0027
+@stylefashionhub	-0.0033
+https://t.co/oTVCDJ4RJv	-0.0038
+individual-but-cruz-or-trump	-0.0038
+https://t.co/MZ9s9SKOQP	-0.0039
+https://t.co/Zx8d1L9TG2	-0.0040
+https://t.co/05Dn8nbRml	-0.0041
+https://t.co/W3uhy07LJe	-0.0043
+#039m	-0.0045
+===== group 2 =====
+two-week	-0.2375
+before--in	-0.3682
+arbitrarily	-0.5162
+1800s	-0.7105
+atop	-0.8450
+disproportion	-0.9063
+costner	-0.9350
+debateable	-0.9884
+@rosewdc	-1.0044
+https://t.co/NUZW8vdlZw	-1.0088
+===== group 3 =====
+https://t.co/DB8qfv6Xzm	0.0000
+https://t.co/zfe2FBdiDU	-0.0251
+https://t.co/roX6YHyWOu	-0.0302
+@kaeggers65	-0.0403
+@nmeyersohn	-0.0429
+https://t.co/2YEdBOvsYC	-0.0431
+martese	-0.0511
+https://t.co/y5nm	-0.0525
+@arizonasanders	-0.0549
+@nmwomen4bernie	-0.0560
+===== group 4 =====
+https://t.co/ZVm2ZwijBN	-0.0553
+https://t.co/GmrECQPO44	-0.0566
+#trumpvsbush	-0.0645
+https://t.co/x4RSwC33Rs	-0.0879
+https://t.co/3T5VTWyoLG	-0.1936
+https://t.co/2vqmsJOS8M	-0.1964
+https://t.co/xnr68BK2nw	-0.1964
+https://t.co/iBi6MREcKi	-0.1974
+@who_is_trending	-0.2000
+@thetrendingmap	-1.1106
+===== group 5 =====
+https://t.co/Nja3WUJaTq	-0.0267
+https://t.co/LCf4IffckE	-0.0422
+https://t.co/kZ4js3EdRp	-0.0426
+https://t.co/WsW2pn09oG	-0.0502
+https://t.co/sQ674F9AH6	-0.0511
+@alliemacke	-0.0581
+pro-common	-0.0684
+pro-banning	-0.0690
+pro-singlepayer	-0.0690
+pro-ta	-0.0697
+===== group 6 =====
+https://t.co/8NFEGpiPNC	0.0000
+https://t.co/En6jzQVwDs	0.0000
+https://t.co/pDLlcgu77w	-0.0096
+https://t.co/5Opv8	-0.0101
+https://t.co/tctzBJ0zCs	-0.0103
+https://t.co/UbWTmCHwaE	-0.0116
+@harrisonchief	-0.0118
+@scstudent4trump	-0.0119
+#stump4trumpbaby	-0.0122
+https://t.co/usQ538ivVr	-0.0126
+===== group 7 =====
+#qualtuc	0.0000
+#siren_wdバレンタイン企画	0.0000
+20:07	0.0000
+@akparti	0.0000
+@david1mutai	0.0000
+@funsworlds	0.0000
+@inabadminton	0.0000
+@itslifefriend	0.0000
+@shotsappdotcom	0.0000
+@souvenirsenfant	0.0000

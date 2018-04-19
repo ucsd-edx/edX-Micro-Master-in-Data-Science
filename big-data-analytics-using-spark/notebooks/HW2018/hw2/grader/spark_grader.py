@@ -52,6 +52,23 @@ class SparkGrader:
         # ELSE IF students are submitting Python files
         with open(notebook_path) as f_in:
             content = f_in.read()
+            for line in content.split('\n'):
+                if not line or \
+                        line.startswith(' ') or \
+                        line.strip().startswith('#') or \
+                        line.startswith("def") or \
+                        line.startswith("from"):
+                    continue
+                if "SparkContext()" not in line:
+                    return SparkGrader._handle_result(
+                        False,
+                        msg="Please make sure `sc = SparkContext()` is defined before any "
+                            "other statements. Current first statement: `{}`".format(line),
+                        correct=False,
+                        score=0
+                    )
+                else:
+                    break
             with open(python_file_path, 'w') as f_out:
                 f_out.write(content)
         return None
