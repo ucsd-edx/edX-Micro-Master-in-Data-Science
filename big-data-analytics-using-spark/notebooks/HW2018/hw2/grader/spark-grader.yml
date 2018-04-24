@@ -1,19 +1,34 @@
 server:        # URLs to the spark master servers
-  - 127.0.0.1
+  - ec2-54-144-33-38.compute-1.amazonaws.com
 spark:
   path: /home/arapat/dev/spark/
+besttime:
+  twitter-10mb: 47
+  twitter-1gb: 105
+  twitter-10gb: 150
+  twitter-20gb: 216
+  twitter-100gb: 780
 timeout:
-  twitter-10mb: 60
-  twitter-1gb: 120
-  twitter-10gb: 480
-  twitter-100gb: 960
+  twitter-10mb: 150
+  twitter-1gb: 315
+  twitter-10gb: 450
+  twitter-20gb: 10
+  twitter-100gb: 10
+score:
+  twitter-10mb: 10
+  twitter-1gb: 30
+  twitter-10gb: 30
+  twitter-20gb: 30
+  twitter-100gb: 30
 input-files:
   twitter-10mb: ./input/input-10mb.txt
   twitter-1gb: ./input/input-1gb.txt
   twitter-10gb: ./input/input-10gb.txt
+  twitter-20gb: ./input/input-20gb.txt
   twitter-100gb: ./input/input-100gb.txt
 solution:
   twitter-10mb: ./solution/twitter-10mb.txt
   twitter-1gb: ./solution/twitter-1gb.txt
   twitter-10gb: ./solution/twitter-10gb.txt
+  twitter-20gb: ./solution/twitter-20gb.txt
   twitter-100gb: ./solution/twitter-100gb.txt
