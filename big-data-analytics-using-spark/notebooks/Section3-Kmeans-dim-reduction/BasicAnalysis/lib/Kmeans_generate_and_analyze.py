@@ -113,14 +113,23 @@ def make_scatter(df,centers,centroids,_figsize=[8,8]):
     fig, axes = subplots(nrows=1, ncols=1,figsize=_figsize);
     axes.scatter(centers[:, 0], centers[:, 1], c='g', s=100,label='True Center');
     axes.scatter(centroids[:, 0], centroids[:, 1],marker='v', c='y', s=100,label='centroid');
-    df.plot.scatter(0,1,c='label',s=100,cmap=cmap,marker=(xy1, 0),\
+    df.plot.scatter(0,1,c='predicted_label',s=100,cmap=cmap,marker=(xy1, 0),\
                    figsize=_figsize,colorbar=False,ax=axes,label='cluster_id');
     df.plot.scatter(0,1,c='label_error',s=100,cmap=binary_cmap,marker=(xy2, 0),\
                    figsize=_figsize,colorbar=False,ax=axes,label='incorrect');
     axes.scatter(centers[:, 0], centers[:, 1], c='g', s=100);
     axes.scatter(centroids[:, 0], centroids[:, 1],marker='v', c='y', s=100);
     
-def analyze(k,d,n,radius=1,plotRMSEbsK=True):
+def analyze(k,d,n,radius,plotRMSEbsK=True):
+    """ 
+    Generate k spherical gaussian clusters and analyze the performance of the Kmeans algorithm.
+    The gaussian are placed at equal angular intervals on a circle of radius "radius" in dimensions 1 and 2.
+        Parameters:
+           k = number of generated clusters clusters
+           d = dimension of embedding space
+           n = number of examples per cluster
+           radius: the distance of the clusters from the origin (compare to std=1 for each cluster in each dimension)
+    """
     df,centers=create_data(k,d=d,n=n,radius=radius)
     X=np.array(df.iloc[:,:d])
     if plotRMSEbsK:
