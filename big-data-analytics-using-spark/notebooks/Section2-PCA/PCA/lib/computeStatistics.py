@@ -1,4 +1,3 @@
-
 from numpy import linalg as LA
 import numpy as np
 
@@ -17,16 +16,25 @@ def computeStatistics(sqlContext,df):
 
     sqlContext.registerDataFrameAsTable(df,'weather')
     STAT={}  # dictionary storing the statistics for each measurement
-    measurements=['TMAX', 'SNOW', 'SNWD', 'TMIN', 'PRCP', 'TOBS']
+    Query="""
+    SELECT Measurement,count(Measurement) as count 
+    FROM weather
+    GROUP BY Measurement
+    ORDER BY count
+    """
+    counts=sqlContext.sql(Query).toPandas()
+    measurements=list(counts['Measurement'])
     
     for meas in measurements:
         t=time()
         Query="SELECT * FROM weather\n\tWHERE measurement = '%s'"%(meas)
+        print(Query)
         mdf = sqlContext.sql(Query)
         print(meas,': shape of mdf is ',mdf.count())
 
         data=mdf.rdd.map(lambda row: unpackArray(row['Values'],np.float16))
-
+        #print('data.count=',data.count())
+        #print('data.first=',data.first())
         #Compute basic statistics
         STAT[meas]=computeOverAllDist(data)   # Compute the statistics 
 
@@ -51,7 +59,10 @@ def find_percentiles(SortedVals,percentile):
     return SortedVals[L],SortedVals[-L]
   
 def computeOverAllDist(rdd0):
+    #estimate the distribution of the number of Nans per row.
     UnDef=np.array(rdd0.map(lambda row:sum(np.isnan(row))).sample(False,0.01).collect())
+    
+    #collect all of the not-nans across all rows to compute mean, std etc.
     flat=rdd0.flatMap(lambda v:list(v)).filter(lambda x: not np.isnan(x)).cache()
     count,S1,S2=flat.map(lambda x: np.float64([1,x,x**2]))\
                   .reduce(lambda x,y: x+y)
@@ -91,5 +102,4 @@ STAT_Descriptions=[
  ('eigval', 'PCA eigen-values', (365,)),
  ('eigvec', 'PCA eigen-vectors', (365, 365))
 ]
-
 
