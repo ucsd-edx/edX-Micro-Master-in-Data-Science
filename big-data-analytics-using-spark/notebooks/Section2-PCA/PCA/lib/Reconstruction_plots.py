@@ -141,8 +141,8 @@ def plot_recon_grid(rows,Mean,EigVec,column_n=4, row_n=3, figsize=(15,10),header
     :param column_n: number of columns
     :param row_n:  number of rows
     :param figsize: Size of figure
-    :param header: the format of the header that appears above each graph.
-    :param params: the names of the columns whose value will appear in the header.
+    :param header: the format of the header that appears above each graph. (default: 'c2=%3.2f,r2=%3.2f)
+    :param params: the names of the columns whose value will appear in the header. (default: params=('coeff_2','res_2'))
     :returns: None
     :rtype: 
 
