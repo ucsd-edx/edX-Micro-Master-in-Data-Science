@@ -1,4 +1,7 @@
 ## Directions for running HWs
+
+Refer this: https://docs.google.com/document/d/1J3PoGcJhcEORUoU7I4UMLocQzIHz7b2dZyJMmpxDCEQ/edit#heading=h.14a8l423o7a9
+
 The directions in this file are intended for Vocareum. Vocareum will use them to create the infrastructure needed to run and grade HW assignments for DSE230x on edX.
 
 Please give all of the information that they would need. They probably will not use our code, but I (@Yoav) will ask them to closely imitate how the TAs interact with the HW systems.
@@ -28,3 +31,5 @@ Large, uses multiple spark clusters
 ### Desired improvements
 1. For scaled HW, run the queue watcher on the head node of the cluster.
 2. For scaled HW, use spark-submit on both the user computer and on the Yarn cluster.  Append at the beginning a line to start the sparkCluster (unless it already exists) to ensure that yarn, rather than local server, is used.
+
+
