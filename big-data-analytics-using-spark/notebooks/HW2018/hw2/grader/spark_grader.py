@@ -285,6 +285,8 @@ class SparkGrader(Grader):
             try:
                 a = dict(answer[key])
                 b = output[key]
+                if len(b) != 20:
+                    return False, ("[A list of 20 top tokens]", "[Not a list or not a list of size 20]")
                 for token, c in b:
                     if token not in a.keys():
                         return False, ("[{} NOT in {}]".format(token, key), "{}: {}".format(token, c))
@@ -300,6 +302,9 @@ class SparkGrader(Grader):
                 for idx, (ans, out) in enumerate(zip(answer[key], output[key])):
                     a = dict(ans)
                     b = out
+                    if len(b) != 10:
+                        return False, ("[A list of 10 top tokens in group {}]".format(idx),
+                                       "[Not a list or not a list of size 10]")
                     for token, c in b:
                         if token not in a.keys():
                             return False, ("[{} NOT in {} of group {}]".format(token, key, idx), "{}: {}".format(token, c))
