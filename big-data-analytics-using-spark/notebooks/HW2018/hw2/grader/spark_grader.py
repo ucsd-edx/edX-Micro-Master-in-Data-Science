@@ -6,8 +6,9 @@ import shutil
 import subprocess
 import urllib
 import yaml
-import time
+import pickle
 import requests
+import time
 import codecs
 import re
 from xqueue_watcher.grader import Grader
@@ -178,7 +179,14 @@ class SparkGrader(Grader):
             exit_code = 0
             if exit_code != 0:
                 raise subprocess.CalledProcessError(exit_code, exit_code,p.stderr.read())
-                
+
+            test_pickle_exists = ["ssh", "hadoop@" + master_url +
+                                  "test", "-f", "./answer.pickle"]
+            proc = subprocess.Popen(test_pickle_exists)
+            proc.wait()
+            if proc.returncode != 0:
+                return ("NO ANSWER PICKLE FILE.", "", "", "")
+
             #read output and errors from ssh process
             #proc_output, proc_error = proc.communicate()
         except subprocess.CalledProcessError as err:
@@ -188,6 +196,14 @@ class SparkGrader(Grader):
         #with open("/home/ubuntu/docker/CSE255_18_HW2/ClusterOutput/{}_out.html".format(student_id), 'w') as f:
         #    f.write("<br/>".join(proc_output.split("\n")))
         
+        save_answer_path = "/home/ubuntu/docker/CSE255_18_HW2/ClusterOutput/{}_{}_ans.pickle".format(student_id, problem_name)
+        subprocess.check_output(
+            ["scp",
+             "hadoop@{}:~/answer.pickle".format(master_url),
+             save_answer_path],
+            #check=True
+        )
+
         with open("/home/ubuntu/docker/CSE255_18_HW2/ClusterOutput/{}_{}_out.html".format(student_id, problem_name), 'wb') as f:
             f.write(html_header + "<br/>".join(proc_output.split("\n")))
         out_msg = "Link to output_file: <a href='http://54.160.232.161:8080/" + student_id  + "_"+ problem_name + "_out.html' target=_blank>Output</a><br/><br/>"
@@ -222,20 +238,79 @@ class SparkGrader(Grader):
                     max_score -= 2*factor
             return 0
         def _grade(student_id, answer):
-            f = codecs.open("/home/ubuntu/docker/CSE255_18_HW2/ClusterOutput/{}_{}_out.html".format(student_id, problem_name), 'r','utf-8')
-            output = f.read()
-            output = output.split(html_header)[1]
-            output = [line.strip() for line in output.split('<br/>') if line.strip()]
-            idx = 0
-            for line in answer.split('\n'):
-                line = line.strip()
-                if not line:
-                    continue
-                if idx >= len(output):
-                    return False, (line, "")
-                if line != output[idx]:
-                    return False, (line, output[idx])
-                idx += 1
+            def approx_equal(sol, out):
+                return abs(out - sol) / sol <= 0.01
+
+            save_answer_path = "/home/ubuntu/docker/CSE255_18_HW2/ClusterOutput/{}_{}_ans.pickle".format(student_id, problem_name)
+            with open(save_answer_path, 'rb') as f:
+                output = pickle.load(f)
+
+            keys = ['num-tweets', 'num-unique-users', 'counts_per_part', 'num-tokens',
+                    'num-freq-tokens', 'top-20-tokens', 'popular_10_in_each_group']
+            for key in keys:
+                if key not in output:
+                    return False, ("{}: {}".format(key, answer[key]),
+                                   "[Cannot find the field '{}' in your solution]".format(key))
+            # num-tweets
+            key = 'num-tweets'
+            if not approx_equal(answer[key], output[key]):
+                return False, ("{}: {}".format(key, answer[key]), "{}: {}".format(key, output[key]))
+            # num-unique-users
+            key = 'num-unique-users'
+            if not approx_equal(answer[key], output[key]):
+                return False, ("{}: {}".format(key, answer[key]), "{}: {}".format(key, output[key]))
+            # counts_per_part
+            key = 'counts_per_part'
+            try:
+                a = answer[key]
+                b = output[key]
+                b = sorted(b)
+                for i in range(8):
+                    if not approx_equal(a[i][1], b[i][1]):
+                        return False, ("{} group {}: {}".format(key, i, a[i]),
+                                       "{} group {}: {}".format(key, i, b[i]))
+            except:
+                return False, ("[answer['counts_per_part'] should be a list of size 8, where each element is a tuple of size 2]",
+                               "[Does not follow the required format.]")
+            # num-tokens
+            key = 'num-tokens'
+            if not approx_equal(answer[key], output[key]):
+                return False, ("{}: {}".format(key, answer[key]), "{}: {}".format(key, output[key]))
+            # num-freq-tokens
+            key = 'num-freq-tokens'
+            if not approx_equal(answer[key], output[key]):
+                return False, ("{}: {}".format(key, answer[key]), "{}: {}".format(key, output[key]))
+            # top-20-tokens
+            key = 'top-20-tokens'
+            try:
+                a = dict(answer[key])
+                b = output[key]
+                for token, c in b:
+                    if token not in a.keys():
+                        return False, ("[{} NOT in {}]".format(token, key), "{}: {}".format(token, c))
+                    if not approx_equal(a[token], c):
+                        return False, ("{}: {} {}".format(key, token, a[token]),
+                                       "{}: {} {}".format(key, token, c))
+            except:
+                return False, ("[answer['top-20-tokens'] should be a list of size 20, where each element is a tuple of size 2]",
+                               "[Does not follow the required format.]")
+            # popular_10_in_each_group
+            key = 'popular_10_in_each_group'
+            try:
+                for idx, (ans, out) in enumerate(zip(answer[key], output[key])):
+                    a = dict(ans)
+                    b = out
+                    for token, c in b:
+                        if token not in a.keys():
+                            return False, ("[{} NOT in {} of group {}]".format(token, key, idx), "{}: {}".format(token, c))
+                        if not approx_equal(a[token], c):
+                            return False, ("{} of group {}: {} {}".format(key, idx, token, a[token]),
+                                           "{} of group {}: {} {}".format(key, idx, token, c))
+            except:
+                return False, ("[answer['popular_10_in_each_group'] should be a list of lists, "
+                               "where each list corresponds to the popular tokens in one group.]",
+                               "[Does not follow the required format.]")
+
             return True, ('','')
         match, lines = _grade(student_id, answer)
         return score_time(time_taken) * match, lines
@@ -251,8 +326,8 @@ class SparkGrader(Grader):
         with open(self.config["input-files"][problem_name]) as f:
             print("Some shit is happening")
             files_list = f.read()
-        with codecs.open(self.config["solution"][problem_name],'r','utf-8') as f:
-            answer = f.read()
+        with codecs.open(self.config["solution"][problem_name],'rb') as f:
+            answer = pickle.load(f)
 
         os.chdir(self.course_dir)
 
