@@ -27,8 +27,8 @@ input-files:
   twitter-20gb: ./input/input-20gb.txt
   twitter-100gb: ./input/input-100gb.txt
 solution:
-  twitter-10mb: ./solution/twitter-10mb.txt
-  twitter-1gb: ./solution/twitter-1gb.txt
-  twitter-10gb: ./solution/twitter-10gb.txt
-  twitter-20gb: ./solution/twitter-20gb.txt
-  twitter-100gb: ./solution/twitter-100gb.txt
+  twitter-10mb: ./solution/twitter-10mb.pkl
+  twitter-1gb: ./solution/twitter-1gb.pkl
+  twitter-10gb: ./solution/twitter-10gb.pkl
+  twitter-20gb: ./solution/twitter-20gb.pkl
+  twitter-100gb: ./solution/twitter-100gb.pkl
