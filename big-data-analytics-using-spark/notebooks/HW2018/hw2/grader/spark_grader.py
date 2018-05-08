@@ -320,7 +320,10 @@ class SparkGrader(Grader):
 
             return True, ('','')
         match, lines = _grade(student_id, answer)
-        return score_time(time_taken) * match, lines
+        score = score_time(time_taken)
+        if match and score == 0:
+            return score, ('[Finish running within the time limit]', '[exceeds the time limit]')
+        return score * match, lines
     
     #def grade(self, section_name, submission_url, problem_name, student_id):
     def grade(self, payload, files, _, student_id):
