@@ -239,6 +239,8 @@ class SparkGrader(Grader):
             return 0
         def _grade(student_id, answer):
             def approx_equal(sol, out):
+                if abs(sol) <= 1e-8:
+                    return abs(out - sol) <= 0.01
                 return abs(out - sol) / sol <= 0.01
 
             save_answer_path = "/home/ubuntu/docker/CSE255_18_HW2/ClusterOutput/{}_{}_ans.pickle".format(student_id, problem_name)
@@ -286,7 +288,7 @@ class SparkGrader(Grader):
                 a = dict(answer[key])
                 b = output[key]
                 if len(b) != 20:
-                    return False, ("[A list of 20 top tokens]", "[Not a list or not a list of size 20]")
+                    return False, ("[answer['top-20-tokens'] should be a list of 20 top tokens]", "[Not a list or not a list of size 20]")
                 for token, c in b:
                     if token not in a.keys():
                         return False, ("[{} NOT in {}]".format(token, key), "{}: {}".format(token, c))
@@ -303,7 +305,7 @@ class SparkGrader(Grader):
                     a = dict(ans)
                     b = out
                     if len(b) != 10:
-                        return False, ("[A list of 10 top tokens in group {}]".format(idx),
+                        return False, ("[answer['popular_10_in_each_group'] should be a list of 10 top tokens in group {}]".format(idx),
                                        "[Not a list or not a list of size 10]")
                     for token, c in b:
                         if token not in a.keys():
