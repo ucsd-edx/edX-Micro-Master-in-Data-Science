@@ -8,7 +8,6 @@ from pyspark.mllib.util import MLUtils
 
 import numpy as np
 from time import time
-from string import split,strip
 
 class Timer:
     """A simple service class to log run time and pretty-print it.
@@ -42,7 +41,7 @@ def Prepare_partition_data_structure(A):
 
     columns=np.empty([feature_no,rows])
     columns[:]=np.NaN
-    print 'Prepare_partition_data_structure',feature_no,np.shape(columns)
+    print('Prepare_partition_data_structure',feature_no,np.shape(columns))
     
     labels=np.empty(rows)
     labels[:]=np.NaN
@@ -141,19 +140,19 @@ def calc_scores(Strong_Classifier,Columns,Lbl):
 if __name__ == '__main__':
     from os.path import exists
     if not exists('higgs'):
-        print "creating directory higgs"
-        get_ipython().system(u'mkdir higgs')
-    get_ipython().magic(u'cd higgs')
+        print("creating directory higgs")
+        get_ipython().system('mkdir higgs')
+    get_ipython().magic('cd higgs')
     if not exists('HIGGS.csv'):
         if not exists('HIGGS.csv.gz'):
-            print 'downloading HIGGS.csv.gz'
-            get_ipython().system(u'curl -O http://archive.ics.uci.edu/ml/machine-learning-databases/00280/HIGGS.csv.gz')
-        print 'decompressing HIGGS.csv.gz --- May take 5-10 minutes'
-        get_ipython().system(u'gunzip -f HIGGS.csv.gz')
-    get_ipython().system(u'ls -l')
+            print('downloading HIGGS.csv.gz')
+            get_ipython().system('curl -O http://archive.ics.uci.edu/ml/machine-learning-databases/00280/HIGGS.csv.gz')
+        print('decompressing HIGGS.csv.gz --- May take 5-10 minutes')
+        get_ipython().system('gunzip -f HIGGS.csv.gz')
+    get_ipython().system('ls -l')
 
     #copy file to HDFS - when runnnig on AWS cluster
-    get_ipython().system(u'/root/ephemeral-hdfs/bin/hdfs dfs -cp file:///mnt/higgs/HIGGS.csv /HIGGS.csv')
+    get_ipython().system('/root/ephemeral-hdfs/bin/hdfs dfs -cp file:///mnt/higgs/HIGGS.csv /HIGGS.csv')
 
 def test_globals():
     return globals()
@@ -176,11 +175,11 @@ def init(sc,Data):
     partition_no=Data.getNumPartitions()
     if partition_no != feature_no:
         Data=Data.repartition(feature_no).cache()
-    print 'number of features=',feature_no,'number of partitions=',Data.getNumPartitions()
+    print('number of features=',feature_no,'number of partitions=',Data.getNumPartitions())
 
     # Split data into training and test
     (trainingData,testData)=Data.randomSplit([0.7,0.3])
-    print 'Sizes: Data1=%d, trainingData=%d, testData=%d'%      (Data.count(),trainingData.cache().count(),testData.cache().count())
+    print('Sizes: Data1=%d, trainingData=%d, testData=%d'%      (Data.count(),trainingData.cache().count(),testData.cache().count()))
     T.stamp('Split into train and test')
     # Glom each partition into a local array
     G=trainingData.glom()
@@ -188,7 +187,7 @@ def init(sc,Data):
     T.stamp('glom')
 
     # Add an index to each partition to identify it.
-    def f(splitIndex, iterator): yield splitIndex,iterator.next()
+    def f(splitIndex, iterator): yield splitIndex,next(iterator)
     GI=G.mapPartitionsWithIndex(f)
     GTI=GTest.mapPartitionsWithIndex(f)
     T.stamp('add partition index')
@@ -198,12 +197,12 @@ def init(sc,Data):
 def init2(GI):
     # Prepare the data structure for each partition.
     GR=GI.map(Prepare_partition_data_structure)
-    print 'number of elements in GR=', GR.cache().count()
+    print('number of elements in GR=', GR.cache().count())
     T.stamp('Prepare_partition_data_structure')
 
     #compute the split points for each feature
     Splits=find_splits(GR)
-    print 'Split points=',Splits
+    print('Split points=',Splits)
     T.stamp('Compute Split points')
 
     #broadcast split points
@@ -216,7 +215,7 @@ def init2(GI):
     iteration=0
     global PS
     PS[0]=GR.map(Add_weak_learner_matrix)
-    print 'number of partitions in PS=',PS[0].cache().count()
+    print('number of partitions in PS=',PS[0].cache().count())
     T.stamp('Add_weak_learner_matrix')
 
     return PS
@@ -257,7 +256,7 @@ def find_splits(GR,number_of_bins=10,debug=False):
         S=np.sort(A['feature_values'][j,:       ])
         L=len(S) 
         step=L/number_of_bins+2*number_of_bins
-        return (j,S[range(0,L,step)])
+        return (j,S[list(range(0,L,step))])
 
     global partition_no
     Splits=GR.map(find_split_points).collect()
@@ -268,22 +267,21 @@ def find_splits(GR,number_of_bins=10,debug=False):
     for i in range(feature_no):
         S=Splits[i][1]
         if debug:
-            print 'no. ',i,' = ',Splits[i]
+            print('no. ',i,' = ',Splits[i])
         n=1  # number of copies (for averaging)
         j=i+feature_no
         while j<partition_no:
             if debug:
-                print 'j=',j
+                print('j=',j)
             S+=Splits[j][1]
             if debug:
-                print 'no. ',j,' = ',Splits[j]
+                print('no. ',j,' = ',Splits[j])
             n+=1.0
             j+=feature_no
         Splits1.append(np.concatenate([S/n,max_no]))
         if debug:
-            print n
-            print Splits1[i]
-            print '='*60
+            print(n)
+            print(Splits1[i])
+            print('='*60)
 
     return Splits1
-

@@ -53,14 +53,14 @@ def Booster:
         partition_no=Data.getNumPartitions()
         if partition_no != self.feature_no:
             Data=Data.repartition(feature_no).cache()
-        print 'number of features=',self.feature_no,'number of partitions=',Data.getNumPartitions()
+        print('number of features=',self.feature_no,'number of partitions=',Data.getNumPartitions())
 
         self.iteration=0
 
         # Split data into training and test
         (trainingData,testData)=Data.randomSplit([0.7,0.3])
-        print 'Sizes: Data1=%d, trainingData=%d, testData=%d'%\
-            (Data.count(),trainingData.cache().count(),testData.cache().count())
+        print('Sizes: Data1=%d, trainingData=%d, testData=%d'%\
+            (Data.count(),trainingData.cache().count(),testData.cache().count()))
         self.T.stamp('Split into train and test')
         # Glom each partition into a local array
         G=trainingData.glom()
@@ -107,8 +107,8 @@ def Booster:
         self.GR=GI.map(Prepare_partition_data_structure)
         self.GTR=GTI.map(Prepare_partition_data_structure)
 
-        print 'number of elements in GR=', self.GR.cache().count()
-        print 'number of elements in GTR=', self.GTR.cache().count()
+        print('number of elements in GR=', self.GR.cache().count())
+        print('number of elements in GTR=', self.GTR.cache().count())
         self.T.stamp('Prepare_partition_data_structure')
 
 
@@ -130,7 +130,7 @@ def Booster:
 
             columns=np.empty([feature_no,rows])
             columns[:]=np.NaN
-            print 'Prepare_partition_data_structure',feature_no,np.shape(columns)
+            print('Prepare_partition_data_structure',feature_no,np.shape(columns))
 
             labels=np.empty(rows)
             labels[:]=np.NaN
@@ -203,7 +203,7 @@ def Booster:
 
         self.PS=[None]
         PS[0]=self.GR.map(Add_weak_learner_matrix)
-        print 'number of partitions in PS=',PS[0].cache().count()
+        print('number of partitions in PS=',PS[0].cache().count())
         self.T.stamp('Add_weak_learner_matrix')
 
 
@@ -247,7 +247,7 @@ def Booster:
                   
         """
 
-         self.T.stamp('Start main loop %d'%i)
+        self.T.stamp('Start main loop %d'%i)
 
         feature_no=self.feature_no
 
@@ -360,9 +360,9 @@ def generate_data(sc):
                 y=2*(rand()<p)-1
             else:
                 y=2*(rand()>p)-1
-            print "%1.0f "%((1+y)/2),
+            print("%1.0f "%((1+y)/2))
             data.append(LabeledPoint(y,[i,j]))
-        print
+        print("")
 
 
     return sc.parallelize(data)
