@@ -1,0 +1,22 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/srihariveeraraaghavan/CSE_255/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/ps6
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8889/?token=ddd0b9e45cd9efc163cc2178e2521f1abb2e17923c24837a
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=ddd0b9e45cd9efc163cc2178e2521f1abb2e17923c24837a
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | WARNING] Notebook Classification_CoverType.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 42efdd1e-2ae4-4656-b07e-ca1e423188dc
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20180521002002 (::1) 9.17ms referer=http://localhost:8889/notebooks/Classification_CoverType.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 42efdd1e-2ae4-4656-b07e-ca1e423188dc
+[NotebookApp | INFO] Starting buffering for 42efdd1e-2ae4-4656-b07e-ca1e423188dc:d34a3c3b7def4b3698c60ab49023b1b2
+[NotebookApp | INFO] Kernel shutdown: 42efdd1e-2ae4-4656-b07e-ca1e423188dc
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down 0 kernels
