@@ -1,0 +1,63 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/jovyan/work/Section4-Classification/Visualization
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://[all ip addresses on your system]:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | INFO] Writing notebook-signing key to /home/jovyan/.local/share/jupyter/notebook_secret
+[NotebookApp | WARNING] Notebook Decision_Tree_Visualize.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 613040fe-d05b-4aba-8b32-b8b75b07303a
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 613040fe-d05b-4aba-8b32-b8b75b07303a
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20180522021240 (172.17.0.1) 11.11ms referer=http://localhost:8888/notebooks/Decision_Tree_Visualize.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Tree_Visualize.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Tree_Visualize.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Tree_Visualize.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Tree_Visualize.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Tree_Visualize.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Tree_Visualize.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Tree_Visualize.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Tree_Visualize.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Tree_Visualize.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Trees.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Decision_Tree_Visualize.ipynb (172.17.0.1): No such file or directory: Decision_Tree_Visualize.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Decision_Tree_Visualize.ipynb (172.17.0.1) 5.09ms referer=http://localhost:8888/notebooks/Decision_Trees.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Trees.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Trees.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Trees.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Trees.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Trees.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Trees.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Trees.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Trees.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Trees.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Trees.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Trees.ipynb
+[NotebookApp | INFO] Kernel interrupted: 613040fe-d05b-4aba-8b32-b8b75b07303a
+[NotebookApp | INFO] Kernel interrupted: 613040fe-d05b-4aba-8b32-b8b75b07303a
+[NotebookApp | INFO] Kernel interrupted: 613040fe-d05b-4aba-8b32-b8b75b07303a
+[NotebookApp | INFO] Kernel restarted: 613040fe-d05b-4aba-8b32-b8b75b07303a
+[NotebookApp | INFO] Kernel interrupted: 613040fe-d05b-4aba-8b32-b8b75b07303a
+[NotebookApp | INFO] Kernel interrupted: 613040fe-d05b-4aba-8b32-b8b75b07303a
+[NotebookApp | INFO] Kernel interrupted: 613040fe-d05b-4aba-8b32-b8b75b07303a
+[NotebookApp | INFO] Kernel interrupted: 613040fe-d05b-4aba-8b32-b8b75b07303a
+[NotebookApp | INFO] Kernel interrupted: 613040fe-d05b-4aba-8b32-b8b75b07303a
+[NotebookApp | INFO] Kernel interrupted: 613040fe-d05b-4aba-8b32-b8b75b07303a
+[NotebookApp | INFO] Saving file at /Decision_Trees.ipynb
+[NotebookApp | WARNING] zmq message arrived on closed channel
+[NotebookApp | WARNING] zmq message arrived on closed channel
+[NotebookApp | INFO] Starting buffering for 613040fe-d05b-4aba-8b32-b8b75b07303a:48909c6b82e843148bb83009cc900331
+[NotebookApp | INFO] Saving file at /Decision_Trees.ipynb
+[NotebookApp | INFO] KernelRestarter: restarting kernel (1/5), keep random ports
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 613040fe-d05b-4aba-8b32-b8b75b07303a
+[NotebookApp | INFO] Restoring connection for 613040fe-d05b-4aba-8b32-b8b75b07303a:48909c6b82e843148bb83009cc900331
+[NotebookApp | INFO] Replaying 42 buffered messages
+[NotebookApp | INFO] Starting buffering for 613040fe-d05b-4aba-8b32-b8b75b07303a:48909c6b82e843148bb83009cc900331
+[NotebookApp | INFO] Kernel restarted: 613040fe-d05b-4aba-8b32-b8b75b07303a
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 613040fe-d05b-4aba-8b32-b8b75b07303a
+[NotebookApp | INFO] Restoring connection for 613040fe-d05b-4aba-8b32-b8b75b07303a:48909c6b82e843148bb83009cc900331
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /Decision_Trees.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Trees.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Trees.ipynb
+[NotebookApp | INFO] Saving file at /Decision_Trees.ipynb
