@@ -43,35 +43,42 @@ def generate_html(rf, sample, pred):
     dtree_list.append("Prediction")
     pred_df = pd.DataFrame(pred, index=sample_list, columns=dtree_list)
     html = pred_df.to_html()
-    html += "<br>Legend: <ul><li>0: Iris setosa</li><li>1: Iris virginica</li><li>2: Iris versicolor</li></ul>"
     return html
 
-def generate_simplex(p1, p2, p3, label, legend=None):
-    A = [0, 1, 0.5]
+def generate_simplex(p, true, mistakes, labels):
+    """
+    generate scatter of votes from Random Forests inside a simplex
+    
+    Params:
+           p = a matrix with shape [no of examples X 3] representing the location of the points on the simplex.
+           true: the true label for each example (0,1,2)
+           mistakes: examples on which the majority prediction is incorrect.
+           labels: the class name corresponding to each of the three labels.
+    """
+    A = [0, 1, 0.5] # the x and y coordinates of the corners of the simplex
     B = [0, 0, 0.87]
-    
-    fig = plt.figure(figsize=(9, 9))
+
+    fig = plt.figure(figsize=(12,12))
     ax = fig.add_subplot(111)
-    #Necessary to plot the Axis
-    A.append(A[0])
-    B.append(B[0])
-    plt.plot(A,B)
-    
-    x_list_0, y_list_0, x_list_1, y_list_1, x_list_2, y_list_2 = get_rf_predictions(p1, p2, p3, label, A, B)
-    plt.scatter(x_list_0, y_list_0, c='r')
-    plt.scatter(x_list_1, y_list_1, c='g')
-    plt.scatter(x_list_2, y_list_2, c='b')
-    
-    if legend:
-        plt.legend(legend)
-        
+
+    plt.plot(A+A[0:1],B+B[0:1]) # draw the triangle
+    size=np.ones(true.shape)
+    size[mistakes]=20
+
+    A=np.array(A); B=np.array(B)  # 
+    # compute the locations of the points
+    X=np.dot(p,A)
+    Y=np.dot(p,B)
+    rgb=['r','g','b']
+    colors=[rgb[x] for x in true]
+    plt.scatter(X,Y,c=colors,s=size)
+
     plt.plot([0.75, 0.5], [0.435, 0.29], 'm:')
     plt.plot([0.25, 0.5], [0.435, 0.29], 'm:')
     plt.plot([0.5, 0.5], [0, 0.29], 'm:')
-    
-    plt.grid(which='major', linestyle='-', linewidth='0.5', color='gray')
-    plt.grid(which='minor', linestyle=':', linewidth='0.5', color='gray')
 
-    plt.xlim(-0.1, 1.1)
-    plt.ylim(-0.2, 1)
+    plt.text(A[0]-0.05,B[0],str(labels[0]), fontsize=20, bbox=dict(facecolor='r', alpha=0.2))
+    plt.text(A[1]+0.02,B[1],str(labels[1]), fontsize=20, bbox=dict(facecolor='g', alpha=0.2))
+    plt.text(A[2]-0.015,B[2]+0.04,str(labels[2]), fontsize=20, bbox=dict(facecolor='b', alpha=0.2))
+    plt.axis('off')
     plt.show()
