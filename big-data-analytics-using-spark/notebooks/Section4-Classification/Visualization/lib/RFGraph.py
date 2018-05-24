@@ -45,7 +45,7 @@ def generate_html(rf, sample, pred):
     html = pred_df.to_html()
     return html
 
-def generate_simplex(p, true, mistakes, labels):
+def generate_simplex(p, true, mistakes, labels,_figsize=(10,8)):
     """
     generate scatter of votes from Random Forests inside a simplex
     
@@ -58,7 +58,7 @@ def generate_simplex(p, true, mistakes, labels):
     A = [0, 1, 0.5] # the x and y coordinates of the corners of the simplex
     B = [0, 0, 0.87]
 
-    fig = plt.figure(figsize=(12,12))
+    fig = plt.figure(figsize=_figsize)
     ax = fig.add_subplot(111)
 
     plt.plot(A+A[0:1],B+B[0:1]) # draw the triangle
@@ -73,10 +73,18 @@ def generate_simplex(p, true, mistakes, labels):
     colors=[rgb[x] for x in true]
     plt.scatter(X,Y,c=colors,s=size)
 
-    plt.plot([0.75, 0.5], [0.435, 0.29], 'm:')
-    plt.plot([0.25, 0.5], [0.435, 0.29], 'm:')
-    plt.plot([0.5, 0.5], [0, 0.29], 'm:')
-
+    #Draw boundaries
+    corner=np.array([1,0,0])
+    margin=np.array([[.5,.5,0],[1./3,1./3,1./3],[.5,0,.5]])
+    for alpha in np.arange(0.0,1.1,0.2):
+        for rotate in range(3):
+            boundry=alpha*margin+(1-alpha)*corner
+            boundry=np.roll(boundry,rotate,axis=1)
+            color='g:'
+            if alpha==1:
+                color='k:'
+            plt.plot(np.dot(boundry,A),np.dot(boundry,B),color);
+        
     plt.text(A[0]-0.05,B[0],str(labels[0]), fontsize=20, bbox=dict(facecolor='r', alpha=0.2))
     plt.text(A[1]+0.02,B[1],str(labels[1]), fontsize=20, bbox=dict(facecolor='g', alpha=0.2))
     plt.text(A[2]-0.015,B[2]+0.04,str(labels[2]), fontsize=20, bbox=dict(facecolor='b', alpha=0.2))
