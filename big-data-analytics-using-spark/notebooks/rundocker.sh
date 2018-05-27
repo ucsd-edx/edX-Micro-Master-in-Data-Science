@@ -1,1 +1,1 @@
-docker run -it -p 8888:8888 -v ~/BigData/CSE255-DSE230-2018/:/home/jovyan/work pupster90/cse255-18 /bin/bash
+docker run -it -p 8888:8888 -v /Users/yoavfreund/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/:/home/jovyan/work pupster90/cse255-18 /bin/bash
