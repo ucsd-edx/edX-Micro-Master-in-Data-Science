@@ -1,8 +1,8 @@
 ## Training data file path
-training_data_path: ./higgs_train_large.csv
+training_data_path: /home/ubuntu/HW8/higgs_train_large.csv
 
 ## Testing data file path
-test_data_path: ./higgs_test_large.csv 
+test_data_path: /home/ubuntu/HW8/higgs_test_large.csv 
 
 ## Location in which you will save the pickle file containing predictions on test data
 output_predictions_pickle_path: ./test_predictions.pkl
@@ -24,8 +24,9 @@ display_step: 1
 
 ## the size of the network. If first_layer: 20 and second_layer: 8 then you should set the number of hidden units in first hidden layer and second layer to be 20 and 8 respectively.
 hidden_layer_sizes: 
-    first_layer: 25
-    second_layer: 15
+    first_layer: 20
+    second_layer: 8
 
 ## for grading purposes, you may ignore
 dataset_size: large
+grading_script_path: /home/ubuntu/HW8/grade_test_submission.py
