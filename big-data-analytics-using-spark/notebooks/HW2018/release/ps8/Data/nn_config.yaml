@@ -7,6 +7,9 @@ test_data_path: ./Data/higgs_test_small.csv
 ## Location in which you will save the pickle file containing predictions on test data
 output_predictions_pickle_path: ./Data/test_predictions.pkl
 
+## Location in which the ground truth test labels are stored
+gt_test_labels: ./Data/ground_truth_test_labels_small.pkl
+
 ## How to split the input training data into train and validation sets. Value of 0.8 means that if there were initially 100 training examples in the input data, you should split them such that the first 80 are used as training examples and last 20 should be used for validation.
 training_to_validation_ratio: 0.8
 
@@ -14,7 +17,7 @@ training_to_validation_ratio: 0.8
 learning_rate: 0.05
 
 ## the total number of epochs or iterations to run over the (80) training examples
-epochs: 200
+epochs: 300
 
 ## the number of mini batches in which you should split your (80) training examples. Continuing with our example, if this value is 10, then each mini batch will have 8 training examples.
 num_mini_batches: 10
