@@ -1,8 +1,8 @@
 ## Training data file path
-training_data_path: /home/ubuntu/HW8/higgs_train_large.csv
+training_data_path: /home/ubuntu/HW8/Data/higgs_train_large.csv
 
 ## Testing data file path
-test_data_path: /home/ubuntu/HW8/higgs_test_large.csv 
+test_data_path: /home/ubuntu/HW8/Data/higgs_test_large.csv 
 
 ## Location in which you will save the pickle file containing predictions on test data
 output_predictions_pickle_path: ./test_predictions.pkl
@@ -14,7 +14,7 @@ training_to_validation_ratio: 0.8
 learning_rate: 0.05
 
 ## the total number of epochs or iterations to run over the (80) training examples
-epochs: 300
+epochs: 200
 
 ## the number of mini batches in which you should split your training examples. Continuing with our example, if this value is 10, then each mini batch will have 8 training examples.
 num_mini_batches: 5

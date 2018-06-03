@@ -17,7 +17,7 @@ training_to_validation_ratio: 0.8
 learning_rate: 0.05
 
 ## the total number of epochs or iterations to run over the (80) training examples
-epochs: 300
+epochs: 200
 
 ## the number of mini batches in which you should split your (80) training examples. Continuing with our example, if this value is 10, then each mini batch will have 8 training examples.
 num_mini_batches: 10
