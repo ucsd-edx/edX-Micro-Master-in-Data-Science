@@ -464,3 +464,174 @@
 [NotebookApp | CRITICAL] received signal 2, stopping
 [NotebookApp | INFO] Shutting down 1 kernel
 [NotebookApp | INFO] Kernel shutdown: 5ec71564-54e1-4982-af38-60aea27c79cc
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://[all ip addresses on your system]:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | INFO] 302 GET / (172.17.0.1) 0.96ms
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] Removing existing assignment: /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/Final
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/percentageOfVarianceExplained.png -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/percentageOfVarianceExplained.png
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/AMZN.BoxCount.png -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/AMZN.BoxCount.png
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/Sinusoid.BoxCount.png -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/Sinusoid.BoxCount.png
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/IBM.BoxCount.png -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/IBM.BoxCount.png
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/scatter.2.1.annotated.pdf -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/scatter.2.1.annotated.pdf
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/lib/spark_PCA.py -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/lib/spark_PCA.py
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_eigen.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_eigen.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/PCA.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/PCA.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/tickerInfo.tsv -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/tickerInfo.tsv
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/y_pred_valid.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/y_pred_valid.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/pred_valid.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/pred_valid.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/y_pred_test.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/y_pred_test.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/pred_valid_top5.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/pred_valid_top5.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/test_thr.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/test_thr.pickle
+[NotebookApp | INFO] Updating/creating assignment 'Final': {}
+[NotebookApp | INFO] Converting notebook /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/1.Prepare_Stocks_Data.ipynb
+[NotebookApp | INFO] Writing 31907 bytes to /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/1.Prepare_Stocks_Data.ipynb
+[NotebookApp | INFO] Converting notebook /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/2.Dimensionality.ipynb
+[NotebookApp | INFO] Writing 27447 bytes to /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/2.Dimensionality.ipynb
+[NotebookApp | INFO] Converting notebook /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/3.PCA_Stocks_Spark.ipynb
+[NotebookApp | INFO] Writing 32507 bytes to /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/3.PCA_Stocks_Spark.ipynb
+[NotebookApp | INFO] Converting notebook /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/4.Classify_Stocks.ipynb
+[NotebookApp | ERROR] There was an error processing assignment: /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/converters/base.py", line 293, in convert_notebooks
+        self.convert_single_notebook(notebook_filename)
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/converters/base.py", line 249, in convert_single_notebook
+        output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+      File "/opt/conda/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 174, in from_filename
+        return self.from_file(f, resources=resources, **kw)
+      File "/opt/conda/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 192, in from_file
+        return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+      File "/opt/conda/lib/python3.6/site-packages/nbconvert/exporters/notebook.py", line 31, in from_notebook_node
+        nb_copy, resources = super(NotebookExporter, self).from_notebook_node(nb, resources, **kw)
+      File "/opt/conda/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 134, in from_notebook_node
+        nb_copy, resources = self._preprocess(nb_copy, resources)
+      File "/opt/conda/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 311, in _preprocess
+        nbc, resc = preprocessor(nbc, resc)
+      File "/opt/conda/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+        return self.preprocess(nb, resources)
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/preprocessors/clearsolutions.py", line 130, in preprocess
+        nb, resources = super(ClearSolutions, self).preprocess(nb, resources)
+      File "/opt/conda/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+        nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/preprocessors/clearsolutions.py", line 149, in preprocess_cell
+        "Solution region detected in a non-solution cell; please make sure "
+    RuntimeError: Solution region detected in a non-solution cell; please make sure all solution regions are within solution cells.
+    
+[NotebookApp | WARNING] Removing failed assignment: /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/Final
+[NotebookApp | ERROR] There was an error processing assignment 'Final' for student '.'
+[NotebookApp | ERROR] Please see the the above traceback for details on the specific errors on the above failures.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | INFO] Writing notebook-signing key to /home/jovyan/.local/share/jupyter/notebook_secret
+[NotebookApp | WARNING] Notebook source/Final/4.Classify_Stocks.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 4e854256-ec3f-4603-82d5-9f10ddc9d263
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 4e854256-ec3f-4603-82d5-9f10ddc9d263
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20180610073605 (172.17.0.1) 13.16ms referer=http://localhost:8810/notebooks/source/Final/4.Classify_Stocks.ipynb
+[NotebookApp | INFO] Starting buffering for 4e854256-ec3f-4603-82d5-9f10ddc9d263:21586b4e56a640f08f83256fd9362883
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/percentageOfVarianceExplained.png -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/percentageOfVarianceExplained.png
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/AMZN.BoxCount.png -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/AMZN.BoxCount.png
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/Sinusoid.BoxCount.png -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/Sinusoid.BoxCount.png
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/IBM.BoxCount.png -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/IBM.BoxCount.png
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/scatter.2.1.annotated.pdf -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/scatter.2.1.annotated.pdf
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/lib/spark_PCA.py -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/lib/spark_PCA.py
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_eigen.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_eigen.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/PCA.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/PCA.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/tickerInfo.tsv -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/tickerInfo.tsv
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/y_pred_valid.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/y_pred_valid.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/pred_valid.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/pred_valid.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/y_pred_test.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/y_pred_test.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/pred_valid_top5.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/pred_valid_top5.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/test_thr.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/test_thr.pickle
+[NotebookApp | INFO] Updating/creating assignment 'Final': {}
+[NotebookApp | INFO] Converting notebook /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/1.Prepare_Stocks_Data.ipynb
+[NotebookApp | INFO] Writing 31907 bytes to /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/1.Prepare_Stocks_Data.ipynb
+[NotebookApp | INFO] Converting notebook /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/2.Dimensionality.ipynb
+[NotebookApp | INFO] Writing 27447 bytes to /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/2.Dimensionality.ipynb
+[NotebookApp | INFO] Converting notebook /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/3.PCA_Stocks_Spark.ipynb
+[NotebookApp | INFO] Writing 32507 bytes to /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/3.PCA_Stocks_Spark.ipynb
+[NotebookApp | INFO] Converting notebook /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/4.Classify_Stocks.ipynb
+[NotebookApp | ERROR] There was an error processing assignment: /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/converters/base.py", line 293, in convert_notebooks
+        self.convert_single_notebook(notebook_filename)
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/converters/base.py", line 249, in convert_single_notebook
+        output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+      File "/opt/conda/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 174, in from_filename
+        return self.from_file(f, resources=resources, **kw)
+      File "/opt/conda/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 192, in from_file
+        return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+      File "/opt/conda/lib/python3.6/site-packages/nbconvert/exporters/notebook.py", line 31, in from_notebook_node
+        nb_copy, resources = super(NotebookExporter, self).from_notebook_node(nb, resources, **kw)
+      File "/opt/conda/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 134, in from_notebook_node
+        nb_copy, resources = self._preprocess(nb_copy, resources)
+      File "/opt/conda/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 311, in _preprocess
+        nbc, resc = preprocessor(nbc, resc)
+      File "/opt/conda/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+        return self.preprocess(nb, resources)
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/preprocessors/clearsolutions.py", line 130, in preprocess
+        nb, resources = super(ClearSolutions, self).preprocess(nb, resources)
+      File "/opt/conda/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+        nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/preprocessors/clearsolutions.py", line 149, in preprocess_cell
+        "Solution region detected in a non-solution cell; please make sure "
+    RuntimeError: Solution region detected in a non-solution cell; please make sure all solution regions are within solution cells.
+    
+[NotebookApp | WARNING] Removing failed assignment: /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/Final
+[NotebookApp | ERROR] There was an error processing assignment 'Final' for student '.'
+[NotebookApp | ERROR] Please see the the above traceback for details on the specific errors on the above failures.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | INFO] Kernel shutdown: 4e854256-ec3f-4603-82d5-9f10ddc9d263
+[NotebookApp | WARNING] Notebook source/Final/4.Classify_Stocks.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: a8c73b37-98f1-450b-95cf-a40d9bccbd54
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel a8c73b37-98f1-450b-95cf-a40d9bccbd54
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20180610073605 (172.17.0.1) 3.14ms referer=http://localhost:8810/notebooks/source/Final/4.Classify_Stocks.ipynb
+[NotebookApp | INFO] Starting buffering for a8c73b37-98f1-450b-95cf-a40d9bccbd54:c6b0b3245aae4608903e4ed0402768a7
+[NotebookApp | INFO] Kernel restarted: a8c73b37-98f1-450b-95cf-a40d9bccbd54
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel a8c73b37-98f1-450b-95cf-a40d9bccbd54
+[NotebookApp | INFO] Restoring connection for a8c73b37-98f1-450b-95cf-a40d9bccbd54:c6b0b3245aae4608903e4ed0402768a7
+[NotebookApp | INFO] Replaying 3 buffered messages
+[NotebookApp | INFO] Saving file at /source/Final/4.Classify_Stocks.ipynb
+[NotebookApp | INFO] Starting buffering for a8c73b37-98f1-450b-95cf-a40d9bccbd54:c6b0b3245aae4608903e4ed0402768a7
+[NotebookApp | INFO] Kernel shutdown: a8c73b37-98f1-450b-95cf-a40d9bccbd54
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/percentageOfVarianceExplained.png -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/percentageOfVarianceExplained.png
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/AMZN.BoxCount.png -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/AMZN.BoxCount.png
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/Sinusoid.BoxCount.png -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/Sinusoid.BoxCount.png
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/IBM.BoxCount.png -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/IBM.BoxCount.png
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/scatter.2.1.annotated.pdf -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/scatter.2.1.annotated.pdf
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/lib/spark_PCA.py -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/lib/spark_PCA.py
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_eigen.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_eigen.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/PCA.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/PCA.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/tickerInfo.tsv -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/tickerInfo.tsv
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/y_pred_valid.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/y_pred_valid.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/pred_valid.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/pred_valid.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/y_pred_test.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/y_pred_test.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/pred_valid_top5.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/pred_valid_top5.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/test_thr.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/test_thr.pickle
+[NotebookApp | INFO] Updating/creating assignment 'Final': {}
+[NotebookApp | INFO] Converting notebook /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/1.Prepare_Stocks_Data.ipynb
+[NotebookApp | INFO] Writing 31907 bytes to /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/1.Prepare_Stocks_Data.ipynb
+[NotebookApp | INFO] Converting notebook /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/2.Dimensionality.ipynb
+[NotebookApp | INFO] Writing 27447 bytes to /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/2.Dimensionality.ipynb
+[NotebookApp | INFO] Converting notebook /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/3.PCA_Stocks_Spark.ipynb
+[NotebookApp | INFO] Writing 32507 bytes to /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/3.PCA_Stocks_Spark.ipynb
+[NotebookApp | INFO] Converting notebook /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/4.Classify_Stocks.ipynb
+[NotebookApp | INFO] Writing 56920 bytes to /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/4.Classify_Stocks.ipynb
+[NotebookApp | INFO] Setting destination file permissions to 644
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] Notebook release/Final/4.Classify_Stocks.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: e539c05f-d17d-4b33-a3ca-83552d58dbb1
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20180610073605 (172.17.0.1) 2.41ms referer=http://localhost:8810/notebooks/release/Final/4.Classify_Stocks.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel e539c05f-d17d-4b33-a3ca-83552d58dbb1
+[NotebookApp | INFO] Saving file at /release/Final/4.Classify_Stocks.ipynb
+[NotebookApp | INFO] Saving file at /release/Final/4.Classify_Stocks.ipynb
+[NotebookApp | INFO] Starting buffering for e539c05f-d17d-4b33-a3ca-83552d58dbb1:0e49d13747ed4efe9d0e767d28cab3e2
