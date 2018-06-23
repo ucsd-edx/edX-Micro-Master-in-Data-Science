@@ -677,3 +677,59 @@
 [NotebookApp | INFO] Setting destination file permissions to 644
 [NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
 [NotebookApp | INFO] Saving file at /source/Final/4.Classify_Stocks.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://[all ip addresses on your system]:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | INFO] 302 GET / (172.17.0.1) 2.71ms
+[NotebookApp | WARNING] No nbgrader_config.py file found. Rerun with DEBUG log level to see where nbgrader is looking.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/server_extensions/assignment_list/handlers.py", line 65, in list_released_assignments
+        assignments = lister.start()
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/exchange/list.py", line 129, in start
+        super(ExchangeList, self).start()
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 122, in start
+        self.ensure_root()
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 100, in ensure_root
+        self.fail("Unwritable directory, please contact your instructor: {}".format(self.root))
+      File "/opt/conda/lib/python3.6/site-packages/nbgrader/exchange/exchange.py", line 78, in fail
+        raise ExchangeError(msg)
+    nbgrader.exchange.exchange.ExchangeError: Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+    
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] Removing existing assignment: /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/Final
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/percentageOfVarianceExplained.png -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/percentageOfVarianceExplained.png
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/AMZN.BoxCount.png -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/AMZN.BoxCount.png
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/Sinusoid.BoxCount.png -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/Sinusoid.BoxCount.png
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/IBM.BoxCount.png -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/IBM.BoxCount.png
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/figs/scatter.2.1.annotated.pdf -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/figs/scatter.2.1.annotated.pdf
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/lib/spark_PCA.py -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/lib/spark_PCA.py
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_eigen.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_eigen.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/PCA.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/PCA.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/tickerInfo.tsv -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/tickerInfo.tsv
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/y_pred_valid.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/y_pred_valid.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/pred_valid.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/pred_valid.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/y_pred_test.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/y_pred_test.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/pred_valid_top5.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/pred_valid_top5.pickle
+[NotebookApp | INFO] Copying /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/data/hidden_tests_notebook4/test_thr.pickle -> /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/data/hidden_tests_notebook4/test_thr.pickle
+[NotebookApp | INFO] Updating/creating assignment 'Final': {}
+[NotebookApp | INFO] Converting notebook /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/1.Prepare_Stocks_Data.ipynb
+[NotebookApp | INFO] Writing 31907 bytes to /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/1.Prepare_Stocks_Data.ipynb
+[NotebookApp | INFO] Converting notebook /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/2.Dimensionality.ipynb
+[NotebookApp | INFO] Writing 27447 bytes to /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/2.Dimensionality.ipynb
+[NotebookApp | INFO] Converting notebook /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/3.PCA_Stocks_Spark.ipynb
+[NotebookApp | INFO] Writing 32507 bytes to /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/3.PCA_Stocks_Spark.ipynb
+[NotebookApp | INFO] Converting notebook /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/4.Classify_Stocks.ipynb
+[NotebookApp | INFO] Writing 58713 bytes to /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/4.Classify_Stocks.ipynb
+[NotebookApp | INFO] Converting notebook /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/source/./Final/4.Classify_Stocks_V2.ipynb
+[NotebookApp | INFO] Writing 61189 bytes to /home/jovyan/work/edX-Micro-Master-in-Data-Science/big-data-analytics-using-spark/notebooks/HW2018/release/./Final/4.Classify_Stocks_V2.ipynb
+[NotebookApp | INFO] Setting destination file permissions to 644
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
